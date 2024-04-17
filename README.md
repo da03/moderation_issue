@@ -32,7 +32,7 @@ In the above code, using 6000 characters will fail (by setting `flag_produce_err
 
 ## Hypothesis: Encoding Issues
 
-I suspect that these errors might be linked to encoding issues, particularly involving non-Latin characters. For example, if we use English characters in the above example (as opposed to Chinese characters in the original text), even scaling to millions of characters still works:
+Inspired by [pondin6666](https://community.openai.com/u/pondin6666), I suspect that these errors might be linked to encoding issues, particularly involving non-Latin characters. For example, if we use English characters in the above example (as opposed to Chinese characters in the original text), even scaling to millions of characters still works:
 
 ```
 from openai import OpenAI
