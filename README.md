@@ -69,3 +69,7 @@ This suggests a possible correlation between non-Latin characters and the increa
 ## Workaround
 
 While awaiting a more permanent fix or clarification from OpenAI, I've implemented a temporary workaround that involves breaking down large inputs into smaller segments, and then taking their maximum category scores as the result. In case others encounter the same issue, I have included my workaround in [workaround.py](workaround.py) as part of this repo.
+
+## Joing the Discussion
+
+https://community.openai.com/t/moderation-raises-429-rate-limit-error-for-long-input/718609
