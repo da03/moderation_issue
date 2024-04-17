@@ -1,0 +1,5878 @@
+ 1. Introduction
+ Fecal contamination of surface waters is a serious environmental
+ problem that limits the use of water for various purposes, such as
+ agriculture, aquaculture, source of drinking water and recreation
+ (Simpson et al., 2002). The most widely used method for measuring
+ fecal pollution of recreational water is to count fecal indicator
+ bacteria, such as total coliforms, fecal coliforms, fecal enterococci
+ and Escherichia coli. However, there are several limitations associated
+ with traditional application of E. coli or fecal coliforms as indicators.
+ First, standard methods involve the lengthy culturing time of at least
+ 18–24 h. Second, major microfloral populations of the human gut are
+ not E. coli or fecal coliforms, but are obligate anaerobes, such as the
+ classes Clostridia and Bacteroidetes in the phyla Firmicutes and
+ Bacteroidetes/Chlorobi, respectively (Victor et al., 1996; Hayashi et
+ ☆ Nucleotide sequence data reported are available in the DDBJ/EMBL/GenBank
+ databases under the accession numbers GU130198 to GU130203.
+ ⁎ Corresponding author. College of Public Health, Division of Environmental Health
+ Sciences, The Ohio State University, Columbus, Ohio 43210, USA. Tel.: +1 614 292
+ 5546; fax: +1 614 292 2859.
+ E-mail address: jlee@cph.osu.edu (J. Lee).
+ 0167-7012/$– see front matter © 2010 Elsevier B.V. All rights reserved.
+ doi:10.1016/j.mimet.2010.07.012
+ al., 2002; Hold et al., 2002).These are not easily cultivated (Eckburg et
+ al., 2005).
+ Recently, in order to overcome this hindrance, rapid detection
+ methods, such as real-time PCR (Seurinck et al., 2005; Layton et al.,
+ 2006) or FISH (Collado and Sanz, 2007; Goh et al., 2009), have been
+ developed by targeting 16S rRNA genes of significant fecal bacteria
+ (e.g. genus Bacteroides (Okabe and Shimazu,2007). Oneadvantagefor
+ using Bacteroides is that the genus hasa highdegreeofhost-specificity
+ attributable to differences in source animal digestive systems, which
+ enables Bacteroides to be used as an effective tool for microbial source
+ tracking (MST) in water when molecular techniques are employed
+ (Bernhard and Field, 2000; Simpson et al., 2004; Dick et al., 2005;
+ Seurinck et al., 2005; Layton et al., 2006; Reischer et al., 2007).
+ Even though many field tests have confirmed the efficacy of 16S
+ rRNA gene-based molecular markers as human-specific or human
+associated, false-positive and cross-amplification from other fecal
+ sources, such as pig (Layton et al., 2006), dog (Ahmed et al., 2008),
+ and cat (Kildare et al., 2007), have been reported. While some
+ discrimination could be possible between homeothermic animal- and
+ human-derived fecal contamination by 16S rRNA markers, it has been
+ reported that 16S rRNA markers may not meet the standards as a
+ useful tracking tool (McLain et al., 2009). The underlying problem is
+312
+ C.S. Lee, J. Lee / Journal of Microbiological Methods 82 (2010) 311–318
+ the inherent limitation of the 16S rRNA gene as a marker for MST. 16S
+ rRNA genes have a slow rate of evolutionary change and are thereby
+ relatively conserved across related species which has resulted in few
+ interspecies polymorphisms. Multiple ribosomal RNA (rrn) operon
+ copies reside in a single bacterial genome (Acinas et al., 2004)
+ contributing to the limited amount of interspecies polymorphism
+ observed in some taxonomic groups (Boyer et al., 2001; Clarridge,
+ 2004).
+ Furthermore, the genera Bacteroides and Prevotella are closely
+ related to each other. The genus Prevotella is a moderately
+ saccharolytic and bile-sensitive species, which once belonged to the
+ genus Bacteroides (Shah and Collins, 1990). Many species of Prevotella
+ have been isolated from human sources associated with the oral
+ cavity (Sakamoto et al., 2004; Downes et al., 2005; Sakamoto et al.,
+ 2005a,b) and from tissues of the pelvic region, including the
+ genitourinary tract, vagina and cervix (Brook and Frazier, 1997;
+ Puapermpoonsiri et al., 1997; Mikamo et al., 1999; Fredricks et al.,
+ 2005; Hyman et al., 2005). All of these limitations of 16S rRNA-based
+ methods make it difficult to discriminate target bacteria particularly
+ when Bacteroides and Prevotella coexist in the contamination source.
+ Recently, several housekeeping genes, such as rpoB, gyrB, elonga
+tion factor Tu (EF-Tu), phosphoglycerate kinase (pgk), and heat shock
+ protein (dnaK) genes, have been reported to evolve much faster than
+ 16S rRNA genes. Consequently they are used as alternative genetic
+ markers providing better discrimination among closely related
+ species (Volokhov et al., 2007). Eubacteria have two indispensable
+ type II DNA topoisomerases; DNA gyrase encoded by gyrB and gyrA,
+ and topoisomerase IV encoded by parE and parC (Huang, 1996).
+ Amongthese genes, gyrB is a single-copy gene, present in all bacteria,
+ whichencodestheB-subunitofDNAgyrase(topoisomerasetypeII).It
+ maybeapotentiallyuseful geneforthedetectionandidentification of
+ bacteria (Bhattacharya et al., 2003; Kawamura et al., 1999; Liu et al.,
+ 2003; Victor et al., 1996).
+ Based on these advantages, this study focused on the gyrB gene
+ marker in order to achieve higher specificity when targeting B. fragilis
+ and to differentiate B. fragilis from other Bacteroides and Prevotella
+ species. The performance of the real-time PCR system as a sensitive,
+ specific and rapid tool for detection of recreational water contami
+nation was investigated using human and cow fecal samples.
+ 2. Materials and methods
+ 2.1. Bacterial strains
+ The type species and environmental isolates used in this study are
+ listed on Table 1. The type strains were purchased from the American
+ Type Culture Collection (Bacteroides fragilis ATCC 25285T, Bacteroides
+ ovatus ATCC 8483T and Prevotella melaninogenica ATCC 25845T). B.
+ fragilis ATCC 25285T and B. ovatus ATCC 8483T were propagated on B.
+ fragilis bile-esculin agar (Oxyrase, Inc., Mansfield, OH) in GasPak jars
+ (BBL Microbiology Systems, Cockeysville, MD) containing an Anaero
+Pack system(Mitsubishi GasChemical, Tokyo,Japan) for 72 h at 37 °C.
+ P. melaninogenica ATCC 25845T was grown at 37°C on Eggerth
+ Gagnon (EG) agar (Eiken Chemical Co. Ltd., Tokyo, Japan) supple
+Table 1
+ Type strains used in this study.
+ Strain
+ environmental isolate, B. fragilis strains 1AL
+ environmental isolate, B. fragilis strains 1B2
+ environmental isolate, B. fragilis strains 1BL
+ B. fragilis ATCC 25285T
+ B. ovatus ATCC 8434T
+ Accession no.
+ gyrB
+ GU130198
+ GU130199
+ GU130200
+ CR626927
+ AAXF02000049
+ P. melaninogenica ATCC 25845T
+ ACSI01000031
+ 16S rRNA
+ GU130201
+ GU130202
+ GU130203
+ CR626927
+ AB050108
+ AY323525
+ mented with 5% (v/v) horse blood, 5 mg/l of haemin, and 0.1 mg/l of
+ vitamin K1 in GasPak jars for 72 h at 37 °C. We also used three B.
+ fragilis strains, 1AL, 1B2 and 1BL, which were isolated from
+ environmental waterandidentifiedasB.fragilis with100%similarities
+ of the 16S rRNA sequence of B. fragilis ATCC 25285T.
+ 2.2. Primer design based on gyrB gene
+ Atotal of 322 gyrB sequences were retrieved from NCBI's GenBank
+ database and aligned using Clustal X (Larkin et al., 2007). After the
+ alignment, the sequences were manually searched for homologous
+ regions specific for Bacteroides fragilis by using Bioedit (Hall, 1999).
+ The selected regions were analyzed further to search homologous
+ nucleotide sequences in the GenBank database by using the
+ BLAST database search program (http://www.ncbi.nlm.nih.gov/
+ tools/primer-blast/) and Probe Match application at the Ribosomal
+ Database Project II (http://rdp.cme.msu.edu/probematch/). Several
+ regions were selected for designing of primers and probe and each
+ candidate was double-checked using the search programs, Primer
+Blast and Probe Match, in order to minimize false cross-amplification
+ with other bacteria. The Primer-Blast results were chosen because the
+ NCBI database had more sequence information from environmental
+ isolates and clones. Finally, one sequence subset was selected as a
+ primer/probe set which showed the satisfying specificity for the B.
+ fragilis. After obtaining the optimal sequence region of B. fragilis,
+ forward andreverseprimers,and aminorgroovebinder(MGB)probe
+ were determined by Primer Express® software (Applied Biosystems,
+ Foster City, CA).
+ 2.3. Primer specificity tests with PCR
+ In order to compare the specificity of the new gyrB-based primers,
+ we conducted PCR amplification with a gyrB-based primer and two
+ 16S rRNA-based primer sets (qHS601F/qBac725R (Okabe et al., 2007)
+ andg-Bfra-F/g-Bfra-R (Matsuki et al., 2002) with genomic DNAfrom3
+ environmental isolates (1AL, 1B2, 1BL) and 3 type strains(B. fragilis, B.
+ ovatus and P. melaninogenica). DNA templates were extracted from
+ these 6 strains with a DNeasy Tissue Kit (Qiagen, Valencia, CA)
+ following the manufacturer's instructions. Their concentrations were
+ measuredwithNanoDrop(NanoDropTechnologies,Wilmington,DE).
+ The DNA amount was adjusted as 10ng for template DNA per 1 PCR
+ tubebecauseanamplificationreactionwouldbeconsiderablyaffected
+ by the initial DNA concentration. PCR was conducted using a
+ MultiGene Thermal Cycler (Labnet International, Inc., Edison, NJ) to
+ generate a different optimal annealing point at the same time.
+ Weused two reference 16S rRNA-based primers. For convenience
+ of throughout this study, they will be referred to as Human-Bac1
+ primer set for qHS601F/qBac725R and B.fragilis group-specific primer
+ set for g-Bfra-F/g-Bfra-R, respectively. We compared our newly
+ designed gyrB-based primers with these two references. The
+ Human-Bac1 primer set had an optimal annealing temperature of
+ 62 °C and the B. fragilis group-specific primers had a low annealing
+ temperature of 50 °C. The optimal annealing temperature for the gyrB
+ primers was 58 °C and the amplification condition was the same with
+ the exception of the annealing temperature. PCR was carried out by
+ incubation for 3 min at 94 °C, 30 cycles of denaturation at 94 °C for
+ 1 min, annealing at each appropriate temperature for 30 s, extension
+ at 72 °Cfor1 min,finalextensionat72 °Cfor10 minwitheachprimer
+ set. After PCR amplification, aliquots (5 μl) of the PCR products were
+ analyzed by electrophoresis on a 1.0% agarose gel stained with 0.1 μg/
+ ml ethidium bromide in TBE buffer (89 mM Tris–borate, 2 mM EDTA)
+ at 100 V for 40min. The bands were documented with a Bio-Rad
+ Quantity One Gel Doc system (Bio-Rad, Hercules, CA) with a 1 kb
+ (Invitrogen, Carlsbad, CA) DNA ladder as molecular weight marker.
+C.S. Lee, J. Lee / Journal of Microbiological Methods 82 (2010) 311–318
+ 313
+ 2.4. Sequencing and phylogenetic analysis
+ Excess primers and dNTPs were removed from the remaining PCR
+ products using a QIAquick PCR purification kit (Qiagen, Valencia, CA).
+ The amplified DNA products were sequenced at the Plant-Microbe
+ Genomics Facility at The Ohio State University (http://pmgf.biosci.
+ ohio-state.edu/) by an ABI Prism 3730 DNA analyzer (Applied
+ Biosystems). Multiple alignments of the DNA sequences allowed
+ phylogenetic comparisons between the Bacteroides and Prevotella
+ species with the gyrB and 16s rRNA genes. Reference sequences of
+ Bacteroides and Prevotella were retrieved from GenBank database,
+ aligned by Clustal X and trimmed by Bioedit which allowed the
+ construction of two phylogenetic trees based on 16S rRNA and gyrB
+ genesusingMEGA(Tamuraetal.,2007).Theneighborjoiningmethod
+ with Kimura 2 parameter model (Saitou and Nei, 1987), Maximum
+likelihood (Felsenstein, 1981) and maximum-parsimony (Kluge and
+ Farris, 1969) were used to draw trees. A bootstrap analysis was
+ performed to assess the confidence limits of the branching with 1000
+ replicates. Only values greater than 50 were included in the results.
+ 2.5. Standard curves and comparison of gyrB-based and 16S rRNA-based
+ primers by TaqMan real-time PCR
+ With the newly designed gyrB-based primers, real-time PCR was
+ carried out to obtain standard curves of B. fragilis. The Human Bac1
+ primerset wastestedasa16SrRNA-basedreferenceprimerset.TheB.
+ fragilis group-specific primer set, which is another 16S rRNA-based
+ reference, was not originally designed for the TaqMan system, but for
+ the SYBR probe system, so it could not be directly comparable with
+ our primer set. Serial dilutions of B. fragilis were prepared by spiking
+ cultured cells into 1 ml of sterile phosphate buffered saline (PBS;
+ 0.14 M NaCl, 2.7 mM KCl, 10.1mM Na2HPO4, 1.8mM KH2PO4 [pH
+ 7.6]) (Sigma-Aldrich, St. Louis, MO). Ten μl of the well mixed solution
+ of B. fragilis was used to count colony forming units (CFU) after
+ anaerobic culture on BBE plates and the 990 μl of the remaining
+ solution was used for DNA extraction using a DNeasy Tissue kit
+ (Qiagen, Valencia, CA). The extracted DNA was used for real-time PCR
+ to quantify B. fragilis. Real-time PCR was performed and a standard
+ curve was derived by plotting threshold cycles (CT) against the log
+transformed cell counts (CFU/PCR).
+ An ABI 48-well StepOneTM Real-Time System (Applied Biosys
+tems) was used with a total 25 μl mixture which consisted of 5 μlof
+ template DNA, 12.5 μl of TaqMan universal PCR master mix (PCR
+ buffer, deoxynucleoside triphosphates, AmpliTaq Gold polymerase,
+ internal reference signal 6-carboxy-x-rhodamine [ROX], Amp Erase
+ uracil N-glycosylase [UNG], MgCl2; Applied Biosystems), 500 nM of
+ each primer, and 250nM of each probe labeled with 6-carboxy
+ f
+ luorescein (FAM). A mixture of all PCR regents without any template
+ DNA was used as a negative control for each PCR reaction. Thermal
+ cycling consisted of an initial cycle of 50 °C for 2 min (activation of the
+ UNG) and 95°C for 10min (activation of the AmpliTaq Gold DNA
+ polymerase), followed by 40 cycles of denaturation at 95 °C for 15 s
+ and annealing and extension at 60 °C for 1 min. For the Bacteroides
+Prevotella-specific primer set, PCR reactions were carried out by
+ incubation for 2 min at 50 °C and for 10 min at 95°C, followed by
+ 40 cycles of denaturation at 95 °C for 15 s and annealing and
+ extension at 62 °C for 1 min.
+ 2.6. End-point and real-time PCR assays for cow, pig, dog, and human
+ fecal samples
+ In order to check the host-specificity of the newly designed primer
+ set, we testedthe specificity of all three primersets withfecal samples
+ from cow, pig, dog, and human. Individual fresh fecal samples were
+ collected from apparently healthy human and animal sources. Cow
+ and pig feces were obtained from the Waterman farm (Dairy Science
+ Center, TheOhioStateUniversity,Columbus,Ohio).Dogsampleswere
+ obtained from local pet owners and represented several different
+ breeds. All fecal samples were collected using sterile swabs (BBL
+ CultureSwab; Becton Dickinson, Sparks, MD) and immediately
+ transported to the laboratory on ice. For DNA extraction, 10 ml of
+ sterile PBS was added directly into the swabs and vortexted. The fecal
+ suspension (1 ml) was transferred into a sterile microcentrifugal tube
+ and its weight was measured by subtracting the post-centrifugation
+ weight from the pre-centrifugation weight. The centrifugation was
+ performed at 10,000 g for 1 min at 4 °C. With the known concentra
+tion of fecal suspensions, all the fecal samples were adjusted to the
+ same amount of 5mg fecal pellet by transferring appropriate volume
+ into the tube. DNA was extracted using the QIAmp DNAStool Mini Kit
+ (Qiagen) for end-point and real-time PCR assays with Human Bac1
+ and gyrB-based primers. The concentration of the DNA was deter
+mined from the final elute of 200 μl from the DNA extraction with a
+ NanoDrop system (NanoDrop Technologies).
+ 3. Result
+ 3.1. Designing of gyrB-based primers for B. fragilis
+ Analysis of the 322 gyrB sequences of Bacteroides and Prevotella in
+ the GenBank database allowed the identification of B. fragilis-specific
+ regions and the design of the primer set (Fig. 1 and Table 2). One
+ primer set covering only 54-bp size was composed of a forward
+ primer (Bf904F), a reverse primer (Bf958R), and the TaqMan probe
+ (Bf923MGB). An additional reverse primer was designed (Bf1272R)
+ because it could generate enough size of sequences (368-bp) for
+ phylogenetic analysis.
+ Multiple alignment analysis showed that our reverse primer,
+ Bf958R, supported higher specificity for B. fragilis than Bf904F. We
+ evaluated the specificity of the newly designed gyrB-based primer
+ (Bf904F/Bf958R), 16S rRNA-basedHumanBac1(qHS601F/qBac725R),
+ and B. fragilis group-specific (g-Bfra-F/g-Bfra-R) primer sets using B.
+ fragilis, other Bacteroides (B. ovatus) and Prevotella (P. melaninogenica)
+ by end-point PCR. The results showed a distinction in the amplicons
+ bythethreeprimersetsintargetingB. fragilis (Fig. 2). As expected, we
+ obtained 54-bp size gyrB gene products from both environmental B.
+ fragilis isolates and type strain of B. fragilis (ATCC 25285T), and
+ negative results from B. ovatus and P. melaninogenica when using
+ Bf904F/Bf958R (Fig. 2A). The 150-bp size 16S rRNA gene regions by
+ qHS601F/qBac725R were amplified in all of environmental B. fragilis
+ isolates and type strains of B. fragilis, B. ovatus and P. melaninogenica
+ (Fig. 2B). The 495-bp size 16S rRNA gene region by g-Bfra-F/g-Bfra-R
+ was amplified only in environmental B. fragilis isolates and type
+ strains of B. fragilis and B. ovatus, but not from P. melaninogenica
+ (Fig. 2C). The PCR results confirm that our gyrB-based primer, Bf904F/
+ Bf958R, can discriminate between B. fragilis and other closely related
+ species, such as B. ovatus and P. melaninogenica.
+ 3.2. Sequencing and phylogenetic analysis
+ The PCR products produced by our gyrB-based primer set and one
+ 16S rRNA-based Human Bac1 primer set (qHS601F/qBac725R) were
+ further investigated by sequence analysis. The other 16S rRNA-based
+ B. fragilis group-specific primer (g-Bfra-F/g-Bfra-R) was not compared
+ for this purpose because it had a significantly different amplicon size
+ (495-bp) from the amplicons produced by the gyrB-based (54-bp)
+ and HumanBac1(150-bp) primers. The sequences (Fig. 3) confirmed
+ again that new proposed primer set could amplify only the gyrB gene
+ of B. fragilis. Although we obtained the PCR products from B. fragilis by
+ using the Bf904F/Bf958R, we could not obtain sequencing data
+ because their sequences were too short to analyze sequencing. In
+ order to overcome this limitation, another reverse primer (BF1272R)
+ was used to amplify N100 bp of PCR amplicons for sequence analysis.
+C.S.Lee, J.Lee/ JournalofMicrobiologicalMethods82(2010)311
+Fig.1.MultiplealignmentsoftheB. fragilis-specificprimers,Bf904F,Bf958R,Bf1275R,andtheTaqManprobeBf923MGBfortheB. fragilisgyrBsequenceincomparisonwiththe
+ homologousgyrBsequencesofotherBacteroidesandPrevotella
+ Analyzed sequences were added up with other 16S rRNA and gyrB
+ gene sequences from GenBank and EMBL databases to construct
+ phylogenetic dendrograms.
+ Bacteroides 16S rRNA sequences are as follows: B. acidifaciens
+ (AB021164), B. caccae (X83951), B. capillosus (AY136666), B. cellulosi
+lyticus (AJ583243), B. dorei (AB242142), B. eggerthii (AB050107), B.
+ f
+ inegoldii (AB222699), B. fragilis (CR626927), B. gallinarum (AB253732),
+ B. graminisolvens (AB363973), B. helcogenes (AB200227), B. intestinalis
+ (AB214328), B.massiliensis (AY126616), B. nordii (AY608697), B.ovatus
+ (AB050108), B. pectinophilus (DQ497993), B. plebeius (AB200217), B.
+ pyogenes(AB200229),B.salyersiae(AY608696),B.stercoris(X83953),B.
+ tectus (AB200228), B. thetaiotaomicron (AE015928), B. uniformis
+ (AB050110), B. vulgatus (CP000139), B. xylanisolvens (AM230650).
+ Prevotella 16S rRNA sequences are as follows: P. bryantii (AJ006457), P.
+ buccae (L16477), P. copri (AB064923), P. heparinolytica (L16487), P.
+ micans (AF481228), P. nanceiensis (AY957555), P. oralis (AY323522),
+ P. oris (L16474), P. paludivivens (AB078827), P. ruminicola (L16482), P.
+ shahii (AB108825).
+ Bacteroides gyrBsequencesareasfollows:B.caccae(AAVM02000009),
+ B. capillosus (AAXG02000004), B. cellulosilyticus (ACCH01000128),
+ B. dorei (DS995534), B. eggerthii (ABVO01000051), B. finegoldii
+ (ABXI02000076), B. fragilis (CR626927), B. intestinalis (ABJL02000007),
+ B. ovatus (AAXF02000049), B. pectinophilus (ABVQ01000037), B. plebeius
+ (ABQC02000004), B. stercoris (ABFZ02000020), B. thetaiotaomicron
+ (AE015928), B. uniformis (AAYH02000048), B. vulgatus (CP000139),
+ Prevotella gyrB sequences are as follows: P. copri (ACBX01000202), P.
+ melaninogenica (ACSI01000031), P. oralis (AB048191), P. tannerae
+ (ACIJ02000017).
+ Twophylogenetic trees were created with the available sequences
+ of 16S rRNA and gyrB gene from GenBank and EMBL database, so not
+ all the bacterial species could be equally entered in each tree. Thus, a
+ simple and direct comparison of the genetic distances of the two
+ phylogenetic trees was not feasible. However, the following observa
+tions were made. First, the rate of genetic divergence of the sequence
+ amplified by the gyrB-based primer set differed greatly from that of
+ the 16S rRNA-based primer set. For example, compared with the
+ sequence amplified by the 16S rRNA-based primers, the sequence
+ amplifiedbythegyrBprimersetshoweda4-to10-foldincreaseinthe
+ length of branches between the closely related species of Bacteroides
+ and Prevotella. Moreover, the topology of the phylogenetic tree based
+ on the 16S rRNA sequence was quite different from the tree based on
+ the gyrB sequence. It demonstrated that 8 Bacteroides species (B.
+ acidifaciens, B. nordii, B. fragilis, B. salyersiae, B. thetaiotaomicron, B.
+ xylanisolvens, B. finegoldii and B. ovatus) were clustered into one group
+ in the 16S rRNA-based phylogenetic tree (Fig. 3A), but they were
+ totally separated into each cluster in the gyrB gene-base tree (Fig. 3B).
+ Secondly, there was a difference in the classification of the target
+ bacteria between the sequences amplified by the 2 primers. For
+ instance, even though the 16S rRNA sequences of 3 environmental
+ isolates, 1AL, 1B2 and 1BL, were 100% identical to the type strain of B.
+ fragilis, their intrageneric relatedness with other species of Bacteroides
+ was too close to be positioned solely with the B. fragilis species
+ (Fig. 3A). In contrast, with the amplification by the gyrB gene, these 3
+ isolates were clearly clustered only with the B. fragilis species (Fig. 3B).
+ 3.3. Performance of real-time PCR with new primers and probe for
+ B. fragilis
+ Aseries of experiments were conducted with B. fragilis to compare
+ the results obtained using gyrB-based (Bf904F/Bf923MGB/Bf958R)
+ and the 16S rRNA-based primers and probe (qHS601F/qHS624MGB/
+ qBac725R)(Fig. 4). For this, 10-fold serial dilutions of known B. fragilis
+ cells were prepared and CT values were checked with the 48-well
+ StepOne™Real-TimeSystem (Applied Biosystems) using each primer
+ set. The TaqMan PCR reagent contains a passive reference dye as an
+ internal reference to which the reporter dye was normalized during
+ data analysis. This allows correction of fluctuations in fluorescence
+ due to changes in concentration and volume of the reaction mixture.
+ Table2
+ Nucleotidesequencesandtargetsofprimersandprobesusedforreal-timePCRassayinthisstudy.
+ Name Sequence Gene Target Reference
+ Bf904F 5′-GGCGGTCTTCCGGGTAAA-3′ gyrB B. fragilis Thisstudy
+ Bf923MGB 5′-TGGCCGACTGCTC-3′ gyrB B. fragilis Thisstudy
+ Bf1272R 5′-TGGCATATAGCGGAAGAAAAAAG-3′ gyrB B. fragilis Thisstudy
+ Bf958R 5′-CACACTTCTGCGGGTCTTTGT-3′ gyrB B. fragilis Thisstudy
+ qHS601F 5′-GTTGTGAAAGTTTGCGGCTCA-3′ 16SrRNA B. fragiliscluster Okabeetal.(2007)
+ qHS624MGB 5′-CGTAAAATTGCAGTTGA-3′ 16SrRNA B. fragiliscluster Okabeetal.(2007)
+ qBac725R 5′-CAATCGGAGTTCTTCGTGATATCTA-3′ 16SrRNA Bacteroides–Prevotella BernardandField(2000)
+ g-Bfra-F 5′-ATAGCCTTTCGAAAGRAAGAT-3′ 16SrRNA B. fragilisgroup Matsukietal.(2002)
+ g-Bfra-R 5′-CCAGTATCAACTGCAATTTTA-3′ 16SrRNA B. fragilisgroup
+TheCTvalueisthecycleatwhichastatisticallysignificantincreasein
+ ΔRnwasfirstdetectedassociatedwithexponential increaseofPCR
+ product.Linearregressionanalysesofthereal-timePCRresultsofthe
+ gyrBandthe16SrRNAampliconsproducedstandardcurveswith
+ similar slopes (−3.367,−3.332)andgoodcorrelationcoefficients
+ (r2=0.998, 0.997), butdifferenty-intercepts(41.89, 38.99) inthe
+ rageof1.1×102to1.1×107(CFU/PCR).
+ 3.4.End-pointandreal-timePCRassays forcow,pig,dog,andhuman
+ fecalsamples
+ Host-specificitywas testedwithhumanandotheranimal fecal
+ samplesusingend-pointPCR(Table3).TheextractedDNAconcen
+trations were 2.8±0.6ng/μl (cow, n=10), 4.0±0.9ng/μl (pig,
+ n=10), 3.4±0.9ng/μl (dog, n=10), and3.6±0.5ng/μl (human,
+ n=10).Allthethreeprimersetsshowed100%positivePCRreaction
+ with thehumansamples. However, somecross-amplificationwas
+ observed fromnon-human fecal samples.With theHumanBac1
+ (qHS601F/qBac725R)primerset,positivereactionswereobservedin
+ 70%pig,40%cow,and30%dogsamples.WiththeB. fragilisgroup
+specificprimer(g-Bfra-F/g-Bfra-R),positivereactionswereobtained
+ from50%pig,30%cow,and10%dogsamples.WiththegyrB-based
+ primerset(Bf904F/BF958R),positivereactionswereobservedinonly
+ 10%pigsamplesandnocross-amplificationwasobtainedfromallthe
+ cowand dog samples. This result indicates that the gyrB-based
+ B. fragilis-specific primer has superior specificity against human
+originatedfecalcontamination.
+ Thesamesetoffecalsampleswastestedwithreal-timePCRassayfor
+ validatinghuman-specificfecalcontamination.WiththeuseofHuman
+ Bac1, theaverageCtvalueswere18.61±1.23(human),21.33±2.00
+ (pig), 24.75±1.40 (cow), and 28.07±4.89 (dog) and theywere
+ equivalentto1.4±0.8×1010,3.8±4.6×109,2.2±1.7×108,and2.1±
+ 3.2×108CFU/goffeces.Thisconversionwasbaseduponthestandard
+ curve(Fig.4B)andthedilutionfactors.Thesameprocedurewasused
+ withthegyrB-basedprimerset.TheaverageCtvalueswere27.86±0.66
+ (human),35.64±0.68(pig),35.91±0.80(cow)and35.85±0.56(dog)
+ and theywere equivalent to 1.3±0.7×108, 4.6±4.5×105, 4.0±
+ 4.0×105,2.1±2.8×105CFUB.fragilis/goffeces,respectively.
+ 4.Discussion
+ The B. fragilis-specific detection by real-time PCR allows the
+ quantificationofB. fragilis,whichisasignificantandrepresentative
+ human-specificfecal indicator.Thisisthefirststudy1)todevelopa
+ primersetthattargetsthegyrBgeneofB.fragilisasanewfecalsource
+ marker;and2)optimizetheTaqManreal-timePCRsystemforrapid
+ detectionofahuman-specificfecalsourceinrecreationalwater.We
+ also investigatedthespecificityof ournewlydesignedprimersby
+ comparingpreviouslyknown16SrRNA-basedprimersets.Byshifting
+ thetargetmarker from16SrRNAtothegyrBgene,weareableto
+ proposeanalternativeprimer systemwhich isveryspecific toB.
+ fragilisasarepresentativespecies inBacteroides.Variouscandidate
+ markersweredeterminedaftermultiplealignmentsof gyrBgenes
+ fromtheavailabledatabaseand twoprimer setswere chosen. A
+ primerset,Bf904F/Bf958R,wasusedtoamplifythe904–958regionof
+ thegyrBgeneinareal-timePCRandcomparedwiththe16SrRNA
+based referenceprimer set (HumanBac1). Theother primer set,
+ Bf904F/Bf1272R,wasusedtoamplifythe904–1272regionofthegyrB
+ geneinordertoanalyzesequencesforphylogeneticinvestigation.The
+ newgyrB-basedprimer showedhigh specificity toB. fragilis and
+ negativereactiontoB. ovatusandP.melaninogenica,whicharethe
+ mostcloselyrelatedtoB. fragilis.
+ TheothergyrB-basedprimerset(368-bpcoveringBf904F/Bf1272R
+ primerset)wasmoreusefulforanalyzingsequencesofPCRamplicons
+ andconstructingphylogenetictreesbecausetheampliconsproduced
+ bytheBf904F/Bf958Rprimer setwasnot longenoughtoprovide
+ sufficientinformationonsequences.PCRampliconsweresequenced
+ andanalyzedwith16SrRNAfragmentsandthegyrB-basedphyloge
+netic tree showed that it had greater resolution enabling the
+ generationofamoredivergeddendrogram.Eachphylogenetictree
+ wasconstructedwithpreviouslyknownsequences intheGenBank
+ database. The twoconstructeddendrogramsdemonstrate that the
+ gyrB-basedprimersetdifferentiatedB. fragilisfromotherBacteroides
+ andPrevotellaspecies, but the16SrRNA-basedprimersetdidnot.
+ OnlyB. fragiliswasamplifiedby thegyrB-basedprimer, but all B.
+ fragilis, B. ovatusandP.melaninogenicawereamplifiedbythe16S
+ rRNA-basedprimers.Thismayserveasapossibleexplanationtowhy
+ manyfieldstudiesofMSTtargetingBacteroidesperformedinconsis
+tentlyinthepast(Laytonetal.,2006;Kildareetal.,2007;Ahmedetal.,
+ 2008;McLainetal.,2009).
+ ThenewlydevelopedTaqManprimer/probesystemforreal-time
+ PCRwasoptimizedtoquantifyB. fragilisinwaterbyspikingaknown
+ numberofbacterialcells.Thereal-timePCRresultsdemonstratethat
+ thegyrB-basedprimersetcanbeusedtoquantifyB. fragiliswiththe
+ detectionlimitof110CFU/reaction.ThegyrB-basedreal-timePCRhad
+ aslightlylesssensitivitythantheoneusing16SrRNA-basedprimer
+ set. The difference in y-intercepts of the calibration curveswas
+ approximately3cyclesbetweenthegyrB-basedandthe16SrRNA
+basedsystem,whichindicatesthat3morecyclesareneededtoyield
+ thesameCTvalues.Itisequivalenttoapproximatelya1logdifference
+ in colony forming unit (CFU). The differences in real-time PCR
+ conditionsofthegyrB-basedandthe16SrRNA-basedprimers,suchas
+ themelting point, mayhave affected the sensitivity of the PCR
+ amplification,whichisexpressedasCTvalues.Additionally,16SrRNA
+ genesaremorelikelytobeamplifiedthangyrBgenesbecauseatleast
+ 6 copies of 16S rRNAgene are contained in one B. fragilis cell
+ (Klappenbachet al., 2001), butonlyonegyrBgeneexistsper cell
+ (Huang,1996).Thus, fromthesamenumberofB. fragilis, inherently
+ differentamountofgyrBand16SrRNAgeneswouldbeobtainedin
+ theextractedDNA.Thereby, it isexpectedtoobservedifferencesin
+ they-interceptsof thestandardcurvesaswellasdifferencesinthe
+ sensitivityofdetectionbyreal-timePCR.
+ Duringour preliminary study,we investigated the gyrB-based
+ assaysystemwithrecreationalwaterinordertocheckwhetherthe
+ detectionisfeasibleandwhetherthedetectionlimitisaffectedbyPCR
+ inhibitorspossiblypresent inrecreationalwater.Thereal-timePCR
+ Fig.2.Specificityofthenewlydesignedprimers.PCRproductsbynewgyrB-basedprimer(A)andtwo16SrRNA-basedprimers(B,C).
+ 315 C.S.Lee, J.Lee/ JournalofMicrobiologicalMethods82(2010)311
+testforB. fragilispresent intherecreationalwaterandPBSresulted
+ very similar CT values (data not shown). Statistically significant
+ differencebetweenthePBSandtherecreationalwatersamplewas
+ notobservedinthereal-timePCRdetectionofB. fragilis(datanot
+ shown).Thisindicatedthattheenvironmentalwatermatrixdidnot
+ affectthereal-timePCR.
+ Anessential traitof ageneticmarker toserveasastableand
+ library-independent MST tool is its temporal and geographical
+ Fig.3.Comparisonofphylogenetictreesbasedon16SrRNAgeneandthegyrBgeneforthegenusBacteroidesandPrevotella.
+ 316 C.S.Lee, J.Lee/ JournalofMicrobiologicalMethods82(2010)311
+humanandthe16SrRNA-basedhuman-specificmarkersmayhave
+ thepossibilityofcross-amplificationswithswinefeces.
+ Wehavedescribedarapidmonitoringsystemforahuman-specific
+ fecal indicator, B. fragilis, based on the gyrB genemarker for
+ indispensable type II DNA topoisomerases inbacteria. The gyrB
+basedprimerhadsufficientresolutionpowertoamplifyonlyB.fragilis
+ species and gyrB genemarker canbe used to designate and/or
+ differentiatebacterial speciesorsubspecieswhicharespecific toa
+ host.Duringthisstudy,wetestedourprimersetwithfecalsamples
+ fromanimal andhumansources. ThegyrB-basedprimer set could
+ differentiatehuman fecal samples fromanimal fecal samples and
+ producepositiveresultsforB. fragilis.16SrRNAgeneisstillusefulfor
+ groupingandclusteringinphylogeneticstudy.However, switching
+ thetargetgenefrom16SrRNAtogyrBmaybeveryuseful formore
+ accurate identification, classification, and phylogenetic sorting of
+ bacterial lineages (YamamotoandHarayama, 1995; LaDucet al.,
+ 2004). Thismethod could serve as a complementary tool for
+ overcoming the limitation of 16S rRNA-basedMSTmethods in
+ delineatingabilityamongclosely relatedbacteriaoriginated from
+ humansources.Inaddition,itcanbeappliedtoothermoleculartools
+ that involveprimers andprobes, suchasmicroarray, T-RFLP, and
+ othernucleotide-basedmethods
+
+//
+
+ Abstract Salmonella causes the majority of infections in
+ humans and homeothermic animals. This article describes a
+ specific polymerase chain reaction (PCR) method devel
+oped for a rapid identification of Salmonella.AgyrB-tar
+geted species-specific primer pair, S-P-for (50-GGT GGT
+ TTC CGT AAA AGT A-30) and S-P-rev (50-GAA TCG
+ CCT GGT TCT TGC-30), was successfully designed. PCR
+ with all the Salmonella strains produced a 366- bp DNA
+ fragment that was absent from all the non-Salmonella
+ strains tested. The detection limit of the PCR was 0.01 ng
+ with genomic DNA or 3.2 cells per assay. Good specificity
+ was also demonstrated by fecal samples, from which only
+ the gyrB gene of Salmonella was amplified. Using the
+ culture-PCR method, 27 isolates on Salmonella-Shigella
+ X. Ye Y. Wang X. Lin
+ State Key Laboratory of Soil and Sustainable Agriculture,
+ Institute of Soil Science, Chinese Academy of Sciences,
+ Beijing East Road, 71, Nanjing 210008,
+ People’s Republic of China
+ X. Ye Y. Wang X. Lin
+ Joint Open Laboratory of Soil and the Environment,
+ Hongkong Baptist University & Institute of Soil Science,
+ Chinese Academy of Sciences, Nanjing 210008,
+ People’s Republic of China
+ X. Ye
+ Graduate University of Chinese Academy of Sciences,
+ Beijing 100049, People’s Republic of China
+ X. Lin (&)
+ Department of Biology and Biochemistry, Institute of Soil
+ Science, Chinese Academy of Sciences, Beijing East Road, 71,
+ Nanjing 210008, People’s Republic of China
+ e-mail: xglin@issas.ac.cn
+ (SS) medium were rapidly identified as Salmonella, which
+ was confirmed by the sequencing of the gyrB gene.
+ Introduction
+ Salmonella is a facultative intracellular pathogen [7]. They
+ cause a wide range of human diseases, such as enteric
+ fever, gastroenteritis, and bacteremia. Gastroenteritis
+ associated with food-borne outbreaks is probably the most
+ common clinical manifestation of the infection [3, 5, 10,
+ 15, 22]. Annually pathogens account for more than 25
+ million infections worldwide, resulting in approximately
+ 200,000 deaths [9]. A study on the prevalence of Salmo
+nella in broiler flocks in Europe revealed that on an average
+ more than 20% of the flocks were Salmonella positive with
+ a range from 0% to nearly 70% depending on the country
+ [11, 12]. In China, surveillance of foodborne pathogens in
+ Chinese Center for Disease Control and Prevention
+ (CCDC) results showed that food of the detection of
+ Salmonella had reached 7.76% [8].
+ Awidely accepted standard for detecting Salmonella is a
+ traditional microbiological method based on a non-selec
+tive pre-enrichment, selective enrichment, subsequent
+ plating on selective media and biochemical identification
+ [4]. However, culture-based methods are typically time
+consuming, and it may take several days before the results
+ are obtained. Nucleic acid techniques offer faster detection
+ systems, a number of nucleic acid-based assays for Sal
+monella have been developed [18]. Numerous targeted
+ probe specific for Salmonella have been described. Targets
+ include antigen determinants, outer membrane proteins,
+ DNA-binding proteins, and virulence-associated genes [20,
+ 24]. The invasion A (invA) and sefA gene, which encode
+ the main subunit of the SEF14 fimbrial protein have been
+ 123
+478
+ Species-specific Primers Design
+ X. Ye et al.: A gyrB-targeted PCR for Rapid Identification
+ particular popular and useful targets [6, 21, 25]. Probes
+ specific for Salmonella enteritidis and other group D sal
+monellae have also been reported [1, 14, 19]. Otherwise,
+ the GENE-TRAK and GeneQuence assays target 16 s
+ rRNA. This has been a favored approach in probe assay
+ development [18]. In this assay, it presents the target gene
+ gyrB gene encoding the B-subunit of DNA gyrase. The
+ gyrB gene has been used as the target sequence for the
+ detection and identification of several species of bacteria
+ by PCR-based assays [17, 27], and Salmonella has also
+ been identified by microarrays method with the specific
+ gyrB gene probe [16]. However, the higher cost and
+ equipment requirements of the microarrays method make it
+ difficult to be widely used, despite high efficiency of
+ identification.
+ This study describes a specific PCR detection technique
+ based on the gyrB gene which can be used successfully for
+ rapid identification of Salmonella from others, and first
+ present a culture-PCR method to reduce time in preparation
+ of samples tested.
+ Materials and Methods
+ Bacterial Strains
+ Strains used in this study were obtained from China’s
+ National Institute for the Control of Pharmaceutical and
+ Biological Products. The strains representing six genera
+ (Table 1) were used for primer development and PCR
+ specificity assays. Bacteria were cultured on Luria–Bertani
+ (LB) agar plates at 37C for 24–48 h.
+ Table 1 Strains used in the study
+ Name
+ Strain
+ Accession number
+ for partial gyrB
+ gene seqence
+ Salmonella sub-genus II
+ CMCC50215
+ Salmonella sub-genus III b CMCC50381
+ Salmonella enteritidis
+ Salmonella enteritidis var.
+ danysz
+ Salmonella gallinarum
+ Salmonella manchester
+ Salmonella senftenberg
+ Escherichia coli
+ Streptococcus fecalis
+ Enterobacter cloacae
+ Enterobacter aerogenes
+ CMCC50335
+ CMCC50100
+ CMCC50770
+ CMCC50380
+ CMCC 50210
+ ATCC 25922
+ CMCC 32223
+ CMCC 45301
+ AB598750
+ AB598754
+ AB598753
+ AB598752
+ AB598751
+ AB598748
+ AB598747
+ AB598755
+ AB598756
+ AB598757
+ CMCC (B) 45103 AB598749
+ Citro Bacter freumdii
+ Shigella flexneri
+ CMCC48001
+ CMCC 51229
+ AB598758
+ AB598759
+ All the strain gyrB gene sequences (Table 1) were analyzed
+ using Clustal_X, version 1.83 [28]. The sequence regions
+ unique to Salmonella were used to design a series of for
+ward and reverse primers. The specificity of the primers
+ was then analyzed by BLASTN search of the GenBank
+ database (Altschul et al. 1990), and the resulting a pair of
+ primers S-P-for (50-GGTGGTTTCCGTAAAAGTA-30)
+ and S-P-rev (50-GAATCGCCTGGTTCTTGC-30) with the
+ best specificity to Salmonella were selected and synthe
+sized by Sangon Biotech (Shanghai, China).
+ PCR Reaction Volumes and Conditions
+ Genomic DNA strains (Table 1) from pure cultures were
+ purified using the E.Z.N.A. TM Bacterial DNA Kit(Omega
+ Bio-Tek, USA), following the manufacturer’s instructions.
+ The PCR reaction volumes for species detection were
+ carried out in 25 ll consisting 2.5 ll buffer (100 mM
+ Tris-HCl, 15 mM MgCl2, 500 mM KCl), 0.2 ll 2.5 U
+ Taq polymerase (Takara Bio, China), 0.2 ll 10mM
+ dNTP, and 0.5 ll of each specific primer and 1 ll purified
+ DNA as template. Reaction conditions were carried out
+ with profile of pre-denaturation (94C, 5 min), 35 cycles
+ of denaturation (94C, 1 min), annealing (58C, 1 min),
+ and extension (72C, 40 s) with final extension (72C,
+ 4 min). After amplification, 5 ll of each PCR product
+ was analyzed through electrophoresis in 2% agarose gel
+ in 19 Tris-acetate-EDTA (TAE) buffer, stained with
+ ethidium bromide and visualized using an ultraviolet
+ transilluminator.
+ To simplify the specific PCR, a culture-PCR was
+ developed on the basis of the PCR conditions. Pure cultures
+ were 10-fold diluted with sterile distilled water, and then
+ the dilution was used directly as PCR template. Only
+ before carrying out the PCR reaction, the volumes were
+ paralyzed at 99C for 10 min to release the DNA.
+ Sensitivity Determined With S. enteritidis
+ The sensitivity of the designed species-specific primers was
+ detected by S. enteritidis CMCC50335. Liquid cultures of
+ S. enteritidis at 37C for 24–48 h were used to extract the
+ genomic DNA. Then, the genomic DNA was 10-fold
+ serially diluted with sterile distilled water. One microliter
+ of each dilution was used as a PCR template. The number
+ of PCR cycles was 30. Sensitivity was also determined by
+ culture-PCR. The liquid culture was 10-fold serially diluted
+ with sterile distilled water. One microliter of each dilution
+ was used directly as PCR template. Three independent
+ 123
+X. Ye et al.: A gyrB-targeted PCR for Rapid Identification
+ Results and Discussion
+ 479
+ PCR assays were conducted. Each dilution was also plated
+ onto LB medium to determine the cell concentration by a
+ standard plate count method in triplicate, and the sensi
+tivity was then calculated.
+ Specificity Determination
+ The specificity of PCR was validated using fresh pigs’
+ fecal samples as the representative. The fecal samples were
+ collected from a farm in Wuxi China. The total fecal
+ genomic DNA was extracted using the E.Z.N.A. TM Stool
+ DNAKit (Omega Bio-Tek, USA). The extracted DNA was
+ used as a template for the specific PCR. The amplified
+ product was recovered using the AxyPrepTM DNA Gel
+ Extraction Kit (Takara Bio, China), cloned into a pGEM-T
+ easy vector (Promega, Madison, WI, USA), and 22 clones
+ were randomly chosen, sequenced by Invitrogen Life Sci
+ence (Shanghai, China).
+ Identification of Salmonella Isolates
+ The developed culture-PCR was applied to identify the
+ isolates from fecal samples. The above fresh fecal samples
+ were 10-fold serially diluted with sterile distilled water and
+ each 100 ll dilution was spread onto the Salmonella
+Shigella (SS) media [2] and incubated for 12 h at 37C.
+ The 27 isolates morphologically similar to Salmonella
+ were selected and incubated in LB media for 12 h at 37C.
+ The culture was used for PCR detection, and then the
+ amplified products were sequenced as above.
+ Phylogeny Analysis
+ The gyrB sequences of the 22 clones and the 27 isolates
+ were analyzed to find related sequences in the GenBank
+ database by performing a BLASTN search. The similari
+ties of the sequences were analyzed using the Meg Align
+ program, version 7.1.0 (DNAStar, Madison, WI, USA).
+ Phylogenetic tree was constructed with the MEGA pro
+gram, version 4.0 [26], using the Neighbor Joining
+ method [23]. A bootstrap resampling analysis was per
+formed to estimate the confidence of the tree topologies.
+ Nucleotide Sequence Accession Numbers
+ The 22 clones from the total fecal DNA were deposited in
+ the DDBJ database under accession numbers AB607965
+AB607986. The gyrB sequences of the 27 isolates have
+ been assigned with the following DDBJ accession numbers
+ AB621372–AB621398.
+ The last 20 years have seen a revolution in the methodol
+ogy for the detection of Salmonella. The era of ‘‘rapid
+ methods’’ began with the introduction of immunological
+ methods, such as fluorescent antibody procedures and
+ enzyme-linked immunosorbent assay (ELISA), followed
+ soon after by DNA probe-based methods [11, 13]. With a
+ variety of genetic methods for Salmonella to choose from,
+ what are the advantages of our methods? There are several
+ factors as follows.
+ Amplification With Specific Primers
+ The gyrB genes of the Salmonella species from test sam
+ples were amplified and analyzed by 2% agarose gel
+ electrophoresis to confirm that the primers were specific for
+ all Salmonella species (Fig. 1 lanes 1–7). It obtained spe
+cific amplification of a 366-bp DNA fragment by PCR with
+ primers S-P-for and S-P-rev. No amplification products
+ were observed from E. coli, S. fecalis, E. cloacae,
+ E. aerogenes, C. Bacter freumdii, and S. flexneri genomic
+ DNAs (Fig. 1, lanes 8–13), indicating that there is no
+ similar or homologous region in these samples’ DNAs.
+ These results showed that only a single band was amplified
+ from every Salmonella samples, and so the specific primers
+ used were appropriate for amplification of the gyrB region
+ of Salmonella at the genus level.
+ Two of the principal advantages of genetic methods are
+ the superior inclusivity and specificity offered by well
+designed DNA probes. This assay presents the target gene
+ gyrB gene owing to three benefits. First, gyrB gene
+ Fig. 1 Amplification of Salmonella DNAs with primers S-P-for and
+ S-P-rev. Lanes 1–13, amplification of gyrB fragments from samples:
+ 1 S. sub-genus II, 2 S. sub-genus III b, 3 S. enteritidis, 4 S. enteritidis
+ var. danysz, 5 S. gallinarum, 6 S. manchester, 7 S. senftenberg,
+ 8 E. coli, 9 S. fecalis, 10 E. cloacae, 11 E. aerogenes, 12 C. freumdii,
+ 13 S. flexneri, M molecular size markers (DL2000). The length of
+ each amplified fragment was 366 bp. 215 9 121 mm (72 9 72 DPI)
+ 123
+480
+ X. Ye et al.: A gyrB-targeted PCR for Rapid Identification
+ sequences are highly conserved and, the average base
+ substitution rate of change of 0.7% per 100 million years
+ to 0.8%, faster than 16S rDNA for each 1% change in 5000
+ years. Second, the gyrB gene sequences permit design of
+ probes with an impressive array of specificities. Finally,
+ because of its encoded protein as protein, the genetic code
+ inherent in children’s acquisition makes more DNA
+ sequence, variations can occur without changing the amino
+ acid sequence, especially in the third codon base, which
+ makes the gyrB gene with high resolution in the identifi
+cation of areas [29]. It was shown that gyrB gene had
+ relatively higher discrimination ability, which was well
+ proven by the present study.
+ Among the 13 tested samples including seven species of
+ Salmonella, primer pair S-P-for and S-P-rev gave the best
+ discriminative of Salmonella with a unique amplification
+ product of 366-bp in size. Therefore, primer pair S-P-for
+ and S-P-rev, was used to develop a rapid culture-PCR
+ method for identification of Salmonella. Although the
+ number of the pure culture samples tested is relatively low,
+ fortunately, the specificity determination results shown that
+ the sequences of amplicon of the 366-bp-length gyrB gene
+ from fecal sample proved that all to belong to Salmonella.
+ The culture-PCR method developed was also successfully
+ used in the identification of Salmonella isolates from fecal
+ sample. 100% of the isolates morphologically similar to
+ Salmonella on the SS medium were identified as Salmo
+nella, which was confirmed through sequencing of the
+ 366-bp-length gyrB gene.
+ Sensitivity Determined With S. enteritidis
+ The detection limit of the PCR was determined by DNA
+PCR and culture-PCR using 30 cycles of amplification.
+ Serial 10-fold dilutions DNA of S. enteritidis were used as
+ templates, and the dilutions that contained more than
+ 0.01 ng per microliter gave the expected amplification
+ band (Fig. 2), which showed the DNA-PCR limit was
+ calculated to be 0.01 ng per assay. At the same time, serial
+ 10-fold diluted cultures of S. enteritidis were also used as
+ templates and the dilutions that contained more than 3.2
+ per microliter gave the expected amplification band
+ (Fig. 3) in three replicates. The PCR detection limit was
+ calculated to be 4–10 cells per assay, indicating the sen
+sitivity of the rapid culture-PCR method.
+ The concentration of Salmonella in the environment is
+ usually lower, and so whether the method could detect it
+ with high sensitivity is crucial. The gyrB gene is a single
+copy gene, but a sensitivity of 0.01 ng with genomic DNA
+ or 3.2 cells per PCR was obtained in the assay. It is obvious
+ that the PCR detection limit was little influenced by the
+ single copy of the target gene, which is ascribed to the high
+ efficiency of PCR. This detection sensitivity ensured that
+ Fig. 2 The representative image of amplification products of serial
+ DNA dilutions of S. enteritidis CMCC50335. Lanes 1–6: 1, 0.1,
+ 0.1 9 10-1, 0.1 9 10-2 and 0.1 9 10-3, lane 7, negative control,
+ M molecular size markers (DL2000). The length of each amplified
+ fragment was 366 bp. 133 9 101 mm (72 9 72 DPI)
+ Fig. 3 The representative image of amplification products of serial
+ culture dilutions of S. enteritidis CMCC50335. Lanes 1–6: 3.2 9 104,
+ 3.2 9 103, 3.2 9 102, 3.2 9 101, 3.2 9 100 and 3.2 9 10-1 cells
+ per PCR mixture, lane 7 negative control; M 100 bp ladder marker.
+ The length of each amplified fragment was 366 bp. 148 9 106 mm
+ (72 9 72 DPI)
+ even if the Salmonella in environment samples is very low,
+ it could still be detected.
+ Specificity Determination
+ To check the specificity of the PCR method, total DNA
+ from fresh fecal sample was used as a template to detect
+ Salmonella. A single product of the predicted size (366 bp)
+ was successfully amplified. The amplicon was cloned, and
+ 22 of the clones were randomly selected for sequencing
+ (DDBJ accession no. AB607965–AB607986). The phylo
+genetic tree indicated that the 22 clones were clustered
+ with the species of Salmonella (Fig. 4). The gyrB sequence
+ of only Salmonella was amplified from the total fecal
+ 123
+X. Ye et al.: A gyrB-targeted PCR for Rapid Identification
+ 481
+ Fig. 4 Phylogenetic tree based
+ on gyrB sequences of the clones
+ and the isolates from fecal
+ samples. It was constructed
+ using the Neighbor-Joining
+ method (MEGA version 4.0).
+ The number at each node
+ indicates bootstrap values
+ ([50%) of 1,000 repetitions.
+ 22 clones and 27 isolates shared
+ 100% similarity with
+ Salmonella. 337 9 668 mm
+ (300 9 300 DPI)
+ 123
+482
+ X. Ye et al.: A gyrB-targeted PCR for Rapid Identification
+ DNA,demonstrating the specificity and validity of the PCR
+ method.
+ Identification of Salmonella Isolates
+ The culture-PCR method was applied to identify the iso
+lates of Salmonella from fecal sample. Twenty-seven iso
+lates morphologically similar to Salmonella were obtained
+ from the fecal sample. The 366-bp gyrB genes of the 27
+ isolates were amplified and sequenced. The sequences of
+ the 27 isolates with positive amplifications in the culture
+PCR shared 100% similarity with that of Salmonella. The
+ phylogenetic tree indicated that the 27 isolates were clus
+tered with the species of Salmonella (Fig. 4).
+ Consideration of Ease of use
+ The culture-PCR developed method developed is a time
+saving one with good sensitivity. In comparison to the time
+ consumed in classic method (2 days) and the method of
+ sequencing (3 days) or DNA–DNA hybridization (2 days),
+ only 4–5 h duration is required in the culture-PCR method.
+ Typically, the template of PCR was always DNA, but the
+ time consumed in extracting DNA was at least 2 h. In our
+ assay, on the lyses condition at 99C, 10 min, the bacterial
+ DNAcould be completely free, so the DNA extraction was
+ omitted when pyrolysis bacterial was used as a template. In
+ addition, our previous experiments results have shown that
+ LB medium did not affect the PCR reaction results (data
+ not shown). Therefore, this method could be utilized for
+ handling a large numbers of new isolates, such as in a
+ biodiversity study or a large isolate-screening program.
+ In conclusion, a species-specific PCR method was suc
+cessfully developed for the rapid identification of Salmo
+nella from pure isolates and detection of the species from a
+ complex fecal sample. More studies should be carried out
+ to test the potential of the special PCR in applications
+ involving large sample throughput, such as in food,
+ wastewater, soil, and in the identification of a large number
+ of novel isolates.
+ Acknowledgments This research was supported by the National
+ Natural Science Foundation of China (20607024), The Knowledge
+ Innovation Program of Chinese Academy of Sciences (KSCX2-EW
+N-08), Special Fund for Agro-Scientific Research in the Public
+ Interest (200903011) and the Knowledge Innovation Program of the
+ Chinese Academy of Sciences (ISSASIP0721)
+
+//
+
+a 
+b 
+s 
+t 
+r 
+a 
+c 
+t
+ The 
+bacterial 
+genus 
+Clavibacter 
+has 
+only 
+one 
+species, 
+Clavibacter 
+michiganensis, 
+containing 
+five 
+subspecies.
+ All 
+five 
+are 
+plant 
+pathogens, 
+among 
+which 
+three 
+are 
+recognized 
+as 
+quarantine 
+pests 
+(mentioned 
+on 
+the
+ EPPO 
+A2 
+list). 
+Prevention 
+of 
+their 
+introduction 
+and 
+epidemic 
+outbreaks 
+requires 
+a 
+reliable 
+and 
+accurate
+ identification. 
+Currently, 
+identification 
+of 
+these 
+bacteria 
+is 
+time 
+consuming 
+and 
+often 
+problematic, 
+mainly
+ because 
+of 
+cross-reactions 
+with 
+other 
+plant-associated 
+bacteria 
+in 
+immunological 
+tests 
+and 
+false-negative
+ results 
+in 
+PCR 
+detection 
+methods. 
+Furthermore, 
+distinguishing 
+closely 
+related 
+subspecies 
+is 
+not 
+straight
+forward. 
+This 
+study 
+aimed 
+at 
+evaluating 
+the 
+use 
+of 
+matrix-assisted 
+laser 
+desorption 
+ionization-time 
+of
+ flight 
+mass 
+spectrometry 
+(MALDI-TOF 
+MS) 
+and 
+a 
+fragment 
+of 
+the 
+gyrB 
+sequence 
+for 
+the 
+reliable 
+and 
+fast
+ identification 
+of 
+the 
+Clavibacter 
+subspecies. 
+Amplification 
+and 
+sequencing 
+of 
+gyrB 
+using 
+a 
+single 
+primer 
+set
+ had 
+sufficient 
+resolution 
+and 
+specificity 
+to 
+identify 
+each 
+subspecies 
+based 
+on 
+both 
+sequence 
+similarities 
+in
+ cluster 
+analyses 
+and 
+specific 
+signatures 
+within 
+the 
+sequences. 
+All 
+five 
+subspecies 
+also 
+generated 
+distinct
+ and 
+reproducible 
+MALDI-TOF 
+MS 
+profiles, 
+with 
+unique 
+and 
+specific 
+ion 
+peaks 
+for 
+each 
+subspecies, 
+which
+ could 
+be 
+used 
+as 
+biomarkers 
+for 
+identification. 
+Results 
+from 
+both 
+methods 
+were 
+in 
+agreement 
+and 
+were
+ able 
+to 
+distinguish 
+the 
+five 
+Clavibacter 
+subspecies 
+from 
+each 
+other 
+and 
+from 
+representatives 
+of 
+closely
+ related 
+Rathayibacter, 
+Leifsonia 
+or 
+Curtobacterium 
+species. 
+Our 
+study 
+suggests 
+that 
+proteomic 
+analysis
+ using 
+MALDI-TOF 
+MS 
+and 
+gyrB 
+sequence 
+are 
+powerful 
+diagnostic 
+tools 
+for 
+the 
+accurate 
+identification 
+of
+ Clavibacter 
+plant 
+pathogens.
+ © 2011 Elsevier GmbH. All rights reserved.
+ Introduction
+ Clavibacter 
+michiganensis 
+harbours 
+aerobic, 
+non-sporulating
+ rods 
+that 
+belong 
+to 
+the 
+GC 
+rich 
+subgroup 
+of 
+Gram-positive 
+bac
+teria. 
+It 
+constitutes 
+the 
+only 
+species 
+within 
+the 
+genus 
+Clavibacter
+ and 
+currently 
+consists 
+of 
+five 
+subspecies, 
+all 
+of 
+which 
+are 
+plant
+ pathogens: 
+C. 
+m. 
+subsp. 
+insidiosus 
+(Cmi), 
+C. 
+m. 
+subsp. 
+michiganensis
+ (Cmm), 
+C. 
+m. 
+subsp. 
+nebraskensis 
+(Cmn), 
+C. 
+m. 
+subsp. 
+sepedonicus
+ (Cms) 
+and 
+C. 
+m. 
+subsp. 
+tesselarius 
+(Cmt) 
+[12]. 
+They 
+are 
+harmful 
+on
+ important 
+agricultural 
+crops 
+such 
+as 
+alfalfa, 
+tomato, 
+corn, 
+potato
+ and 
+wheat. 
+The 
+host 
+range 
+of 
+each 
+subspecies 
+is 
+limited, 
+mostly
+ restricted 
+to 
+one 
+plant 
+species, 
+and 
+most 
+of 
+them 
+are 
+pathogens 
+of
+ vascular 
+plants, 
+causing 
+wilt 
+as 
+main 
+symptom. 
+Based 
+on 
+cell 
+wall
+ composition, 
+menaquinones 
+and 
+additional 
+phenotypic 
+markers,
+ former 
+Clavibacter 
+species 
+were 
+reclassified 
+to 
+the 
+genus 
+Curtobac
+terium, 
+Leifsonia 
+and 
+Rathayibacter 
+[4,13,45]. 
+Cmm, 
+Cms 
+and 
+Cmi
+ ∗Corresponding 
+author. 
+Tel.: 
++32 
+92645101; 
+fax: 
++32 
+92645092.
+ E-mail 
+address: 
+Joanna.Zaluga@ugent.be 
+(J. 
+Zaluga).
+ have 
+quarantine 
+status 
+in 
+plant 
+health 
+legislation 
+in 
+Europe 
+[2].
+ Every 
+year 
+they 
+cause 
+serious 
+economic 
+damage 
+due 
+to 
+actual 
+yield
+ reduction 
+[7] 
+but 
+also 
+due 
+to 
+statutory 
+measures 
+taken 
+to 
+eliminate
+ the 
+pathogen 
+from 
+seed 
+stocks 
+[44]. 
+Transport 
+of 
+certain 
+plants 
+and
+ plant 
+products 
+within 
+the 
+EU 
+is 
+regulated, 
+as 
+well 
+as 
+introduction 
+of
+ certain 
+commodities 
+from 
+third 
+countries 
+into 
+the 
+EU. 
+Plant 
+health
+ and 
+seed 
+certifications 
+are 
+mandatory 
+to 
+prevent 
+the 
+introduction,
+ spread 
+and 
+establishment 
+of 
+specific 
+plant 
+pests 
+and, 
+if 
+detected, 
+to
+ implement 
+control 
+strategies 
+with 
+the 
+aim 
+of 
+eradication 
+[2].
+ Diagnostic 
+procedures 
+for 
+phytopathogenic 
+C. 
+michiganensis
+ subspecies 
+are 
+available 
+from 
+either 
+the 
+European 
+Union 
+or 
+Euro
+pean 
+Plant 
+Protection 
+Organization 
+(EPPO) 
+[9–11]. 
+Fundamental 
+in
+ the 
+diagnostic 
+process 
+is 
+the 
+rapid, 
+reliable 
+and 
+accurate 
+identifi
+cation 
+of 
+the 
+phytopathogen 
+to 
+confirm 
+its 
+presence 
+and 
+identity,
+ which 
+for 
+C. 
+michiganensis 
+subspecies 
+can 
+be 
+done 
+by 
+pheno
+typic 
+properties, 
+serological 
+tests, 
+fatty 
+acid 
+or 
+protein 
+profiles 
+and
+ molecular 
+assays. 
+Final 
+confirmation 
+is 
+obtained 
+in 
+a 
+pathogenic
+ity 
+test. 
+Usually, 
+a 
+serological 
+test 
+or 
+fatty 
+acid 
+profile 
+is 
+combined
+ with 
+a 
+molecular 
+test 
+such 
+as 
+PCR, 
+real-time 
+PCR 
+or 
+a 
+fingerprint
+ PCR, 
+e.g., 
+BOX-PCR. 
+PCR 
+identification 
+of 
+the 
+Clavibacter 
+michiga
+0723-2020/$ – 
+see 
+front 
+matter© 
+ 2011 Elsevier GmbH. All rights reserved.
+ doi:10.1016/j.syapm.2011.05.001
+J. 
+Zaluga 
+et 
+al. 
+/ 
+Systematic 
+and 
+Applied 
+Microbiology 
+34 (2011) 400– 
+407 401
+ nensis 
+subspecies 
+targets 
+the 
+16S–23S 
+rRNA 
+spacer 
+region 
+[29],
+ other 
+chromosomal 
+regions 
+[27] 
+or 
+plasmid 
+encoded 
+genes 
+[21,28].
+ This 
+diversity 
+of 
+tests 
+and 
+targets, 
+each 
+with 
+its 
+intrinsic 
+specificity,
+ can 
+trigger 
+inconsistent 
+or 
+conflicting 
+results 
+in 
+identification 
+of 
+C.
+ michiganensis 
+subspecies. 
+PCR 
+using 
+a 
+uniform 
+target 
+region 
+present
+ in 
+all 
+C. 
+michiganensis 
+subspecies 
+will 
+allow 
+complete 
+differenti
+ation 
+within 
+the 
+whole 
+species, 
+greatly 
+simplifying 
+identification
+ of 
+these 
+important 
+plant 
+pathogens. 
+Sequencing 
+of 
+the 
+16S 
+rRNA
+ gene 
+is 
+the 
+most 
+common 
+identification 
+tool 
+in 
+bacterial 
+taxonomy
+ [17], 
+but 
+its 
+resolution 
+is 
+not 
+sufficient 
+for 
+accurate 
+delineation 
+at
+ subspecies 
+level. 
+Other 
+targets, 
+such 
+as 
+housekeeping 
+genes 
+atpA,
+ rpoB, 
+gyrB 
+and 
+others, 
+have 
+already 
+proven 
+to 
+be 
+useful 
+for 
+reliable
+ identification 
+in 
+genera 
+such 
+as 
+Ensifer 
+[25], 
+Microbacterium 
+[36]
+ and 
+others. 
+Sequence 
+analysis 
+of 
+the 
+gyrase 
+B 
+gene 
+(gyrB), 
+deserves
+ attention 
+as 
+potential 
+identification 
+tool 
+for 
+the 
+genus 
+Clavibacter
+ as 
+it 
+was 
+already 
+proposed 
+as 
+a 
+possible 
+useful 
+phylogenetic 
+marker
+ for 
+members 
+of 
+the 
+family 
+Microbacteriacea, 
+of 
+which 
+Clavibacter
+ is 
+a 
+member 
+[35].
+ Recently, 
+a 
+number 
+of 
+studies 
+demonstrated 
+the 
+usefulness 
+of
+ MALDI-TOF 
+MS 
+(matrix 
+assisted 
+laser 
+desorption/ionization 
+time
+ of 
+flight 
+mass 
+spectrometry) 
+for 
+rapid 
+identification 
+of 
+clinical
+ pathogens 
+[3,14], 
+lactic 
+acid 
+bacteria 
+[41], 
+nonfermenting 
+bacteria
+ [26], 
+environmental 
+bacteria 
+[37], 
+etc. 
+In 
+this 
+type 
+of 
+mass 
+spec
+trometry, 
+samples 
+are 
+prepared 
+by 
+embedding 
+analyte 
+molecules
+ in 
+a 
+crystal 
+matrix 
+of 
+small 
+acidic 
+molecules. 
+A 
+brief 
+laser 
+pulse
+ irradiates 
+the 
+sample 
+and 
+the 
+matrix 
+absorbs 
+the 
+laser 
+energy
+ resulting 
+in 
+ablation 
+of 
+a 
+small 
+volume 
+of 
+matrix 
+and 
+desorption 
+of
+ the 
+embedded 
+analyte 
+molecules 
+which 
+are 
+ionized. 
+Subsequently,
+ predominantly 
+single 
+charged 
+analyte 
+ions 
+can 
+be 
+detected 
+and 
+ana
+lyzed 
+[23]. 
+Characterization 
+and/or 
+identification 
+using 
+MALDI-TOF
+ MS 
+is 
+based 
+on 
+differences 
+in 
+mass 
+to 
+charge 
+ratio 
+(m/z) 
+fingerprints
+ of 
+whole 
+cell 
+proteins, 
+mainly 
+representing 
+ribosomal 
+proteins
+ which 
+are 
+most 
+abundantly 
+expressed 
+under 
+all 
+growth 
+conditions
+ [38].
+ The 
+objective 
+of 
+this 
+study 
+was 
+to 
+develop 
+a 
+robust 
+identifica
+tion 
+method 
+applicable 
+to 
+all 
+C. 
+michiganensis 
+subspecies. 
+GyrB 
+and
+ MALDI-TOF 
+MS 
+profiling 
+were 
+evaluated 
+as 
+identification 
+tools 
+on 
+a
+ large 
+set 
+of 
+strains 
+of 
+all 
+C. 
+michiganensis 
+subspecies 
+retrieved 
+from
+ outbreaks 
+worldwide, 
+complemented 
+with 
+a 
+collection 
+of 
+reference
+ strains 
+and 
+representatives 
+of 
+phylogenetically 
+closely 
+related 
+taxa.
+ Applicability 
+of 
+both 
+techniques 
+for 
+correct 
+subspecies 
+assignment
+ was 
+evaluated 
+in 
+two 
+ways: 
+by 
+cluster 
+analysis 
+and 
+use 
+of 
+specific
+ signature 
+positions 
+in 
+case 
+of 
+sequence 
+data 
+and 
+by 
+cluster 
+analysis
+ together 
+with 
+biomarkers 
+for 
+spectral 
+data.
+ Materials 
+and 
+methods
+ Bacterial 
+strains 
+and 
+growth 
+conditions
+ A 
+total 
+of 
+173 
+strains 
+were 
+received 
+from 
+the 
+BCCM/LMG 
+Bac
+teria 
+Collection 
+(Ghent, 
+Belgium), 
+PD 
+collection 
+(Wageningen, 
+The
+ Netherlands) 
+GBBC 
+collection 
+(ILVO, 
+Merelbeke, 
+Belgium) 
+and 
+Insti
+tuto 
+Canario 
+de 
+Investigaciones 
+Agrarias 
+(Tenerife, 
+Spain). 
+This
+ Clavibacter 
+strain 
+subset 
+consisted 
+of 
+67 
+Cmm, 
+65 
+Cms, 
+13 
+Cmi, 
+9
+ Cmn, 
+4 
+Cmt 
+and 
+7 
+unidentified 
+Clavibacter 
+sp. 
+of 
+which 
+four 
+strains
+ were 
+described 
+as 
+Cmm 
+look-alikes. 
+Cmm 
+look-alikes 
+were 
+isolated
+ from 
+infected 
+tomato 
+seeds, 
+positively 
+identified 
+as 
+belonging 
+to 
+the
+ subspecies 
+Cmm 
+using 
+the 
+current 
+diagnostic 
+protocols 
+[9], 
+though
+ failed 
+the 
+pathogenicity 
+test 
+in 
+a 
+bioassay 
+(personal 
+communica
+tion 
+PD 
+collection). 
+The 
+following 
+outgroup 
+strains 
+were 
+included,
+ Rathayibacter 
+rathayi 
+LMG 
+3717, 
+Rathayibacter 
+tritici 
+LMG 
+3726,
+ Rathayibacter 
+iranicus 
+LMG 
+3677T, 
+Leifsonia 
+aquatica 
+LMG 
+18699,
+ and 
+four 
+Curtobacterium 
+strains. 
+All 
+strains 
+are 
+listed 
+in 
+Table 
+S1. 
+The
+ bacteria 
+were 
+grown 
+aerobically 
+at 
+25◦C 
+for 
+24–48 
+h. 
+Stock 
+cultures
+ were 
+stored 
+at 
+−20◦C 
+in 
+MicrobankTMbeads 
+(Pro-Lab 
+Diagnostics,
+ Canada) 
+until 
+analysis. 
+For 
+MALDI-TOF 
+MS 
+analysis, 
+bacteria 
+were
+ grown 
+on 
+MTNA 
+medium 
+without 
+antibiotics 
+added 
+[18]. 
+To 
+assess
+ the 
+influence 
+of 
+different 
+growth 
+media 
+on 
+species 
+recognition
+ using 
+MALDI-TOF 
+MS, 
+two 
+additional 
+media 
+recommended 
+by 
+the
+ BCCM/LMG 
+bacteria 
+collection 
+(http://bccm.belspo.be/index.php),
+ M6 
+(glucose 
+10 
+g, 
+yeast 
+extract 
+5 
+g, 
+peptone 
+5 
+g, 
+agar 
+15 
+g, 
+distilled
+ water 
+1 
+L, 
+pH 
+7.0) 
+and 
+M39 
+(medium 
+M6 
+supplemented 
+with 
+0.1 
+g
+ casein 
+hydrolysate 
+per 
+liter) 
+were 
+used. 
+These 
+two 
+media 
+were 
+also
+ used 
+to 
+obtain 
+cultures 
+for 
+DNA 
+extraction.
+ DNA 
+extraction 
+and 
+sequencing
+ Total 
+genomic 
+DNA 
+was 
+extracted 
+according 
+to 
+the 
+guanidium
+thiocyanate–EDTA–sarkosyl 
+method 
+described 
+by 
+Pitcher 
+[31]
+ which 
+was 
+adapted 
+for 
+Gram-positive 
+bacteria 
+with 
+an 
+additional
+ lysozyme 
+step 
+as 
+described 
+before 
+16S 
+rRNA 
+gene 
+amplification
+ was 
+performed 
+as 
+described 
+previously 
+with 
+primers 
+pA-forward
+ and 
+pH-reverse 
+[16]. 
+Subsequently, 
+PCR 
+products 
+were 
+purified
+ and 
+partially 
+sequenced 
+as 
+described 
+below 
+using 
+the 
+primers
+ BKL1-reverse 
+(5-ACTGCTGCCTCCCGTAGGAG-3, 
+position 
+536–516
+ in 
+the 
+Escherichia 
+coli 
+numbering 
+system) 
+and 
+gamma-reverse 
+(5
+ACTGCTGCCTCCCGTAGGAG-3, 
+position 
+358–339) 
+[16].
+ A 
+fragment 
+of 
+the 
+gyrB 
+was 
+amplified 
+by 
+PCR 
+with 
+the 
+previously
+ described 
+primers 
+gyrB-2F 
+and 
+gyrB-4R 
+[35]. 
+The 
+PCR 
+mixture 
+had 
+a
+ total 
+volume 
+of 
+25 
+l, 
+containing 
+1× 
+PCR 
+buffer 
+(100 
+mM 
+Tris–HCl,
+ 15 
+mM 
+MgCl2, 
+500 
+mM 
+KCl 
+[pH 
+8.3]), 
+dNTP’s 
+0.2 
+mM 
+each, 
+0.6 
+M 
+of
+ each 
+primer, 
+0.5 
+U 
+AmpliTaq 
+DNA 
+polymerase, 
+and 
+50–60 
+ng 
+tem
+plate 
+DNA. 
+The 
+PCR 
+conditions 
+were 
+as 
+described 
+previously 
+[35].
+ The 
+expected 
+amplicon 
+size 
+was 
+about 
+550 
+bp. 
+Resulting 
+amplicons
+ were 
+purified 
+using 
+the 
+Nucleofast®96 
+PCR 
+clean 
+up 
+membrane
+ system 
+(Macherey-Nagel, 
+Germany). 
+Sequencing 
+reactions 
+were
+ performed 
+in 
+a 
+total 
+volume 
+of 
+10 
+l 
+with 
+3 
+l 
+of 
+purified 
+ampli
+con, 
+0.286 
+l 
+of 
+BigDyeTMmixture 
+(Terminator 
+Cycle 
+Sequencing
+ Kit 
+version 
+3.1, 
+Applied 
+Biosystems), 
+1× 
+sequencing 
+buffer 
+and
+ 1.2 
+M 
+of 
+each 
+of 
+the 
+amplification 
+primers 
+(gyrB 
+2F 
+and 
+gyrB 
+4R).
+ The 
+thermal 
+program 
+consisted 
+of 
+30 
+cycles 
+(96◦C 
+for 
+15 
+s, 
+35◦C 
+for
+ 1 
+s, 
+60◦C 
+for 
+4 
+min). 
+Subsequently, 
+the 
+sequencing 
+products 
+were
+ purified 
+using 
+the 
+BigDye 
+XTerminator 
+Kit 
+(Applied 
+Biosystems)
+ and 
+analyzed 
+on 
+a 
+3130xl 
+Genetic 
+Analyzer 
+(Applied 
+Biosystems).
+ Sequence 
+analysis
+ The 
+16S 
+rRNA 
+gene 
+and 
+gyrB 
+sequences 
+were 
+assembled 
+with
+ BioNumerics 
+version 
+5.1 
+(Applied 
+Maths, 
+Belgium) 
+and 
+aligned
+ using 
+ClustalW 
+[42]. 
+The 
+identity 
+assigned 
+to 
+each 
+strain 
+by 
+the
+ three 
+culture 
+collections 
+was 
+verified 
+with 
+an 
+nBLAST 
+of 
+the 
+16S
+ rRNA 
+gene 
+sequence 
+of 
+each 
+strain 
+and 
+a 
+neighbor-joining 
+cluster
+ analysis 
+with 
+all 
+type 
+strains 
+of 
+all 
+species 
+of 
+all 
+genera 
+mentioned 
+in
+ the 
+twenty 
+highest 
+BLAST 
+hits. 
+The 
+strains 
+were 
+assigned 
+to 
+a 
+genus
+ based 
+on 
+the 
+obtained 
+pairwise 
+16S 
+rRNA 
+gene 
+sequence 
+similarity
+ (>98% 
+gene 
+sequence 
+similarity).
+ GyrB 
+sequences 
+were 
+checked 
+by 
+amino 
+acid 
+translation 
+with
+ Transseq 
+(http://www.ebi.ac.uk/Tools/emboss/transeq/) 
+and 
+pres
+ence 
+of 
+the 
+gyrB 
+protein 
+domain 
+was 
+confirmed 
+with 
+pBlast 
+[1].
+ Molecular 
+Evolutionary 
+Genetics 
+Analysis 
+software 
+(Mega 
+4.1) 
+[40]
+ was 
+used 
+to 
+calculate 
+evolutionary 
+distances 
+based 
+on 
+a 
+500 
+bp 
+(this
+ equal 
+length 
+was 
+used 
+for 
+all 
+strains) 
+gyrB 
+fragment 
+of 
+the 
+gyrB
+ amplicon, 
+and 
+to 
+infer 
+Maximum 
+Parsimony 
+(MP), 
+Maximum 
+Like
+lihood 
+(ML) 
+and 
+Neighbor-Joining 
+(NJ) 
+trees 
+using 
+the 
+maximum
+ composite 
+likelihood 
+(MCL) 
+model.
+ TaxonGap 
+software, 
+version 
+2.4.1 
+[39], 
+was 
+used 
+to 
+define 
+the
+ discriminatory 
+power 
+of 
+both 
+sequence 
+markers, 
+16S 
+rRNA 
+and
+ gyrB, 
+and 
+to 
+identify 
+sequence 
+characters 
+using 
+strains 
+of 
+Clavibac
+ter 
+subspecies 
+with 
+established 
+name 
+and 
+confirmed 
+pathogenicity.
+ To 
+establish 
+the 
+positions 
+within 
+the 
+gyrB 
+and 
+16S 
+rRNA 
+gene, 
+the
+402 J. 
+Zaluga 
+et 
+al. 
+/ 
+Systematic 
+and 
+Applied 
+Microbiology 
+34 (2011) 400– 
+407
+ whole 
+Cmm 
+genome 
+sequence 
+(AM711867) 
+was 
+used 
+as 
+a 
+refer
+ence.
+ MALDI-TOF 
+MS
+ Preparation 
+of 
+cell 
+extracts. 
+The 
+formic 
+acid–acetonitrile 
+extrac
+tion 
+as 
+developed 
+by 
+Bruker 
+Daltonics 
+[24] 
+was 
+optimized 
+to 
+retain
+ mostly 
+ribosomal 
+proteins. 
+For 
+this, 
+a 
+small 
+amount 
+of 
+bacterial 
+cells
+ (yellow 
+loop) 
+was 
+suspended 
+in 
+300 
+l 
+of 
+distilled 
+water 
+after 
+which
+ 900 
+l 
+of 
+absolute 
+ethanol 
+was 
+added. 
+This 
+mixture 
+was 
+centrifuged
+ at 
+18,000 
+× 
+g 
+for 
+3 
+min 
+and 
+the 
+supernatant 
+was 
+discarded. 
+Subse
+quently, 
+the 
+pellet 
+was 
+resuspended 
+in 
+50 
+l 
+of 
+formic 
+acid 
+(70%
+ [v/v]) 
+after 
+which 
+50 
+l 
+of 
+acetonitrile 
+(ACN) 
+was 
+added. 
+Following
+ centrifugation 
+at 
+18,000 
+× 
+g 
+for 
+3 
+min, 
+one 
+microliter 
+of 
+the 
+super
+natant 
+was 
+spotted 
+on 
+a 
+steel 
+target 
+plate 
+(AB 
+Sciex, 
+Belgium) 
+and
+ air 
+dried 
+at 
+room 
+temperature. 
+Finally, 
+the 
+sample 
+spot 
+was 
+overlaid
+ with 
+1 
+l 
+of 
+a 
+0.5% 
+(w/v) -cyano-4-hydroxy 
+cinnamic 
+acid 
+(
+CHCA) 
+solution 
+in 
+ACN-MilliQ 
+water-trifluoroacetic 
+(50:48:2 
+v/v/v)
+ and 
+air 
+dried.
+ MALDI-TOF 
+MS 
+analysis. 
+Measurements 
+were 
+performed 
+on 
+a
+ 4800 
+Plus 
+MALDI 
+TOF/TOFTMAnalyzer 
+(AB 
+Sciex, 
+Belgium) 
+in 
+lin
+ear, 
+positive-ion 
+mode 
+with 
+a 
+200-Hz 
+frequency 
+tripled 
+UV 
+Nd:YAG
+ laser 
+operating 
+at 
+a 
+wavelength 
+of 
+355 
+nm. 
+Generated 
+ions 
+were
+ accelerated 
+at 
+20 
+kV 
+through 
+a 
+grid 
+at 
+19.2 
+kV 
+and 
+separated 
+accord
+ing 
+to 
+their 
+m/z 
+ratio 
+in 
+a 
+1.5 
+m 
+long 
+linear, 
+field-free 
+drift 
+region.
+ Each 
+generated 
+spectrum 
+resulted 
+from 
+40 
+laser 
+shots 
+at 
+50 
+random
+ positions 
+within 
+the 
+measuring 
+spot 
+(2000 
+spectra/spot). 
+MALDI
+TOF 
+mass 
+spectra 
+were 
+generated 
+in 
+the 
+range 
+2–20 
+kDa. 
+Calibration
+ was 
+performed 
+using 
+an 
+external 
+protein 
+calibration 
+mix 
+composed
+ of 
+the 
+Protein 
+Calibration 
+Standard 
+I 
+developed 
+by 
+Bruker 
+Dalton
+ics 
+(Bruker) 
+[composition: 
+insulin 
+([M+H]+, 
+m/z 
+5734.6), 
+ubiquitin
+ I 
+([M+H]+, 
+m/z 
+8565.9), 
+cytochrome 
+C 
+([M+H]+, 
+m/z 
+12361.5), 
+myo
+globin 
+([M+H]+, 
+m/z 
+16952.3)] 
+and 
+an 
+ACTH 
+clip 
+18–39 
+([M+H]+,
+ m/z 
+2466.7) 
+(Sigma–Aldrich), 
+resulting 
+in 
+five 
+peaks 
+spread 
+over 
+the
+ whole 
+fingerprint 
+spectrum. 
+The 
+error 
+allowed 
+to 
+match 
+the 
+peak
+ of 
+the 
+proteins 
+was 
+set 
+at 
+200 
+ppm. 
+Bruker 
+Bacterial 
+Test 
+Standard
+ (Bruker) 
+of 
+E. 
+coli 
+DH5 
+was 
+included 
+with 
+every 
+set 
+of 
+measure
+ments 
+as 
+a 
+positive 
+control. 
+Each 
+sample 
+was 
+spotted 
+at 
+least 
+in
+ duplicate 
+to 
+check 
+the 
+reproducibility.
+ Analysis 
+of 
+the 
+spectral 
+data. 
+Mass 
+spectra 
+were 
+generated 
+in
+ t2d 
+format 
+and 
+converted 
+to 
+txt 
+files 
+using 
+ABI 
+Data 
+Explorer 
+4.0
+ software 
+(AB 
+Sciex), 
+after 
+which 
+they 
+were 
+imported 
+into 
+BioNu
+merics 
+5.1 
+software 
+(Applied 
+Maths, 
+Belgium). 
+To 
+obtain 
+reliable
+ data 
+analysis, 
+the 
+spectra 
+with 
+extensive 
+noise 
+and/or 
+insufficient
+ signal 
+intensity 
+were 
+excluded 
+from 
+further 
+analysis. 
+High 
+levels
+ of 
+noise 
+signals, 
+possibly 
+due 
+to 
+interference 
+of 
+remaining 
+polysac
+charides 
+or 
+salts 
+in 
+the 
+cell 
+extracts 
+at 
+the 
+beginning 
+of 
+the 
+profile
+ were 
+left 
+out 
+of 
+the 
+analysis 
+as 
+excluding 
+the 
+first 
+5% 
+of 
+the 
+profile
+ (shifting 
+the 
+m/z 
+range 
+from 
+2 
+kDa 
+to 
+3 
+kDa) 
+was 
+enough 
+to 
+obtain
+ more 
+reliable 
+profiles.
+ The 
+similarity 
+between 
+the 
+spectra 
+was 
+expressed 
+using 
+Pear
+son’s 
+product 
+moment 
+correlation 
+coefficient, 
+a 
+curve 
+based
+ analysis, 
+and 
+the 
+spectra 
+were 
+clustered 
+using 
+the 
+UPGMA
+ (unweighted 
+pair 
+group 
+method 
+with 
+arithmetic 
+mean) 
+clustering
+ algorithm. 
+Next 
+to 
+cluster 
+analysis, 
+spectral 
+data 
+were 
+investigated
+ for 
+the 
+presence 
+of 
+biomarkers 
+characteristic 
+for 
+each 
+Clavibac
+ter 
+subspecies. 
+After 
+visual 
+inspection 
+and 
+comparison, 
+the 
+most
+ intensive 
+and 
+predominantly 
+present 
+protein 
+peaks 
+were 
+selected
+ and 
+screened 
+in 
+representatives 
+of 
+each 
+subspecies. 
+Because
+ the 
+in-house 
+cell 
+extraction 
+protocol 
+was 
+designed 
+to 
+retain
+ mainly 
+ribosomal 
+proteins, 
+selected 
+biomarkers 
+could 
+be 
+assigned
+ to 
+specific 
+ribosomal 
+proteins 
+by 
+comparing 
+protein 
+masses
+ to 
+the 
+Rapid 
+Microorganism 
+Identification 
+Database 
+(RMIDb)
+ http://www.rmidb.org/cgi-bin/index.pl. 
+This 
+database 
+was 
+created
+ to 
+identify 
+bacteria 
+and 
+viruses 
+using 
+existing 
+mass 
+spectrom
+etry 
+protocols. 
+RMIDb 
+contains 
+all 
+bacterial, 
+virus, 
+plasmid 
+and
+ environmental 
+protein 
+sequences 
+from 
+the 
+Ventor 
+Institute’s 
+Com
+prehensive 
+Microbial 
+Resource 
+(CMR), 
+UniProt’s 
+Swiss-Prot 
+and
+ TrEMBL, 
+Genbank’s 
+Protein, 
+and 
+RefSeq’s 
+Protein 
+and 
+Genome 
+[30].
+ Nucleotide 
+accession 
+numbers
+ The 
+Clavibacter 
+sequences 
+have 
+been 
+deposited 
+in 
+the 
+EMBL
+ Database 
+with 
+accession 
+numbers 
+FR728257–FR728381 
+and
+ FR727975–FR728147 
+for 
+the 
+16S 
+rRNA 
+gene 
+and 
+gyrB 
+sequences
+ respectively.
+ Results
+ Strain 
+set
+ A 
+total 
+of 
+165 
+Clavibacter 
+strains 
+and 
+eight 
+outgroup 
+strains
+ were 
+included 
+in 
+this 
+study, 
+covering 
+a 
+wide 
+geographical 
+and
+ temporal 
+spread 
+(Table 
+S1). 
+Information 
+received 
+from 
+the 
+cul
+ture 
+collections 
+on 
+subspecies 
+allocation 
+of 
+strains 
+was 
+initially
+ regarded 
+as 
+correct. 
+However, 
+partial 
+16S 
+rRNA 
+gene 
+sequence 
+anal
+ysis 
+demonstrated 
+that 
+not 
+all 
+strains 
+belonged 
+to 
+Clavibacter 
+(data
+ not 
+shown). 
+Neighbor 
+joining 
+analysis 
+of 
+16S 
+rRNA 
+gene 
+sequences
+ distinguished 
+two 
+separate 
+groups 
+of 
+Clavibacter, 
+one 
+containing
+ the 
+majority 
+of 
+clavibacters 
+and 
+the 
+second 
+containing 
+four 
+strains,
+ three 
+of 
+which 
+were 
+originally 
+assigned 
+to 
+the 
+Cmm 
+and 
+one 
+to
+ the 
+subspecies 
+sepedonicus. 
+However, 
+BLAST 
+analysis 
+of 
+members
+ of 
+this 
+second 
+group 
+showed 
+100% 
+16S 
+rRNA 
+gene 
+sequence 
+sim
+ilarity 
+to 
+members 
+of 
+the 
+genus 
+Curtobacterium 
+(Curtobacterium
+ flaccumfaciens, 
+accession 
+number 
+GU586309.1, 
+Curtobacterium 
+sp.,
+ accession 
+number 
+GU120656.1 
+and 
+Curtobacterium 
+flaccumfaciens
+ pv. 
+flaccumfaciens, 
+accession 
+number 
+AM410688.1). 
+These 
+results
+ indicated 
+that 
+these 
+strains 
+had 
+been 
+incorrectly 
+identified 
+as
+ Clavibacter, 
+which 
+was 
+confirmed 
+by 
+pairwise 
+sequence 
+similar
+ity 
+analysis 
+with 
+type 
+strains 
+of 
+genus 
+Curtobacterium. 
+The 
+separate
+ position 
+of 
+these 
+four 
+Curtobacterium 
+strains 
+was 
+later 
+also 
+observed
+ in 
+gyrB 
+sequence 
+and 
+MALDI-TOF 
+MS 
+analyses. 
+Because 
+of 
+the
+ relevance 
+to 
+diagnostic 
+purposes, 
+Cmm 
+look-alikes 
+from 
+the 
+PD
+ collection 
+were 
+also 
+included 
+in 
+the 
+strain 
+set. 
+These 
+bacteria 
+were
+ isolated 
+from 
+infected 
+tomato 
+seeds 
+and 
+had 
+been 
+positively 
+iden
+tified 
+as 
+Cmm 
+although 
+they 
+could 
+not 
+be 
+confirmed 
+as 
+pathogenic
+ with 
+the 
+bioassay 
+test. 
+Both 
+MALDI-TOF 
+MS 
+and 
+gyrB 
+sequence 
+anal
+ysis 
+grouped 
+these 
+Cmm 
+look-alikes 
+in 
+separate 
+clusters. 
+Moreover,
+ both 
+gyrB 
+sequence 
+analysis 
+and 
+MALDI-TOF 
+MS 
+were 
+able 
+to 
+assign
+ three 
+unidentified 
+Clavibacter 
+spp., 
+with 
+strain 
+numbers 
+PD 
+5715,
+ PD 
+5716 
+and 
+PD 
+5714, 
+to 
+subsp. 
+nebraskensis, 
+subsp. 
+michiganen
+sis 
+and 
+subsp. 
+tesselarius, 
+respectively. 
+In 
+addition, 
+the 
+outgroup
+ strains 
+Rathayibacter; 
+Curtobacterium 
+and 
+Leifsonia 
+were 
+included
+ to 
+evaluate 
+the 
+sensitivity 
+and 
+robustness 
+of 
+MALDI-TOF 
+MS 
+and
+ gyrB 
+sequence 
+analysis.
+ GyrB 
+sequence 
+analysis
+ GyrB 
+amplicons 
+were 
+retrieved 
+from 
+all 
+strains 
+and 
+sequences
+ were 
+translated 
+into 
+amino 
+acids 
+as 
+a 
+quality 
+check. 
+Sequence
+ data 
+were 
+subsequently 
+analyzed 
+with 
+two 
+different 
+approaches,
+ namely 
+by 
+phylogenetic 
+analysis 
+and 
+by 
+identification 
+of 
+signature
+ nucleotides 
+specific 
+for 
+each 
+subspecies. 
+Cluster 
+analysis 
+clearly
+ grouped 
+all 
+gyrB 
+sequences 
+from 
+Clavibacter 
+spp. 
+separately 
+from
+ outgroups 
+and 
+Curtobacterium 
+spp. 
+Also, 
+sequences 
+from 
+each 
+sub
+species 
+formed 
+distinct 
+clusters, 
+supported 
+with 
+high 
+bootstrap
+ values 
+(Fig. 
+1). 
+In 
+Cmn 
+and 
+Cmi 
+the 
+sequences 
+were 
+identical,
+ whereas 
+in 
+Cms 
+sequences 
+similarity 
+ranged 
+from 
+97.1 
+to 
+100%,
+ in 
+Cmm 
+98.2% 
+to 
+100% 
+and 
+in 
+Cmt 
+96.2 
+to 
+99.3%. 
+Interestingly,
+ the 
+gyrB 
+sequences 
+from 
+the 
+Cmm 
+look-alikes 
+grouped 
+outside
+ the 
+Cmm 
+cluster, 
+although 
+these 
+strains 
+were 
+positively 
+identi
+fied 
+as 
+Cmm 
+using 
+the 
+current 
+diagnostic 
+procedure. 
+As 
+indicated
+J. 
+Zaluga 
+et 
+al. 
+/ 
+Systematic 
+and 
+Applied 
+Microbiology 
+34 (2011) 400– 
+407 403
+ subsp . michiganensis C. michiganensis 
+ Cmm look-alikes
+ . tesselarius C. michiganensis subsp
+ subsp . sepedonicus C. michiganensis 
+ nebraskensis C. michiganensis subsp.
+ insidiosus C. michiganensis subsp.
+ r sp.  Rathayibacte
+ LMG18699Leifsonia aquatica
+ sp. Curtobacterium
+ 100
+ 99 70
+ 100
+ 99
+ 91
+ 95
+ 82
+ 100
+ 98
+ 100
+ 0.02
+ Number of base substitutions per site
+ Fig. 
+1. 
+Phylogenetic 
+analysis 
+of 
+gyrB 
+sequences. 
+Rooted 
+neighbor-joining 
+tree 
+was 
+based 
+on 
+partial 
+gyrB 
+sequence 
+(position 
+646–1143 
+of 
+Cmm 
+NCPPB 
+382 
+accession 
+number
+ AM711867) 
+of 
+173 
+Clavibacter 
+strains. 
+Bootstrap 
+values 
+were 
+generated 
+from 
+1000 
+replicates. 
+Rathayibacter 
+sp. 
+and 
+Leifsonia 
+aquatica 
+were 
+included 
+as 
+outgroups. 
+NJ 
+tree 
+is
+ in 
+accordance 
+with 
+maximum 
+parsimony 
+and 
+maximum 
+likelihood 
+analysis. 
+GyrB 
+sequences 
+had 
+minimum 
+length 
+of 
+500 
+bp.
+ by 
+branch 
+lengths 
+in 
+the 
+phylogenetic 
+tree 
+(Fig. 
+1), 
+gyrB 
+sequence
+ variation 
+between 
+strains 
+of 
+the 
+same 
+subspecies 
+was 
+very 
+limited
+ and 
+even 
+absent 
+within 
+Cms, 
+Cmi 
+and 
+Cmn. 
+This 
+limited 
+diver
+gence 
+in 
+gyrB 
+sequence 
+was 
+translated 
+in 
+only 
+a 
+few 
+changes 
+in
+ amino 
+acid 
+composition. 
+Therefore, 
+the 
+suitability 
+of 
+the 
+gyrB 
+and
+ 16S 
+rRNA 
+sequences 
+as 
+phylogenetic 
+markers 
+was 
+investigated 
+fur
+ther 
+using 
+the 
+TaxonGap 
+2.4.1 
+software 
+(Fig. 
+S2) 
+for 
+visualization 
+of
+ the 
+intra- 
+and 
+intersubspecies 
+sequence 
+heterogeneity 
+and 
+com
+parison 
+of 
+the 
+discriminative 
+power 
+of 
+sequence 
+markers 
+for 
+a
+ set 
+of 
+taxonomic 
+units. 
+Analysis 
+was 
+performed 
+on 
+both 
+gyrB 
+and
+ 16S 
+rRNA 
+gene 
+sequences 
+of 
+strains 
+that 
+were 
+assigned 
+to 
+a 
+cer
+tain 
+subspecies 
+(only 
+strains 
+with 
+an 
+established 
+name 
+were 
+used.
+ All 
+Cmm 
+look-alike 
+strains 
+and 
+strains 
+received 
+as 
+Clavibacter 
+spp.
+ were 
+excluded 
+from 
+this 
+analysis). 
+For 
+all 
+subspecies, 
+gyrB 
+clearly
+ allowed 
+distinct 
+higher 
+sequence 
+divergence 
+between 
+sequences 
+of
+ different 
+subspecies 
+than 
+within 
+the 
+subspecies. 
+For 
+Cmt, 
+the 
+gyrB
+ sequence 
+heterogeneity 
+within 
+the 
+subspecies 
+was 
+higher 
+than 
+in
+ other 
+subspecies.
+ In 
+addition 
+to 
+the 
+standard 
+cluster 
+analysis 
+approach, 
+aligned
+ gyrB 
+sequences 
+were 
+manually 
+searched 
+for 
+the 
+presence 
+of 
+sig
+nature 
+positions 
+specific 
+for 
+each 
+subspecies. 
+In 
+total, 
+39 
+positions
+ differed 
+among 
+subspecies 
+throughout 
+the 
+gyrB 
+fragment 
+of 
+500 
+bp.
+ Based 
+on 
+these 
+positions; 
+unique 
+signatures 
+could 
+be 
+selected 
+for
+ each 
+subspecies 
+(Fig. 
+S3). 
+Numbers 
+of 
+unique 
+nucleotides 
+ranged
+ from 
+two 
+for 
+Cmm 
+to 
+nine 
+for 
+Cms 
+(Table 
+1). 
+Almost 
+all 
+sequence
+ divergences 
+at 
+these 
+positions 
+were 
+the 
+result 
+of 
+silent 
+mutations
+ whereas 
+only 
+four 
+changes 
+in 
+amino 
+acid 
+sequence 
+were 
+found
+ throughout 
+all 
+strains 
+of 
+C. 
+michiganensis.
+ MALDI-TOF 
+MS
+ All 
+strains 
+were 
+subjected 
+to 
+MALDI-TOF 
+MS 
+analysis. 
+Fifteen
+ percent 
+of 
+the 
+strains 
+were 
+analyzed 
+in 
+duplicate 
+to 
+assess 
+the
+ reproducibility 
+(mean 
+± 
+standard 
+deviation; 
+91.98% 
+± 
+3.91) 
+of 
+the
+ whole 
+MALDI-TOF 
+MS 
+procedure, 
+starting 
+from 
+growth 
+and 
+cell
+ extraction 
+over 
+spectrum 
+generation 
+to 
+data 
+analysis. 
+In 
+addition,
+ extracts 
+were 
+always 
+spotted 
+twice 
+on 
+the 
+target 
+plate, 
+to 
+evaluate
+ variation 
+(mean 
+± 
+SD; 
+99.21 
+± 
+0.95) 
+introduced 
+by 
+the 
+MALDI-TOF
+ MS 
+method. 
+The 
+standard 
+protocol 
+included 
+MTNA 
+growth 
+medium
+ for 
+all 
+strains 
+of 
+Clavibacter. 
+However, 
+in 
+diagnostics, 
+different
+ growth 
+media 
+are 
+applied 
+for 
+isolation 
+of 
+different 
+Clavibacter
+ subspecies. 
+Therefore, 
+the 
+influence 
+of 
+alternative 
+growth 
+media,
+ namely 
+M6 
+and 
+M39, 
+recommended 
+by 
+BCCM/LMG 
+collection, 
+on
+ MALDI-TOF 
+MS 
+spectra 
+was 
+investigated 
+for 
+54 
+strains 
+(31% 
+of 
+all
+ strains). 
+The 
+choice 
+of 
+growth 
+medium 
+had 
+no 
+influence 
+on 
+the 
+cor
+rect 
+subspecies 
+grouping 
+(Fig. 
+S1). 
+The 
+low 
+variations 
+introduced 
+by
+ the 
+technique 
+itself 
+and 
+through 
+the 
+use 
+of 
+different 
+growth 
+condi
+tions 
+together 
+with 
+its 
+high 
+reproducibility 
+provide 
+evidence 
+for 
+the
+ robustness 
+of 
+the 
+MALDI-TOF 
+MS 
+for 
+analysis 
+of 
+Clavibacter 
+strains.
+ Table 
+1
+ Overview 
+of 
+signatures 
+in 
+gyrB 
+gene 
+sequences, 
+which 
+are 
+unique 
+combinations
+ of 
+characters 
+for 
+individual 
+subspecies 
+of 
+Clavibacter. 
+Specific 
+nucleotide 
+present
+ at 
+each 
+discriminative 
+position 
+(position 
+in 
+reference 
+gyrB 
+sequence 
+of 
+Cmm 
+NCPPB
+ 382 
+accession 
+nr 
+AM711867) 
+is 
+given. 
+A, 
+adenine; 
+G, 
+guanine; 
+C, 
+cytosine; 
+T, 
+thymine.
+ Name 
+(# 
+strains) 
+Positions 
+of 
+specific
+ nucleotide
+ Number 
+of 
+unique
+ signatures
+ Cmm 
+(67) 
+702G, 
+1119G 
+2
+ Cms 
+(65) 
+687T, 
+728A, 
+786G, 
+1035T,
+ 1056G, 
+1059T, 
+1080C,
+ 1089T, 
+1113G
+ 9
+ Cmn 
+(9) 
+1041G, 
+1053C, 
+1077G 
+3
+ Cmi 
+(13) 
+725G, 
+726C, 
+789T, 
+969T,
+ 981G, 
+1092G
+ 6
+ Cmt 
+(4) 
+798T, 
+855G, 
+957C 
+3
+ Cmm 
+look-alikes 
+(4) 654G, 
+743C, 
+825C 
+3
+404 J. 
+Zaluga 
+et 
+al. 
+/ 
+Systematic 
+and 
+Applied 
+Microbiology 
+34 (2011) 400– 
+407
+ Table 
+2
+ Characteristic 
+masses 
+(in 
+daltons) 
+selected 
+as 
+possible 
+biomarkers 
+for 
+identification 
+of 
+Clavibacter. 
+Masses 
+observed 
+in 
+4 
+or 
+all 
+subspecies 
+are 
+marked 
+in 
+bold. 
+Assigned 
+proteins
+ calculated 
+using 
+RMIDb.
+ Cmm Cms Cmt 
+Cmi 
+Cmn 
+Assigned 
+ribosomal 
+protein 
+(mass 
+in 
+Da,
+ protein 
+subunit/name, 
+origin 
+organism)
+ 3224a
+ 3238 3239 
+3237 
+3237
+ 3353 
+3353 
+3353 
+3350 
+3350
+ 3525 
+3529 
+3529 
+3524
+ 4343 
+4341 
+4343 
+4346-50S/L36 
+Cmm
+ 4358a 4360-50S/L36 
+Cms
+ 4613a 4613-50S/L36 
+Cmm/Cms
+ 4772 4772 
+4773 
+4770 
+4771
+ 5078 
+5078 
+5078 
+5076 
+5076 
+5078-50S/L34 
+Cmm/Cms
+ 5724 
+5724 
+5724
+ 5738a
+ 5752 5754 5755 5751 5752
+ 5823a
+ 6044a
+ 6068a
+ 6145a
+ 6454a 6456-50S/L33 
+Cms
+ 6482 6482 
+6479 
+6480 
+6483-50S/L33 
+Cmm
+ 6713 
+6713 
+6713 
+6710 
+6712 
+6714-50S/L30 
+Cmm/Cms
+ 7013a 7012-50S/L35 
+Cmm
+ 7058 
+7059 
+7060 
+7057
+ 7070a 7069-50S/L35 
+Cms
+ 7500 7501 7501-50S/L32 
+Cms
+ 7998a
+ 8489a
+ 8510a
+ 8526 
+8525 
+8523 
+8525-50S/L28 
+Cmm/Cms
+ 8560 8560 8563 8559 8564-50S/L27 
+Cmm/Cms
+ 9004 
+9004 
+9005 
+9002 
+9002-30S/S20 
+Cmm
+ 9302 9300 9300 
+9300 
+9302-30S/S18 
+Cmm
+ 9360a 9360-30S/S18 
+Cms
+ 9549 9549 
+9550 
+9544 
+9547
+ a Subspecies 
+unique 
+mass 
+values 
+marked 
+in 
+Fig. 
+2.
+ The 
+MALDI-TOF 
+MS 
+data 
+analyzed 
+in 
+BioNumerics 
+5.1 
+and 
+Data
+Explorer 
+4.0 
+software 
+were 
+in 
+agreement 
+with 
+the 
+gyrB 
+sequence
+ analysis. 
+Indeed, 
+cluster 
+analysis 
+of 
+the 
+whole 
+spectral 
+profile
+ showed 
+distinct 
+clusters 
+for 
+each 
+subspecies, 
+Cmm 
+look-alikes 
+and
+ outgroups 
+(data 
+not 
+shown). 
+However, 
+Cmm 
+strains 
+formed 
+two
+ separate 
+groups, 
+one 
+with 
+only 
+a 
+few 
+strains 
+that 
+closely 
+clustered
+ to 
+Cmn 
+strains 
+and 
+the 
+other 
+with 
+the 
+majority 
+of 
+the 
+Cmm 
+strains.
+ Next 
+to 
+cluster 
+analyses, 
+the 
+obtained 
+spectral 
+profiles 
+were 
+also
+ screened 
+for 
+the 
+presence 
+of 
+recurring 
+peaks 
+or 
+biomarker 
+ions 
+spe
+cific 
+for 
+the 
+whole 
+species 
+or 
+a 
+subspecies. 
+A 
+selection 
+of 
+20 
+profiles
+ of 
+representatives 
+of 
+all 
+Clavibacter 
+subspecies, 
+including 
+the 
+type
+ strains, 
+was 
+visually 
+screened 
+for 
+the 
+most 
+informative 
+and 
+inten
+sive 
+peaks. 
+A 
+typical 
+MALDI-TOF 
+MS 
+spectrum 
+of 
+C. 
+michiganensis
+ contains 
+about 
+50 
+ion 
+peaks 
+between 
+2000 
+and 
+20,000 
+Da, 
+with 
+the
+ highest 
+intensity 
+peaks 
+between 
+4000 
+and 
+10,000 
+Da. 
+Table 
+2 
+sum
+marizes 
+32 
+selected 
+m/z 
+values. 
+Six 
+m/z 
+values 
+were 
+detected 
+in
+ all 
+subspecies, 
+making 
+them 
+characteristic 
+for 
+the 
+genus 
+Clavibac
+ter. 
+Unique 
+peaks 
+for 
+each 
+subspecies 
+ranged 
+from 
+one 
+in 
+Cmt 
+to
+ five 
+in 
+Cms 
+(Fig. 
+2). 
+In 
+order 
+to 
+validate 
+these 
+peaks 
+as 
+biomark
+ers, 
+analysis 
+of 
+another 
+25 
+randomly 
+selected 
+Clavibacter 
+profiles
+ was 
+performed 
+and 
+the 
+assignment 
+to 
+the 
+expected 
+subspecies 
+was
+ obtained.
+ The 
+applied 
+cell 
+extraction 
+protocol 
+favors 
+isolation 
+of 
+riboso
+mal 
+subunit 
+proteins. 
+Therefore, 
+we 
+tried 
+to 
+assign 
+the 
+selected
+ biomarkers 
+by 
+comparing 
+the 
+experimentally 
+obtained 
+protein
+ masses 
+with 
+those 
+of 
+the 
+ribosomal 
+subunit 
+proteins 
+deduced 
+from
+ two 
+fully 
+sequenced 
+Clavibacter 
+genomes 
+(Cmm 
+NCPPB382 
+and
+ Cms 
+ATCC 
+33113T) 
+using 
+the 
+RMIDb 
+database. 
+In 
+this 
+way, 
+eleven
+ biomarkers 
+could 
+be 
+identified 
+as 
+specific 
+ribosomal 
+proteins
+ (Table 
+2). 
+However, 
+our 
+assignment 
+procedure 
+left 
+several 
+masses
+ unidentified, 
+probably 
+because 
+of 
+slight 
+differences 
+in 
+protein 
+mass
+ between 
+different 
+subspecies 
+(only 
+genomes 
+of 
+representatives 
+of
+ two 
+subspecies 
+were 
+available), 
+inclusion 
+of 
+nonribosomal 
+proteins
+ in 
+the 
+analyzed 
+cell 
+extracts, 
+and 
+possible 
+occurrence 
+of 
+2+ 
+ions.
+ Discussion
+ This 
+study 
+demonstrated 
+the 
+suitability 
+of 
+gyrB 
+sequences
+ and 
+MALDI-TOF 
+MS 
+protein 
+profiles 
+for 
+identification 
+of 
+plant
+ pathogenic 
+bacteria 
+of 
+the 
+genus 
+Clavibacter. 
+The 
+identification
+ can 
+be 
+based 
+on 
+the 
+generated 
+data 
+as 
+a 
+whole, 
+or 
+on 
+signa
+tures 
+within 
+these 
+data 
+that 
+have 
+enough 
+discriminatory 
+power
+ to 
+distinguish 
+between 
+the 
+different 
+subspecies 
+of 
+C. 
+michiganen
+sis. 
+Moreover, 
+both 
+the 
+sequence 
+and 
+the 
+protein 
+method 
+suggested
+ that 
+diversity 
+within 
+this 
+Clavibacter 
+species 
+is 
+higher 
+than 
+currently
+ accepted. 
+This 
+study 
+reports 
+for 
+the 
+first 
+time 
+on 
+the 
+use 
+of 
+gyrB 
+as
+ a 
+phylogenetic 
+marker 
+in 
+the 
+genus 
+Clavibacter. 
+Molecular 
+mark
+ers 
+for 
+identification 
+purposes 
+must 
+exhibit 
+the 
+smallest 
+amount
+ of 
+heterogeneity 
+within 
+a 
+taxonomic 
+unit 
+and 
+should 
+maximally
+ discriminate 
+between 
+different 
+species/subspecies 
+[25], 
+which 
+was
+ demonstrated 
+in 
+this 
+study 
+for 
+gyrB 
+sequences 
+in 
+the 
+genus 
+Clav
+ibacter. 
+In 
+addition 
+to 
+cluster 
+analysis, 
+a 
+selection 
+of 
+positions 
+in
+ the 
+gyrB 
+contained 
+nucleotide 
+signatures 
+characteristic 
+for 
+each
+ subspecies 
+and 
+were 
+shown 
+to 
+be 
+decisive 
+for 
+subspecies 
+assign
+ment. 
+This 
+character-based 
+identification 
+approach 
+was 
+previously
+ proposed 
+as 
+an 
+alternative 
+for 
+tree 
+building 
+methods 
+[33]. 
+How
+ever, 
+in 
+bacterial 
+taxonomy, 
+this 
+approach 
+is 
+not 
+as 
+popular 
+as 
+in
+ human 
+medicine 
+where 
+SNPs 
+(single 
+nucleotide 
+polymorphisms)
+ are 
+commonly 
+used 
+in 
+identification 
+of 
+pathogens 
+or 
+loci 
+associ
+ated 
+with 
+complex 
+diseases 
+[5,22]. 
+These 
+SNPs 
+have 
+also 
+been 
+used
+ to 
+design 
+highly 
+specific 
+molecular 
+tools 
+for 
+identification 
+[43]. 
+Fur
+thermore, 
+the 
+fact 
+that 
+the 
+gyrB 
+fragment 
+can 
+be 
+amplified 
+and
+ sequenced 
+with 
+the 
+same 
+protocol 
+in 
+all 
+Clavibacter 
+and 
+closely
+ related 
+strains 
+tested, 
+creates 
+great 
+potential 
+for 
+future 
+application
+J. 
+Zaluga 
+et 
+al. 
+/ 
+Systematic 
+and 
+Applied 
+Microbiology 
+34 (2011) 400– 
+407 405
+ Fig. 
+2. 
+MALDI-TOF 
+MS 
+protein 
+mass 
+fingerprints 
+of 
+type 
+strains 
+of 
+genus 
+Clavibacter. 
+Similar 
+and 
+different 
+marker 
+masses 
+for 
+the 
+identification 
+of 
+Clavibacter 
+subspecies 
+are
+ listed 
+in 
+Table 
+2. 
+Relative 
+intensities 
+of 
+ions 
+(percentages) 
+are 
+shown 
+on 
+the 
+y 
+axis 
+and 
+the 
+masses 
+(in 
+Daltons) 
+of 
+the 
+ions 
+are 
+shown 
+on 
+the 
+x 
+axis. 
+The 
+m/z 
+values 
+represent
+ mass-to-charge 
+ratios. 
+*Unique 
+peaks 
+positions 
+for 
+each 
+of 
+subspecies.
+ as 
+a 
+new 
+diagnostic 
+tool. 
+Based 
+on 
+the 
+signature 
+nucleotide 
+posi
+tions, 
+new 
+methods 
+for 
+specific 
+PCR 
+and 
+Q-PCR 
+detection 
+in 
+plant
+ material 
+may 
+also 
+be 
+developed, 
+which 
+is 
+especially 
+relevant 
+for 
+the
+ EU-quarantine 
+pathogens 
+Cmm, 
+Cms 
+and 
+Cmi.
+ Because 
+of 
+its 
+simplicity 
+and 
+applicability, 
+MALDI-TOF 
+MS
+ is 
+already 
+widely 
+used 
+for 
+identification 
+and 
+characterization
+ of 
+diverse 
+microorganisms 
+[15,32,34]. 
+Currently, 
+spectral 
+data
+ are 
+commonly 
+analyzed 
+using 
+two 
+different 
+approaches. 
+Specific
+ biomarker 
+ions 
+are 
+identified 
+based 
+on 
+additional 
+information 
+on
+ theoretical 
+protein 
+masses 
+(from 
+e.g., 
+genome 
+projects). 
+New 
+pro
+files 
+of 
+unknown 
+strains 
+are 
+then 
+screened 
+for 
+presence/absence
+ of 
+these 
+unique 
+biomarker 
+ions 
+to 
+subsequently 
+assign 
+to 
+a 
+certain
+ taxonomic 
+group 
+[30]. 
+This 
+approach 
+is 
+more 
+suitable 
+for 
+discrim
+ination 
+between 
+closely 
+related 
+species 
+as 
+well 
+as 
+for 
+accurate
+ identification 
+[6]. 
+Another 
+workflow 
+uses 
+a 
+database 
+with 
+reference
+ fingerprinting 
+profiles 
+obtained 
+as 
+a 
+consensus 
+profile 
+from 
+a 
+set 
+of
+ type 
+strains. 
+New 
+spectra 
+are 
+then 
+compared 
+with 
+database 
+entries
+ and 
+the 
+closest 
+spectrum 
+is 
+found 
+[19]. 
+Widely 
+used 
+commercial
+ systems 
+like 
+SARAMIS 
+(Spectral 
+ARchiving 
+and 
+Microbial 
+Identifi
+cation 
+System, 
+AnagnosTec) 
+and 
+Maldi 
+Biotyper 
+(Bruker 
+Daltonics)
+ contain 
+average 
+spectra 
+together 
+with 
+peak 
+lists 
+of 
+the 
+most 
+dis
+criminating 
+biomarker 
+ions 
+which 
+are 
+scored 
+according 
+to 
+their
+ occurrence 
+and 
+specificity. 
+Because 
+we 
+wanted 
+to 
+use 
+both 
+the
+ whole 
+spectral 
+profile 
+and 
+biomarker 
+ions, 
+we 
+used 
+BioNumer
+ics 
+and 
+DataExplorer 
+4.0 
+(AB 
+Sciex) 
+respectively, 
+as 
+an 
+alternative
+ to 
+commercially 
+available 
+database 
+systems. 
+Both 
+software 
+appli
+cations 
+allowed 
+us 
+to 
+look 
+at 
+the 
+spectra 
+in 
+detail, 
+perform 
+our
+ own 
+quality 
+check 
+and 
+analyze 
+the 
+data 
+in 
+different 
+ways. 
+More
+over, 
+BioNumerics 
+software 
+allowed 
+the 
+coupling 
+of 
+additional 
+data
+ from 
+more 
+than 
+one 
+experiment 
+type 
+(e.g., 
+sequencing 
+information)
+ making 
+the 
+analysis 
+easier, 
+more 
+comprehensive 
+and 
+straightfor
+ward. 
+However, 
+the 
+use 
+of 
+non-specialized 
+software 
+also 
+had 
+the
+ disadvantages 
+that 
+(i) 
+no 
+specific 
+experiment 
+type 
+was 
+available 
+for
+ spectral 
+profiles, 
+and 
+(ii) 
+biomarker 
+ions 
+detection 
+had 
+to 
+be 
+per
+formed 
+manually 
+because 
+appropriate 
+tools 
+were 
+lacking. 
+There 
+is
+ still 
+debate 
+on 
+the 
+discriminatory 
+level 
+of 
+MALDI-TOF 
+MS, 
+which 
+is
+ said 
+to 
+be 
+accurate 
+at 
+genus, 
+species 
+[34] 
+or 
+even 
+below 
+species 
+level
+ [3]. 
+Nevertheless, 
+a 
+very 
+good 
+discrimination 
+between 
+Clavibacter
+ subspecies 
+was 
+consistently 
+obtained. 
+As 
+MALDI-TOF 
+MS 
+is 
+gaining
+ more 
+popularity 
+as 
+a 
+quick 
+and 
+robust 
+identification 
+tool, 
+required
+ software 
+tools 
+will 
+probably 
+be 
+available 
+in 
+the 
+near 
+future.
+ To 
+evaluate 
+the 
+robustness 
+and 
+discriminatory 
+power 
+of 
+gyrB
+ sequencing 
+and 
+MALDI-TOF 
+MS 
+analysis, 
+the 
+closely 
+related 
+Clav
+ibacter 
+strains 
+were 
+analyzed 
+together 
+with 
+Cmm 
+look-alikes.
+ Discrimination 
+of 
+these 
+closely 
+related 
+non-pathogenic 
+Clavibac
+ter 
+by 
+MALDI-TOF 
+MS 
+and 
+gyrB 
+sequence 
+analysis 
+indicates 
+that
+ these 
+Cmm 
+look-alikes 
+may 
+be 
+used 
+to 
+study 
+specific 
+mechanisms
+ of 
+plant 
+disease 
+development 
+caused 
+by 
+pathogenic 
+Cmm. 
+Cmm
+ look-alikes 
+are 
+an 
+especially 
+interesting 
+group 
+of 
+organisms 
+that
+ possibly 
+form 
+a 
+new 
+group 
+of 
+Clavibacter 
+since 
+there 
+is 
+almost 
+no
+ evidence 
+of 
+wild-type 
+non-pathogenic 
+bacteria 
+within 
+this 
+genus
+ [46]. 
+Both 
+techniques 
+applied 
+in 
+this 
+study 
+were 
+discriminative
+
+
+
+//
+
+위의 자료들은 내 졸업논문의 일부 참고자료인데 저것들을 참고해서 밑의 졸업논문 내용을 더 풍성하게해줄래?
+
+gyrB 유전자의 서열분석을 활용한 원핵생물의 동정 연구
+김은수
+경희대학교 생물학과
+(지도교수: 이성재)
+
+주제설명: 선행연구에서의 각 gyrB primer의 특이성, 효율성, 민감도 등을 데이터베이스와 비교하여 평가하고, 각 primer의 장단점을 분석하여 새로운 primer를 설계할때 고려해야할 guideline을 제시하려고 함.
+ 
+
+초록  
+원핵생물 동정은 공중 보건, 환경 모니터링, 식품 안전, 바이오테크놀러지 및 기본 미생물학 연구를 포함한 여러 중요한 분야에서 필수적인 과정이다. 전통적인 배양 기반 방법은 종종 시간이 많이 소요되며, 느리고, 비특이적인 결과를 제공할 수 있다. 이에 대한 대안으로 유전자 서열을 기반으로 한 분자 생물학적 방법이 널리 사용되고 있으며, 이 중 16S rRNA 유전자 서열 분석이 가장 일반적인 방법이다. 그러나 16S rRNA 유전자는 저변이율로 인해 속 또는 종 수준에서 세균의 세부적인 식별이 어렵다는 한계가 있다.
+최근 연구는 다른 분자 마커들에 대한 관심을 촉발시켰습니다. 이 중 하나인 gyrB 유전자, DNA gyrase B-부단위를 코딩하는 유전자는 모든 세균에서 보편적으로 발견되며, 고도의 변이를 담고 있어 더 상세한 분류를 가능하게 한다. 이러한 변이율은 미세한 유전적 차이를 구별할 수 있게 하여, 16S rRNA 분석보다 더 정밀한 종 수준의 식별에 유리하다. 하지만, 실효성 있는 primer를 설계하고 사용하는 것은 복잡한 과제로 남아 있다.
+현재까지 gyrB 유전자 프라이머의 설계와 사용에 있어 다수의 문제가 보고되었다. 특히, 특정 세균 그룹에서의 증폭 실패, 프라이머의 특이성 부족으로 인한 비특이적 증폭, 그리고 일부 프라이머들의 비일관적인 활용이 포함된다. 이러한 문제는 미생물 동정의 신뢰성과 효율성을 저해하며, 보다 향상된 primer 설계 방법론에 대한 필요를 강조한다.
+본 연구는 전체 미생물학 커뮤니티에 영향을 미치는 이러한 중요한 문제에 대응한다. 우리는 gyrB 유전자를 목표로 하는 새로운 프라이머를 설계하는 과정을 개선함으로써 이 문제들을 해결하고자 합니다. 이를 통해 gyrase B-부단위 서열 분석의 다양한 응용과 관련된 광범위한 연구 도구로서의 가능성을 탐색하고, 신속하고 정확한 진단 방법으로서의 이점을 실현하기를 기대한다. 이 연구에서 수립된 원칙과 프로토콜은 보다 신뢰할 수 있는 차세대 미생물 동정 방법의 기준을 마련할 것이다.
+
+
+⦁	gyrB primer
+gyrB 유전자는 모든 세균에서 보편적으로 발견되는 DNA gyrase (topoisomerase type II)의 B-부단위를 인코딩한다. DNA gyrase는 DNA 복제에서 중추적인 역할을 하며, gyrB 유전자는 세균 게놈의 필수 구성 요소다. 수년 동안 gyrB 유전자는 여러 가지 이유로 세균 종의 식별 영역에서 큰 관심을 받았다. gyrB 유전자는 16S rRNA 유전자와 비교하여 밀접하게 관련된 세균 종 간의 더 나은 구별 가능성을 제공한다. gyrB 유전자 시퀀스는 16S rDNA에 비해 분자 진화의 속도가 빠르다.[ref. 1] 이 유전자는 디자인의 유연성을 제공하며, 넓은 범위의 특이성을 가진 프로브를 생성할 수 있다.[ref. 5] 게다가 그것의 인코딩 단백질 특성으로 인해, gyrB DNA 시퀀스의 변화가 발생할 수 있다. 이 특성은 gyrB 유전자에 식별 영역에서 높은 해상도를 부여한다. gyrB 유전자 시퀀스는 Pseudomonas, Acinetobacter, Mycobacterium, Salmonella, Shigella, Escherichia coli, Aeromonas 및 Bacillus와 같은 여러 세균 속의 계통 발생학 연구에 사용되었다. in silico dDDH 실험에서 종 동정과 gyrB gene의 상관관계를 0.9998%로 계산했다.[ref. 6] 이러한 장점으로 gyrB와 같은 것을 계통 발생학 마커로 사용하는 것은 이제 일반적인 접근법이다. gyrB 유전자는 여러 연구에서 성공적으로 활용되었다. 예를 들어, 한 연구에서는 돼지 장내의 유해한 Salmonella의 빠른 식별을 위해 gyrB 대상 PCR이 사용되었다. gyrB 유전자를 기반으로 설계된 프라이머는 Salmonella 종을 다른 세균 균주와 구별하여 특이적으로 증폭하는 데 사용되었다.[ref. 2] 하지만, gyrB 유전자를 위한 프라이머의 설계와 활용은 여전히 많은 문제를 안고 있다. 본 리뷰는 gyrB 프라이머 설계를 위한 문헌의 현재 실천과 통찰을 정리하였다.
+
+
+⦁	gyrB의 프라이머 설계 과정
+ 
+1. Sequence Analysis and Region Identification
+a. Database Cross-referencing: gyrB 서열의 다양성과 분포를 이해하기 	위해 NCBI GenBank 외에도 다른 유전자 데이터베이스를 교차 참조한다. 이를 통해 가지고 있는 박테리아 샘플과 식별하고자 하는 특정 박테리아 종 모두에서 gyrB 서열을 추출하고 폭넓은 서열 정보를 획득할 수 있다.
+b. Phylogenetic Analysis: 획득한 gyrB 서열을 기반으로 계통 발생학적 분석을 수행하여, 관련성이 높은 박테리아 종 간의 서열 변이를 이해한다. 이 정보는 종 동정을 위한 Region Selection에 중요한 참고 자료가 된다.
+c. Multiple Sequence Alignment (MSA): BioEdit, Clustal Omega, 	MEGA X 등 다양한 MSA 툴을 활용하여 gyrB 서열의 보존 및 변이 영역을 정확하게 식별한다. 종 동정의 목적을 달성하기 위해, 완전히 보존된 서열이 아닌, 종을 구별할 수 있는 범위 내에서 변이된 서열을 섞여있는 서열들을 찾아낸다.
+d. Marker Identification: 서열 변이를 기반으로 특정 마커를 식별하며, 이 마커는 특정 종이나 그룹을 구별하는 데 유용하다. 이를 통해 종 동정을 위한 변이된 서열을 섞여있는 서열들을 찾아낼 수 있다.
+e. Candidate Region Selection: 위 과정을 통해 얻은 정보를 바탕으로 primer 설계에 적합한 후보 영역들을 선택한다. 선택된 후보 영역들은 다양한 종을 구별할 수 있는 변이를 포함하며, 이후 단계에서 더 자세한 분석을 위해 활용된다.
+
+2. Analysis of Candidate Regions
+여러 후보 서열들 중에서 가장 적합한 영역을 선택하기 위해  분석을 진행한다. 
+a. Secondary Structure: OligoAnalyzer™ Tool등을 이용해서 후보 서열들의 secondary structure를 분석한다. 이 구조는 PCR 과정에서의 프라이머 결합을 방해할 수 있으므로, strong hairpins 또는 internal loops가 없는 서열을 선택한다.
+b. GC Content: 각 후보 서열의 GC content를 조사한다. 이는 프라이머의 안정성과 결합 능력에 중요한 역할을 하다. 이상적인 GC content는 40-60% 범위 내에 있어야 한다.
+c. Repeat Regions: 반복 영역은 non-specific binding 또는 primer-dimers 형성의 원인이 될 수 있으므로, 이러한 영역이 있는 후보 서열을 배제하다.
+d. BLAST Analysis: 가장 중요한 분석 중 하나는 후보 서열이 다른 유전자나 생물체와 겹치는지 확인하는 것이다. BLAST를 사용하여 각 후보 서열의 가능성을 검증한다. 목표는 프라이머가 타겟 gyrB 유전자에만 특이적으로 결합하도록 하는 것이다.
+	 i. 프라이머 특이성 검증: 프라이머의 서열이 데이터베이스의 다른 유전자 서열과 얼마나 겹치는지 확인하기 위해 BLAST를 사용한다. 이는 프라이머가 목표 유전자에만 특이적으로 결합할 수 있는지를 평가하는데 중요하다. 프라이머가 다른 유전자와 결합하는 것을 방지함으로써, 잘못된 양성 결과나 비특이적 	증폭을피할 수 있다.
+	 ii. 교차 반응 (Cross-Reactivity) 검사: 프라이머가 목표 유전자 외의 다른 유전자와 결합하지 않도록 설계하는 것이 중요하며, BLAST는 이러한 교차 반응을 예측하는데 도움이 된다. 이를 통해 프라이머의 특이성을 높이고, 비특이적 증폭을 최소화할 수 있다.
+e. amplicon lenth: 선행 연구에서 선택된 amplicon의 길이	[figure. 2]는다양한데, amplicon의 길이에 따른 선행 연구의 사용을 분류해보면, 300bp 미만의 amplicon은 주로 다른 종 간의 동정에 사용되었으며, 300~700bp는 주로  동일한 종 내의 동정에 사용되었으며, 700bp 이상은 해당 종의 gyrB gene의 full sequence가 필요한 특별한 경우에 사용되었다. 따라서 이 내용을 참고해서 연구 목적에 맞게 amplicon의 길이를 설정하면 된다. 하지만 너무 짧은 서열[54bp]은 정보가 많이 담겨있지않고, 종 동정에도 유용하지 않다고 한다.[ref. 1]
+ 
+[Figure 2]
+3. Selection for Primer Design 
+	위의 분석내용을 바탕으로, 최적의 프라이머 설계를 위한 gyrB 서열 영	역을 선정한다. 여러 선행 연구를 검토한 결과, 프라이머의 길이는 18~	24 bp 사이가 적절하다는 것이 확인되었다. 해당 범위 내에서 프라이머의 길이를 결정하는 것이 PCR의 특이성과 효율성을 높이는 데 중요하다. [Figure 2]에서 각 논문에서 사용된 프라이머 길이의 통계를 확인할 수 있다. 선정된 영역을 기반으로, Primer Express® software등의 프로그램을 사용하여 특정 프라이머를 설계한다. 이 소프트웨어는 PCR 및 qPCR 애플리케이션을 위한 높은 품질의 프라이머와 설계에 널리 사용되며, 그 결과의 특이성과 효율성에 중점을 둔다. 
+ 
+[Figure 3]
+4. Final Selection and Determination
+	최종적으로, 모든 분석과 검증을 거쳐 선정된 gyrB 서열 영역을 확정한다. 
+
+⦁	gyrB primer를 Deinococcus geothermalis DSM 11300 동정과 종 수준 분류에 활용
+Deinococcus geothermalis DSM 11300는 극한 환경에서도 생존할 수 있는 능력을 지닌 것으로 알려져 있으며, 이는 바이오테크놀로지 및 생명공학 연구에 있어 중요한 응용 가능성을 제시한다. 특히, Deinococcus 종은 강한 방사선과 산화 스트레스에 대한 높은 저항성을 가지고 있어, 이러한 환경에서의 생명체 생존 메커니즘을 이해하는 데 중요한 모델 균주로 활용될 수 있다.
+ 
+[figure. 4]
+NCBI의 gene bank을 통해서, 각 균주의 gyrB primer서열을 파악하고 BLAST 하여 정렬하였고, 각 서열의 차이를 graphic으로 확인하여 주로 변이된 부분을 찾은 다음, primer후보지역을 찾았다. 
+그리고, 선행 연구들의 gyrB primer를 이용해 종 동정을 한 사례들을 참고해서 Deinococcus geothermalis DSM 11300를 같은 속 내의 종들로부터[figure. 4] 동정될 수 있는 20bp primer를 설계했다.
+정방향 primer 설계
+ 
+[figure. 5]
+정방향 primer를 설계하기위해 gyrB gene의 55bp~74bp 부분을 설정했다.
+역방향 primer 설계
+ 
+[figure. 6]
+역방향 primer 설계를 위해 gyrB gene의 725bp~744bp 부분를 설정했다. 
+primer 특성 분석
+ 
+[figure. 7]
+oligo analysis tool을 이용해 primer의 annealing 점수와 Tm (멜팅 온도) 차이는 PCR 실험의 효과성과 특이성을 분석했다. 설계된 primer 쌍은 이상적인 범위 내의 점수를 보이므로 PCR 실험에 적합하다고 판단된다. 또한 이 primer를 통해 생성된 amplicon의 길이는 690bp로 종 동정에 적합한 길이이다.
+결과적으로 다음과 같은 서열을 선정했다
+5'-CCCCACTTCATTCCCCATCA-3' 
+3'-AGCAAGAGGTCGCCTAACCT-5
+
+⦁	gyrB primer 디자인의 과제와 고려사항
+gyrB 유전자에 대한 구체적이고 효율적인 프라이머를 설계하는 것은 도전과 복잡성이 포함된다. 성공적인 증폭과 시퀀싱을 보장하기 위해서는 신중하고 다각적인 접근이 필수적이다.
+특정 분리체에서의 증폭 문제점 [ref 9]
+대부분의 판도라에아 분리체에서 gyrB 유전자를 성공적으로 증폭할 수 있었지만, 판도라에아 유전자 1 R-5199에서 gyrB 를 증폭할 수 없었고 모든 P. pulmonicola 분리체에서 gyrB 를 증폭하는 것은 문제가 있었다.
+이것은 gyrB 프라이머가 모든 세균 분류군, 특히 판도라에아 유전체 종 1R-5199와 P. pulmonicola에 보편적으로 효과적이지 않을 수 있음을 시사한다.
+이 논문은 이러한 실패의 구체적인 이유에 대해 자세히 설명하지는 않지만 프라이머 특이성, PCR 조건 또는 박테리아 종 내의 유전적 변동성과 같은 다양한 요인때문일 수 있다.
+박테리아 식별의 오류 발견 [ref 10]
+gyrB 유전자를 기반으로 박테리아 종을 식별하도록 설계된 검사가 대부분 특수성 측면에서 잘 수행되었음을 의미한다. 그러나, 한 가지 오류가 있었다. Klebsiella pneumoniae subsp. ozeanae를 Klebsiella pneumoniae subsp. pneumoniae로 잘못 식별했다. 70개의 서로 다른 표적화되지 않은 박테리아 중에서 한 개의 교차 반응만 관찰되었다는 사실은 검사의 특이성이 매우 높다는 것을 암시한다. 그러나 한 개의 교차 반응이라도 있다는 것은 검사의 특이성에 개선의 여지가 있다.
+gyrB 프라이머의 실리코 검증 문제점 [ref 6]
+이전 연구에서 보고된 모든 gyrB 프라이머를 관련 속에서 사용 가능한 gyrB 서열에 대해 실리코에서 테스트했다고 언급한다. 이 과정에서 그들은 비교에 포함된 모든 그룹과 상당한 불일치를 발견했다. 그 결과, 그들은 사용 가능한 서열 정보에 기초하여 더 일반적인 프라이머를 설계하기로 결정했다. 이는 이전 연구의 프라이머가 모든 관련 속의 gyrB 서열에 보편적으로 적용 가능하지 않았기 때문에 새롭고 더 일반적인 프라이머의 필요성으로 이어졌다
+
+⦁	gyrB primer를 통한 종 동정 적용 사례
+Bacteroides fragilis를 밀접하게 관련된 다른 박테리아 종들과 효과적으로 구별하기 위해 gyrB 프라이머를 사용하여 물 속에서의 인체 분변 오염을 신속하게 검출, 박테리아 식별 및 분변 오염 추적을 위한 우수한 마커로서의 가능성을 보여주었다.[ref. 1] 
+Salmonella 균주의 신속한 동정을 위해 gyrB 표적 종특이 프라이머를 활용하여 non-Salmonella 균주와 구별하였으며, 배양-PCR법을 통해 살모넬라-시겔라(SS) 배지에서 27개의 분리체를 살모넬라로 성공적으로 확인하였다.[ref. 2]
+5종의 클라비박터 아종 모두 각 아종에 대해 고유하고 특정한 이온 피크를 가진 구별되고 재현 가능한 MALDI-TOF MS 프로파일을 생성하기 위해 gyrB primer의 해상도와 식별력을 이용해서 아종 단위까지 구분하는 검증 도구로 사용했다. [ref. 3]
+Bacteroides subtilis group을 중심으로 종 식별 및 계통발생 분석을 위한 gyrB 유전자 서열을 적용했다. 식별을 위한 gyrB 프라이머와 관련하여 언급된 종 및 그룹에는 Pseudomonas, Acinetobacter, Mycobacterium, Salmonella, Shigella, Escherichia coli, Aeromonas, 와 Bacillus anthracis–cereus–thuringiensis group 등이 있다.[ref. 4]
+gyrB sequence를 단독으로 사용하지 않고 parE sequence를 결합하여 설계된 광범위 primer sequence를 활용했다. gyrB /parE 유전자에 기초한 마이크로어레이 기술은 배양 격리된 박테리아 종의 식별 및 검출과 임상 목구멍 및 중이액 샘플로부터 직접 적용됐다. [ref. 5]
+gyrB 유전자 특이 프라이머는 Myxococcus, Coralloccus, Pyxidicoccus의 3개 속에 있는 박테리아의 PCR 증폭 및 시퀀싱을 위해 설계되고 검증되었습니다. 이 프라이머는 그룹의 컬렉션에서 31개의 분리체에 대해 테스트되었다. gyrB 기반 분류 도구는 종 수준에서 밀접하게 관련된 분리체를 구별할 수 있는 능력을 입증했다. 966-bp gyrB유전자 및 계통발생학적 추론을 통해 분리체들을 알려진 두 종과 8개의 추가적인 새	로운 으로 분류했다.[ref. 6]
+제한 단편 길이 다형성(RFLP) 분석 또는 분류학적 목적의 직접 염기서열 분석과 같은 다운스트림 응용에 적합한 전체 녹농균 속의 대표 종에서 gyrB 유전자의 더 큰 단편의 증폭을 위한 새로운 프라이머 쌍과 PCR 프로토콜의 사용을 설명하고, 대부분의 다른 종 하위 그룹을 나타내는 녹농균 균주의 범위에서 gyrB 유전자의 1.4kb 내부 부분을 증폭하는 이 독특한 프라이머 쌍을 사용하여 최적화된 PCR 프로토콜의 능력을 확인했다.[ref. 8]
+Pandoraea species의 종을 구별하기 위한 gyrB 유전자의 사용 가능성을 조사했다. 이 연구에는 67개의 판도래아 분리체가 포함되었으며 제한 단편 길이 다형성(RFLP) 분석과 gyrB 유전자의 직접 염기서열 분석이 판도래아 종을 식별하는 데 유용한 도구라는 것을 발견했다. 특히 PCR 증폭된 gyrB 유전자를 MspI로 소화한 후 종별 RFLP 패턴을 얻었다. 그러나 특정 Pandoraea 분리체에서 gyrB 유전자를 증폭하는 데 어려움이 있었으며, 이는 L-Proteobacteria 그룹에 속하는 유기체에 더 적합한 프라이머의 개발의 필요성을 시사했다.[ref. 9]
+gyrB 유전자가 플라보박테리움 속 내의 16S rRNA 유전자보다 더 높은 식별력을 제공하며, 연구된 남극 플라보박테리움 격리물은 적어도 13종의 잠재적으로 새로운 종을 나타낸다고 결론 내렸다.[ref. 11]
+
+
+
+결론과 고찰
+
+gyrB 유전자를 중심으로 한 미생물 동정의 중요성은 광범위한 응용 분야에서 명확하게 드러나고 있다. 본 논문에서는 gyrB 유전자를 활용한 미생물 동정에 대한 선행 연구들을 종합적으로 검토하였으며, 이를 통해 gyrB primer의 설계 및 활용에 대한 깊은 통찰을 얻을 수 있었다.
+gyrB 유전자는 16S rRNA 유전자에 비해 높은 변이율을 보이는 특징을 가지고 있어, 미생물의 속 또는 종 수준에서의 동정에 큰 장점을 가진다. 이러한 특성은 미생물 동정의 정확성을 향상시키는 데 큰 기여를 한다. 본 논문에서 수행한 연구는 gyrB 유전자를 중심으로 한 미생물 동정 기술의 발전을 위한 기초적인 단계를 마련하였으며, 'Deinococcus geothermalis DSM 11300'의 사례를 포함하여, 이 방법이 실제 세계의 복잡하고 다양한 미생물을 식별하는데 어떻게 적용될 수 있는지에 대한 이해를 심화시켰다. 
+gyrB primer의 활용 사례를 통해 볼 때, 다양한 박테리아 종의 식별 및 동정에 성공적으로 활용되고 있음을 알 수 있다. 이러한 성공 사례들은 gyrB primer의 미생물 동정 분야에서의 큰 잠재력을 보여준다. 그러나, 여전히 개선의 여지가 있는 부분들이 있으며, 이를 극복하기 위한 연구와 노력이 계속되어야 할 것이다. 결론적으로, gyrB primer는 미생물 동정 분야에서의 중요한 도구로서 그 가치가 인정되고 있다. 
+그러나, gyrB primer의 설계와 활용에는 다양한 도전과제가 존재한다. 특히, 특정 분리균에서의 증폭 실패나 교차 반응과 같은 문제는 gyrB primer의 설계 및 활용에서 중요한 고려사항이다. 이러한 문제점들을 극복하기 위해서는 프라이머의 특이성과 효율성을 높이는 방법에 대한 연구가 필요하다. 또한, gyrB primer의 실리코 검증에서 발견된 문제점들은 프라이머 설계의 중요성을 강조하며, 이를 통해 더욱 향상된 프라이머 설계 방법론의 필요성을 시사한다.
+여전히 도전과제와 개선의 여지가 존재하며, 이를 극복하기 위한 연구와 노력이 필요하다. 앞으로의 연구에서는 gyrB primer의 설계 및 활용에 대한 더욱 향상된 방법론과 기술의 발전이 기대된다.
+
+
+참고문헌
+1. Authors, year. Evaluation of new gyrB-based real-time PCR system for the detection of B. fragilis as an indicator of human-specific fecal contamination. Journal name, Vol. pages
+2. A gyrB-targeted PCR for Rapid Identification of Salmonella
+3. GyrB sequence analysis and MALDI-TOF MS as identification tools for plant pathogenic Clavibacter
+4.Comparison of gyrB gene sequences, 16S rRNA gene sequences and DNA–DNA hybridization in the Bacillus subtilis group
+5.Use of an Oligonucleotide Array for Laboratory Diagnosis of Bacteria Responsible for Acute Upper Respiratory Infections
+6.Phylogenomic Analysis Substantiates the gyrB Gene as a Powerful Molecular Marker to Efficiently Differentiate the Most Closely Related Genera Myxococcus, Corallococcus, and Pyxidicoccus
+7. Housekeeping gene gyrA, a potential molecular marker for Bacillus ecology study
+8. A NovelOligonucleotide Pair for Genotyping Members of the Pseudomonas Genus by Single-Round PCR Amplification of the gyrB Gene
+9. Use of the gyrB gene for the identi¢cation of Pandoraea species
+10. Rapid identification of bacterial pathogens using a PCR- and microarray-based assay
+11. The gyrB gene is a useful phylogenetic marker for exploring the diversity of Flavobacterium strains isolated from terrestrial and aquatic habitats in Antarctica

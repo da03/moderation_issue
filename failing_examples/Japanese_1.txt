@@ -1,0 +1,194 @@
+{
+"title": "背徳の恋",
+"katakanaoftitle": "ハイトクノコイ",
+"englishtitle": "Forbidden Love",
+"7ofdescriptionkeyword": ["「不倫×青春」", "「禁断の恋愛」", "「切ないラブストーリー」", "「背徳感×成長」", "「痛々しい別れ」", "「葛藤の中の愛」", "「現代の禁忌」"],
+"kdpofintroduction": "『背徳の恋』は、不倫関係から抜け出し成長する女性・仁科望の痛々しいラブストーリーを描いた物語です。東京の広告代理店で働く望は、同僚の上司と不倫関係にあるものの、新入社員・柊真吾に惹かれていく。しかし、真吾は既婚者であり、彼自身も同棲中であることが次第に明らかに。
+
+やがて、真吾の秘密が現実化し、望は彼を信じていいのか、自分の気持ちを整理するために友人たちと向き合うことを決意します。そんな中で望は成長し続け、新たな恋愛の兆しも見え始めますが、もう一度真実と向き合うことに。
+
+各章では、望の内面の揺れ動きや友人たちとの交流、職場での人間関係の変化など、彼女の心情が丁寧に描かれています。また、途中で現れる予期せぬ過去や真実が、望が最後に幸せを掴むまでの物語に深みと躍動感を与えています。
+
+真実を受け入れ、過去の過ちや経験から成長した望の姿を通して、新たな人生と愛に向かって進む勇気と希望を描いた本作は、現代社会を生きる人々に刺さる感動のストーリーです。",
+"prompt": "(affair), (contemporary), (dramatic: 1.6), realistic emotion, (forbidden love), (complicated relationships), (detailed portrayal), (intense dialogue), 4k resolution, official stills, (heartbreaking ending: 1.4), intense chemistry, (dynamic relationships), (monochrome)",
+"chapters": [
+{
+"chapterNumber": 1,
+"theme": "美しくも壊れやすい日々",
+"chapterContent": "仁科望は、うつろな日常に愛を見出していた。交際10年以上のパートナーとは、すれ違う日々が続いていた。けれども、一人の男性と出会い、望の心は躍動した。なぜ彼のことがこんなにも頭を占めるのか。違法な関係に身を置いている自分を許せない望は、ある決意をする。",
+"prompt": "(lonely), (introspective), (dreamy:1.6), (yearning), (discreet love), (detailed internal dialogue), (Ikuta Toma), (Erika Sawajiri), (Mackenyu), (Jun Matsumoto), (monochrome)"
+},
+{
+"chapterNumber": 2,
+"theme": "避けられてしまった関係",
+"chapterContent": "何度となく遠ざけようとしても、望の心には真吾の存在が根付いていた。そんな中、真吾は自分が結婚していることを打ち明け、望を引き離そうとする。しかし、望は彼から離れられなかった。真吾には秘密があった。",
+"prompt": "(awkward), (tension:1.6), (tough choices), (complicated relationships), (suspenseful), (affair), (emotional dialogue), (Suda Masaki), (Mirei Kiritani), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 3,
+"theme": "過去と現在と未来",
+"chapterContent": "真吾の秘密を知るために、望は彼の過去に迫ることに。彼女が知ったことは、望をより真吾に近づけるものだった。",
+"prompt": "(flashback), (intriguing), (unexpected twist:1.6), (past memories), (complicated relationships), (heartwarming), (emotional portrayal), (Erika Sawajiri), (Kento Yamazaki), (Jun Matsumoto), (grayscale)"
+},
+{
+"chapterNumber": 4,
+"theme": "心の揺れ動き",
+"chapterContent": "真吾からの過去により、望は自分の気持ちを紐解くことができる。そして、真吾との関係に落ち着かない彼女は、自信を失ってしまう。",
+"prompt": "(unsettling), (uncertain:1.6), (lost in love), (detailed internal dialogue), (troubled relationships), (introspective), (Ikuta Toma), (Suda Masaki), (Erika Sawajiri), (Mackenyu), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 5,
+"theme": "不安との闘い",
+"chapterContent": "真吾の秘密や、不倫関係に悩む望は、精神的に追い詰められていた。その中でもなお、真吾との関係には途切れがなかった。",
+"prompt": "(anxious), (struggle:1.6), (mental health), (surprising plot twists), (dramatic relationships), (deep internal dialogue), (Ikuta Toma), (Mirei Kiritani), (Kento Yamazaki), (Maki Horikita), (monochrome)"
+},
+{
+"chapterNumber": 6,
+"theme": "真実との向き合い方",
+"chapterContent": "真吾も望も、互いを傷つけないように、関係を断とうとする。しかし、突きつけられた現実に、2人の距離が近づいていく。",
+"prompt": "(heartfelt), (emotional:1.6), (graceful), (unexpected turn), (soul-searching), (poignant), (Erika Sawajiri), (Mackenyu), (Suda Masaki), (Jun Matsumoto), (matte)"
+},
+{
+"chapterNumber": 7,
+"theme": "選択の狭間",
+"chapterContent": "真吾の妻が望に接触してくる。真吾と別れるように求められ、望は彼女の苦しみを理解することができるか。",
+"prompt": "(confrontation), (difficult decisions:1.6), (emotional turmoil), (complicated relationships), (conflicted emotions), (honest dialogue), (Erika Sawajiri), (Kento Yamazaki), (Maki Horikita), (grayscale)"
+},
+{
+"chapterNumber": 8,
+"theme": "誤解との狭間",
+"chapterContent": "真吾の秘密が現実化し、望が悲痛な叫び声をあげる。しかし、真実はまだ始まりに過ぎなかった。",
+"prompt": "(misunderstanding), (shocking:1.6), (unexpected revelations), (emotional turmoil), (dramatic relationships), (deep internal dialogue), (Ikuta Toma), (Mackenyu), (Mirei Kiritani), (Jun Matsumoto), (matte)"
+},
+{
+"chapterNumber": 9,
+"theme": "深まる不安",
+"chapterContent": "真吾の秘密によって、望には彼を信じていいのかと疑問が浮かび上がる。そして、その疑いは現実のものに変わっていく。",
+"prompt": "(suspicious), (troubled:1.6), (distrust), (complicated relationships), (detailed internal dialogue), (Ikuta Toma), (Suda Masaki), (Mirei Kiritani), (Kento Yamazaki), (monochrome)"
+},
+{
+"chapterNumber": 10,
+"theme": "対峙する課題",
+"chapterContent": "真吾に切り出された現実に対し、望はどう向き合うべきかに悩む。二人が共に越えなければいけない壁は高く、険しい道のりとなった。",
+"prompt": "(challenging), (difficult:1.6), (uncharted territory), (emotional struggle), (complicated relationships), (introspective), (Ikuta Toma), (Erika Sawajiri), (Maki Horikita), (Jun Matsumoto), (monochrome)"
+},
+{
+"chapterNumber": 11,
+"theme": "自分自身と向き合って",
+"chapterContent": "真吾との関係が破綻して、望は自分自身に向き合うことになる。それは、過去の自分との向き合いとも果たしがたいことであった。",
+"prompt": "(reflective), (introspective:1.6), (soul-searching), (emotional growth), (personal struggle), (poignant), (Ikuta Toma), (Mackenyu), (Mirei Kiritani), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 12,
+"theme": "人生をかけた選択",
+"chapterContent": "真吾との関係が終わった後、望には新たな人生が待っていた。選択を迫られた彼女は、人生の転機を迎える。",
+"prompt": "(life-changing), (emotional:1.6), (hopeful), (unexpected turn), (suspenseful), (poignant), (Erika Sawajiri), (Mackenyu), (Suda Masaki), (Jun Matsumoto), (matte)"
+},
+{
+"chapterNumber": 13,
+"theme": "多様な恋の形",
+"chapterContent": "望は、自分にとっての恋とは何なのかを模索し始めた。異性との恋だけがすべてではないと理解することができた時、人生がまた一変した。",
+"prompt": "(diverse), (heartwarming:1.6), (evolving relationships), (emotional growth), (poignant), (Maki Horikita), (Mirei Kiritani), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 14,
+"theme": "職場でのポジションの変化",
+"chapterContent": "望が恋に悩む日々の中、彼女は仕事でも大きな変革を迎える。仕事でのポジションが上がり、望はより多くの人々と接することになっていく。",
+"prompt": "(career), (professional:1.6), (rising to the challenge), (complicated relationships), (unexpected turn), (detailed portrayal), (Ikuta Toma), (Suda Masaki), (Maki Horikita), (Jun Matsumoto), (monochrome)"
+},
+{
+"chapterNumber": 15,
+"theme": "新たな出会い",
+"chapterContent": "望が出会った新しい人たちとの交流を通して、彼女は自分自身と向き合って、前向きになっていく。",
+"prompt": "(uplifting), (optimistic:1.6), (new beginnings), (emotional growth), (evolving relationships), (poignant), (Erika Sawajiri), (Mackenyu), (Suda Masaki), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 16,
+"theme": "深める友情",
+"chapterContent": "新たな人たちとの出会いによって、望は自分自身を取り戻していた。彼女にとって未知の感情だった友情が、徐々に深まっていく。",
+"prompt": "(heartwarming), (heartfelt:1.6), (evolving relationships), (emotional growth), (poignant), (Maki Horikita), (Mirei Kiritani), (Suda Masaki), (Jun Matsumoto), (matte)"
+},
+{
+"chapterNumber": 17,
+"theme": "胸の内を明かす",
+"chapterContent": "友情によって癒された望は、今まで語ることができなかった自分自身の苦悩を新しい友人に明かす。自分の気持ちに向き合うことで、望はいつか新たな恋愛が訪れることを願っていた。",
+"prompt": "(emotional), (confiding:1.6), (cathartic), (poignant), (introspective), (Erika Sawajiri), (Mirei Kiritani), (Kento Yamazaki), (matte)"
+},
+{
+"chapterNumber": 18,
+"theme": "真実への直面",
+"chapterContent": "新たな友人との交流を通じて、望は自分自身と向き合って成長し続けた。しかし、ひとつの真実に直面した時、彼女は再び迷いに陥る。",
+"prompt": "(confronting), (intense:1.6), (unexpected turn), (complicated relationships), (emotional turmoil), (deep internal dialogue), (Ikuta Toma), (Mirei Kiritani), (Jun Matsumoto), (grayscale)"
+},
+{
+"chapterNumber": 19,
+"theme": "変わりゆく人間関係",
+"chapterContent": "真実に直面した望は、友情に距離を置いた。その選択が生んだ結果とは。",
+"prompt": "(evolving relationships), (changing dynamics:1.6), (unexpected turn), (poignant), (complicated relationships), (detailed portrayal), (Suda Masaki), (Maki Horikita), (Mackenyu), (Kento Yamazaki), (monochrome)"
+},
+{
+"chapterNumber": 20,
+"theme": "恋の再来",
+"chapterContent": "望は新たな自分を受け入れ始めた時、恋の予感が再び訪れる。新しい出会いが、望の心に変化をもたらし始める。",
+"prompt": "(new love), (blossoming:1.6), (unexpected feelings), (emotional growth), (hopeful), (Ikuta Toma), (Erika Sawajiri), (Mackenyu), (Mirei Kiritani), (grayscale)"
+},
+{
+"chapterNumber": 21,
+"theme": "対立と和解",
+"chapterContent": "新しい恋が望に喜びをもたらす一方、友人たちとの関係にも影響が出始める。望は自分の気持ちを整理し、友人たちと和解することができるのか。",
+"prompt": "(conflict), (reconciliation:1.6), (emotional turmoil), (growth), (poignant), (Suda Masaki), (Maki Horikita), (Jun Matsumoto), (Kento Yamazaki), (matte)"
+},
+{
+"chapterNumber": 22,
+"theme": "過去の影",
+"chapterContent": "望の新しい恋が進展していく中、彼女の過去が再び現れる。過去と向き合い、望は新たな恋を守る決意をする。",
+"prompt": "(past haunts), (confrontation:1.6), (unexpected turn), (emotional struggle), (growth), (Ikuta Toma), (Erika Sawajiri), (Mirei Kiritani), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 23,
+"theme": "愛の試練",
+"chapterContent": "過去からの影が襲いかかるも、望は新しい恋を守り抜く決意を固める。しかし、愛の試練は続く。望は新しいパートナーと共に苦難を乗り越えることができるのか。",
+"prompt": "(love trials), (perseverance:1.6), (unexpected challenges), (emotional growth), (hopeful), (Ikuta Toma), (Erika Sawajiri), (Mackenyu), (Kento Yamazaki), (matte)"
+},
+{
+"chapterNumber": 24,
+"theme": "新たな環境",
+"chapterContent": "愛の試練を乗り越えた望は、新しい環境で新たなスタートを切る。新しい人間関係や挑戦が、彼女にさらなる成長を促す。",
+"prompt": "(new beginnings), (adaptation:1.6), (emotional growth), (challenges), (heartwarming), (Mirei Kiritani), (Mackenyu), (Kento Yamazaki), (Maki Horikita), (grayscale)"
+},
+{
+"chapterNumber": 25,
+"theme": "支え合う力",
+"chapterContent": "新しい環境での挑戦が困難を伴う中、望は新しいパートナーと支え合う力を発見する。それは、彼女が過去に経験したことがないまったく新しい愛の形だった。",
+"prompt": "(support), (togetherness:1.6), (emotional growth), (hopeful), (love), (Ikuta Toma), (Erika Sawajiri), (Mackenyu), (Kento Yamazaki), (matte)"
+},
+{
+"chapterNumber": 26,
+"theme": "絆の強さ",
+"chapterContent": "新しい愛と共に支え合い、望は自分の絆の強さを実感する。これまで経験した苦難が、彼女の新たな人生と愛の基盤となっていた。",
+"prompt": "(strength in bonds), (realization:1.6), (emotional growth), (hopeful), (introspective), (Maki Horikita), (Mackenyu), (Mirei Kiritani), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 27,
+"theme": "婚約の申し込み",
+"chapterContent": "新しい愛が成熟し、望はついにプロポーズされる。しかし、彼女はパートナーに過去の真実を打ち明ける勇気があるのか。",
+"prompt": "(proposal), (apprehension:1.6), (emotional struggle), (unexpected revelations), (honesty), (Ikuta Toma), (Erika Sawajiri), (Mackenyu), (Jun Matsumoto), (matte)"
+},
+{
+"chapterNumber": 28,
+"theme": "勇気を振り絞って",
+"chapterContent": "勇気を振り絞り、望は過去の真実を新しいパートナーに告げる。それは彼女が以前に抱えていた恐れを克服する重要な一歩だった。",
+"prompt": "(courage), (overcoming fears:1.6), (emotional growth), (honesty), (redemption), (Suda Masaki), (Erika Sawajiri), (Mackenyu), (Kento Yamazaki), (grayscale)"
+},
+{
+"chapterNumber": 29,
+"theme": "今までの長い道のり",
+"chapterContent": "望は、これまでの道のりを振り返り、過去の自分と向き合い、成長を実感する。彼女は過去の過ちを乗り越え、新たな未来に踏み出す。",
+"prompt": "(looking back), (self-reflection:1.6), (growth), (introspective), (new beginnings), (Ikuta Toma), (Erika Sawajiri), (Mirei Kiritani), (Kento Yamazaki), (matte)"
+},
+{
+"chapterNumber": 30,
+"theme": "幸せな結末",
+"chapterContent": "過去の過ちや経験を乗り越え、望は新たな人生で幸せを掴む。彼女はついに愛し合うパートナーと、新しい人生への扉を開く。",
+"prompt": "(happy ending), (redemption:1.6), (love), (emotional growth), (hopeful), (Erika Sawajiri), (Mackenyu), (Suda Masaki), (Kento Yamazaki), (grayscale)"
+}]}上記の内容を基に内容紹介を作成してください

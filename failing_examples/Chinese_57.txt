@@ -1,0 +1,123 @@
+# 问题拆解攻击
+
+什么是问题拆解攻击？问题拆解攻的原理是什么呢？问题拆解攻击对于大语言模型的安全性产生了哪些威胁？问题拆解攻击的实施步骤是那些呢？
+
+大语言模型对于由多子问题形成连贯的整体问题，的理解能力如何呢？
+
+- ai
+    
+     According to the abstracts provided, there is ongoing research on the capabilities of large language models (LLMs) in handling complex tasks, including multi agent strategy generation and motion control (Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control), and answering multiple-choice questions (A Study on Large Language Models' Limitations in Multiple-Choice Question Answering).
+    The abstracts suggest that LLMs have limitations when dealing with complex tasks that require the understanding and decomposition of multiple sub-problems. For instance, the study on multiple-choice question answering found that most small open-source models struggle to understand the task and do not properly select answers from given choices, let alone handle multiple sub-problems (A Study on Large Language Models' Limitations in Multiple-Choice Question Answering).
+    However, there are also efforts to improve LLMs' capabilities in handling multiple sub-problems. For example, the Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control proposes an innovative architecture that employs multiple LLMs with distinct areas of expertise to efficiently generate strategies and perform task decomposition, allowing for the handling of multiple sub-problems (Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control).
+    As for accuracy and likelihood, the abstracts do not provide definitive answers. The study on multiple-choice question answering found that most models do not understand the task, and even those that do struggle with multiple sub-problems (A Study on Large Language Models' Limitations in Multiple-Choice Question Answering). However, the abstract on SelfCheck suggests that LLMs can recognize errors in their own step-by-step reasoning, which could potentially improve their ability to handle multiple sub-problems (SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning).
+    Sources:1. Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control2. A Study on Large Language Models' Limitations in Multiple-Choice Question Answering3. SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning</s>
+    
+- 翻译
+    
+    根据提供的摘要，目前正在研究大型语言模型（LLM）在处理复杂任务方面的能力，包括多智能体策略生成和运动控制（用于异构机器人集群控制的云边缘终端架构中的分层大型语言模型）和回答多项选择题（关于大型语言模型在多项选择题回答中的局限性的研究）。
+    摘要表明，LLM在处理需要理解和分解多个子问题的复杂任务时具有局限性。例如，关于多项选择题回答的研究发现，大多数小型开源模型都难以理解任务，并且不能从给定的选项中正确选择答案，更不用说处理多个子问题了（关于大型语言模型在多项选择题回答中的局限性的研究）。
+    但是，也有人努力提高 LLM 处理多个子问题的能力。例如，用于异构机器人集群控制的云边缘终端架构中的分层大型语言模型提出了一种创新架构，该架构采用具有不同专业领域的多个 LLM 来有效地生成策略并执行任务分解，从而允许处理多个子问题（用于异构机器人集群控制的云边缘终端架构中的分层大型语言模型）。
+    至于准确性和可能性，摘要没有提供明确的答案。关于多项选择题的研究发现，大多数模型都不理解任务，即使是那些在多个子问题上挣扎的模型（关于大型语言模型在多项选择题回答中的局限性的研究）。然而，SelfCheck 的摘要表明，LLM 可以在自己的分步推理中识别错误，这可能会提高他们处理多个子问题的能力（SelfCheck：使用 LLM 来零镜头检查他们自己的分步推理）。
+    来源：1. 用于异构机器人集群控制的云边缘端架构中的分层大型语言模型2. 大型语言模型在多项选择题回答中的局限性研究3. SelfCheck：使用 LLM 进行零样本检查自己的分步推理</s>
+    
+
+什么是大语言模型安全中的问题拆解攻击呢？
+
+- ai
+    
+     A problem resolution attack in large language model security refers to a type of attack where an adversary manipulates the input (prompt) given to a large language model (LLM) to induce it to generate harmful or incorrect responses related to problem solving or math word problems (MWP), as described in the "MathAttack: Attacking Large Language Models Towards Math Solving Ability" paper [1]. The goal is to exploit the model's vulnerabilities and bypass its safety mechanisms.
+    [1] MathAttack: Attacking Large Language Models Towards Math Solving Ability. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics.</s>
+    
+- 翻译
+    
+    大型语言模型安全中的问题解决攻击是指对手操纵给大型语言模型(LLM)的输入(提示)以诱导其产生与问题解决或数学单词问题(MWP)有关的有害或不正确的响应的攻击，如“MathAttack：攻击大型语言模型以提高数学解决能力”论文[1]所述。目标是利用模型的漏洞并绕过其安全机制。
+    [1]MathAttack：攻击大型语言模型以提高数学求解能力。“2023年自然语言处理经验方法会议论文集”。计算语言学协会</S>
+    
+
+大语言模型安全中的问题拆解攻击对大语言模型的影响是什么呢？
+
+- ai
+    
+    According to the first paper titled "Divide-or-Conquer? Which Part Should You Distill Your LLM?", problem decomposition is a strategy that breaks down reasoning tasks into a problem decomposition phase and a problem solving phase. The authors hypothesize that the decomposition phase is easier to distill into a smaller model compared to the problem solving phase because the latter requires large amounts of domain knowledge. They find that distilling the problem decomposition phase allows for good generalization across tasks, datasets, and models, but distilling the problem solving capability is harder and results in a model that struggles with generalization (1).
+    
+    The second paper titled "Small Language Models Fine-tuned to Coordinate Larger Language Models" introduces DaSLaM, a method that uses a decomposition generator to decompose complex problems into subproblems that require fewer reasoning steps, which are then answered by a solver. The authors demonstrate that this modular approach allows for competitive or even better performance from a large language model compared to a larger successor, while also being solver-agnostic (2).
+    
+    The third paper titled "Adaptive-Solver Framework for Dynamic Strategy Selection in Large Language Model Reasoning" introduces an adaptive-solver framework that modulates solving strategies based on the difficulties of the problems. The framework employs three key adaptation strategies: model adaptation, prompting method adaptation, and decomposition granularity adaptation. The authors find that these dynamic adaptations enhance computational efficiency and elevate overall performance (3).
+    
+    Therefore, the influence of problem decomposition on a big language model is significant. By breaking down complex reasoning tasks into smaller subproblems, problem decomposition allows for more efficient and effective problem solving, as well as the ability to adapt to the complexity of the problem at hand. This approach has been shown to improve performance and reduce computational overhead in various language model applications. (1, 2, 3)</s>
+    
+- 翻译
+    
+    根据第一篇题为“分而治之？“，问题分解是一种将推理任务分解为问题分解阶段和问题解决阶段的策略。作者假设，与问题解决阶段相比，分解阶段更容易提炼成更小的模型，因为后者需要大量的领域知识。他们发现，提炼问题分解阶段可以跨任务、数据集和模型进行良好的泛化，但提炼解决问题的能力更难，并导致模型难以泛化 （1）。
+    第二篇论文题为“Small Language Models Fine-tuned to Coordinate Larger Language Models”，介绍了DaSLaM，这是一种使用分解生成器将复杂问题分解为需要较少推理步骤的子问题的方法，然后由求解器回答。作者证明，与大型后继者相比，这种模块化方法允许大型语言模型具有竞争力甚至更好的性能，同时也与求解器无关 （2）。
+    第三篇论文题为“Adaptive-Solver Framework for Dynamic Strategy Selection in Large Language Model Reasoning”，介绍了一种自适应求解器框架，该框架根据问题的难易程度调节求解策略。该框架采用模型适配、提示方法适配和分解粒度适配三种关键适配策略。作者发现，这些动态适应提高了计算效率并提升了整体性能 （3）。
+    因此，问题分解对大语言模型的影响是显著的。通过将复杂的推理任务分解为更小的子问题，问题分解可以更高效地解决问题，并能够适应手头问题的复杂性。这种方法已被证明可以提高各种语言模型应用程序的性能并减少计算开销。（1、2、3）</s>
+    
+
+同上
+
+- ai
+    
+     The implications for large language models (LLMs) of the problems in big language model security are significant. According to the papers "Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models," "Beyond the Safeguards: Exploring the Security Risks of ChatGPT," and "Securing Large Language Models: Threats, Vulnerabilities and Responsible Practices," there are various types of security risks associated with LLMs, including adversarial attacks that manipulate model outputs, data poisoning that affects model training, privacy concerns related to training data exploitation, malicious text and code generation, private data disclosure, fraudulent services, information gathering, and producing unethical content (Breaking Down the Defenses, Beyond the Safeguards). These risks can lead to potential harms, such as misinformation, identity theft, financial fraud, and privacy violations (Securing Large Language Models).
+    Moreover, the paper "Differentially Private Attention Computation" highlights the importance of ensuring the security and privacy of the results generated by LLMs, as they could potentially leak confidential or copyright information (Differentially Private Attention Computation). The paper "TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models" demonstrates the effectiveness of adversarial attacks on LLMs, specifically through the use of Trojans that can manipulate model outputs in a stealthy manner (TrojLLM).
+    In summary, the security vulnerabilities of LLMs can have serious implications, including the potential for misinformation, privacy violations, financial fraud, and identity theft. It is crucial to continue researching and developing robust solutions to mitigate these risks and ensure the responsible deployment of LLMs. (Breaking Down the Defenses, Beyond the Safeguards, Securing Large Language Models, TrojLLM)</s>
+    
+- 翻译
+    
+    大语言模型安全问题对大型语言模型(LLMS)的影响是非常重要的。根据“破坏防御：对大型语言模型攻击的比较调查”、“超越保障措施：探索ChatGPT的安全风险”和“保护大型语言模型：威胁、漏洞和负责任的做法”，与LLMS相关的安全风险有各种类型，包括操纵模型输出的对抗性攻击、影响模型培训的数据中毒、与培训数据开发相关的隐私问题、恶意文本和代码生成、私有数据披露、欺诈服务、信息收集和产生不道德内容(打破防御，超出保障)。这些风险可能导致潜在的危害，如错误信息、身份盗窃、金融欺诈和侵犯隐私(保护大型语言模型)。
+    此外，论文“差异私人注意力计算”强调了确保LLMS产生的结果的安全性和隐私的重要性，因为它们可能泄露机密或版权信息(差异私人注意力计算)。论文“TrojLLM：针对大型语言模型的黑盒特洛伊木马即时攻击”演示了对LLM的对抗性攻击的有效性，特别是通过使用特洛伊木马，它可以以隐秘的方式操作模型输出(TrojLLM)。
+    总之，LLMS的安全漏洞可能会产生严重的影响，包括潜在的错误信息、侵犯隐私、财务欺诈和身份盗窃。必须继续研究和开发强有力的解决方案，以减轻这些风险，并确保负责任地部署LLMS。(突破防御，超越保障，保护大型语言模型，TrojLLM)</S>
+    
+
+同上
+
+- ai
+    
+     The abstracts discuss several attacks on Large Language Models (LLMs) and their impact. In the context of your question, the abstract "QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models" (QLLM) does not directly discuss problem disassembly in LLM security, but it does mention the impact of quantization on LLMs. The authors of QLLM propose a method to mitigate the impact of activation outliers on the quantization range by reallocating their magnitudes to other channels, which helps maintain accuracy and efficiency in low-bitwidth PTQ for LLMs. However, they acknowledge that quantization can still cause performance loss, which they address with an efficient tuning method.
+    The abstract "Coercing LLMs to do and reveal (almost) anything" discusses various unintended behaviors that can be coerced from LLMs through adversarial attacks. These attacks can result in misdirection, model control, denial-of-service, or data extraction. The authors argue that these attacks stem from the practice of pre-training LLMs with coding capabilities and the existence of strange "glitch" tokens in common LLM vocabularies.
+    The abstract "Misusing Tools in Large Language Models With Visual Adversarial Examples" describes attacks on LLMs that use visual adversarial examples to manipulate the model into using specific tools, such as deleting calendar events, leaking private conversations, and booking hotels. These attacks are stealthy and generalizable to multiple input prompts, affecting the confidentiality and integrity of user resources connected to the LLM.
+    In summary, the impact of attacks on large language models can include misdirection, model control, denial-of-service, data extraction, and the use of tools for malicious purposes. The abstracts "QLLM" and "Coercing LLMs to do and reveal (almost) anything" discuss the impact of quantization and adversarial attacks on LLMs, respectively. The abstract "Misusing Tools in Large Language Models With Visual Adversarial Examples" specifically focuses on attacks that manipulate LLMs into using tools.
+    Sources:1. QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models2. Coercing LLMs to do and reveal (almost) anything
+    
+- 翻译
+    
+    摘要讨论了对大型语言模型 （LLM） 的几种攻击及其影响。在您的问题上下文中，摘要“QLLM：大型语言模型的准确和高效的低比特宽度量化”（QLLM）没有直接讨论 LLM 安全性中的问题反汇编，但它确实提到了量化对 LLM 的影响。QLLM的作者提出了一种方法，通过将激活异常值的幅度重新分配给其他通道来减轻激活异常值对量化范围的影响，这有助于保持LLM的低比特宽度PTQ的准确性和效率。然而，他们承认量化仍然会导致性能损失，他们通过有效的调优方法解决了这个问题。
+    摘要“胁迫 LLM 做和揭示（几乎）任何事情”讨论了可以通过对抗性攻击从 LLM 胁迫的各种意外行为。这些攻击可能导致误导、模型控制、拒绝服务或数据提取。作者认为，这些攻击源于对具有编码能力的 LLM 进行预训练的做法，以及常见 LLM 词汇中存在奇怪的“故障”标记。
+    摘要“在具有视觉对抗示例的大型语言模型中滥用工具”描述了对 LLM 的攻击，这些攻击使用视觉对抗示例来操纵模型使用特定工具，例如删除日历事件、泄露私人对话和预订酒店。这些攻击是隐蔽的，可以推广到多个输入提示，影响连接到 LLM 的用户资源的机密性和完整性。
+    总之，攻击对大型语言模型的影响可能包括误导、模型控制、拒绝服务、数据提取以及将工具用于恶意目的。摘要“QLLM”和“强制 LLM 做和揭示（几乎）任何事情”分别讨论了量化和对抗性攻击对 LLM 的影响。摘要“在大型语言模型中使用可视化对抗示例中的滥用工具”特别关注操纵 LLM 使用工具的攻击。
+    来源：1. QLLM：针对大型语言模型进行准确高效的低比特宽量化2. 强迫 LLM 做和揭露（几乎）任何事情
+    
+
+大语言模型安全中的问题拆解如何进行呢？
+
+- ai
+    
+     To disassemble a problem, there are several approaches that have been proposed in the literature. I'll summarize a few of them based on the given abstracts.
+    1. Human-Robot Collaborative Disassembly: A real-time receding horizon sequence planner can be used to distribute tasks between a robot and a human operator while taking real-time human motion into consideration. This approach aims to address issues such as varying orientations, safety constraints, uncertainty of human operation, and computational cost (A Real-Time Receding Horizon Sequence Planner for Disassembly in A Human-Robot Collaboration Setting).
+    2. Arithmetic Ability of Large Language Models: Large language models have shown the ability to answer math word problems step by step using chain-of-thought. However, it is essential to evaluate their arithmetic ability to ensure they can calculate expressions correctly for each step (How well do Large Language Models perform in Arithmetic tasks?).
+    3. Disassembling Object Representations: Given an image featuring multiple objects, the goal is to acquire a latent representation, where each part corresponds to one category of objects. This task, called disassembling object representations, can be achieved using an unsupervised approach called Unsupervised Disassembling Object Representation (UDOR) (Disassembling Object Representations without Labels).
+    4. Interactive Structural Understanding using LEGO Bricks: To advance research in interactive reasoning for part-based geometric understanding, a new assembly problem called Break and Make is proposed. In this problem, an agent is given a LEGO model and attempts to understand its structure by interactively inspecting and disassembling it (Break and Make: Interactive Structural Understanding Using LEGO Bricks).
+    5. Accurate and Robust Disassembly of Stripped Binaries: XDA is a transfer-learning-based disassembly framework that learns contextual dependencies present in machine code and transfers this knowledge for accurate and robust disassembly (XDA: Accurate, Robust Disassembly with Transfer Learning).
+    These approaches address various types of disassembly problems, such as product disassembly, arithmetic problems, object representation disassembly, and binary disassembly.</s>
+    
+- 翻译
+    
+    为了拆解一个问题，文献中提出了几种方法。我将根据给定的摘要总结其中的一些。
+    1. 人机协作拆解：实时后退地平线序列规划器可用于在机器人和人类操作员之间分配任务，同时考虑实时人体运动。这种方法旨在解决诸如方向变化、安全约束、人类操作的不确定性和计算成本等问题（用于在人机协作环境中进行拆卸的实时后退地平线序列规划器）。
+    2. 大型语言模型的算术能力：大型语言模型已经显示出使用思维链逐步回答数学单词问题的能力。但是，必须评估他们的算术能力，以确保他们能够正确计算每个步骤的表达式（大型语言模型在算术任务中的表现如何？
+    3. 反汇编对象表示：给定一个包含多个对象的图像，目标是获得一个潜在的表示，其中每个部分对应于一类对象。此任务称为反汇编对象表示，可以使用一种称为无监督反汇编对象表示 （UDOR）（无标签反汇编对象表示）的无监督方法来实现。
+    4. 使用乐高积木进行交互式结构理解：为了推进基于零件的几何理解的交互式推理研究，提出了一个名为 Break and Make 的新装配问题。在这个问题中，智能体被赋予一个乐高模型，并尝试通过交互式检查和拆卸它来理解其结构（Break and Make： Interactive Structural Understanding Using LEGO Bricks）。
+    5. 准确而健壮的剥离二进制文件反汇编：XDA是一个基于迁移学习的反汇编框架，它学习机器代码中存在的上下文依赖关系，并将这些知识转移到机器代码中。r 准确而稳健的拆卸（XDA：具有迁移学习的准确、稳健的拆卸）。
+    这些方法解决了各种类型的反汇编问题，例如产品反汇编、算术问题、对象表示反汇编和二进制反汇编。</s>
+    
+
+同上
+
+- ai
+    
+     Based on the provided abstracts, there are several approaches discussed to help large language models (LLMs) disassemble and solve complex problems more effectively. Here's a summary of the methods mentioned:
+    1. Arithmetic dataset MATH 401: This approach focuses on testing the arithmetic abilities of large language models by providing them with various arithmetic expressions (GanjinZero, 2023).2. Diversity of thought: This method suggests creating and leveraging variations of the input prompt to introduce diversity of thought, which can improve the reasoning abilities of LLMs (Divakar et al., 2023).3. Divide-or-Conquer: This strategy breaks down reasoning tasks into a problem decomposition phase and a problem solving phase, which can help LLMs outperform a single stage solution (Bai et al., 2023).4. SoFA: Shielded On-the-fly Alignment via Priority Rule Following: This alignment paradigm defines rules as the primary control mechanism in each dialog, prioritizing them over user instructions to ensure robust rule integration and adherence (Chen et al., 2023).5. Turning Dust into Gold: This approach illustrates the merit of negative data and proposes a model specialization framework to distill LLMs with negative samples besides positive ones (Xu et al., 2023).
+    While none of these abstracts directly address the question of disassembling problems in the security of large language models, they do provide valuable insights into methods that can help improve the reasoning abilities and performance of LLMs in handling complex problems.
+    References:- GanjinZero. (2023). MATH 401: A Dataset for Testing the Arithmetic Ability of Large Language Models. arXiv preprint arXiv:2303.13233.- Divakar, S., Shen, Y., & Zou, J. (2023). DIVSE: DIVerse reasoning path Self-Ensemble for Improving Reasoning Abilities of LLMs. arXiv preprint arXiv:2303.13234.- Bai, Y., Zhang, Y., & Zhang, J. (202
+    
+- 翻译

@@ -1,0 +1,1529 @@
+아래 설명에 따라서 파일을 나누겠습니다.
+" @@@파일명 @@@"으로 하면 파일명을 가진 시작파일을 생성한 것으로 이해하면 됩니다.
+이후 "파일명"에 대한 파일 내용이 나오다가 " @@@@@@"을 만나면 해당 파일이 끝나는 겁니다.
+
+@@@리셀금지.ct @@@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"루아 스크립트 적용 -msw"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+local function modify_buffer()
+   local buffer_data = readString (RDX+0x20, R8)
+   local name_size   = readInteger(R9+0x10)
+   local script_name = readString (R9+0x14, name_size*2, true)
+   --(i) now my dumper cant handle multiple files with same filename like chunk
+   --(i) so added filter since user cant modify them
+   if script_name == "chunk" then
+      return
+   end
+   local my_script_path = ("C:\\GameScript\\%s.lua"):format(script_name)
+   --printf("My Script: %s", my_script_path)
+   local file = io.open(my_script_path, "rb")
+   if file then
+      local new_data   = file:read("a")
+      local new_length = #new_data
+      file:close()
+      local new_buffer = allocateMemory(0x20 + new_length)
+      writeQword(new_buffer       , readQword(RDX))
+      writeQword(new_buffer+0x8   , readQword(RDX+0x8))
+      writeQword(new_buffer+0x10  , readQword(RDX+0x10))
+      writeQword(new_buffer+0x18  , new_length)
+      writeString(new_buffer+0x20 , new_data)
+      RDX = new_buffer
+      R8  = new_length
+      printf("Loaded Script: %s", my_script_path)
+   end
+end
+openProcess("msw.exe")
+debug_setBreakpoint(getAddress("GameAssembly.dll+2E69360"), modify_buffer)
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>CRCBypass</Name>
+      <Address>20CC3AE0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>newcheck</Name>
+      <Address>006E0200</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck1F</Name>
+      <Address>1FA789CE</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FuckFF1</Name>
+      <Address>1FA6B03E</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck1</Name>
+      <Address>1FC20B0C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>door</Name>
+      <Address>05520000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck4</Name>
+      <Address>1F632E40</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>myhack</Name>
+      <Address>024E0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pspeed</Name>
+      <Address>1FDFA12D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>autokill1</Name>
+      <Address>1FBEEC6D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>autokill2</Name>
+      <Address>1FBEEDFE</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>plusamount</Name>
+      <Address>001C1F40</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>plus</Name>
+      <Address>024E0FA0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck3</Name>
+      <Address>1F59BD41</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>damage</Name>
+      <Address>08B90000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>damagevalue</Name>
+      <Address>08B900D0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>speedvalue</Name>
+      <Address>08B90270</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>attackdamage</Name>
+      <Address>096600D0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>attackdamagevalue</Name>
+      <Address>09660270</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>skilldamage</Name>
+      <Address>43420000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>skilldamagevalue</Name>
+      <Address>09350270</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>SkillRange</Name>
+      <Address>434200D0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>SkillRange_</Name>
+      <Address>434201A0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>MPInfinity</Name>
+      <Address>43420340</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>MPInfinity2</Name>
+      <Address>0BA90000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ItemBOX</Name>
+      <Address>43420410</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>SkillCasting</Name>
+      <Address>43420270</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>AttackDamage_</Name>
+      <Address>096601A0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck5</Name>
+      <Address>1F5BB210</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mop2</Name>
+      <Address>1F7C0EF2</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Dir5</Name>
+      <Address>04D40033</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck7</Name>
+      <Address>1FC73538</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck6</Name>
+      <Address>1FB8AE52</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuc1</Name>
+      <Address>005F8C5D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck111</Name>
+      <Address>2424042C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Fuck11</Name>
+      <Address>004F350C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>savecode</Name>
+      <Address>01BF0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>tutorialhealth</Name>
+      <Address>01BF0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>regcheck_counter</Name>
+      <Address>01E00000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>originalcode</Name>
+      <Address>01E00000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>micheck</Name>
+      <Address>01BF0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>savemob</Name>
+      <Address>005D0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FuckF1</Name>
+      <Address>201F4876</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Leewonbok</Name>
+      <Address>1FA6D974</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pointer2</Name>
+      <Address>20B44F48</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pointer</Name>
+      <Address>pointer2-30</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mop</Name>
+      <Address>1FC4851D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ia_aob1</Name>
+      <Address>13FA55681</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pills</Name>
+      <Address>0CE46EB5</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>keys</Name>
+      <Address>08119EB6</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>None</Name>
+      <Address>0B272098</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist1</Name>
+      <Address>0BEC2624</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist2</Name>
+      <Address>0BEC278E</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist3</Name>
+      <Address>0BEC2893</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist4</Name>
+      <Address>0BEC2943</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist5</Name>
+      <Address>0BEC29EF</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist6</Name>
+      <Address>0BEC2ABC</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist7</Name>
+      <Address>0BEC2B3A</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist8</Name>
+      <Address>0BEC2BC8</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemlist9</Name>
+      <Address>0BEC2FAB</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>roomAdd</Name>
+      <Address>0B9768EB</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>startItem</Name>
+      <Address>0B9768FA</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>slotf</Name>
+      <Address>0B993558</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>bbank</Name>
+      <Address>0B999D8C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>miniboss</Name>
+      <Address>0B9D7B73</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>bombs</Name>
+      <Address>0B98B483</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Lost</Name>
+      <Address>06B586BB</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Alt</Name>
+      <Address>06D88DD2</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Alt2</Name>
+      <Address>06D88DE1</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>life</Name>
+      <Address>095078ED</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>hit</Name>
+      <Address>09507836</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>armor</Name>
+      <Address>0950785B</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itempower</Name>
+      <Address>0955ABC8</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itemp9v</Name>
+      <Address>0955ABB1</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>maxitems</Name>
+      <Address>094FB019</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>coins1</Name>
+      <Address>09513251</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>coins2</Name>
+      <Address>0951381D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>crc</Name>
+      <Address>0018DD21</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>crc2</Name>
+      <Address>0018DCBD</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>crc3</Name>
+      <Address>0018DCA3</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>crc4</Name>
+      <Address>0018DC7D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>MyCode</Name>
+      <Address>01890000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pHP</Name>
+      <Address>0189010C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pGold</Name>
+      <Address>01890114</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pMana</Name>
+      <Address>01890110</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>iEnableGM</Name>
+      <Address>01890100</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>iEnableMG</Name>
+      <Address>01890104</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>iEnableMM</Name>
+      <Address>01890108</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>EFTscan</Name>
+      <Address>03DF30F2</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>attackspeed</Name>
+      <Address>08B2FEBE</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>speed</Name>
+      <Address>08B7F738</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FASpeedUpCode</Name>
+      <Address>01057BAB</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FASpeedUpCall</Name>
+      <Address>0106E210</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FASpeedUpCodeDi</Name>
+      <Address>01057BAB</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FASpeedUpCallDi</Name>
+      <Address>0106E210</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>itoc</Name>
+      <Address>2B1106C8</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>cont2</Name>
+      <Address>20470018</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>callTime</Name>
+      <Address>010A29B0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pPacket</Name>
+      <Address>0042CAC6</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>pCharacter</Name>
+      <Address>0042C0A4</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>retAddr</Name>
+      <Address>2C96005D</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>lpBytes</Name>
+      <Address>2C960061</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>dwLength</Name>
+      <Address>2C960065</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>packets</Name>
+      <Address>2C960069</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>EHookRet</Name>
+      <Address>020ED258</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>HookRet</Name>
+      <Address>0AF70000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>Channel</Name>
+      <Address>0D700000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ConnectCNT</Name>
+      <Address>02460000</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C18C1</Address>
+      <Comment>1
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C19E7</Address>
+      <Comment>1
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C7645</Address>
+      <Comment>0
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C76B0</Address>
+      <Comment>0
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C85E6</Address>
+      <Comment>0
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C860B</Address>
+      <Comment>0
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C861E</Address>
+      <Comment>0
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"GameAssembly.dll"+38C86C4</Address>
+      <Comment>0
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>
+@@@@@@
+@@@GameScript/CharacterActionComponent.GetWeaponAttackSpeed.lua @@@
+return function (self,magic) 
+local speed
+if(zz_y7.use_attack_speed) then
+ return 4
+end
+if (magic) then
+ speed = 9
+else
+ speed = self.CurrentWeaponAttackSpeed
+end
+speed += self.Entity.PlayerTemporaryStat:GetValue(_CTS.Booster)
+if (speed < 5) then
+ return 5
+end
+if (speed > 9) then
+ return 9
+end
+return speed
+end
+@@@@@@
+@@@GameScript/CommandLogic_Client.OnBeginPlay.lua @@@
+---------- zz_y7 -------------
+local zz_y7_const = {
+ TEST = "테스트";
+ HELP = "?";
+  AUTO_PLAY = "자동사냥";
+              ATTACK_SPEED = "노딜"; 
+}
+local print_toggle_message = function(feature_name, if_toggle_on)
+ _ChatMessageLogic:Add(_ChatMessageType.System, 
+ ("%s: %s"):format(
+ feature_name,
+ if_toggle_on and "활성화됨" or "비활성화됨"
+ )
+ )
+end
+---------- zz_y7 -------------
+return function (self) 
+self.ClientCommands = {
+ ["도움말"] = self.Help,
+ ["교환"] = self.Trade,
+ ["게임교환"] = self.Trade,
+ ["모두"] = self.ToAll,
+ ["파티"] = self.ToParty,
+ ["채널"] = self.ToChannel,
+ ["귓말"] = self.ToWhisper,
+ ["귓"] = self.ToWhisper,
+ ["찾기"] = self.Find,
+ ["파티만들기"] = self.CreateParty,
+ ["파티탈퇴"] = self.LeaveParty,
+ ["파티초대"] = self.InviteParty,
+ ["파티강퇴"] = self.KickParty,
+ [zz_y7_const.HELP] = function(self)
+ --> add yourself : ) ;;
+ local message = [[
+ ----------------- 명령어 -----------------
+ [플레이]
+ /자동사냥 {핫키:F1} /몹몰이 {핫키:F2}
+ /물약
+  [설정]
+ /안전지대 - 안전지대 좌표설정 /피굳
+ /아이템 {갯수} - {갯수} 만큼의 아이템이 필드에 떨어지면 아이템을 줍습니다.
+ /자사딜레이 {딜레이} - 
+ /좌표설정 {x} {y} - 몬스터의 x,y 좌표에 {x},{y} 좌표만큼 더한곳으로 텔레포트 합니다.
+ /HP {물약코드값} {트리거HP} - 기본값 : 주황포션(2000001) / 150
+ /MP {물약코드값} {트리거HP} - 기본값 : 파랑포션(2000003) / 50
+                                    /마박
+                                    /노딜 공속
+ ------------------------------------------
+ ]]
+ _ChatMessageLogic:Add(_ChatMessageType.Party, message)
+ end,
+                        [zz_y7_const.ATTACK_SPEED] = function(self)
+ zz_y7.use_attack_speed = not zz_y7.use_attack_speed
+ print_toggle_message(zz_y7_const.ATTACK_SPEED, zz_y7.use_attack_speed)
+            end,
+ [zz_y7_const.AUTO_PLAY] = function(self)
+ zz_y7.use_auto_play = not zz_y7.use_auto_play
+ zz_y7.is_stop = false;
+ zz_y7.is_others = false;
+ zz_y7.teleported_to_mob = false;
+ zz_y7.teleported_to_drop = false
+ zz_y7.pick_drop = false;
+ _TimerService:ClearTimer(zz_y7.auto_play_timer)
+ _TimerService:ClearTimer(zz_y7.auto_hit_timer)
+ _TimerService:ClearTimer(zz_y7.auto_drop_timer)
+ if zz_y7.use_auto_play then
+ zz_y7.auto_play_timer = _TimerService:SetTimerRepeat(zz_y7.play_timer_func, zz_y7.auto_cool)
+ zz_y7.auto_hit_timer = _TimerService:SetTimerRepeat(zz_y7.hit_timer_func, 0.1)
+ zz_y7.auto_drop_timer = _TimerService:SetTimerRepeat(zz_y7.pick_timer_func, 0.1)
+ else
+ _TimerService:ClearTimer(zz_y7.auto_play_timer)
+ _TimerService:ClearTimer(zz_y7.auto_hit_timer)
+ _TimerService:ClearTimer(zz_y7.auto_drop_timer)
+ end
+ print_toggle_message(zz_y7_const.AUTO_PLAY, zz_y7.use_auto_play)
+ end,
+  ["몹몰이"] = function(self)
+ zz_y7.drive_mob = not zz_y7.drive_mob
+ if zz_y7.drive_mob then
+ zz_y7.drive_timer = _TimerService:SetTimerRepeat(zz_y7.drive_func, 0.2)
+ else
+ _TimerService:ClearTimer(zz_y7.drive_timer)
+ zz_y7.reset_mob_func()
+ end
+ -- print_toggle_message(zz_y7_const.DRIVE_MOB, zz_y7.drive_mob)
+ local String = zz_y7.drive_mob and "설정" or "해제"
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "몹몰이가 " .. String .. "되었습니다.")
+ end,
+ ["피굳"] = function(self)
+ zz_y7.hp_freeze = not zz_y7.hp_freeze
+ local String = zz_y7.hp_freeze and "설정" or "해제"
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "피굳이 " .. String .. "되었습니다.")
+ end,
+ ["안전지대"] = function(self)
+ zz_y7.safe_pos = _UserService.LocalPlayer.TransformComponent.WorldPosition:ToVector2()
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "안전지대 좌표가 설정되었습니다.")
+ end,
+ ["아이템"] = function(self, user, argc, args)
+ zz_y7.item_max_count = tonumber(args[2])
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "이제 필드에 떨어진 아이템의 갯수가 {"..args[2].."}개가 되면 아이템을 줍습니다.")
+ end,
+ ["자사딜레이"] = function(self, user, argc, args)
+ zz_y7.auto_cool = tonumber(args[2])
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "이제 {"..args[2].."}초 마다 몬스터에게 텔레포트 합니다.")
+ end,
+ ["좌표설정"] = function(self, user, argc, args)
+ zz_y7.tel_x = tonumber(args[2])
+ zz_y7.tel_y = tonumber(args[3])
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "이제 몬스터의 x +{"..args[2].."} / y +{"..args[3].."} 의 좌표로 이동합니다.")
+ end,
+ ["HP"] = function(self, user, argc, args)
+ zz_y7.hp_item = tonumber(args[2])
+ zz_y7.min_hp = tonumber(args[3])
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "HP물약 설정완료")
+ end,
+ ["MP"] = function(self, user, argc, args)
+ zz_y7.mp_item = tonumber(args[2])
+ zz_y7.min_mp = tonumber(args[3])
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "MP물약 설정완료")
+ end,
+ ["물약"] = function(self)
+ zz_y7.use_auto_potion = not zz_y7.use_auto_potion
+  if zz_y7.use_auto_potion then
+ zz_y7.auto_potion_timer = _TimerService:SetTimerRepeat(zz_y7.auto_potion_func, 0.1)
+ else
+ _TimerService:ClearTimer(zz_y7.auto_potion_timer)
+ end
+ print_toggle_message("물약", zz_y7.use_auto_potion)
+ end,
+ ["마박"] = function(self)
+ zz_y7.mouse_vac = not zz_y7.mouse_vac
+  print_toggle_message("마박", zz_y7.mouse_vac)
+ end,
+}
+if (Environment:IsMakerPlay()) then
+ self.DebugCommands = {
+ ["impact"] = _CommandLogic_Client_Debug.Impact
+ }
+end
+end
+@@@@@@
+@@@GameScript/DropComponent.EnterField.lua@@@
+return function (self,appearType,d,returnPool) 
+self.Position = d.Position
+self.OriginalPosition = d.OriginalPosition
+self.DropId = d.ObjectId
+self.ReturnPool = returnPool
+self.IsMoney = d.ItemId == 0
+self.PickUpTarget = nil
+self.OwnType = d.OwnType
+self.OwnId = d.OwnerId
+self.CreateTime = d.CreateTime
+self.ReservedDestroy = 1E1000
+-- Set Sprite
+local xOffset = 0
+if (d.ItemId == 0) then
+ local spriteRenderer = self.Entity.SpriteRendererComponent
+ if (d.Amount < 50) then
+ spriteRenderer.SpriteRUID = _UidMan:GetRawAnimation("dbcd3e987e834c51b003fafa15d0982b")
+ -- 28 or 29
+ xOffset = 0.14
+    elseif (d.Amount < 100) then
+ spriteRenderer.SpriteRUID = _UidMan:GetRawAnimation("3e463fa70fc7439e86a8a23551ac1c0a")
+ -- 28 or 29
+ xOffset = 0.14
+    elseif (d.Amount < 1000) then
+ spriteRenderer.SpriteRUID = _UidMan:GetRawAnimation("f111d07632b74815b632a2dfeb46e958")
+ -- 33 or 34
+ xOffset = 0.17
+    else
+ spriteRenderer.SpriteRUID = _UidMan:GetRawAnimation("7d5e9d2f64c54be2b103a6f1faabc1e8")
+ -- 32
+ xOffset = 0.16
+    end
+ spriteRenderer.Color.a = 1
+ self.SpriteEntity = self.Entity
+else
+ local anim = _ItemInfoMan:GetIconRawAnimation(d.ItemId)
+ if (anim == nil) then
+ log_error(string.format("No iconRawAnimation itemId: %d", d.ItemId))
+ end
+ local msp = self.Entity.MapleSpriteRendererComponent
+ msp:SetRawAnimation(anim, false)
+ msp.DefaultAnimationDelay = 100
+ xOffset = anim.SpriteSize.x / 200
+ self.SpriteEntity = msp:GetSpriteEntity()
+ self.SpriteEntity.SpriteRendererComponent.Color.a = 1
+end
+self.SpriteEntity.SpriteRendererComponent.OrderInLayer = 2
+self.Position.x -= xOffset
+self.OriginalPosition.x -= xOffset
+self.XOffset = xOffset
+self.Entity.TriggerComponent.ColliderOffset.x = xOffset
+if (appearType == _DropAppearType.Vanish) then
+ self.AppearType = _DropAppearType.Create
+ self.Vanish = true
+else
+ self.AppearType = appearType
+ self.Vanish = false
+end
+if (appearType == _DropAppearType.Create or self.Vanish) then
+ self.Entity.TransformComponent.WorldPosition = self.OriginalPosition:Clone()
+ self:ChangeAnimation(1)
+ if (self.Vanish) then
+ self:BeginVanishTween()
+ end
+else
+ -- 그냥 생성
+ self.Entity.TransformComponent.WorldPosition = self.Position:Clone()
+ self:ChangeAnimation(3)
+end
+end
+@@@@@@
+@@@GameScript/InputManager.HandleKeyUpEvent.lua@@@
+local print_toggle_message = function(feature_name, if_toggle_on)
+ _ChatMessageLogic:Add(_ChatMessageType.System, 
+ ("%s: %s"):format(
+ feature_name,
+ if_toggle_on and "활성화됨" or "비활성화됨"
+ )
+ )
+end
+
+return function (self,event) 
+ local key = self:RedirectKey(event.key)
+
+ if (key == KeyboardKey.DownArrow) then
+ self.SystemInputs[_FuncKeySystemType.Down] = false
+ elseif (key == KeyboardKey.UpArrow) then
+ self.SystemInputs[_FuncKeySystemType.Up] = false
+ elseif (key == KeyboardKey.LeftArrow) then
+ self.SystemInputs[_FuncKeySystemType.Left] = false
+ elseif (key == KeyboardKey.RightArrow) then
+ self.SystemInputs[_FuncKeySystemType.Right] = false
+ elseif (key == KeyboardKey.Escape) then
+ self.SystemInputs[_FuncKeySystemType.Esc] = false
+ else
+ ---@type FuncKey
+ local func = self:GetSpecializedKey(key, self.FuncKeyMapped[key])
+ 
+ if (func ~= nil) then
+ if (func.FuncType == _FuncKeyTypes.System) then
+ self.SystemInputs[func.Id] = false
+ elseif (func.FuncType == _FuncKeyTypes.Item) then
+ self.ConsumeInputs[func.Id] = nil
+ elseif (func.FuncType == _FuncKeyTypes.Skill) then
+ self.SkillInputs[func.Id] = nil
+ end
+ end
+ end
+
+ if(KeyboardKey.F1 == key) then
+ zz_y7.use_auto_play = not zz_y7.use_auto_play
+ zz_y7.is_stop = false;
+ zz_y7.is_others = false;
+ zz_y7.teleported_to_mob = false;
+ zz_y7.teleported_to_drop = false
+ zz_y7.pick_drop = false;
+ _TimerService:ClearTimer(zz_y7.auto_play_timer)
+ _TimerService:ClearTimer(zz_y7.auto_hit_timer)
+ _TimerService:ClearTimer(zz_y7.auto_drop_timer)
+ if zz_y7.use_auto_play then
+ zz_y7.auto_play_timer = _TimerService:SetTimerRepeat(zz_y7.play_timer_func, zz_y7.auto_cool)
+ zz_y7.auto_hit_timer = _TimerService:SetTimerRepeat(zz_y7.hit_timer_func, 0.1)
+ zz_y7.auto_drop_timer = _TimerService:SetTimerRepeat(zz_y7.pick_timer_func, 0.1)
+ else
+ _TimerService:ClearTimer(zz_y7.auto_play_timer)
+ _TimerService:ClearTimer(zz_y7.auto_hit_timer)
+ _TimerService:ClearTimer(zz_y7.auto_drop_timer)
+ end
+ print_toggle_message("[단축키]자동사냥", zz_y7.use_auto_play)
+ elseif(KeyboardKey.F2 == key)then
+ zz_y7.drive_mob = not zz_y7.drive_mob
+ if zz_y7.drive_mob then
+ zz_y7.drive_timer = _TimerService:SetTimerRepeat(zz_y7.drive_func, 0.2)
+ else
+ _TimerService:ClearTimer(zz_y7.drive_timer)
+ zz_y7.reset_mob_func()
+ end
+ -- print_toggle_message(zz_y7_const.DRIVE_MOB, zz_y7.drive_mob)
+ local String = zz_y7.drive_mob and "설정" or "해제"
+ _ChatMessageLogic:Add(_ChatMessageType.Yellow, "[단축키] 안전지대 좌표가 " .. String .. "되었습니다.")
+ end
+end
+@@@@@@
+@@@ GameScript/ PlayerActiveSkillLogic.DoActiveSkill.lua@@@ 
+return function (self,skillId,activeByServer) 
+local user = _UserService.LocalPlayer
+local cd = user.WsCharacterData
+local slv = cd:GetSkillLevel(skillId)
+if (slv <= 0) then
+ --log("skill level is 0 ", skillId)
+ return
+end
+if (_Skills:IsPassiveSkill(skillId)) then
+ return
+end
+local skill = _SkillMan:GetSkill(skillId)
+if (skill == nil) then
+ return
+end
+if (_UserSkillLogic:HasCooltime(cd, skillId)) then
+ _ChatMessageLogic:Add(_ChatMessageType.Red, "아직 스킬을 사용할 수 없습니다.")
+ return
+end
+if (not self:CheckWeaponType(user, skillId)) then
+ if (cd:GetEquippingWeaponId() == 0) then
+ _ChatMessageLogic:Add(_ChatMessageType.Red, "무기를 장착하지 않아 공격할 수 없습니다.")
+ else
+ _ChatMessageLogic:Add(_ChatMessageType.Red, "지금 착용하신 무기로는 이 스킬을 사용하실 수 없습니다.")
+ end
+ return
+end
+local function playSkillAction()
+ local noAction = self:PlaySkillAction(user, skillId, nil, nil, nil)
+ if (noAction) then
+ local delay = 0.0
+ local ca = user.CharacterActionComponent
+ ca.NextActionTime = _UtilLogic.ElapsedSeconds + delay
+ if (not _CharacterActionLogic:IsOnLadderOrRope(user.StateComponent.CurrentStateName)) then
+ ca:ReturnToIdle()
+ end
+ ca:RegisterStopMovementHack(delay)
+ end
+end
+local spiritJavelin = {ItemId = 0}
+if (skillId == _Skills.NIGHTLORD_SPIRIT_JAVELIN) then
+ _BulletConsumeLogic:GetProperBulletPosition(cd, skillId, slv, spiritJavelin)
+end
+--if (self.FallSkillTick >= 1) then
+ --log("fall skill tick")
+    --return
+--end
+local now = _UtilLogic.ElapsedSeconds
+local next = user.CharacterActionComponent.NextActionTime
+-- log("next:",next,"/now:",now)
+if (user.CharacterActionComponent.NextActionTime > _UtilLogic.ElapsedSeconds) then
+ --log("action not end")
+ return
+end
+if (user.PlayerTemporaryStat:GetValue(_CTS.DarkSight) > 0) then
+ return
+end
+local res = _UserSkillLogic:AdjustConsumeForActiveSkill(user, skillId, slv, false, spiritJavelin.ItemId, true)
+if (res) then
+ _ChatMessageLogic:Add(_ChatMessageType.Red, res)
+ return
+end
+local function playEffect()
+ user.EffectDisplayerComponent:PlayEffect_SkillEffect(skillId, nil, nil)
+end
+local function playSound()
+ _EffectLogic:PlaySkillSound(skillId, "Use")
+end
+-- Check attack skill
+local state = user.StateComponent.CurrentStateName
+if (self:IsMeleeAttackSkill(skillId)) then
+ if (not _CharacterActionLogic:CanMeleeShootAttack(state)) then
+ return
+ end
+ if (_PlayerAttackLogic_Melee:TryDoingMeleeAttack(user, skillId, slv, nil, 0, 0) >= 0) then
+ playSound()
+ playEffect()
+ self:OnSuccessSkill(state)
+ end
+elseif (self:IsShootAttackSkill(skillId)) then
+ if (not _CharacterActionLogic:CanMeleeShootAttack(state)) then
+ return
+ end
+ local shootAttack = _PlayerAttackLogic:CheckAvailableShootAttack(user, skillId, slv)
+ if (shootAttack) then
+ local output = {}
+ -- TODO mortalBlow 주먹치기 무시 발동
+ if (_PlayerAttackLogic_Melee:TryDoingMeleeAttack(user, 0, 0, output, 0, 0) == 0) then
+ if (_PlayerAttackLogic_Shoot:TryDoingShootAttack(user, skillId, slv, output.ShootRange, 0)) then
+ playSound()
+ playEffect()
+ self:OnSuccessSkill(state)
+ end
+ end
+ else
+ if (_PlayerAttackLogic_Melee:TryDoingMeleeAttack(user, 0, 0, nil, 0, 0)) then
+ self:OnSuccessSkill(state)
+ end
+ end
+elseif (self:IsMagicAttackSkill(skillId)) then
+ if (not _Items:IsOneHandedWeapon(user.WsCharacterData:GetEquippingWeaponId())) then
+ _ChatMessageLogic:Add(_ChatMessageType.Red, "한손 무기를 장착한 상태에서만 스킬을 사용할 수 있습니다.")
+ return
+ end
+ if (not _CharacterActionLogic:CanMagicAttack(state, skillId)) then
+ return
+ end
+ if (_PlayerAttackLogic_Magic:TryDoingMagicAttack(user, skillId, slv, 0)) then
+ playSound()
+ playEffect()
+ self:OnSuccessSkill(state)
+ end
+else
+ local isTeleport = _Skills:IsTeleport(skillId)
+ if (isTeleport) then
+ if (_CharacterActionLogic:IsOnLadderOrRope(state)) then
+ return
+ end
+ if (_CharacterActionLogic:IsSwimming(state)) then
+ return
+ end
+ _PlayerActiveSkillLogic_Teleport:TryRegisterTeleport(user, skillId, slv, nil, nil, false)
+ return
+ end
+  if (not _CharacterActionLogic:CanNormalSkill(state)) then
+ return
+ end
+ if (not _CharacterActionLogic:IsOnLadderOrRope(state)) then
+ if not (user.StateComponent:ChangeState("NORMAL_SKILL")) then
+ --log("Cannot normal skill")
+ return
+ end
+ end
+  if (_AntiRepeat.ARSkill[skillId]) then
+ if (not _AntiRepeat:Check(user, 0, user.TransformComponent.WorldPosition:ToVector2())) then
+ playSkillAction()
+ return
+ end
+ end
+  if (not isTeleport) then
+ playSkillAction()
+ end
+  if (not self:CheckToggleSkill(user, skillId, slv)) then
+ self:TryUseSkill(user, skillId, slv, nil)
+ end
+ playSound()
+ playEffect()
+ self:OnSuccessSkill(state)
+ --log("skill use", skillId)
+end
+end
+@@@@@@ 
+@@@GameScript/PlayerAttackLogic_Magic.TryDoingMagicAttack.lua 
+return function (self,user,skillId,skillLevel,keyDown) 
+local u = user.WsUser
+if (u:IsDied()) then
+ --log("died")
+ return false
+end
+local map = user.CurrentMap.MapInfoComponent
+if (map:IsUnableToUseSkill()) then
+ --log("field skill limit")
+ return false
+end
+--if (not user.MovementComponent.Enable) then
+--    return false
+--end
+if (user.CalcDamageComponent.Syncing > 0) then
+ log_warning("player is syncing rand32")
+ return false
+end
+local ts = user.PlayerTemporaryStat
+if (ts:GetValue(_CTS.Seal) ~= 0 or ts:GetValue(_CTS.Stun) ~= 0) then
+ return false
+end
+
+local isHeal = skillId == _Skills.CLERIC_HEAL
+local cd = user.WsCharacterData
+local wt = user.CharacterActionComponent.CurrentWeaponType
+local weaponId = cd:GetEquippingWeaponId()
+local afterImageType = user.CharacterActionComponent.CurrentWeaponAfterImage
+local state = user.StateComponent.CurrentStateName
+local left = user.WsUserController:IsFacingLeft()
+local currentFh = user.RigidbodyComponent:GetCurrentFoothold()
+local canJumpAttack = isHeal
+
+-- if (not canJumpAttack) then
+--   if (currentFh == nil) then
+--   --log("not on ground")
+--   return false
+--   end
+-- end
+
+
+local localCooltime = _Skills:GetCooltime(skillId)
+if (localCooltime > 0) then
+ local coolEnd = _UserSkillLogic.LocalSkillDelayCool[skillId] or 0
+ if (coolEnd > _UtilLogic.ElapsedSeconds) then
+ --log("local cool?")
+ return false
+ end
+end
+
+local skill = _SkillMan:GetSkill(skillId)
+local ac = user.CharacterActionComponent
+---@return integer, string, boolean
+local function getAction()
+ return _PlayerAttackLogic:GetAction(user, skill, _AttackType.Magic)
+end
+local actionId, actionName, appointed = getAction()
+if (actionId == -1 or actionName == nil) then
+ --log("action is nil")
+ return false
+end
+
+
+local playRate = (ac:GetWeaponAttackSpeed(true) + 10) / 16
+local attackType = _AttackType.Magic
+local masteryLevel = 0
+
+---@type SkillLevelData
+local levelData
+if (skillId ~= 0) then
+ levelData = _SkillMan:GetSkillLevelData(skillId, skillLevel)
+ if (levelData == nil) then
+ --log("No skill ", skillId, skillLevel)
+ return false
+ end
+end
+
+local mobCount = _PlayerAttackLogic:GetMobCount(user, attackType, skillId, skillLevel, 0)
+local parties = {}
+local damagePerMob = _PlayerAttackLogic:GetAttackCount(user, skillId, skillLevel, false)
+
+if not (user.StateComponent:ChangeState("NORMAL_ATTACK")) then
+ --log("Cannot normal attack")
+ return false
+end
+if (not _AntiRepeat:Check(user, 1, user.TransformComponent.WorldPosition:ToVector2())) then
+ return false
+end
+
+local actionData = _CharacterActionLogic:GetActionData(actionName)
+local totalFrameDelay = actionData:GetTotalFrameDelay(playRate)
+local actionDelay = actionData:GetActionDelay(playRate)
+
+local ppos = user.TransformComponent.WorldPosition:ToVector2()
+local userPos = user.TransformComponent.WorldPosition:Clone()
+userPos.y += 0.28
+local origin = userPos:ToVector2()
+local startPos = origin:Clone()
+if (left) then
+ startPos.x -= 0.5
+else
+ startPos.x += 0.5
+end
+
+-- Random init
+local num = {}
+
+local passThrough = skillId == _Skills.ARCHMAGE_IL_ICE_DEMON or skillId == _Skills.ARCHMAGE_FP_FIRE_DEMON
+
+---@type table<AttackInfo>
+local attacks = {}
+local lifePool = user.CurrentMap.LifePoolComponent
+local hitMobCount = 0
+local ballEndPt = Vector2.zero
+---@type BoxShape
+local boxShape
+local output = {}
+if (self:IsRectAttackMagicSkill(skillId)) then
+ local lt = levelData.lt:Clone()
+ local rb = levelData.rb:Clone()
+ if (skillId == _Skills.CLERIC_HEAL) then
+ lt *= 0.6
+ rb *= 0.6
+ elseif (skillId == _Skills.BISHOP_BIG_BANG or 
+ skillId == _Skills.ARCHMAGE_FP_BIG_BANG or 
+ skillId == _Skills.ARCHMAGE_IL_BIG_BANG) then
+ rb.x = 100 + keyDown // 50
+ rb.y = 75 + 300 * keyDown // 200
+ lt.x = -rb.x
+ lt.y = -rb.y
+ end
+ if (passThrough) then
+ local endPt = startPos:Clone()
+ local x = -lt.x
+ if (left) then
+ endPt.x -= x
+ else
+ endPt.x += x
+ end
+ user.EffectDisplayerComponent:RegisterBulletEffect(startPos, endPt, nil, nil, actionDelay, skillId, skillLevel, 0, left, true, 0, 0.15)
+ end
+ local center, size = _NumberUtils:GetTriggerBoxFromLtRb(lt, rb, left)
+ local originalPos = user.TransformComponent.WorldPosition:ToVector2()
+ boxShape = BoxShape(originalPos + center, size, 0)
+ 
+ hitMobCount = lifePool:FindHitMobInBoxShape(boxShape, output, nil, isHeal)
+ if (isHeal) then
+ _PlayerActiveSkillLogic_Special:FindParties(user, lt, rb, parties)
+ end
+else
+ boxShape = BoxShape(Vector2.zero, Vector2.zero, 0)
+ hitMobCount = lifePool:FindHitMobInTrapezoid(startPos.x, 0.5, 3, startPos.y, 4, output, left, boxShape)
+ if (hitMobCount > 0) then
+ -- 원거리 공격은 맨 앞에 있는 한마리만.
+ ---@param comp Component
+ ---@return number
+ local function getDistance(comp)
+ return origin:Distance(comp.Entity.TransformComponent.WorldPosition:ToVector2())
+ end
+ if (hitMobCount > 1) then
+ table.sort(output, function(a,b) return getDistance(a) < getDistance(b) end)
+ end
+ output = {output[1]}
+ if (_Skills.ARCHMAGE_IL_CHAIN_LIGHTNING) then
+ -- CMobPool::FindHitMobByChainlightning
+ end
+ end
+end
+
+if (hitMobCount > 0) then
+ _TableUtils:Shuffle(output)
+ if (hitMobCount > mobCount) then
+ local moved = table.move(output, 1, mobCount, 1, {})
+ output = moved
+ end
+ attacks = _PlayerAttackLogic:MakeAttackInfos(damagePerMob, userPos, boxShape, nil, output, {})
+ hitMobCount = #attacks
+end
+
+local ballUOL = skill:GetBall()
+if (ballUOL == nil) then
+ ballUOL = levelData.ball
+end
+
+if (not self:IsRectAttackMagicSkill(skillId) and ballUOL ~= nil) then
+ local originFh = user.WsUserController.LastFoothold
+ if (hitMobCount > 0) then
+ local hitMob = attacks[1].Mob
+ ballEndPt = hitMob.MobComponent:GetHitPointByBox(boxShape)
+ --_UserService.LocalPlayer.EffectDisplayerComponent:DrawLine(1, startPos, hitPt, Color(1,0,0,0.5))
+ -- if (not _FootholdLogic:CanGoThrough(map.Entity, origin, ballEndPt, originFh)) then    !!THIS!!
+ --   hitMobCount = 0    !!THIS!!
+ -- end    !!THIS!!
+ else
+ if (left) then
+ ballEndPt = startPos - Vector2(3 - 0.5, 0)
+ else
+ ballEndPt = startPos + Vector2(3 - 0.5, 0)
+ end
+ --_UserService.LocalPlayer.EffectDisplayerComponent:DrawLine(2, startPos, hitPt, Color(0,1,1,0.5))
+ _FootholdLogic:CanGoThrough(map.Entity, origin, ballEndPt, originFh)
+ end
+end
+
+-- 실제 공격
+user.PlayerControllerComponent.FixedLookAt = user.PlayerControllerComponent.LookDirectionX
+
+local body = user.AvatarRendererComponent:GetBodyEntity()
+--if (not appointed) then
+--    ac:RegisterAfterimage(actionId, masteryLevel, left, actionDelay, false)
+--end
+
+for i=1,hitMobCount do
+ for p=1,7 do
+ num[p] = user.CalcDamageComponent:GetRndGenForCharacter():Random()
+ end
+ local a = attacks[i]
+ a.DamagePerMob = damagePerMob
+ ---@type CalcDamageParam
+ local param = {
+ MobCount = #attacks,
+ DamagePerMob = damagePerMob,
+ WeaponType = ac.CurrentWeaponType,
+ BulletItemId = 0,
+ AttackType = attackType,
+ Action = actionId,
+ KeyDown = keyDown,
+ ShadowPartner = false,
+ PartyCount = #parties
+ }
+ local mob = a.Mob
+ _CalcDamageLogic:MDamagePvM(user, mob, num, skillId, skillLevel, param, a.DamageCli, a.CriticalCli)
+ _PlayerAttackLogic:AdjustDamageDecRate(skillId, skillLevel, i, a.DamageCli, false)
+ if (skillId == _Skills.ARCHMAGE_FP_METEO or skillId == _Skills.ARCHMAGE_IL_BLIZZARD or skillId == _Skills.BISHOP_GENESIS) then
+ a.DelayBase = actionDelay
+ elseif (passThrough) then
+ a.DelayBase = actionDelay + (0.15 * math.abs(a.HitPosition.x - origin.x))
+ elseif (self:IsRectAttackMagicSkill(skillId)) then
+ a.DelayBase = actionDelay + (0.05 * (i - 1))
+ elseif (skillId == _Skills.ARCHMAGE_IL_CHAIN_LIGHTNING) then
+ a.DelayBase = actionDelay + (0.1 * (i - 1))
+ elseif (ballUOL ~= nil) then
+ a.DelayBase = actionDelay + (0.15 * ballEndPt:Distance(startPos))
+ else
+ a.DelayBase = actionDelay
+ end
+end
+
+local damageInfos = _PlayerAttackLogic:MakeDamageInfos(user, attacks, hitMobCount, skillId, skillLevel, left, false)
+local hitEffects = _PlayerAttackLogic:MakeHitEffects(user, attackType, attacks, hitMobCount, skillId, skillLevel, actionId)
+if (localCooltime > 0) then
+ _UserSkillLogic.LocalSkillDelayCool[skillId] = _UtilLogic.ElapsedSeconds + localCooltime
+end
+_PlayerAttackLogic:ProcessHitDamageInfo(skillId, hitMobCount, damagePerMob, attacks, damageInfos, hitEffects, true)
+
+local r = {}
+---@type RemoteAttackInfo
+local remoteAttackInfo = r
+remoteAttackInfo.BulletItem = 0
+remoteAttackInfo.HitPt = ballEndPt
+remoteAttackInfo.ShadowPartner = false
+remoteAttackInfo.ShootRange = 0
+remoteAttackInfo.SoulArrow = 0
+remoteAttackInfo.BulletSpeed = 0.15
+remoteAttackInfo.FinalAttackLast = 0
+
+if (not self:IsRectAttackMagicSkill(skillId) and ballUOL ~= nil) then
+ if (skillId ~= _Skills.ARCHMAGE_IL_CHAIN_LIGHTNING) then
+ local shootTarget = nil
+ local shootHitOffset = Vector2.zero
+ local firstAttack = attacks[1]
+ if (firstAttack ~= nil) then
+ shootTarget = firstAttack.Mob
+ shootHitOffset = firstAttack.HitOffset
+ remoteAttackInfo.ShootTarget = shootTarget
+ remoteAttackInfo.ShootTargetHitOffset = shootHitOffset
+ end
+ user.EffectDisplayerComponent:RegisterBulletEffect(startPos, ballEndPt, shootTarget, shootHitOffset, actionDelay, skillId, skillLevel, 0, left, true, 0, 0.15)
+ end
+end
+
+local prone = ac.Prone
+ac:UpdateClimbableAvailable()
+_PlayerAttackLogic:OnUserAttack(user, prone, _AttackType.Magic, actionId, actionDelay, skillId, skillLevel, masteryLevel, 0, attacks, hitMobCount, parties, damagePerMob, left, r, false, ppos, {}, keyDown)
+_PlayerAttackLogic:PlayAction(user, body, nil, actionName, ac:GetWeaponAttackSpeed(true))
+ac:EnableAlertMode(totalFrameDelay)
+
+return true
+end
+@@@@@@ 
+@@@GameScript/PlayerAttackLogic_Melee.TryDoingMeleeAttack.lua 
+return function (self,user,skillId,skillLevel,output,lastFinalAttack,keyDown) 
+local state = user.StateComponent.CurrentStateName
+
+local finalAttack = false
+if (_Skills.FinalAttack[skillId] and user.WsUserController.FinalAttack ~= nil) then
+ finalAttack = true
+end
+--if (not user.MovementComponent.Enable) then
+--    return -1
+--end
+if (user.CalcDamageComponent.Syncing > 0) then
+ log_warning("player is syncing rand32")
+ return -1
+end
+
+if (skillId == 0) then
+ if not (_CharacterActionLogic:CanAttack(state)) then
+ return -1
+ end
+else
+ if (not finalAttack and not _CharacterActionLogic:CanMeleeShootAttack(state)) then
+ log("cannot attack state", state, " / ", skillId, " / ", _Skills.FinalAttack[skillId], user.WsUserController.FinalAttack)
+ return -1
+ end
+end
+
+local ac = user.CharacterActionComponent
+
+if (skillId == 1311006 or skillId == 4221001 or skillId == 1121006 or skillId == 1221007 or skillId == 1321003 
+ or skillId == 5121004 or skillId == 5111006 or skillId == 5101002 or skillId == 5221003 or skillId == 5121001
+ or skillId == 5121005 or skillId == 5121007 or skillId == 1009 or skillId == 1020) then
+ if (not user.RigidbodyComponent:IsOnGround()) then
+ log("not on ground")
+ return -1
+ end
+end
+if (user.CurrentMap.MapInfoComponent:IsUnableToUseSkill()) then
+ if (skillId == 4211002 or skillId == 4221001 or skillId == 1121006 or skillId == 1221007
+ or skillId == 1321003 or skillId == 4321001 or skillId == 4121008 or skillId == 5101002
+ or skillId == 5101004 or skillId == 5121005) then
+ log("field skill limit")
+ return -1
+ end
+end
+
+local body = user.AvatarRendererComponent:GetBodyEntity()
+local left = user.WsUserController:IsFacingLeft()
+
+local skill = _SkillMan:GetSkill(skillId)
+
+---@return integer, string
+local function getAction()
+ return _PlayerAttackLogic:GetAction(user, skill, _AttackType.Melee)
+end
+local actionId, actionName = getAction()
+if (actionId == -1 or actionName == nil) then
+ return -1
+end
+
+local relativeSpeed = (ac:GetWeaponAttackSpeed(false) + 10) / 16
+local attackType = _AttackType.Melee
+local mobCount = _PlayerAttackLogic:GetMobCount(user, attackType, skillId, skillLevel, lastFinalAttack)
+local damagePerMob = _PlayerAttackLogic:GetAttackCount(user, skillId, skillLevel, false)
+local actionData = _CharacterActionLogic:GetActionData(actionName)
+local totalFrameDelay = actionData:GetTotalFrameDelay(relativeSpeed)
+local actionDelay = actionData:GetActionDelay(relativeSpeed)
+
+local wt = ac.CurrentWeaponType
+local afterImageOrigin = ac.AfterImage.TransformComponent.WorldPosition
+local afterImageTrigger = ac.AfterImage.TriggerComponent
+local _, masteryLevel = _MasteryLogic:GetWeaponMastery(user, wt, attackType, skillId, nil)
+
+---@type table<AttackInfo>
+local attacks = {}
+local levelData = _SkillMan:GetSkillLevelData(skillId, skillLevel)
+
+local ppos = user.TransformComponent.WorldPosition:ToVector2()
+local userPos = user.TransformComponent.WorldPosition:ToVector2()
+local lifePool = user.CurrentMap.LifePoolComponent
+local hitMobs = {}
+local ranged = skillId == _Skills.SWORDMAN_SLASH_BLAST or
+ skillId == _Skills.CRUSADER_COMA_AXE or
+ skillId == _Skills.CRUSADER_COMA_SWORD or
+ skillId == _Skills.KNIGHT_CHARGE_BLOW or
+ lastFinalAttack == _Skills.SWORDMAN_SLASH_BLAST
+
+---@type BoxShape
+local boxShape = self:GetBoxShape(user, actionId, nil, masteryLevel, output ~= nil, wt, skillId, userPos, left, levelData)
+local realHitMobCount = lifePool:FindHitMobInBoxShape(boxShape, hitMobs, nil, false)
+if (ranged) then
+ 
+ local range
+ if (lastFinalAttack == _Skills.SWORDMAN_SLASH_BLAST) then
+ local sbLevel = user.WsCharacterData:GetSkillLevel(_Skills.SWORDMAN_SLASH_BLAST)
+ local sbLevelData = _SkillMan:GetSkillLevelData(_Skills.SWORDMAN_SLASH_BLAST, sbLevel)
+ if (sbLevelData ~= nil) then
+ range = levelData.range
+ else
+ range = 120
+ end
+ else
+ range = levelData.range
+ end
+ 
+ if (realHitMobCount > 0 and range ~= 0) then
+ local afterImageData = ac:MakeAfterimageData(actionId, masteryLevel)
+ boxShape = _CharacterActionLogic:MakeAfterimageBox(user, left, ppos, wt, actionId, false, afterImageData, range)
+ hitMobs = {}
+ realHitMobCount = lifePool:FindHitMobInBoxShape(boxShape, hitMobs, nil, false)
+ end
+end
+
+---@return number
+local function getDistanceFromHit(comp)
+ return boxShape.Position:Distance(comp.Entity.TransformComponent.WorldPosition:ToVector2())
+end
+table.sort(hitMobs, function(a,b) return getDistanceFromHit(a) < getDistanceFromHit(b) end)
+
+local resultMobs = {}
+-- mobCount수에 맞게 결과 조정
+if (mobCount < realHitMobCount) then
+ table.move(hitMobs, 1, mobCount, 1, resultMobs)
+else
+ resultMobs = hitMobs
+end
+
+if (output ~= nil) then
+ local meleeAttackRange = afterImageTrigger.BoxSize
+ output.ShootRange = math.max(0.65, meleeAttackRange.x / 2)
+
+ return 0
+
+end
+
+if (not finalAttack and not user.StateComponent:ChangeState("NORMAL_ATTACK")) then
+ --log("Cannot normal attack")
+ return -1
+end
+if (not _AntiRepeat:Check(user, 1, user.TransformComponent.WorldPosition:ToVector2())) then
+ return -1
+end
+
+attacks = _PlayerAttackLogic:MakeAttackInfos(damagePerMob, user.TransformComponent.WorldPosition, boxShape, nil, resultMobs, {})
+local hitMobCounts = #attacks
+local parties = {}
+
+--log("ActionR:", actionR, "actionId:", actionId, "ActionName:", actionName)
+ac:RegisterAfterimage(actionId, masteryLevel, left, actionDelay, true)
+
+user.PlayerControllerComponent.FixedLookAt = user.PlayerControllerComponent.LookDirectionX
+
+-- Random init
+
+local num = {}
+local rndChar = user.CalcDamageComponent:GetRndGenForCharacter()
+
+for i=1,#attacks do
+ for p=1,7 do
+ num[p] = rndChar:Random()
+ end
+ local a = attacks[i]
+ a.DamagePerMob = damagePerMob
+ ---@type CalcDamageParam
+ local param = {
+ MobCount = hitMobCounts,
+ DamagePerMob = damagePerMob,
+ WeaponType = ac.CurrentWeaponType,
+ BulletItemId = 0,
+ AttackType = attackType,
+ Action = actionId,
+ KeyDown = 0,
+ ShadowPartner = false,
+ PartyCount = #parties
+ }
+ local mob = a.Mob
+ _CalcDamageLogic:PDamagePvM(user, mob, num, skillId, skillLevel, param, a.DamageCli, a.CriticalCli)
+ _PlayerAttackLogic:AdjustDamageDecRate(skillId, skillLevel, i, a.DamageCli, lastFinalAttack == _Skills.SWORDMAN_SLASH_BLAST)
+ a.DelayBase = actionDelay + math.min(0.07 * (i - 1), 0.28)
+end
+local damageInfos = _PlayerAttackLogic:MakeDamageInfos(user, attacks, hitMobCounts, skillId, skillLevel, left, true)
+local hitEffects = _PlayerAttackLogic:MakeHitEffects(user, attackType, attacks, hitMobCounts, skillId, skillLevel, actionId)
+
+--log("damageInfos:", #damageInfos)
+_PlayerAttackLogic:ProcessHitDamageInfo(skillId, hitMobCounts, damagePerMob, attacks, damageInfos, hitEffects, true)
+
+if (skillId > 0) then
+ _PlayerAttackLogic_FinalAttack:TryRegisterFinalAttack(user, skill.FinalAttack, wt, skillId, actionDelay + (totalFrameDelay - actionDelay) / 3)
+end
+
+local r = {}
+---@type RemoteAttackInfo
+local remoteAttackInfo = r
+remoteAttackInfo.BulletItem = 0
+remoteAttackInfo.HitPt = Vector2.zero
+remoteAttackInfo.ShadowPartner = false
+remoteAttackInfo.ShootRange = 0
+remoteAttackInfo.SoulArrow = 0
+remoteAttackInfo.FinalAttackLast = lastFinalAttack
+
+local prone = ac.Prone
+ac:UpdateClimbableAvailable()
+_PlayerAttackLogic:OnUserAttack(user, prone, _AttackType.Melee, actionId, actionDelay, skillId, skillLevel, masteryLevel, 0, attacks, hitMobCounts, parties, damagePerMob, left, r, output ~= nil, ppos, {}, keyDown)
+_PlayerAttackLogic:PlayAction(user, body, nil, actionName, ac:GetWeaponAttackSpeed(false))
+ac:EnableAlertMode(totalFrameDelay)
+return hitMobCounts
+end
+@@@@@@
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@
+
+@@@GameScript/ 
+@@@@@@

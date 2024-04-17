@@ -1,0 +1,2004 @@
+translate Chinese to english, dont change other things
+
+
+
+[list0]
+//素材
+Money=金币
+Flour=面粉
+Wood=木材
+Fiber=纤维
+Wool=羊毛
+Charcoal=木炭
+Stone=石头
+StealIngot=帕鲁金属锭
+Pal_crystal_S=帕鲁矿碎块
+Pal_crystal_L=帕鲁矿
+CopperIngot=金属铸块
+CopperOre=金属矿石
+IronIngot=精炼金属铸块
+
+Ruby=红宝石
+Sapphire=蓝宝石
+Eemerald=绿宝石
+Diamond=钻石
+Cloth=布
+Cloth2=优质的布
+Coal=石炭
+GunPowder2=火药
+Leather=皮革
+
+
+MachineParts=钉子
+MachineParts2=电路板
+
+Unko_S=便便
+Unko_L=大号便便
+BerrySeeds=野莓种子
+TomatoSeeds=番茄种子
+LettuceSeeds=生菜种子
+WheatSeeds=小麦种子
+
+Sulfur=硫磺
+Quartz=纯水晶
+PalOil=优质帕鲁油
+Polymer=聚合物
+ElectricOrgan=发电器官
+Venom=毒腺
+FireOrgan=喷火器官
+IceOrgan=结冰器官
+bone=骨头
+Silicon=硅
+Cement=水泥
+CarbonFiber=碳纤维
+Horn=角
+PalFluid=帕鲁的体液
+PalItem_ColorfulBird=炸蛋鸟的羽毛
+PalItem_PlantSlime=叶泥泥的叶子
+PalItem_CaptainPenguin=企丸王的羽饰
+PalItem_CatMage=暗巫猫的体毛
+PalItem_ToSell_01=贵重龙珠
+PalItem_ToSell_02=贵重羽毛
+PalItem_ToSell_03=贵重内脏
+PalItem_ToSell_04=贵重爪子
+PalItem_ToSell_05=贵重兽毛
+
+
+PalEgg_Normal_01=平凡帕鲁蛋
+PalEgg_Normal_02=平凡帕鲁蛋
+PalEgg_Normal_03=大平凡帕鲁蛋
+PalEgg_Normal_04=大平凡帕鲁蛋
+PalEgg_Normal_05=巨大平凡帕鲁蛋
+PalEgg_Fire_01=发热帕鲁蛋
+PalEgg_Fire_02=发热帕鲁蛋
+PalEgg_Fire_03=大发热帕鲁蛋
+PalEgg_Fire_04=大发热帕鲁蛋
+PalEgg_Fire_05=巨大发热帕鲁蛋
+PalEgg_Water_01=潮湿帕鲁蛋
+PalEgg_Water_02=潮湿帕鲁蛋
+PalEgg_Water_03=大潮湿帕鲁蛋
+PalEgg_Water_04=大潮湿帕鲁蛋
+PalEgg_Water_05=巨大潮湿帕鲁蛋
+PalEgg_Leaf_01=新绿帕鲁蛋
+PalEgg_Leaf_02=新绿帕鲁蛋
+PalEgg_Leaf_03=大新绿帕鲁蛋
+PalEgg_Leaf_04=大新绿帕鲁蛋
+PalEgg_Leaf_05=巨大新绿帕鲁蛋
+PalEgg_Electricity_01=电气帕鲁蛋
+PalEgg_Electricity_02=电气帕鲁蛋
+PalEgg_Electricity_03=大电气帕鲁蛋
+PalEgg_Electricity_04=大电气帕鲁蛋
+PalEgg_Electricity_05=巨大电气帕鲁蛋
+PalEgg_Ice_01=结冰帕鲁蛋
+PalEgg_Ice_02=结冰帕鲁蛋
+PalEgg_Ice_03=大结冰帕鲁蛋
+PalEgg_Ice_04=大结冰帕鲁蛋
+PalEgg_Ice_05=巨大结冰帕鲁蛋
+PalEgg_Earth_01=粗糙帕鲁蛋
+PalEgg_Earth_02=粗糙帕鲁蛋
+PalEgg_Earth_03=大粗糙帕鲁蛋
+PalEgg_Earth_04=大粗糙帕鲁蛋
+PalEgg_Earth_05=巨大粗糙帕鲁蛋
+PalEgg_Dark_01=暗黑帕鲁蛋
+PalEgg_Dark_02=暗黑帕鲁蛋
+PalEgg_Dark_03=大暗黑帕鲁蛋
+PalEgg_Dark_04=大暗黑帕鲁蛋
+PalEgg_Dark_05=巨大暗黑帕鲁蛋
+PalEgg_Dragon_01=龙蛋
+PalEgg_Dragon_02=龙蛋
+PalEgg_Dragon_03=大龙蛋
+PalEgg_Dragon_04=大龙蛋
+PalEgg_Dragon_05=巨大龙蛋
+PalCrystal_Ex=古代文明部件
+PalUpgradeStone=小型帕鲁之魂
+PalUpgradeStone2=中型帕鲁之魂
+PalUpgradeStone3=大型帕鲁之魂
+
+
+
+MonsterEquipWeapon_Dummy=ITEM_NAME_MonsterEquipWeapon_Dummy
+AnimalSkin=**AnimalSkin
+AnimalSkin2=**AnimalSkin2
+Scales=**Scales
+Scales2=**Scales2
+Claws=**Claws
+Claws2=**Claws2
+ElectronicCircuit=**ElectronicCircuit
+Fang=**Fang
+Fang2=**Fang2
+Flint=**Flint
+GunPowder=**GunPowder
+IronOre=**IronOre
+Kitsunebi_Fire=**Kitsunebi_Fire
+Leather2=**Leather2
+Sharkkid_Scale=**Sharkkid_Scale
+PAL_Growth_Stone_S=**PAL_Growth_Stone_S
+PAL_Growth_Stone_M=**PAL_Growth_Stone_M
+PAL_Growth_Stone_L=**PAL_Growth_Stone_L
+PAL_Growth_Stone_XL=**PAL_Growth_Stone_XL
+PotatoSeedPotatoes=**PotatoSeedPotatoes
+
+CrudeOil=**CrudeOil
+Plastic=**Plastic
+Computer=**Computer
+
+CashFang=**CashFang
+CashScales=**CashScales
+
+Sand=**Sand
+
+
+
+
+
+[list1]
+//食材
+Berries=红色野莓
+Baked_Berries=烤野莓
+Meat=生肉
+GrilledMeat=烤肉
+Herbs=低品质药品
+Medicines=药品
+LuxuryMedicines=高级药品
+MindControlDrug=洗脑药
+Poppy=美丽花朵
+Opium=可疑果汁
+Narcotic=怪异果汁
+StatusPointResetSan=消除记忆药
+
+
+Pan=面包
+Tomato=番茄
+Wheat=小麦
+Lettuce=生菜
+Egg=蛋
+Milk=牛奶
+HotMilk=热牛奶
+JamBun=果酱面包
+
+Salad=沙拉
+Omelet=欧姆蛋
+FriedVegetables=炒蔬菜
+HotDog=热狗
+Pancake=松饼
+MarinatedMushrooms=腌蘑菇
+MushroomSoup=蘑菇汤
+
+Carbonara=奶油培根意面
+BLT=卷饼
+CheeseBurger=芝士汉堡
+Pizza=披萨
+MeatSauce=肉汤
+Cake=蛋糕
+MushroomStew=炖蘑菇
+Hamburger=汉堡
+FriedEggs=荷包蛋
+Mushroom=蘑菇
+BakedMushroom=烤蘑菇
+Honey=蜂蜜
+Sweet=棉花糖
+Meat_ChickenPal=皮皮鸡的鸡肉
+Meat_SheepBall=棉悠悠的羊肉
+Meat_Kelpie=水灵儿的鱼肉
+Meat_Eagle=天擒鸟的鸟肉
+Meat_Boar=草莽猪的猪肉
+Meat_LazyCatfish=趴趴鲶的鱼肉
+Meat_Deer=紫霞鹿的鹿肉
+Meat_IceDeer=严冬鹿的鹿肉
+Meat_BerryGoat=灌木羊的香草肉
+Meat_CowPal=波霸牛的牛肉
+Meat_SakuraSaurus=连理龙的恐龙肉
+Meat_GrassMammoth=森猛犸的巨兽肉
+BakedMeat_ChickenPal=烤皮皮鸡
+BakedMeat_SheepBall=棉悠悠羊肉烤串
+BakedMeat_Kelpie=水灵儿炭烤肉
+BakedMeat_Eagle=烤天擒鸟肉
+BakedMeat_Boar=草莽猪烤全猪
+BakedMeat_LazyCatfish=蒲烧趴趴鲶
+BakedMeat_Deer=紫霞鹿炙烤肉
+BakedMeat_IceDeer=严冬鹿炙烤肉
+BakedMeat_BerryGoat=灌木羊香草烤肉
+BakedMeat_CowPal=波霸牛牛排
+BakedMeat_SakuraSaurus=连理龙带骨烤肉
+BakedMeat_GrassMammoth=森猛犸巨兽烤排
+ChickenSaute=嫩煎皮皮鸡
+GrilledSheepHerbs=棉悠悠香草烤肉
+GenghisKhan=棉悠悠成吉思汗烤肉
+Eaglestew=炖煮天擒鸟肉
+BaconEggs=草莽猪培根蛋
+StewedIceDeer=严冬鹿肉炖菜
+FriedChicken=炸皮皮鸡肉块
+HotDog_3=草莽猪热狗
+DeerLocoMoco=夏威夷紫霞鹿汉堡饭
+DeerStew=紫霞鹿肉炖菜
+Hamburger_3=波霸牛汉堡
+CheeseBurger_3=波霸牛芝士汉堡
+FriedKelpie=炸水灵儿
+Chowder=趴趴鲶杂烩
+
+
+Berries2=**Berries2
+FishMeat=**FishMeat
+FishMeat2=**FishMeat2
+Meat2=**Meat2
+VenisonBoiledInTomato=**VenisonBoiledInTomato
+potato=**potato
+Corn=**Corn
+Pumpkin=**Pumpkin
+Baked_Potato=**Baked_Potato
+Grape=**Grape
+Hop=**Hop
+Potage=**Potage
+Curry=**Curry
+Sandwich=**Sandwich
+CornSoup=**CornSoup
+Stew=**Stew
+GrilledFish=**GrilledFish
+SeafoodSoup=**SeafoodSoup
+LuxuryOmelette=**LuxuryOmelette
+Beer=**Beer
+Wine=**Wine
+
+
+[list2]
+//消耗品
+
+RepairKit=修理套装
+TreasureBoxKey01=铜钥匙
+TreasureBoxKey02=银钥匙
+TreasureBoxKey03=金钥匙
+TechnologyBook_G1=高等技术书
+TechnologyBook_G2=革新技术书
+TechnologyBook_G3=未来技术书
+SkillCard_PowerShot=技能果实：能量射击
+SkillCard_PowerBall=技能果实：元气弹
+SkillCard_HyperBeam=技能果实：帕鲁光束
+SkillCard_AirCanon=技能果实：空气炮
+SkillCard_SelfDestruct=技能果实：自爆
+SkillCard_WindCutter=草之技能果实：狂风利刃
+SkillCard_GrassTornado=草之技能果实：绿野飓风
+SkillCard_SolarBeam=草之技能果实：太阳光束
+SkillCard_SeedMachinegun=草之技能果实：种子机关枪
+SkillCard_RootAttack=草之技能果实：缠绕地刺
+SkillCard_SeedMine=草之技能果实：种子地雷
+SkillCard_WaterGun=水之技能果实：水枪
+SkillCard_WaterBall=水之技能果实：爆裂水球
+SkillCard_HydroPump=水之技能果实：高压水炮
+SkillCard_AquaJet=水之技能果实：水流射击
+SkillCard_BubbleShot=水之技能果实：泡泡射击
+SkillCard_AcidRain=水之技能果实：酸雨
+SkillCard_FireBlast=炎之技能果实：烈焰射击
+SkillCard_Flamethrower=炎之技能果实：烈焰放射
+SkillCard_FireBall=炎之技能果实：烈焰球
+SkillCard_FlareArrow=炎之技能果实：烈焰箭
+SkillCard_FireSeed=炎之技能果实：烈焰溅射
+SkillCard_Inferno=炎之技能果实：地狱火
+SkillCard_FlareTornado=炎之技能果实：烈焰风暴
+SkillCard_ElecWave=雷之技能果实：冲击波
+SkillCard_Thunderbolt=雷之技能果实：闪电伏特
+SkillCard_LineThunder=雷之技能果实：雷击
+SkillCard_ThunderFunnel=雷之技能果实：等离子浮游炮
+SkillCard_SpreadPulse=雷之技能果实：电火花
+SkillCard_LockonLaser=雷之技能果实：锁定雷射
+SkillCard_ThunderBall=雷之技能果实：闪电球
+SkillCard_ThreeThunder=雷之技能果实：三重雷击
+SkillCard_LightningStrike=雷之技能果实：闪电冲击
+SkillCard_ThrowRock=地之技能果实：投石
+SkillCard_SandTornado=地之技能果实：砂砾飓风
+SkillCard_RockLance=地之技能果实：岩石锐矛
+SkillCard_MudShot=地之技能果实：泥浆投掷
+SkillCard_StoneShotgun=地之技能果实：碎石霰弹
+SkillCard_IceMissile=冰之技能果实：冰雪飞弹
+SkillCard_BlizzardLance=冰之技能果实：冰刺
+SkillCard_IcicleThrow=冰之技能果实：钻石星辰
+SkillCard_IceBlade=冰之技能果实：冰刃
+SkillCard_FrostBreath=冰之技能果实：凛冬之息
+SkillCard_DarkWave=暗之技能果实：暗影波动
+SkillCard_ShadowBall=暗之技能果实：噩梦球
+SkillCard_Psychokinesis=暗之技能果实：念动引力
+SkillCard_PoisonShot=暗之技能果实：剧毒射击
+SkillCard_GhostFlame=暗之技能果实：鬼火
+SkillCard_DarkLaser=暗之技能果实：暗黑镭射
+SkillCard_DragonBreath=龙之技能果实：龙息
+SkillCard_DragonCanon=龙之技能果实：龙息弹
+SkillCard_DragonWave=龙之技能果实：龙之波动
+SkillCard_DragonMeteor=龙之技能果实：龙彗星
+
+EnergyDrink=**EnergyDrink
+FarmCrop_Tmp=**FarmCrop_Tmp
+Seed_Tmp=**Seed_Tmp
+WaterBucket=**WaterBucket
+Antibiotic_Normal=**Antibiotic_Normal
+Antibiotic_Good=**Antibiotic_Good
+Antibiotic_Super=**Antibiotic_Super
+MateItem01=**MateItem01
+
+
+
+[list3]
+//重要物品
+Relic=翠叶鼠雕像
+Lantern=腰挂提灯
+AutoMealPouch_Tier1=小饲料袋
+AutoMealPouch_Tier2=普通饲料袋
+AutoMealPouch_Tier3=大饲料袋
+AutoMealPouch_Tier4=巨大饲料袋
+AutoMealPouch_Tier5=特大饲料袋
+
+SkillUnlock_Carbunclo=翠叶鼠的冲锋枪
+SkillUnlock_Garm=猎狼的挽具鞍具组合
+SkillUnlock_Umihebi_Fire=腾炎龙的鞍具
+SkillUnlock_Deer_Ground=祇岳鹿的鞍具
+SkillUnlock_Hedgehog_Ice=冰刺鼠的手套
+SkillUnlock_FlowerDinosaur_Electric=雷冠龙的鞍具
+SkillUnlock_GrassMammoth_Ice=雪猛犸的鞍具
+SkillUnlock_LazyDragon_Electric=派克龙的导弹发射器
+SkillUnlock_FireKirin_Dark=邪麒麟的鞍具
+SkillUnlock_SakuraSaurus_Water=海誓龙的鞍具
+SkillUnlock_FairyDragon_Water=水灵龙的鞍具
+SkillUnlock_Manticore_Dark=狱阎王的鞍具
+SkillUnlock_Suzaku_Water=清雀的鞍具
+SkillUnlock_Serpent_Ground=流沙蛇的鞍具
+SkillUnlock_VolcanicMonster_Ice=寒霜兽的鞍具
+SkillUnlock_IceHorse_Dark=唤夜兽的鞍具
+SkillUnlock_GrassPanda_Electric=雷胖达的榴弹发射器
+SkillUnlock_Yeti_Grass=绿苔绒怪的鞍具
+SkillUnlock_KingAlpaca_Ice=冰帝美露帕的鞍具
+SkillUnlock_BirdDragon_Ice=霜歌龙的鞍具
+SkillUnlock_WindChimes_Ice=冰缚灵的手套
+SkillUnlock_Umihebi=覆海龙的鞍具
+SkillUnlock_Deer=紫霞鹿的鞍具
+SkillUnlock_Hedgehog=電棘鼠的手套
+SkillUnlock_Kitsunebi=火绒狐的背带
+SkillUnlock_Boar=草莽猪的鞍具
+SkillUnlock_Monkey=新叶猿的突击步枪
+SkillUnlock_Penguin=企丸丸的火箭发射器
+SkillUnlock_Alpaca=美露帕的鞍具
+SkillUnlock_FlowerDinosaur=花冠龙的鞍具
+SkillUnlock_GrassMammoth=森猛犸的鞍具
+SkillUnlock_Kirin=雷角马的鞍具
+SkillUnlock_ElecPanda=暴电熊的机关枪
+SkillUnlock_LazyDragon=佩克龙的导弹发射器
+SkillUnlock_FireKirin=火麒麟的鞍具
+SkillUnlock_SakuraSaurus=连理龙的鞍具
+SkillUnlock_FlameBuffalo=炽焰牛的鞍具
+SkillUnlock_BlueDragon=碧海龙的鞍具
+SkillUnlock_FairyDragon=精灵龙的鞍具
+SkillUnlock_FengyunDeeper=云海鹿的鞍具
+SkillUnlock_ColorfulBird=炸蛋鸟的手套
+SkillUnlock_Eagle=天擒鸟的手套
+SkillUnlock_NegativeOctopus=勾魂鱿的手套
+SkillUnlock_FlyingManta=鲁米儿的手套
+SkillUnlock_GhostBeast=噬魂兽的鞍具
+SkillUnlock_FlowerRabbit=波娜兔的项圈
+SkillUnlock_Manticore=狱焰王的鞍具
+SkillUnlock_Suzaku=朱雀的鞍具
+SkillUnlock_Serpent=滑水蛇的鞍具
+SkillUnlock_RaijinDaughter=雷鸣童子的项圈
+SkillUnlock_VolcanicMonster=熔岩兽的鞍具
+SkillUnlock_AmaterasuWolf=苍焰狼的鞍具
+SkillUnlock_DreamDemon=寐魔的项圈
+SkillUnlock_BlackFurDragon=Shadora shot弹枪
+SkillUnlock_IceHorse=唤冬兽的鞍具
+SkillUnlock_Horus=荷鲁斯的鞍具
+SkillUnlock_KingBahamut=焰煌的鞍具
+SkillUnlock_IceDeer=严冬鹿的鞍具
+SkillUnlock_BlackGriffon=异构格里芬的鞍具
+SkillUnlock_ElecLion=里约贤者马鞍
+SkillUnlock_GuardianDog=Yakomogoma鞍座
+SkillUnlock_BlackMetalDragon=魔渊龙的鞍具
+SkillUnlock_SkyDragon=天羽龙的鞍具
+SkillUnlock_ThunderDog=霹雳犬的鞍具
+SkillUnlock_GrassPanda=叶胖达的榴弹发射器
+SkillUnlock_Yeti=白绒雪怪的鞍具
+SkillUnlock_HawkBird=疾风隼的鞍具
+SkillUnlock_JetDragon=空涡龙的导弹发射器
+SkillUnlock_HadesBird=雷冥鸟的鞍具
+SkillUnlock_KingAlpaca=君王美露帕的鞍具
+SkillUnlock_SaintCentaur=圣光骑士的鞍具
+SkillUnlock_DarkMutant=Daknesis功率转换器
+SkillUnlock_ThunderBird=迅雷鸟的鞍具
+SkillUnlock_RedArmorBird=燧火鸟的鞍具
+SkillUnlock_BlackCentaur=混沌骑士的鞍具
+SkillUnlock_MopKing=毛老爹的鞍具
+SkillUnlock_GoldenHorse=kouou的马鞍
+SkillUnlock_BadCatgirl=大坝猫shot弹枪
+SkillUnlock_NaughtyCat=笑魇猫的鞍具
+SkillUnlock_FeatherOstrich=Zokucho马鞍
+SkillUnlock_WingGolem=Goujin -o马鞍
+SkillUnlock_DrillGame=碎岩龟的头巾
+SkillUnlock_BirdDragon=烽歌龙的鞍具
+SkillUnlock_WeaselDragon=疾旋鼬的鞍具
+SkillUnlock_WindChimes=吊缚灵的手套
+
+
+
+[list4]
+//设计图
+Blueprint_Head001_2=王冠设计图1
+Blueprint_Head001_3=王冠设计图2
+Blueprint_Head001_4=王冠设计图3
+Blueprint_Head001_5=王冠设计图4
+Blueprint_Head001_6=王冠设计图5
+Blueprint_Head002_2=金冠设计图1
+Blueprint_Head002_3=金冠设计图2
+Blueprint_Head002_4=金冠设计图3
+Blueprint_Head002_5=金冠设计图4
+Blueprint_Head002_6=金冠设计图5
+Blueprint_Head003_2=长耳发箍设计图1
+Blueprint_Head003_3=长耳发箍设计图2
+Blueprint_Head003_4=长耳发箍设计图3
+Blueprint_Head003_5=长耳发箍设计图4
+Blueprint_Head003_6=长耳发箍的设计图5
+Blueprint_Head004_2=女巫帽设计图1
+Blueprint_Head004_3=女巫帽设计图2
+Blueprint_Head004_4=女巫帽设计图3
+Blueprint_Head004_5=女巫帽设计图4
+Blueprint_Head004_6=魔女帽子设计图5
+Blueprint_Head005_2=费多拉帽设计图1
+Blueprint_Head005_3=费多拉帽设计图2
+Blueprint_Head005_4=费多拉帽设计图3
+Blueprint_Head005_5=费多拉帽设计图4
+Blueprint_Head005_6=软帽设计图纸5
+Blueprint_Head006_2=安全帽设计图1
+Blueprint_Head006_3=安全帽设计图2
+Blueprint_Head006_4=安全帽设计图3
+Blueprint_Head006_5=安全帽设计图4
+Blueprint_Head006_6=头盔设计图5
+Blueprint_Head007_2=大礼帽设计图1
+Blueprint_Head007_3=大礼帽设计图2
+Blueprint_Head007_4=大礼帽设计图3
+Blueprint_Head007_5=大礼帽设计图4
+Blueprint_Head007_6=丝绸高帽子的设计图5
+Blueprint_Head008_2=三角帽设计图1
+Blueprint_Head008_3=三角帽设计图2
+Blueprint_Head008_4=三角帽设计图3
+Blueprint_Head008_5=三角帽设计图4
+Blueprint_Head008_6=三角帽设计图纸5
+Blueprint_Head009_2=探险帽设计图1
+Blueprint_Head009_3=探险帽设计图2
+Blueprint_Head009_4=探险帽设计图3
+Blueprint_Head009_5=探险帽设计图4
+Blueprint_Head009_6=探险帽设计图5
+Blueprint_Head010_2=学士帽设计图1
+Blueprint_Head010_3=学士帽设计图2
+Blueprint_Head010_4=学士帽设计图3
+Blueprint_Head010_5=学士帽设计图4
+Blueprint_Head010_6=大学帽设计图5
+Blueprint_Head011_2=农夫帽设计图1
+Blueprint_Head011_3=农夫帽设计图2
+Blueprint_Head011_4=农夫帽设计图3
+Blueprint_Head011_5=农夫帽设计图4
+Blueprint_Head011_6=农业帽子设计图5
+Blueprint_Head012_2=圆顶礼帽的设计图1
+Blueprint_Head012_3=圆顶礼帽的设计图2
+Blueprint_Head012_4=圆顶礼帽的设计图3
+Blueprint_Head012_5=圆顶礼帽的设计图4
+Blueprint_Head012_6=圆顶礼帽的设计图5
+Blueprint_Head013_2=炸蛋鸟帽设计图1
+Blueprint_Head013_3=炸蛋鸟帽设计图2
+Blueprint_Head013_4=炸蛋鸟帽设计图3
+Blueprint_Head013_5=炸蛋鸟帽设计图4
+Blueprint_Head013_6=炸蛋鸟帽设计图5
+Blueprint_Head014_2=笑脸炸蛋鸟帽设计图1
+Blueprint_Head014_3=笑脸炸蛋鸟帽设计图2
+Blueprint_Head014_4=笑脸炸蛋鸟帽设计图3
+Blueprint_Head014_5=笑脸炸蛋鸟帽设计图4
+Blueprint_Head014_6=咧咧微笑螺旋帽的设计图5
+Blueprint_Head015_2=叶泥泥帽设计图1
+Blueprint_Head015_3=叶泥泥帽设计图2
+Blueprint_Head015_4=叶泥泥帽设计图3
+Blueprint_Head015_5=叶泥泥帽设计图4
+Blueprint_Head015_6=纳恩魔帽设计图5
+Blueprint_Head016_2=企丸王帽设计图1
+Blueprint_Head016_3=企丸王帽设计图2
+Blueprint_Head016_4=企丸王帽设计图3
+Blueprint_Head016_5=企丸王帽设计图4
+Blueprint_Head016_6=凯本帽设计图纸5
+Blueprint_Head017_2=暗巫猫帽设计图1
+Blueprint_Head017_3=暗巫猫帽设计图2
+Blueprint_Head017_4=暗巫猫帽设计图3
+Blueprint_Head017_5=暗巫猫帽设计图4
+Blueprint_Head017_6=克莱梅奥帽子设计图5
+
+Blueprint_WeakerBow_3=陈旧的弓设计图1
+Blueprint_WeakerBow_4=陈旧的弓设计图2
+Blueprint_WeakerBow_5=陈旧的弓设计图3
+Blueprint_WeakerBow_6=陈旧的弓设计图4
+Blueprint_BowGun_3=十字弓设计图1
+Blueprint_BowGun_4=十字弓设计图2
+Blueprint_BowGun_5=十字弓设计图3
+Blueprint_BowGun_6=十字弓设计图4
+Blueprint_AssaultRifle_Default2=突击步枪设计图1
+Blueprint_AssaultRifle_Default3=突击步枪设计图2
+Blueprint_AssaultRifle_Default4=突击步枪设计图3
+Blueprint_AssaultRifle_Default5=突击步枪设计图4
+Blueprint_PumpActionShotgun_3=泵动式霰弹枪设计图1
+Blueprint_PumpActionShotgun_4=泵动式霰弹枪设计图2
+Blueprint_PumpActionShotgun_5=泵动式霰弹枪设计图3
+Blueprint_PumpActionShotgun_6=泵动式霰弹枪设计图4
+Blueprint_HandGun_Default_3=手枪设计图1
+Blueprint_HandGun_Default_4=手枪设计图2
+Blueprint_HandGun_Default_5=手枪设计图3
+Blueprint_HandGun_Default_6=手枪设计图4
+Blueprint_Launcher_Default_3=火箭发射器设计图1
+Blueprint_Launcher_Default_4=火箭发射器设计图2
+Blueprint_Launcher_Default_5=火箭发射器设计图3
+Blueprint_Launcher_Default_6=火箭发射器设计图4
+Blueprint_FurHelmet_3=羽毛发饰设计图1
+Blueprint_FurHelmet_4=羽毛发饰设计图2
+Blueprint_FurHelmet_5=羽毛发饰设计图3
+Blueprint_FurHelmet_6=羽毛发饰设计图4
+Blueprint_CopperHelmet_3=金属头盔设计图1
+Blueprint_CopperHelmet_4=金属头盔设计图2
+Blueprint_CopperHelmet_5=金属头盔设计图3
+Blueprint_CopperHelmet_6=金属头盔设计图4
+Blueprint_IronHelmet_3=精炼金属头盔设计图1
+Blueprint_IronHelmet_4=精炼金属头盔设计图2
+Blueprint_IronHelmet_5=精炼金属头盔设计图3
+Blueprint_IronHelmet_6=精炼金属头盔设计图4
+Blueprint_StealHelmet_3=帕鲁金属头盔设计图1
+Blueprint_StealHelmet_4=帕鲁金属头盔设计图2
+Blueprint_StealHelmet_5=帕鲁金属头盔设计图3
+Blueprint_StealHelmet_6=帕鲁金属头盔设计图4
+Blueprint_ClothArmor_3=布衣设计图1
+Blueprint_ClothArmor_4=布衣设计图2
+Blueprint_ClothArmor_5=布衣设计图3
+Blueprint_ClothArmor_6=布衣设计图4
+Blueprint_FurArmor_3=毛皮盔甲设计图1
+Blueprint_FurArmor_4=毛皮盔甲设计图2
+Blueprint_FurArmor_5=毛皮盔甲设计图3
+Blueprint_FurArmor_6=毛皮盔甲设计图4
+Blueprint_CopperArmor_3=金属盔甲设计图1
+Blueprint_CopperArmor_4=金属盔甲设计图2
+Blueprint_CopperArmor_5=金属盔甲设计图3
+Blueprint_CopperArmor_6=金属盔甲设计图4
+Blueprint_IronArmor_3=精炼金属盔甲设计图1
+Blueprint_IronArmor_4=精炼金属盔甲设计图2
+Blueprint_IronArmor_5=精炼金属盔甲设计图3
+Blueprint_IronArmor_6=精炼金属盔甲设计图4
+Blueprint_StealArmor_3=帕鲁金属盔甲设计图1
+Blueprint_StealArmor_4=帕鲁金属盔甲设计图2
+Blueprint_StealArmor_5=帕鲁金属盔甲设计图3
+Blueprint_StealArmor_6=帕鲁金属盔甲设计图4
+Blueprint_ClothArmorHeat_3=热带地区民族服饰设计图1
+Blueprint_ClothArmorHeat_4=热带地区民族服饰设计图2
+Blueprint_ClothArmorHeat_5=热带地区民族服饰设计图3
+Blueprint_ClothArmorHeat_6=热带地区民族服饰设计图4
+Blueprint_ClothArmorCold_3=寒冷地区民族服饰设计图1
+Blueprint_ClothArmorCold_4=寒冷地区民族服饰设计图2
+Blueprint_ClothArmorCold_5=寒冷地区民族服饰设计图3
+Blueprint_ClothArmorCold_6=寒冷地区民族服饰设计图4
+Blueprint_FurArmorHeat_3=耐热毛皮盔甲设计图1
+Blueprint_FurArmorHeat_4=耐热毛皮盔甲设计图2
+Blueprint_FurArmorHeat_5=耐热毛皮盔甲设计图3
+Blueprint_FurArmorHeat_6=耐热毛皮盔甲设计图4
+Blueprint_FurArmorCold_3=耐寒毛皮盔甲设计图1
+Blueprint_FurArmorCold_4=耐寒毛皮盔甲设计图2
+Blueprint_FurArmorCold_5=耐寒毛皮盔甲设计图3
+Blueprint_FurArmorCold_6=耐寒毛皮盔甲设计图4
+Blueprint_CopperArmorHeat_3=耐热金属盔甲设计图1
+Blueprint_CopperArmorHeat_4=耐热金属盔甲设计图2
+Blueprint_CopperArmorHeat_5=耐热金属盔甲设计图3
+Blueprint_CopperArmorHeat_6=耐热金属盔甲设计图4
+Blueprint_CopperArmorCold_3=耐寒金属盔甲设计图1
+Blueprint_CopperArmorCold_4=耐寒金属盔甲设计图2
+Blueprint_CopperArmorCold_5=耐寒金属盔甲设计图3
+Blueprint_CopperArmorCold_6=耐寒金属盔甲设计图4
+Blueprint_IronArmorHeat_3=耐热精炼金属盔甲设计图1
+Blueprint_IronArmorHeat_4=耐热精炼金属盔甲设计图2
+Blueprint_IronArmorHeat_5=耐热精炼金属盔甲设计图3
+Blueprint_IronArmorHeat_6=耐热精炼金属盔甲设计图4
+Blueprint_IronArmorCold_3=耐寒精炼金属盔甲设计图1
+Blueprint_IronArmorCold_4=耐寒精炼金属盔甲设计图2
+Blueprint_IronArmorCold_5=耐寒精炼金属盔甲设计图3
+Blueprint_IronArmorCold_6=耐寒精炼金属盔甲设计图4
+Blueprint_StealArmorHeat_3=耐热帕鲁金属盔甲设计图1
+Blueprint_StealArmorHeat_4=耐热帕鲁金属盔甲设计图2
+Blueprint_StealArmorHeat_5=耐热帕鲁金属盔甲设计图3
+Blueprint_StealArmorHeat_6=耐热帕鲁金属盔甲设计图4
+Blueprint_StealArmorCold_3=耐寒帕鲁金属盔甲设计图1
+Blueprint_StealArmorCold_4=耐寒帕鲁金属盔甲设计图2
+Blueprint_StealArmorCold_5=耐寒帕鲁金属盔甲设计图3
+Blueprint_StealArmorCold_6=耐寒帕鲁金属盔甲设计图4
+
+BlueprintTest=ITEM_NAME_BlueprintTest
+
+
+[list5]
+//帕鲁球
+PalSphere=帕鲁球
+PalSphere_Mega=高级帕鲁球
+PalSphere_Giga=优级帕鲁球
+PalSphere_Tera=特级帕鲁球
+PalSphere_Master=大师帕鲁球
+PalSphere_Legend=传奇帕鲁球
+PalSphere_Robbery=雷达帕鲁球
+PalSphere_Debug=**PalSphere_Debug
+
+[list6]
+//滑翔伞
+Glider_Old=普通滑翔伞
+Glider_Good=高级滑翔伞
+Glider_Super=优级滑翔伞
+Glider_Legendary=特级滑翔伞
+PV_Glider_Manta=ITEM_NAME_PV_Glider_Manta
+
+[list7]
+//武器
+
+
+Pickaxe_Tier_00=石头锄头
+Pickaxe_Tier_01=金属锄头
+Pickaxe_Tier_02=精炼金属锄头
+Pickaxe_Tier_03=**Pickaxe_Tier_03
+
+Axe_Tier_00=石头斧
+Axe_Tier_01=金属斧头
+Axe_Tier_02=精炼金属斧头
+Axe_Tier_03=**Axe_Tier_03
+
+Spear=石头长矛
+Spear_3=金属长矛
+Spear_4=精炼金属长矛
+Spear_QueenBee=女皇蜂之杖
+Spear_SoldierBee=骑士蜂之矛
+Spear_ForestBoss=莉莉之矛
+
+Sword=剑
+MeatCutterKnife=切肉刀
+Torch=携带火把
+SingleShotRifle=单发步枪
+MakeshiftHandgun=劣质手枪
+Bat=木棒
+Bat2=棒球棒
+ElecBaton=电棍
+
+
+FragGrenade=破片手榴弹
+FragGrenade_Fire=燃烧型手榴弹
+FragGrenade_Elec=电击型手榴弹
+FragGrenade_Ice=冷冻型手榴弹
+
+
+Launcher_Default=火箭发射器
+Launcher_Default_3=火箭发射器
+Launcher_Default_4=火箭发射器
+Launcher_Default_5=火箭发射器
+Launcher_Default_6=火箭发射器
+SphereLauncher=扩散型帕鲁球发射器
+SphereLauncher_Once=单发型帕鲁球发射器
+HomingSphereLauncher=自动追踪帕鲁球发射器
+
+DoubleBarrelShotgun=双管霰弹枪
+PumpActionShotgun=泵动式霰弹枪
+PumpActionShotgun_3=泵动式霰弹枪
+PumpActionShotgun_4=泵动式霰弹枪
+PumpActionShotgun_5=泵动式霰弹枪
+PumpActionShotgun_6=泵动式霰弹枪
+
+GrapplingGun=爪钩枪
+GrapplingGun2=高级爪钩枪
+GrapplingGun3=优级爪钩枪
+GrapplingGun4=特级爪钩枪
+Musket=鸟枪
+
+
+AssaultRifle_Default1=突击步枪
+AssaultRifle_Default2=突击步枪
+AssaultRifle_Default3=突击步枪
+AssaultRifle_Default4=突击步枪
+AssaultRifle_Default5=突击步枪
+
+
+HandGun_Default=手枪
+HandGun_Default_3=手枪
+HandGun_Default_4=手枪
+HandGun_Default_5=手枪
+HandGun_Default_6=手枪
+
+WeakerBow=陈旧的弓
+Bow_Poison=毒之弓
+Bow_Fire=火之弓
+BowGun_Poison=毒箭十字弓
+BowGun_Fire=火箭十字弓
+Bow_triple=三连弓
+Bow_Fifth=五连弓
+
+WeakerBow_3=陈旧的弓
+WeakerBow_4=陈旧的弓
+WeakerBow_5=陈旧的弓
+WeakerBow_6=陈旧的弓
+BowGun=十字弓
+BowGun_3=十字弓
+BowGun_4=十字弓
+BowGun_5=十字弓
+BowGun_6=十字弓
+
+DecalGun_2=印花枪1
+DecalGun_3=印花枪2
+DecalGun_4=印花枪3
+DecalGun_5=印花枪4
+DecalGun_6=印花枪5
+
+
+Bat_NPC=**Bat_NPC
+CaptureRope=**CaptureRope
+Handgun_NPC=**Handgun_NPC
+LaserRifle_NPC=**LaserRifle_NPC
+LaserRifle=**LaserRifle
+Launcher_Meat=**Launcher_Meat
+PenguinLauncher=**PenguinLauncher
+PV_AssaultRifle_Default1=**PV_AssaultRifle_Default1
+RocketLauncher_NPC=**RocketLauncher_NPC
+SniperRifle_Default=**SniperRifle_Default
+AssaultRifle_NPC=**AssaultRifle_NPC
+BowGun_NPC=**BowGun_NPC
+Shotgun_NPC=**Shotgun_NPC
+FlameThrower_NPC=**FlameThrower_NPC
+GatlingGun_NPC=**GatlingGun_NPC
+FragGrenade_NPC=**FragGrenade_NPC
+ThrowStone=**ThrowStone
+RecurveBow=**RecurveBow
+FishingRod_Old=**FishingRod_Old
+FishingRod_Good=**FishingRod_Good
+FishingRod_Super=**FishingRod_Super
+FishingRod_Legendary=**FishingRod_Legendary
+Debug_Handgun_Poison=**Debug_Handgun_Poison
+Debug_Handgun_Burn=**Debug_Handgun_Burn
+Debug_Handgun_Wetness=**Debug_Handgun_Wetness
+Debug_Handgun_Freeze=**Debug_Handgun_Freeze
+Debug_Handgun_Electrical=**Debug_Handgun_Electrical
+Debug_Handgun_Muddy=**Debug_Handgun_Muddy
+Debug_Handgun_IvyCling=**Debug_Handgun_IvyCling
+Debug_Handgun_Darkness=**Debug_Handgun_Darkness
+Debug_Handgun_Stun=**Debug_Handgun_Stun
+Debug_Handgun_AttackUp=**Debug_Handgun_AttackUp
+Debug_Handgun_DefenseUp=**Debug_Handgun_DefenseUp
+AirGrapplingGun=**AirGrapplingGun
+
+
+[list8]
+//弹药
+Arrow=箭
+Arrow_Poison=毒箭
+Arrow_Fire=火箭
+ExplosiveBullet=火箭弹
+
+InkBullet=印花墨水
+HandgunBullet=手枪子弹
+RifleBullet=步枪子弹
+ShotgunBullet=霰弹枪子弹
+RoughBullet=劣质弹药
+MachingunBullet=机关枪子弹
+AssaultRifleBullet=突击步枪子弹
+MagnumBullet=马格南子弹
+
+LargeBullet=**LargeBullet
+LaserBullet=**LaserBullet
+SmallBullet=**SmallBullet
+
+
+[list9]
+//防具
+ClothArmor=布衣服
+ClothHat=**ClothHat
+CopperArmor=金属盔甲
+CopperHelmet=金属头盔
+FurArmor=毛皮盔甲
+FurHelmet=羽毛发饰
+IronArmor=精炼金属盔甲
+IronHelmet=精炼金属头盔
+StealArmor=帕鲁金属盔甲
+StealHelmet=帕鲁金属头盔
+LightzHelmet=**LightzHelmet
+Shield_01=普通护盾
+Shield_02=高级护盾
+Shield_03=优级护盾
+Shield_04=特级护盾
+Head001=王冠
+Head001_3=王冠
+Head001_4=王冠
+Head001_5=王冠
+Head001_6=王冠
+Head002=金冠
+Head002_3=金冠
+Head002_4=金冠
+Head002_5=金冠
+Head002_6=金冠
+Head003=长耳发箍
+Head003_3=长耳发箍
+Head003_4=长耳发箍
+Head003_5=长耳发箍
+Head003_6=长耳发箍
+Head004=魔女帽子
+Head004_3=魔女帽子
+Head004_4=魔女帽子
+Head004_5=魔女帽子
+Head004_6=魔女帽子
+Head005=费多拉帽
+Head005_3=费多拉帽
+Head005_4=费多拉帽
+Head005_5=费多拉帽
+Head005_6=费多拉帽
+Head006=安全帽
+Head006_3=安全帽
+Head006_4=安全帽
+Head006_5=安全帽
+Head006_6=安全帽
+Head007=大礼帽
+Head007_3=大礼帽
+Head007_4=大礼帽
+Head007_5=大礼帽
+Head007_6=大礼帽
+Head008=三角帽
+Head008_3=三角帽
+Head008_4=三角帽
+Head008_5=三角帽
+Head008_6=三角帽
+Head009=探险帽
+Head009_3=探险帽
+Head009_4=探险帽
+Head009_5=探险帽
+Head009_6=探险帽
+Head010=学士帽
+Head010_3=学士帽
+Head010_4=学士帽
+Head010_5=学士帽
+Head010_6=学士帽
+Head011=农夫帽
+Head011_3=农夫帽
+Head011_4=农夫帽
+Head011_5=农夫帽
+Head011_6=农夫帽
+Head012=圆顶礼帽
+Head012_3=圆顶礼帽
+Head012_4=圆顶礼帽
+Head012_5=圆顶礼帽
+Head012_6=圆顶礼帽
+Head013=炸蛋鸟帽
+Head013_3=炸蛋鸟帽
+Head013_4=炸蛋鸟帽
+Head013_5=炸蛋鸟帽
+Head013_6=炸蛋鸟帽
+Head014=笑脸炸蛋鸟帽
+Head014_3=笑脸炸蛋鸟帽
+Head014_4=笑脸炸蛋鸟帽
+Head014_5=笑脸炸蛋鸟帽
+Head014_6=笑脸炸蛋鸟帽
+Head015=叶泥泥帽
+Head015_3=叶泥泥帽
+Head015_4=叶泥泥帽
+Head015_5=叶泥泥帽
+Head015_6=叶泥泥帽
+Head016=企丸王帽
+Head016_3=企丸王帽
+Head016_4=企丸王帽
+Head016_5=企丸王帽
+Head016_6=企丸王帽
+Head017=暗巫猫帽
+Head017_3=暗巫猫帽
+Head017_4=暗巫猫帽
+Head017_5=暗巫猫帽
+Head017_6=暗巫猫帽
+ClothArmor_3=布衣服
+ClothArmor_4=布衣服
+ClothArmor_5=布衣服
+ClothArmor_6=布衣服
+FurArmor_3=毛皮盔甲
+FurArmor_4=毛皮盔甲
+FurArmor_5=毛皮盔甲
+FurArmor_6=毛皮盔甲
+CopperArmor_3=金属盔甲
+CopperArmor_4=金属盔甲
+CopperArmor_5=金属盔甲
+CopperArmor_6=金属盔甲
+IronArmor_3=精炼金属盔甲
+IronArmor_4=精炼金属盔甲
+IronArmor_5=精炼金属盔甲
+IronArmor_6=精炼金属盔甲
+StealArmor_3=帕鲁金属盔甲
+StealArmor_4=帕鲁金属盔甲
+StealArmor_5=帕鲁金属盔甲
+StealArmor_6=帕鲁金属盔甲
+FurHelmet_3=羽毛发饰
+FurHelmet_4=羽毛发饰
+FurHelmet_5=羽毛发饰
+FurHelmet_6=羽毛发饰
+CopperHelmet_3=金属头盔
+CopperHelmet_4=金属头盔
+CopperHelmet_5=金属头盔
+CopperHelmet_6=金属头盔
+IronHelmet_3=精炼金属头盔
+IronHelmet_4=精炼金属头盔
+IronHelmet_5=精炼金属头盔
+IronHelmet_6=精炼金属头盔
+StealHelmet_3=帕鲁金属头盔
+StealHelmet_4=帕鲁金属头盔
+StealHelmet_5=帕鲁金属头盔
+StealHelmet_6=帕鲁金属头盔
+ClothArmorHeat=热带地区民族服饰
+ClothArmorHeat_3=热带地区民族服饰
+ClothArmorHeat_4=热带地区民族服饰
+ClothArmorHeat_5=热带地区民族服饰
+ClothArmorHeat_6=热带地区民族服饰
+ClothArmorCold=寒冷地区民族服饰
+ClothArmorCold_3=寒冷地区民族服饰
+ClothArmorCold_4=寒冷地区民族服饰
+ClothArmorCold_5=寒冷地区民族服饰
+ClothArmorCold_6=寒冷地区民族服饰
+FurArmorHeat=耐热毛皮盔甲
+FurArmorHeat_3=耐热毛皮盔甲
+FurArmorHeat_4=耐热毛皮盔甲
+FurArmorHeat_5=耐热毛皮盔甲
+FurArmorHeat_6=耐热毛皮盔甲
+FurArmorCold=耐寒毛皮盔甲
+FurArmorCold_3=耐寒毛皮盔甲
+FurArmorCold_4=耐寒毛皮盔甲
+FurArmorCold_5=耐寒毛皮盔甲
+FurArmorCold_6=耐寒毛皮盔甲
+CopperArmorHeat=耐热金属盔甲
+CopperArmorHeat_3=耐热金属盔甲
+CopperArmorHeat_4=耐热金属盔甲
+CopperArmorHeat_5=耐热金属盔甲
+CopperArmorHeat_6=耐热金属盔甲
+CopperArmorCold=耐寒金属盔甲
+CopperArmorCold_3=耐寒金属盔甲
+CopperArmorCold_4=耐寒金属盔甲
+CopperArmorCold_5=耐寒金属盔甲
+CopperArmorCold_6=耐寒金属盔甲
+IronArmorHeat=耐热精炼金属盔甲
+IronArmorHeat_3=耐热精炼金属盔甲
+IronArmorHeat_4=耐热精炼金属盔甲
+IronArmorHeat_5=耐热精炼金属盔甲
+IronArmorHeat_6=耐热精炼金属盔甲
+IronArmorCold=耐寒精炼金属盔甲
+IronArmorCold_3=耐寒精炼金属盔甲
+IronArmorCold_4=耐寒精炼金属盔甲
+IronArmorCold_5=耐寒精炼金属盔甲
+IronArmorCold_6=耐寒精炼金属盔甲
+StealArmorHeat=耐热帕鲁金属盔甲
+StealArmorHeat_3=耐热帕鲁金属盔甲
+StealArmorHeat_4=耐热帕鲁金属盔甲
+StealArmorHeat_5=耐热帕鲁金属盔甲
+StealArmorHeat_6=耐热帕鲁金属盔甲
+StealArmorCold=耐寒帕鲁金属盔甲
+StealArmorCold_3=耐寒帕鲁金属盔甲
+StealArmorCold_4=耐寒帕鲁金属盔甲
+StealArmorCold_5=耐寒帕鲁金属盔甲
+StealArmorCold_6=耐寒帕鲁金属盔甲
+
+
+
+
+[list10]
+//装饰
+
+Accessory_HP_2=生命吊坠
+Accessory_HP_3=生命吊坠+1
+Accessory_HP_4=生命吊坠+2
+Accessory_AT_2=攻击吊坠
+Accessory_AT_3=攻击吊坠+1
+Accessory_AT_4=攻击吊坠+2
+Accessory_defense_2=防御吊坠
+Accessory_defense_3=防御吊坠+1
+Accessory_defense_4=防御吊坠+2
+Accessory_WorkSpeed_2=勤劳吊坠
+Accessory_WorkSpeed_3=勤劳吊坠+1
+Accessory_WorkSpeed_4=勤劳吊坠+2
+Accessory_HeatResist_2=耐热内衣
+Accessory_HeatResist_3=耐热内衣+1
+Accessory_HeatResist_4=耐热内衣+2
+Accessory_CoolResist_2=防寒内衣
+Accessory_CoolResist_3=防寒内衣+1
+Accessory_CoolResist_4=防寒内衣+2
+Accessory_NormalResist_2=无属性抵抗戒指
+Accessory_NormalResist_3=无属性抵抗戒指+1
+Accessory_NormalResist_4=无属性抵抗戒指+2
+Accessory_FireResist_2=炎属性抵抗戒指
+Accessory_FireResist_3=炎属性抵抗戒指+1
+Accessory_FireResist_4=炎属性抵抗戒指+2
+Accessory_AquaResist_2=水属性抵抗戒指
+Accessory_AquaResist_3=水属性抵抗戒指+1
+Accessory_AquaResist_4=水属性抵抗戒指+2
+Accessory_ThunderResist_2=雷属性抵抗戒指
+Accessory_ThunderResist_3=雷属性抵抗戒指+1
+Accessory_ThunderResist_4=雷属性抵抗戒指+2
+Accessory_LeafResist_2=草属性抵抗戒指
+Accessory_LeafResist_3=草属性抵抗戒指+1
+Accessory_LeafResist_4=草属性抵抗戒指+2
+Accessory_IceResist_2=冰属性抵抗戒指
+Accessory_IceResist_3=冰属性抵抗戒指+1
+Accessory_IceResist_4=冰属性抵抗戒指+2
+Accessory_EarthResist_2=地属性抵抗戒指
+Accessory_EarthResist_3=地属性抵抗戒指+1
+Accessory_EarthResist_4=地属性抵抗戒指+2
+Accessory_DarkResist_2=暗属性抵抗戒指
+Accessory_DarkResist_3=暗属性抵抗戒指+1
+Accessory_DarkResist_4=暗属性抵抗戒指+2
+Accessory_DragonResist_2=龙属性抵抗戒指
+Accessory_DragonResist_3=龙属性抵抗戒指+1
+Accessory_DragonResist_4=龙属性抵抗戒指+2
+
+
+ClawsPendant=**ClawsPendant
+FangNecklace=**FangNecklace
+GasMask=**GasMask
+NightVisionGoggles=**NightVisionGoggles
+
+
+[list11]
+//
+
+
+
+[desc]
+Money=可在帕洛斯群岛交易的货币。\r\n交给商人可兑换物品或帕鲁。
+AnimalSkin=**AnimalSkin
+AnimalSkin2=**AnimalSkin2
+Arrow=弓专用的<itemName id=|Arrow|/>。
+Arrow_Poison=<itemName id=|Bow_Poison|/>用的<itemName id=|Arrow|/>。\r\n可以让被射中的目标中毒。
+Arrow_Fire=<itemName id=|Bow_Fire|/>用的<itemName id=|Arrow|/>。\r\n可对目标施加<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/>伤害。
+AssaultRifle_Default1=适用于远距离战斗的<itemName id=|AssaultRifle_Default1|/>。\r\n连射能力优秀，是与强敌对战时的首选。
+Scales=**Scales
+Scales2=**Scales2
+Axe_Tier_00=砍树用的斧子。\r\n因为是石头做的，不怎么锋利。
+Axe_Tier_01=砍树用的斧子。\r\n用金属制成，锋利度得到了提升。
+Axe_Tier_02=砍树用的斧子。\r\n用优质的金属制成，锋利度进一步得到了提升。
+Axe_Tier_03=**Axe_Tier_03
+Bat=用于近距离战斗的<itemName id=|Bat|/>。\r\n用它来对付帕鲁感觉不太充分。
+Bat2=这根棒球棒也能用于近距离战斗。\r\n但拿帕鲁当球可能有点太大了。
+MeatCutterKnife=可用于支解召唤出的帕鲁的菜刀。\r\n装备此道具时「抚摸」选项会转变为「肢解」。\r\n帕鲁一经解体后将无法再度复生。
+ElecBaton=带着雷电的警棍。\r\n可使帕鲁触电并停止行动。\r\n触电时的帕鲁更容易被捕获。
+Bat_NPC=ITEM_DESC_Bat_NPC
+Berries=不论生吃还是烤熟都很美味的万能食材。\r\n走在岛上随处可见。
+Berries2=**Berries2
+Baked_Berries=经过烘烤后，营养价值更高了。\r\n不可思议的是还很有饱足感。
+BowGun=不用使劲即可射出<itemName id=|Arrow|/>。\r\n虽然填装很费时，但可使出强劲一击。
+CaptureRope=**CaptureRope
+Charcoal=燃烧<itemName id=|Wood|/>制成的<itemName id=|Charcoal|/>。\r\n与<itemName id=|Sulfur|/>组合可制成<itemName id=|Gunpowder2|/>。
+Claws=**Claws
+Claws2=**Claws2
+ClawsPendant=**ClawsPendant
+Cloth=编织<itemName id=|Wool|/>制成的<itemName id=|Cloth|/>。\r\n是制作防具时必不可少的。
+Cloth2=编织大量<itemName id=|Wool|/>制成的<itemName id=|Cloth2|/>。\r\n是制作优质防具时必不可少的。
+ClothArmor=用<itemName id=|Cloth|/>制成的衣服。\r\n可抵御夜晚的寒冷。
+ClothHat=**ClothHat
+Coal=可在洞窟中找到的<itemName id=|Coal|/>。\r\n是制作优质金属时必不可少的。
+CopperArmor=金属制成的盔甲。\r\n有一定防御力，也有一定重量。
+CopperHelmet=以金属制成的头盔。\r\n安全可靠，能守护你的大脑。
+CopperIngot=用于制作金属制武器或防具的素材。\r\n可将<itemName id=|CopperOre|/>放入熔炉内冶炼制成。
+CopperOre=可用熔炉冶炼成铸块。\r\n可在洞窟等处发现。\r\n据说有可探知矿石的帕鲁。
+DoubleBarrelShotgun=近距离战斗能力强劲的霰弹枪\r\n弹容虽少，但火力很强。
+ElectronicCircuit=**ElectronicCircuit
+EnergyDrink=**EnergyDrink
+ExplosiveBullet=用于<itemName id=|Launcher_Default|/>的子弹。
+Fang=**Fang
+Fang2=**Fang2
+FangNecklace=**FangNecklace
+FarmCrop_Tmp=**FarmCrop_Tmp
+Fiber=可从树木中采取的纤维。\r\n是制作弓等的素材。
+FishMeat=**FishMeat
+FishMeat2=**FishMeat2
+Flint=生火时必不可少的素材。\r\n偶尔可在挖石头时发现。
+FurArmor=用<itemName id=|Leather|/>制成的盔甲。\r\n保暖性和防御力都得到了提升。
+FurHelmet=美丽的羽毛耳饰。\r\n也许是心理作用，感觉可以防御头部的致命伤。
+GrilledMeat=烤好的肉。\r\n肚子饱饱，心情好好。
+GunPowder=**GunPowder
+GunPowder2=用于发射子弹的<itemName id=|Gunpowder2|/>。\r\n是制作子弹时必不可少的。
+HandGun_Default=子弹容纳量及连射性能经过强化的手枪。\r\n每秒火力比<itemName id=|MakeshiftHandgun|/>更强。
+DecalGun_2=能在命中处留下<characterName id=|PinkCat|/>图案的奇妙枪支。\r\n享受在墙壁及地板上作画的乐趣吧。
+DecalGun_3=能在命中处留下<characterName id=|SheepBall|/>图案的奇妙枪支。\r\n享受在墙壁及地板上作画的乐趣吧。
+DecalGun_4=能在命中处留下<characterName id=|Alpaca|/>图案的奇妙枪支。\r\n享受在墙壁及地板上作画的乐趣吧。
+DecalGun_5=能在命中处留下<characterName id=|Anubis|/>图案的奇妙枪支。\r\n享受在墙壁及地板上作画的乐趣吧。
+DecalGun_6=能在命中处留下<characterName id=|LazyDragon|/>图案的奇妙枪支。\r\n享受在墙壁及地板上作画的乐趣吧。
+Handgun_NPC=ITEM_DESC_Handgun_NPC
+LaserRifle_NPC=ITEM_DESC_LaserRifle_NPC
+Herbs=可治疗感冒及扭伤的<itemName id=|Herbs|/>。\r\n吃下后也无法恢复HP。
+Medicines=可治疗<uiCommon id=|COMMON_CONDITION_NAME_GastricUlcer|/>及<uiCommon id=|COMMON_CONDITION_NAME_Fracture|/>的不可思议的<itemName id=|Medicines|/>。\r\n无法恢复HP。
+LuxuryMedicines=可治疗<uiCommon id=|COMMON_CONDITION_NAME_Weakness|/>及<uiCommon id=|COMMON_CONDITION_NAME_DepressionSprain|/>的<itemName id=|LuxuryMedicines|/>。\r\n无法恢复HP。
+MindControlDrug=对于控制危险分子有极高功效的<itemName id=|MindControlDrug|/>。\r\n无法恢复HP。
+Poppy=这种植物的花朵相当鲜艳。\r\n可用来制作<itemName id=|Opium|/>\r\n和<itemName id=|Narcotic|/>。
+Opium=饮用这种果汁能让心情舒爽。\r\n饮用后的一段时间内工作速度会明显提升，\r\n但SAN值也会降低。
+Narcotic=饮用这种果汁能让心情非常舒爽。\r\n饮用后的一段时间内工作速度会大幅提升，\r\n但SAN值也会大幅降低。
+StatusPointResetSan=玩家服用此药物\r\n即可重设属性点。\r\n帕鲁服用不会产生任何作用。
+HomingSphereLauncher=用于发射帕鲁球的发射器。\r\n所发射的帕鲁球会追踪帕鲁。
+IronArmor=用优质金属制成的盔甲。\r\n有傲人的高防御力，但是很重。
+IronHelmet=用优质金属制作的头盔。\r\n抛光后耀眼的金属光泽提高了它的价值。
+IronIngot=用于制作优质金属武器及防具的素材。\r\n将<itemName id=|CopperOre|/>与<itemName id=|Coal|/>放入炉中即可制作。
+IronOre=**IronOre
+Kitsunebi_Fire=**Kitsunebi_Fire
+LargeBullet=**LargeBullet
+LaserBullet=**LaserBullet
+LaserRifle=**LaserRifle
+Launcher_Default=<itemName id=|Launcher_Default|/>。\r\n可远距离进行强劲轰炸。
+Launcher_Meat=**Launcher_Meat
+Leather=源自帕鲁的<itemName id=|Leather|/>，可用来制作防具。\r\n可从部分帕鲁身上取得。
+Leather2=**Leather2
+MachineParts=建造大量设施时必不可少的部件。\r\n可用<mapObjectName id=|WorkBench|/>制成。
+MachineParts2=制作精密机器时必不可少的<itemName id=|MachineParts2|/>。\r\n可用<mapObjectName id=|Factory_Hard_01|/>制成。
+Meat=帕鲁的肉。\r\n十分新鲜，几乎可供人类生食。
+Meat2=**Meat2
+PalSphere=可扔出并捕捉帕鲁的道具。\r\n量产型，只对低级帕鲁有效。
+PalSphere_Mega=可扔出并捕捉帕鲁的道具。\r\n性能得到提升，可捕捉的帕鲁范围也变大了。
+PalSphere_Giga=可扔出并捕捉帕鲁的道具。\r\n可捕捉一定强度的帕鲁。
+PalSphere_Tera=可扔出并捕捉帕鲁的道具。\r\n可捕捉非常强的帕鲁。
+PalSphere_Master=可扔出并捕捉帕鲁的道具。\r\n性能卓越，很少有帕鲁能逃脱它的捕捉。
+PalSphere_Legend=可扔出并捕捉帕鲁的道具。\r\n捕获性能极高，几乎没有帕鲁\r\n能逃脱它的捕捉。
+PalSphere_Robbery=可扔出并捕捉帕鲁的道具。\r\n较低概率可强行捕捉\r\n别人持有的帕鲁。
+PalSphere_Debug=**PalSphere_Debug
+Pan=将<itemName id=|Flour|/>烤制而成<itemName id=|Pan|/>。\r\n是十分美味的主食。
+PenguinLauncher=**PenguinLauncher
+Pickaxe_Tier_00=采矿用的锄头。\r\n因为是石头做的，效率不怎么样。
+Pickaxe_Tier_01=采矿用的锄头。\r\n金属制成，耐久度和采集效率都得到了提升。
+Pickaxe_Tier_02=采矿用的锄头。\r\n进一步提升了耐久度和锋利度。
+Pickaxe_Tier_03=**Pickaxe_Tier_03
+PumpActionShotgun=增加填装数量，更加强劲的霰弹枪。\r\n拥有屈指可数的近距离DPS能力。
+PV_AssaultRifle_Default1=ITEM_DESC_PV_AssaultRifle_Default1
+RocketLauncher_NPC=ITEM_DESC_RocketLauncher_NPC
+SniperRifle_Default=**SniperRifle_Default
+AssaultRifle_NPC=ITEM_DESC_AssaultRifle_NPC
+BowGun_NPC=ITEM_DESC_BowGun_NPC
+Seed_Tmp=**Seed_Tmp
+Sharkkid_Scale=**Sharkkid_Scale
+Shotgun_NPC=ITEM_DESC_Shotgun_NPC
+FlameThrower_NPC=ITEM_DESC_FlameThrower_NPC
+GatlingGun_NPC=ITEM_DESC_GatlingGun_NPC
+FragGrenade_NPC=ITEM_DESC_FragGrenade_NPC
+SingleShotRifle=单发型来福枪。\r\n填装数量少，但单发火力强劲。
+SmallBullet=**SmallBullet
+InkBullet=印花枪使用的子弹。\r\n可用墨水画出帕鲁的图案。
+HandgunBullet=<itemName id=|HandGun_Default|/>使用的子弹。
+RifleBullet=步枪等使用的子弹。
+ShotgunBullet=霰弹枪等使用的子弹。
+RoughBullet=<itemName id=|Musket|/>和<itemName id=|MakeshiftHandgun|/>等使用的子弹。
+MachingunBullet=<itemName id=|Machingun|/>等使用的子弹。
+AssaultRifleBullet=<itemName id=|AssaultRifle_Default1|/>等使用的子弹。
+MagnumBullet=<itemName id=|Magnum|/>等使用的子弹。
+SphereLauncher=可同时发射大量帕鲁球的新型发射器。\r\n可用来捕捉成群的帕鲁。
+SphereLauncher_Once=用于发射帕鲁球的发射器。\r\n可捕捉更远距离的帕鲁。
+StealArmor=由<itemName id=|StealIngot|/>制成的盔甲。\r\n有着惊人的防御力，但是十分沉重。\r\n其彰显一股英勇之气，是真正属于英雄的装备。
+StealHelmet=由<itemName id=|StealIngot|/>制成的头盔。\r\n拥有人人都会羡慕的绝佳品质，是会选择其穿戴者的战士证明。
+StealIngot=用于制作帕鲁金属制武器或防具的素材。\r\n此素材为金属与帕鲁矿之合金，强度更高。
+Stone=建筑物及物品的材料。\r\n可通过开采石头获得。
+Pal_crystal_S=世界树能量的结晶。\r\n可用于制作超自然的物品或建筑物。
+Pal_crystal_L=**Pal_crystal_L
+PAL_Growth_Stone_S=**PAL_Growth_Stone_S
+PAL_Growth_Stone_M=**PAL_Growth_Stone_M
+PAL_Growth_Stone_L=**PAL_Growth_Stone_L
+PAL_Growth_Stone_XL=**PAL_Growth_Stone_XL
+Unko_S=动物的粪便。\r\n可作为肥料使用，是生态系统必不可少的存在。\r\n有令人在意的刺鼻气味。
+Unko_L=它的存在感自带威严。\r\n不论是气味还是形状都象征着它的伟大。
+Sword=近战用的<itemName id=|Sword|/>。\r\n其刃锋利无比！
+ThrowStone=**ThrowStone
+FragGrenade=可在中距离战斗时发挥作用的<itemName id=|FragGrenade|/>。\r\n投中目标后会爆炸，给敌人造成伤害。
+FragGrenade_Fire=利于中等距离战斗的<itemName id=|FragGrenade_Fire|/>。\r\n击中目标后会在周围燃起烈火。
+FragGrenade_Elec=利于中等距离战斗的<itemName id=|FragGrenade_Elec|/>。\r\n击中目标后会对附近放出电击。
+FragGrenade_Ice=利于中等距离战斗的<itemName id=|FragGrenade_Ice|/>。\r\n击中目标后会冻结周围一切。
+Tomato=色彩鲜艳的食材，可以丰富菜肴的颜色。\r\n富含番茄红素，对身体有益。
+VenisonBoiledInTomato=**VenisonBoiledInTomato
+WaterBucket=**WaterBucket
+WeakerBow=可进行远程攻击的弓。\r\n因为是东拼西凑而成的，威力较弱。
+Bow_Poison=可使对方中毒的弓。\r\n填装<itemName id=|Arrow_Poison|/>后发射。
+Bow_Fire=可造成<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/>伤害的弓。\r\n填装<itemName id=|Arrow_Fire|/>后发射。
+BowGun_Poison=可使对方中毒的<itemName id=|BowGun|/>。\r\n填装<itemName id=|Arrow_Poison|/>后发射。
+BowGun_Fire=可造成<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/>伤害的<itemName id=|BowGun|/>。\r\n填装<itemName id=|Arrow_Fire|/>后发射。
+RecurveBow=**RecurveBow
+Bow_triple=改良后的弓，可同时发射3支箭。\r\n拥有不可思议的力量，每次射击只消耗1支<itemName id=|Arrow|/>。
+Bow_Fifth=改良后的弓，可同时发射5支箭。\r\n拥有不可思议的力量，每次射击只消耗1支<itemName id=|Arrow|/>。
+BerrySeeds=可培育出<itemName id=|Berries|/>的种子。\r\n是建造农园的必要物品。\r\n可在采取<itemName id=|Berries|/>时获得。
+PotatoSeedPotatoes=**PotatoSeedPotatoes
+TomatoSeeds=可培育出<itemName id=|Tomato|/>的种子。\r\n是建造农园的必要物品。\r\n可从商人处购买。
+LettuceSeeds=可培育出<itemName id=|Lettuce|/>的种子。\r\n是建造农园的必要物品。\r\n可从商人处购买。
+WheatSeeds=可培育出<itemName id=|Wheat|/>的种子。\r\n是建造农园的必要物品。\r\n可从商人处购买。
+Wheat=可制作各式菜肴的基础食材。\r\n<itemName id=|Wheat|/>正是最基础的农作物。
+Flour=由<itemName id=|Wheat|/>研磨而成的<itemName id=|Flour|/>。\r\n可用于制作<itemName id=|Pan|/>。
+potato=**potato
+Corn=**Corn
+Pumpkin=**Pumpkin
+Baked_Potato=**Baked_Potato
+Wood=制造建筑物及物品的材料。\r\n主要通过伐木获得。
+Wool=从羊型帕鲁获取的素材。\r\n是制作床及<itemName id=|Cloth|/>的必要物品。
+CrudeOil=**CrudeOil
+Plastic=**Plastic
+Computer=**Computer
+Lettuce=绿色叶子，是沙拉中的王者。\r\n爽脆口感与清新口味都是最棒的。
+Grape=**Grape
+Hop=**Hop
+Egg=制作菜肴的材料，烤熟后也很美味。\r\n是<characterName id=|ChickenPal|/>生产的。
+Milk=可直接饮用，也可作为菜肴的材料。\r\n可从<characterName id=|CowPal|/>获取。
+HotMilk=加热后变得更加美味。\r\n很奇妙地，喝起来更有饱足感。
+JamBun=在<itemName id=|Pan|/>上涂上果酱的料理。\r\n野莓的甜味和面包很搭。
+Potage=**Potage
+Salad=将<itemName id=|Lettuce|/>和<itemName id=|Tomato|/>混合而成的<itemName id=|Salad|/>。\r\n食用后的一段时间内，工作速度会略微提升。
+Omelet=将<itemName id=|Egg|/>烹饪后涂上番茄酱的料理。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>+10%
+FriedVegetables=炒了<itemName id=|Lettuce|/>和<itemName id=|Meat|/>的菜肴。吃了之后一段时间，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/> +10%。
+HotDog=把香肠夹在<itemName id=|Pan|/>中的菜肴。\r\n食用后会使饱腹感持续一段时间。
+Pancake=将<itemName id=|Flour|/>和<itemName id=|Milk|/>混合烹饪而成的料理。\r\n食用后的一段时间内，SAN值下降的速度会变得较慢。
+MarinatedMushrooms=将<itemName id=|Mushroom|/>淋上腌泡汁后烹饪而成的料理。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_DEFENCE|/>+10%
+MushroomSoup=<itemName id=|Mushroom|/>的奶油汤。\r\n食用后的一段时间内，会比较不容易感到饥饿。
+Curry=**Curry
+Carbonara=将<itemName id=|Egg|/>和<itemName id=|Milk|/>一起拌入意大利面的料理。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_DEFENCE|/>+20%
+BLT=在<itemName id=|Pan|/>中夹入了培根，<itemName id=|Lettuce|/>，<itemName id=|Tomato|/>的菜肴。\r\n食用后一段时间内，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/> +15%。
+CheeseBurger=在<itemName id=|Hamburger|/>中夹上了奶酪的菜肴。\r\n吃下去后一段时间，会让你的饱腹感增强，<uiCommon id=|COMMON_STATUS_DEFENCE|/>增加10%。
+Pizza=将<itemName id=|Berries|/>、<itemName id=|Tomato|/>和芝士一起撒在<itemName id=|Pan|/>上后制成的料理。\r\n食用后的一段时间内，工作速度会略微提升\r\n且比较不容易感到饥饿。
+MeatSauce=将肉酱拌入意面的菜肴。\r\n一旦食用，SAN值在一段时间内减少的慢，\r\n<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/> +10%。
+Cake=庆祝时会食用的料理。\r\n如果将它放入交配牧场的箱子里，\r\n吃了它后的帕鲁会充满活力并产下帕鲁蛋。
+MushroomStew=<itemName id=|Mushroom|/> 的炖菜。\r\n食用后能在一段时间内提高工作速度，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/> +10%。
+Sandwich=**Sandwich
+CornSoup=**CornSoup
+Stew=**Stew
+Hamburger=在<itemName id=|Pan|/>中夹有汉堡、<itemName id=|Lettuce|/>、<itemName id=|Tomato|/>的菜肴。\r\n吃了之后一段时间，饱腹感更强，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/> +10%。
+GrilledFish=**GrilledFish
+SeafoodSoup=**SeafoodSoup
+FriedEggs=<itemName id=|Egg|/>煎熟后变得更加美味。\r\n很奇妙地，吃起来更有饱足感。
+LuxuryOmelette=**LuxuryOmelette
+Beer=**Beer
+Wine=**Wine
+Antibiotic_Normal=**Antibiotic_Normal
+Antibiotic_Good=**Antibiotic_Good
+Antibiotic_Super=**Antibiotic_Super
+FishingRod_Old=**FishingRod_Old
+FishingRod_Good=**FishingRod_Good
+FishingRod_Super=**FishingRod_Super
+FishingRod_Legendary=**FishingRod_Legendary
+Torch=拿在手里可以照亮周围的<itemName id=|Torch|/>。\r\n可勉强用于近战。
+Glider_Old=展开后可在空中滑翔的滑翔伞。\r\n制作朴素，速度很慢。
+Glider_Good=展开后可在空中滑翔的滑翔伞。\r\n量产型，有一定速度。
+Glider_Super=展开后可在空中滑翔的滑翔伞。\r\n性能得到提升，可以较快速度飞翔。
+Glider_Legendary=展开后可在空中滑翔的滑翔伞。\r\n几乎可用飞机的速度飞翔。
+PV_Glider_Manta=ITEM_DESC_PV_Glider_Manta
+LightzHelmet=**LightzHelmet
+GasMask=**GasMask
+NightVisionGoggles=**NightVisionGoggles
+Relic=不可思议的帕鲁神像，在帕洛斯群岛上随处可见。\r\n向某座神像献上物品，可以进行玩家强化。
+Ruby=闪耀着红光的宝石。\r\n可被商人高价收购。
+Sapphire=闪耀着蓝光的宝石。\r\n可被商人高价收购。
+Eemerald=闪耀着绿光的宝石。\r\n可被商人高价收购。
+Diamond=闪耀着璀璨光芒的稀有宝石。\r\n可被商人高价收购。
+CashFang=**CashFang
+CashScales=**CashScales
+TechnologyBook_G1=书上写着某种高端技术。\r\n使用后，可获得少量科技点。
+TechnologyBook_G2=书上写着十分先进的技术。\r\n使用后，可获得科技点。
+TechnologyBook_G3=书上写着这个时代没有的技术。\r\n使用后，可获得大量科技点。
+SkillUnlock_Carbunclo=<characterName id=|Carbunclo|/>专用的小型冲锋枪。\r\n发动伙伴技能后，它会坐在玩家的头上，\r\n配合玩家的攻击进行额外射击。
+SkillUnlock_Garm=持有此道具时，\r\n即可骑乘<characterName id=|Garm|/>。
+Debug_Handgun_Poison=**Debug_Handgun_Poison
+Debug_Handgun_Burn=**Debug_Handgun_Burn
+Debug_Handgun_Wetness=**Debug_Handgun_Wetness
+Debug_Handgun_Freeze=**Debug_Handgun_Freeze
+Debug_Handgun_Electrical=**Debug_Handgun_Electrical
+Debug_Handgun_Muddy=**Debug_Handgun_Muddy
+Debug_Handgun_IvyCling=**Debug_Handgun_IvyCling
+Debug_Handgun_Darkness=**Debug_Handgun_Darkness
+Debug_Handgun_Stun=**Debug_Handgun_Stun
+Debug_Handgun_AttackUp=**Debug_Handgun_AttackUp
+Debug_Handgun_DefenseUp=**Debug_Handgun_DefenseUp
+AirGrapplingGun=ITEM_DESC_AirGrapplingGun
+PalEgg_Normal_01=<itemName id=|PalEgg_Normal_01|/>。\r\n可感受到温柔的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Normal_02=<itemName id=|PalEgg_Normal_02|/>。\r\n可感受到温柔的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Normal_03=<itemName id=|PalEgg_Normal_04|/>。\r\n可感受到安稳的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Normal_04=<itemName id=|PalEgg_Normal_04|/>。\r\n可感受到安稳的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Normal_05=<itemName id=|PalEgg_Normal_05|/>。\r\n能感受到博爱灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Fire_01=<itemName id=|PalEgg_Fire_01|/>。\r\n可感受到炙热的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Fire_02=<itemName id=|PalEgg_Fire_02|/>。\r\n可感受到炙热的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Fire_03=<itemName id=|PalEgg_Fire_03|/>。\r\n可感受到强烈热情的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Fire_04=<itemName id=|PalEgg_Fire_04|/>。\r\n可感受到强烈热情的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Fire_05=<itemName id=|PalEgg_Fire_05|/>。\r\n能感受到炽热灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Water_01=<itemName id=|PalEgg_Water_01|/>。\r\n可感受到纯洁的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Water_02=<itemName id=|PalEgg_Water_02|/>。\r\n可感受到纯洁的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Water_03=<itemName id=|PalEgg_Water_03|/>。\r\n可感受到清澈的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Water_04=<itemName id=|PalEgg_Water_04|/>。\r\n可感受到清澈的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Water_05=<itemName id=|PalEgg_Water_05|/>。\r\n能感受到澄澈灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Leaf_01=<itemName id=|PalEgg_Leaf_01|/>。\r\n可感受到鲜活的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Leaf_02=<itemName id=|PalEgg_Leaf_02|/>。\r\n可感受到鲜活的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Leaf_03=<itemName id=|PalEgg_Leaf_03|/>。\r\n可感受到充满生命力的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Leaf_04=<itemName id=|PalEgg_Leaf_04|/>。\r\n可感受到充满生命力的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Leaf_05=<itemName id=|PalEgg_Leaf_05|/>。\r\n能感受到深绿灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Electricity_01=<itemName id=|PalEgg_Electricity_01|/>。\r\n可感受到弹跳般的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Electricity_02=<itemName id=|PalEgg_Electricity_02|/>。\r\n可感受到弹跳般的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Electricity_03=<itemName id=|PalEgg_Electricity_03|/>。\r\n可感受到强大能量的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Electricity_04=<itemName id=|PalEgg_Electricity_04|/>。\r\n可感受到强大能量的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Electricity_05=<itemName id=|PalEgg_Electricity_05|/>。\r\n能感受到激情靈魂的蓬勃生氣，彷彿某種奇特生物即將破殼而出。\r\n把它放進<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Ice_01=<itemName id=|PalEgg_Ice_01|/>。\r\n可感受到冰冷的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Ice_02=<itemName id=|PalEgg_Ice_02|/>。\r\n可感受到冰冷的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Ice_03=<itemName id=|PalEgg_Ice_03|/>。\r\n可感受到冷冽的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Ice_04=<itemName id=|PalEgg_Ice_04|/>。\r\n可感受到冷冽的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Ice_05=<itemName id=|PalEgg_Ice_05|/>。\r\n能感受到绝对零度灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Earth_01=<itemName id=|PalEgg_Earth_01|/>。\r\n可感受到开朗的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Earth_02=<itemName id=|PalEgg_Earth_02|/>。\r\n可感受到开朗的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Earth_03=<itemName id=|PalEgg_Earth_03|/>。\r\n可感受到厚重的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Earth_04=<itemName id=|PalEgg_Earth_04|/>。\r\n可感受到厚重的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Earth_05=<itemName id=|PalEgg_Earth_05|/>。\r\n能感受到大地灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Dark_01=<itemName id=|PalEgg_Dark_01|/>。\r\n可感受到不规则的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dark_02=<itemName id=|PalEgg_Dark_02|/>。\r\n可感受到不规则的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dark_03=<itemName id=|PalEgg_Dark_03|/>。\r\n可感受到邪恶的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dark_04=<itemName id=|PalEgg_Dark_04|/>。\r\n可感受到邪恶的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dark_05=<itemName id=|PalEgg_Dark_05|/>。\r\n能感受到深渊灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+PalEgg_Dragon_01=<itemName id=|PalEgg_Dragon_01|/>。\r\n可感受到活泼的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dragon_02=<itemName id=|PalEgg_Dragon_02|/>。\r\n可感受到活泼的胎动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dragon_03=<itemName id=|PalEgg_Dragon_03|/>。\r\n可感受到不同寻常的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dragon_04=<itemName id=|PalEgg_Dragon_04|/>。\r\n可感受到不同寻常的鼓动。\r\n放进<mapObjectName id=|HatchingPalEgg|/>孵化它吧。
+PalEgg_Dragon_05=<itemName id=|PalEgg_Dragon_05|/>。\r\n能感受到庄严灵魂的蓬勃生气，彷彿某种奇特生物即将破壳而出。\r\n把它放进<mapObjectName id=|HatchingPalEgg|/>裡孵化吧。
+Shield_01=帕鲁矿科技制造出的不可思议的护盾。\r\n一定时间不受攻击时可自动修复。
+Shield_02=帕鲁矿科技制造出的不可思议的护盾。\r\n一定时间不受攻击时可自动修复。\r\n量产型，防御力增加。
+Shield_03=帕鲁矿科技制造出的不可思议的护盾。\r\n一定时间不受攻击时可自动修复。\r\n经过改良，进一步提升了性能。
+Shield_04=帕鲁矿科技制造出的不可思议的护盾。\r\n一定时间不受攻击时可自动修复。\r\n经过多次实验，实现了最高峰的品质。
+RepairKit=用于修理建筑物的道具。\r\n可用于修补损坏的建筑物。
+PalCrystal_Ex=从古代遗迹裡挖出的废品。\r\n其中蕴藏了许多失传技术的资讯。\r\n此物品极具价值，相当炙手可热。
+SkillUnlock_Umihebi_Fire=持有此道具时，\r\n即可骑乘<characterName id=|Umihebi_Fire|/>。
+SkillUnlock_Deer_Ground=持有此道具时，\r\n即可骑乘<characterName id=|Deer_Ground|/>。
+SkillUnlock_Hedgehog_Ice=用来抓住<characterName id=|Hedgehog_Ice|/>的隔热手套。\r\n发动伙伴技能后，即可将<characterName id=|Hedgehog_Ice|/>当作\r\n冰冻手榴弹投掷出去。
+SkillUnlock_FlowerDinosaur_Electric=持有此道具时，\r\n即可骑乘<characterName id=|FlowerDinosaur_Electric|/>。
+SkillUnlock_GrassMammoth_Ice=持有此道具时，\r\n即可骑乘<characterName id=|GrassMammoth_Ice|/>。
+SkillUnlock_LazyDragon_Electric=持有此道具时，\r\n即可骑乘<characterName id=|LazyDragon_Electric|/>，并用导弹发射器进行猛烈轰炸。
+SkillUnlock_FireKirin_Dark=持有此道具时，\r\n即可骑乘<characterName id=|FireKirin_Dark|/>。
+SkillUnlock_SakuraSaurus_Water=持有此道具时，\r\n即可骑乘<characterName id=|SakuraSaurus_Water|/>。
+SkillUnlock_FairyDragon_Water=持有此道具时，\r\n即可骑乘<characterName id=|FairyDragon_Water|/>。
+SkillUnlock_Manticore_Dark=持有此道具时，\r\n即可骑乘<characterName id=|Manticore_Dark|/>。
+SkillUnlock_Suzaku_Water=持有此道具时，\r\n即可骑乘<characterName id=|Suzaku_Water|/>。
+SkillUnlock_Serpent_Ground=持有此道具时，\r\n即可骑乘<characterName id=|Serpent_Ground|/>。
+SkillUnlock_VolcanicMonster_Ice=持有此道具时，\r\n即可骑乘<characterName id=|VolcanicMonster_Ice|/>。
+SkillUnlock_IceHorse_Dark=持有此道具时，\r\n即可骑乘<characterName id=|IceHorse_Dark|/>。
+SkillUnlock_GrassPanda_Electric=持有此道具时，\r\n即可骑乘<characterName id=|GrassPanda_Electric|/>，并用榴弹发射器进行猛烈轰炸。
+SkillUnlock_Yeti_Grass=持有此道具时，\r\n即可骑乘<characterName id=|Yeti_Grass|/>。
+SkillUnlock_KingAlpaca_Ice=持有此道具时，\r\n即可骑乘<characterName id=|KingAlpaca_Ice|/>。
+SkillUnlock_BirdDragon_Ice=持有此道具时，\r\n即可骑乘<characterName id=|BirdDragon_Ice|/>。
+SkillUnlock_WindChimes_Ice=用来轻轻抓住<characterName id=|WindChimes_Ice|/>的手臂的手套。\r\n持有此道具且<characterName id=|WindChimes_Ice|/>在队伍中时，\r\n即可将<characterName id=|WindChimes_Ice|/>当作滑翔伞来使用。
+SkillUnlock_Umihebi=持有此道具时，\r\n即可骑乘<characterName id=|Umihebi|/>。
+SkillUnlock_Deer=持有此道具时，\r\n即可骑乘<characterName id=|Deer|/>。
+SkillUnlock_Hedgehog=用来抓住<characterName id=|Hedgehog|/>的橡胶手套。\r\n发动伙伴技能后，即可将<characterName id=|Hedgehog|/>\r\n当作带电手榴弹投掷出去。
+SkillUnlock_Kitsunebi=用来抱住<characterName id=|Kitsunebi|/>的背带。\r\n发动伙伴技能后，即可将<characterName id=|Kitsunebi|/>\r\n抱在身上当作火焰喷射器进行攻击。
+SkillUnlock_Boar=持有此道具时，\r\n即可骑乘<characterName id=|Boar|/>。
+SkillUnlock_Monkey=<characterName id=|Monkey|/>专用的小型突击步枪。\r\n发动伙伴技能后，<characterName id=|Monkey|/>会进入射击模式，\r\n猛烈扫射周围的敌人。
+SkillUnlock_Penguin=用来发射<characterName id=|Penguin|/>的炮筒。\r\n发动伙伴技能后，即可将<characterName id=|Penguin|/>射出\r\n对敌人进行攻击。随后，<characterName id=|Penguin|/>会进入濒死状态。
+SkillUnlock_Alpaca=持有此道具时，\r\n即可骑乘<characterName id=|Alpaca|/>。
+SkillUnlock_FlowerDinosaur=持有此道具时，\r\n即可骑乘<characterName id=|FlowerDinosaur|/>。
+SkillUnlock_GrassMammoth=持有此道具时，\r\n即可骑乘<characterName id=|GrassMammoth|/>。
+SkillUnlock_Kirin=持有此道具时，\r\n即可骑乘<characterName id=|Kirin|/>。
+SkillUnlock_ElecPanda=持有此道具时，即可骑乘<characterName id=|ElecPanda|/>，\r\n并用机关枪进行猛烈射击。
+SkillUnlock_LazyDragon=持有此道具时，即可骑乘<characterName id=|LazyDragon|/>，\r\n并用导弹发射器进行猛烈射击。
+SkillUnlock_FireKirin=持有此道具时，\r\n即可骑乘<characterName id=|FireKirin|/>。
+SkillUnlock_SakuraSaurus=持有此道具时，\r\n即可骑乘<characterName id=|SakuraSaurus|/>。
+SkillUnlock_FlameBuffalo=持有此道具时，\r\n即可骑乘<characterName id=|FlameBuffalo|/>。
+SkillUnlock_BlueDragon=持有此道具时，\r\n即可骑乘<characterName id=|BlueDragon|/>。
+SkillUnlock_FairyDragon=持有此道具时，\r\n即可骑乘<characterName id=|FairyDragon|/>。
+SkillUnlock_FengyunDeeper=持有此道具时，\r\n即可骑乘<characterName id=|FengyunDeeper|/>。
+SkillUnlock_ColorfulBird=用来轻轻抓住<characterName id=|ColorfulBird|/>的手套。\r\n发动伙伴技能后，即可抱着<characterName id=|ColorfulBird|/>，\r\n发射爆炸蛋来进行攻击。
+SkillUnlock_Eagle=用来轻轻抓住<characterName id=|Eagle|/>的脚的手套。\r\n持有此道具且<characterName id=|Eagle|/>在队伍中时，\r\n即可将<characterName id=|Eagle|/>当作滑翔伞来使用。
+SkillUnlock_NegativeOctopus=用来轻轻抓住<characterName id=|NegativeOctopus|/>的脚的手套。\r\n持有此道具时并且<characterName id=|NegativeOctopus|/>在队伍中时，\r\n即可将<characterName id=|NegativeOctopus|/>当作滑翔伞。
+SkillUnlock_FlyingManta=用来轻轻抓住<characterName id=|FlyingManta|/>的小手的手套。\r\n持有此道具且<characterName id=|FlyingManta|/>在队伍中时，\r\n即可将<characterName id=|FlyingManta|/>当作滑翔伞来使用。
+SkillUnlock_GhostBeast=持有此道具时，\r\n即可骑乘<characterName id=|GhostBeast|/>。
+SkillUnlock_FlowerRabbit=<characterName id=|FlowerRabbit|/>的项圈。\r\n持有此道具时，队伍中的<characterName id=|FlowerRabbit|/>会\r\n一直待在场上，并自动拾取附近的道具。
+SkillUnlock_Manticore=持有此道具时，\r\n即可骑乘<characterName id=|Manticore|/>。
+SkillUnlock_Suzaku=持有此道具时，\r\n即可骑乘<characterName id=|Suzaku|/>。
+SkillUnlock_Serpent=持有此道具时，\r\n即可骑乘<characterName id=|Serpent|/>。
+SkillUnlock_RaijinDaughter=<characterName id=|RaijinDaughter|/>的项圈。\r\n持有此道具时，队伍中的<characterName id=|RaijinDaughter|/>会\r\n一直待在场上，并配合玩家的攻击发动额外攻击。
+SkillUnlock_VolcanicMonster=持有此道具时，\r\n即可骑乘<characterName id=|VolcanicMonster|/>。
+SkillUnlock_AmaterasuWolf=持有此道具时，\r\n即可骑乘<characterName id=|AmaterasuWolf|/>。
+SkillUnlock_DreamDemon=<characterName id=|DreamDemon|/>的项圈。\r\n持有此道具时，队伍中的<characterName id=|DreamDemon|/>会\r\n一直待在场上，并配合玩家的攻击发动额外攻击。
+SkillUnlock_BlackFurDragon=|在「<mapObjectName id=|WorkBench_SkillUnlock|/>」中，\r\n「<itemName id=|SkillUnlock_BlackFurDragon|/>」能够被制作。
+SkillUnlock_IceHorse=持有此道具时，\r\n即可骑乘<characterName id=|IceHorse|/>。
+SkillUnlock_Horus=持有此道具时，\r\n即可骑乘<characterName id=|Horus|/>。
+SkillUnlock_KingBahamut=持有此道具时，\r\n即可骑乘<characterName id=|KingBahamut|/>。
+SkillUnlock_IceDeer=持有此道具时，\r\n即可骑乘<characterName id=|IceDeer|/>。
+SkillUnlock_BlackGriffon=持有此道具时，\r\n即可骑乘<characterName id=|BlackGriffon|/>。
+SkillUnlock_ElecLion=#N/A
+SkillUnlock_GuardianDog=#N/A
+SkillUnlock_BlackMetalDragon=持有此道具时，\r\n即可骑乘<characterName id=|BlackMetalDragon|/>。
+SkillUnlock_SkyDragon=持有此道具时，\r\n即可骑乘<characterName id=|SkyDragon|/>。
+SkillUnlock_ThunderDog=持有此道具时，\r\n即可骑乘<characterName id=|ThunderDog|/>。
+SkillUnlock_GrassPanda=持有此道具时，\r\n即可骑乘<characterName id=|GrassPanda|/>，并用榴弹发射器进行猛烈射击。
+SkillUnlock_Yeti=持有此道具时，\r\n即可骑乘<characterName id=|Yeti|/>。
+SkillUnlock_HawkBird=持有此道具时，\r\n即可骑乘<characterName id=|HawkBird|/>。
+SkillUnlock_JetDragon=持有此道具时，\r\n即可骑乘<characterName id=|JetDragon|/>，并用导弹进行猛烈轰炸。
+SkillUnlock_HadesBird=持有此道具时，\r\n即可骑乘<characterName id=|HadesBird|/>。
+SkillUnlock_KingAlpaca=持有此道具时，\r\n即可骑乘<characterName id=|KingAlpaca|/>。
+SkillUnlock_SaintCentaur=持有此道具时，\r\n即可骑乘<characterName id=|SaintCentaur|/>。
+SkillUnlock_DarkMutant=#N/A
+SkillUnlock_ThunderBird=持有此道具时，\r\n即可骑乘<characterName id=|ThunderBird|/>。
+SkillUnlock_RedArmorBird=持有此道具时，\r\n即可骑乘<characterName id=|RedArmorBird|/>。
+SkillUnlock_BlackCentaur=持有此道具时，\r\n即可骑乘<characterName id=|BlackCentaur|/>。
+SkillUnlock_MopKing=持有此道具时，\r\n即可骑乘<characterName id=|MopKing|/>。
+SkillUnlock_GoldenHorse=#N/A
+SkillUnlock_BadCatgirl=#N/A
+SkillUnlock_NaughtyCat=持有此道具时，\r\n即可骑乘<characterName id=|NaughtyCat|/>。
+SkillUnlock_FeatherOstrich=#N/A
+SkillUnlock_WingGolem=「<itemName id=|SkillUnlock_WingGolem|/>」能在「<mapObjectName id=|WorkBench_SkillUnlock|/>」中制作。
+SkillUnlock_DrillGame=<characterName id=|DrillGame|/>的决胜头带。\r\n发动伙伴技能后，<characterName id=|DrillGame|/>会进入高速旋转状态，\r\n能够高效率钻凿岩石。
+SkillUnlock_BirdDragon=持有此道具时，\r\n即可骑乘<characterName id=|BirdDragon|/>。
+SkillUnlock_WeaselDragon=持有此道具时，\r\n即可骑乘<characterName id=|WeaselDragon|/>。
+SkillUnlock_WindChimes=用来轻轻抓住<characterName id=|WindChimes|/>的手臂的手套。\r\n持有此道具且<characterName id=|WindChimes|/>在队伍中时，\r\n即可将<characterName id=|WindChimes|/>当作滑翔伞来使用。
+MakeshiftHandgun=手工制造的破旧手枪。\r\n较适合用于近距离战斗，但每次只能射出一发子弹。
+Accessory_HP_2=可提升少量HP的装饰。\r\n
+Accessory_HP_3=可提升HP的装饰。\r\n
+Accessory_HP_4=可提升大量HP的装饰。\r\n
+Accessory_AT_2=可提升少量攻击力的装饰。\r\n
+Accessory_AT_3=可提升攻击力的装饰。\r\n
+Accessory_AT_4=可提升大量攻击力的装饰。\r\n
+Accessory_defense_2=可提升少量防御力的装饰。\r\n
+Accessory_defense_3=可提升防御力的装饰。\r\n
+Accessory_defense_4=可提升大量防御力的装饰。\r\n
+Accessory_WorkSpeed_2=可少许提升作业速度的装饰。\r\n
+Accessory_WorkSpeed_3=可提升作业速度的装饰。\r\n
+Accessory_WorkSpeed_4=可大大提升作业速度的装饰。\r\n
+Accessory_HeatResist_2=拥有少量耐热效果的装饰。\r\n
+Accessory_HeatResist_3=拥有耐热效果的装饰。\r\n
+Accessory_HeatResist_4=拥有很强耐热效果的装饰。\r\n
+Accessory_CoolResist_2=拥有少量耐寒效果的装饰。\r\n
+Accessory_CoolResist_3=拥有耐寒效果的装饰。\r\n
+Accessory_CoolResist_4=拥有很强耐寒效果的装饰。\r\n
+Accessory_NormalResist_2=可稍微减轻无属性伤害的饰品。
+Accessory_NormalResist_3=可减轻无属性伤害的饰品。
+Accessory_NormalResist_4=可大幅减轻无属性伤害的饰品。
+Accessory_FireResist_2=可稍微减轻炎属性伤害的装饰。\r\n
+Accessory_FireResist_3=可减轻炎属性伤害的装饰。\r\n
+Accessory_FireResist_4=可大大减轻炎属性伤害的装饰。\r\n
+Accessory_AquaResist_2=可稍微减轻水属性伤害的装饰。\r\n
+Accessory_AquaResist_3=可减轻水属性伤害的装饰。\r\n
+Accessory_AquaResist_4=可大大减轻水属性伤害的装饰。\r\n
+Accessory_ThunderResist_2=可稍微减轻雷属性伤害的装饰。\r\n
+Accessory_ThunderResist_3=可减轻雷属性伤害的装饰。\r\n
+Accessory_ThunderResist_4=可大大减轻雷属性伤害的装饰。\r\n
+Accessory_LeafResist_2=可稍微减轻草属性伤害的装饰。\r\n
+Accessory_LeafResist_3=可减轻草属性伤害的装饰。\r\n
+Accessory_LeafResist_4=可大大减轻草属性伤害的装饰。\r\n
+Accessory_IceResist_2=可稍微减轻冰属性伤害的装饰。\r\n
+Accessory_IceResist_3=可减轻冰属性伤害的装饰。\r\n
+Accessory_IceResist_4=可大大减轻冰属性伤害的装饰。\r\n
+Accessory_EarthResist_2=可稍微减轻地属性伤害的装饰。\r\n
+Accessory_EarthResist_3=可减轻地属性伤害的装饰。\r\n
+Accessory_EarthResist_4=可大大减轻地属性伤害的装饰。\r\n
+Accessory_DarkResist_2=可稍微减轻暗属性伤害的装饰。\r\n
+Accessory_DarkResist_3=可减轻暗属性伤害的装饰。\r\n
+Accessory_DarkResist_4=可大大减轻暗属性伤害的装饰。\r\n
+Accessory_DragonResist_2=可稍微减轻龙属性伤害的装饰。\r\n
+Accessory_DragonResist_3=可减轻龙属性伤害的装饰。\r\n
+Accessory_DragonResist_4=可大大减轻龙属性伤害的装饰。\r\n
+PalUpgradeStone=帕鲁留下的小型魂魄。\r\n献给<mapObjectName id=|BuildableGoddessStatue|/>，可以激发隐藏的才能。
+PalUpgradeStone2=帕鲁留下的魂魄。\r\n献给<mapObjectName id=|BuildableGoddessStatue|/>，可以激发隐藏的才能。
+PalUpgradeStone3=帕鲁留下的大型魂魄。\r\n献给<mapObjectName id=|BuildableGoddessStatue|/>，可以激发隐藏的才能。
+Mushroom=可生吃的蘑菇。\r\n走在岛上随处可见。
+BakedMushroom=烤熟后营养价值上升的蘑菇。\r\n不可思议的是还很有饱足感。
+Sulfur=可在火山等地找到的<itemName id=|Sulfur|/>。\r\n是制作<itemName id=|Gunpowder2|/>时必须用到的素材。
+Honey=可自<characterName id=|SoldierBee|/>身上取得的蜂蜜。\r\n甘甜美味。
+Sweet=可自<characterName id=|SweetsSheep|/>身上取得的棉花糖。\r\n吃起来轻盈甜美，入口即化。
+Quartz=可在雪山等地找到的<itemName id=|Quartz|/>。\r\n是制作<itemName id=|MachineParts2|/>时必须用到的素材。
+PalOil=可自帕鲁身上取得的优质油脂。\r\n是制作<itemName id=|Polymer|/>时必须用到的素材。
+Polymer=加工油脂后制成的<itemName id=|Polymer|/>。\r\n是制作枪支时必须用到的素材。
+ElectricOrgan=可从<uiCommon id=|COMMON_ELEMENT_NAME_Electricity|/>帕鲁身上获得的素材。\r\n里面储存了电，必须小心对待。
+Venom=可从带毒的帕鲁身上获得的素材。\r\n是<itemName id=|Arrow_Poison|/>等的素材。
+FireOrgan=可从<uiCommon id=|COMMON_ELEMENT_NAME_Fire|/>帕鲁身上获得的素材。\r\n是<itemName id=|Arrow_Fire|/>等的素材。
+IceOrgan=可从<uiCommon id=|COMMON_ELEMENT_NAME_Ice|/>帕鲁身上获得的素材。\r\n是<mapObjectName id=|Trap_MineFreeze|/>等的素材。
+bone=可从帕鲁身上获得的<itemName id=|Bone|/>。\r\n是优质的钙素材。
+Sand=**Sand
+Silicon=**Silicon
+Cement=可成为建筑物素材的<itemName id=|Cement|/>。\r\n可用<mapObjectName id=|Factory_Hard_01|/>制作。
+CarbonFiber=轻盈坚硬的优质素材。\r\n可用于制作防具等。
+Horn=可从帕鲁身上获得的<itemName id=|Horn|/>。\r\n可用于制作药品等。
+PalFluid=可从帕鲁身上取得的体液。\r\n黏度很高，相当有用。
+PalItem_ColorfulBird=<characterName id=|ColorfulBird|/>掉下的羽毛。\r\n因其色彩美丽且受欢迎，常常被用作制作衣物的材料。
+PalItem_PlantSlime=<characterName id=|PlantSlime|/>掉落的叶子。\r\n是用于制作衣物的材料。
+PalItem_CaptainPenguin=<characterName id=|CaptainPenguin|/>掉落的羽饰。\r\n是用于制作衣物的材料。
+PalItem_CatMage=<characterName id=|CatMage|/>掉下的体毛。\r\n是用于制作衣物的材料。
+SkillCard_PowerShot=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|PowerShot|/>。
+SkillCard_PowerBall=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|PowerBall|/>。
+SkillCard_HyperBeam=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|HyperBeam|/>。
+SkillCard_AirCanon=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|AirCanon|/>。
+SkillCard_SelfDestruct=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|SelfDestruct|/>。
+SkillCard_WindCutter=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|WindCutter|/>。
+SkillCard_GrassTornado=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|GrassTornado|/>。
+SkillCard_SolarBeam=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|SolarBeam|/>。
+SkillCard_SeedMachinegun=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|SeedMachinegun|/>。
+SkillCard_RootAttack=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|RootAttack|/>。
+SkillCard_SeedMine=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|SeedMine|/>。
+SkillCard_WaterGun=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|WaterGun|/>。
+SkillCard_WaterBall=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|WaterBall|/>。
+SkillCard_HydroPump=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|HydroPump|/>。
+SkillCard_AquaJet=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|AquaJet|/>。
+SkillCard_BubbleShot=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|BubbleShot|/>。
+SkillCard_AcidRain=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|AcidRain|/>。
+SkillCard_FireBlast=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|FireBlast|/>。
+SkillCard_Flamethrower=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|Flamethrower|/>。
+SkillCard_FireBall=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|FireBall|/>。
+SkillCard_FlareArrow=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|FlareArrow|/>。
+SkillCard_FireSeed=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|FireSeed|/>。
+SkillCard_Inferno=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|Inferno|/>。
+SkillCard_FlareTornado=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|FlareTornado|/>。
+SkillCard_ElecWave=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|ElecWave|/>。
+SkillCard_Thunderbolt=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|Thunderbolt|/>。
+SkillCard_LineThunder=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|LineThunder|/>。
+SkillCard_ThunderFunnel=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|ThunderFunnel|/>。
+SkillCard_SpreadPulse=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|SpreadPulse|/>。
+SkillCard_LockonLaser=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|LockonLaser|/>。
+SkillCard_ThunderBall=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|ThunderBall|/>。
+SkillCard_ThreeThunder=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|ThreeThunder|/>。
+SkillCard_LightningStrike=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|LightningStrike|/>。
+SkillCard_ThrowRock=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|ThrowRock|/>。
+SkillCard_SandTornado=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|SandTornado|/>。
+SkillCard_RockLance=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|RockLance|/>。
+SkillCard_MudShot=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|MudShot|/>。
+SkillCard_StoneShotgun=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|StoneShotgun|/>。
+SkillCard_IceMissile=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|IceMissile|/>。
+SkillCard_BlizzardLance=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|BlizzardLance|/>。
+SkillCard_IcicleThrow=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|IcicleThrow|/>。
+SkillCard_IceBlade=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|IceBlade|/>。
+SkillCard_FrostBreath=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|FrostBreath|/>。
+SkillCard_DarkWave=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|DarkWave|/>。
+SkillCard_ShadowBall=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|ShadowBall|/>。
+SkillCard_Psychokinesis=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|Psychokinesis|/>。
+SkillCard_PoisonShot=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|PoisonShot|/>。
+SkillCard_GhostFlame=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|GhostFlame|/>。
+SkillCard_DarkLaser=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|DarkLaser|/>。
+SkillCard_DragonBreath=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|DragonBreath|/>。
+SkillCard_DragonCanon=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|DragonCanon|/>。
+SkillCard_DragonWave=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|DragonWave|/>。
+SkillCard_DragonMeteor=通过在帕鲁身上使用，\r\n可以让其学会<activeSkillName id=|DragonMeteor|/>。
+PalItem_ToSell_01=可从帕鲁身上获得的珠子，像宝石一样。\r\n可被商人高价收购。
+PalItem_ToSell_02=可从帕鲁身上获得的羽毛，闪闪发光。\r\n可被商人高价收购。
+PalItem_ToSell_03=可从帕鲁身上获得的心脏，在不停跳动。\r\n可被商人高价收购。
+PalItem_ToSell_04=可从帕鲁身上获得的爪子，十分尖锐。\r\n可被商人高价收购。
+PalItem_ToSell_05=可从帕鲁身上获得的毛，十分松软。\r\n可被商人高价收购。
+MonsterEquipWeapon_Dummy=ITEM_DESC_MonsterEquipWeapon_Dummy
+Spear=可在近战时发挥作用的<itemName id=|Spear|/>。\r\n射程很长，可在战斗时保持一定距离。
+Spear_3=可在近战时发挥作用的<itemName id=|Spear|/>。\r\n用金属制成，提升了攻击力。\r\n射程很长，可在战斗时保持一定距离。
+Spear_4=可在近战时发挥作用的<itemName id=|Spear|/>。\r\n用优质金属制成，提升了攻击力。\r\n射程很长，可在战斗时保持一定距离。
+Spear_QueenBee=经改造后的<characterName id=|QueenBee|/>法杖，专供人类使用。\r\n能感受到外露的女王霸气。
+Spear_SoldierBee=经改造后的<characterName id=|SoldierBee|/>长矛，专供人类使用。\r\n能感受到真诚的忠贞之心。
+Spear_ForestBoss=莉莉爱用的长矛。\r\n她会用它来制裁蔑视帕鲁的人。
+Lantern=挂在腰上的提灯。\r\n到了夜晚可自动照明。\r\n带1个在身上就够用了。
+AutoMealPouch_Tier1=装食物的小口袋。\r\n可开放1个自动进食装备槽。\r\n饥饿时可自动消耗槽内的食物。
+AutoMealPouch_Tier2=装食物的中型口袋。\r\n可开放2个自动进食装备槽。\r\n饥饿时可自动消耗槽内的食物。
+AutoMealPouch_Tier3=装食物的大口袋。\r\n可开放3个自动进食装备槽。\r\n饥饿时可自动消耗槽内的食物。
+AutoMealPouch_Tier4=装食物的特大口袋。\r\n可开放4个自动进食装备槽。\r\n饥饿时可自动消耗槽内的食物。
+AutoMealPouch_Tier5=用来装食物的最大号袋子。\r\n可解锁5个自动进食专用的装备栏位。\r\n帕鲁肚子饿了就会自动吃掉该栏位内的食物。
+GrapplingGun=可进行高速移动的爪钩枪。\r\n可向射击地点射出爪钩，牽引射击者的身体。\r\n可在有高低差的地方轻松移动。
+GrapplingGun2=可进行高速移动的爪钩枪。\r\n可向射击地点射出爪钩，牽引射击者的身体。\r\n此款式经过改良，射程变得更远。
+GrapplingGun3=可进行高速移动的爪钩枪。\r\n可向射击地点射出爪钩，牽引射击者的身体。\r\n此款式在试验品数据的基础上进行了改良，性能得到进一步提升。
+GrapplingGun4=用于快速移动的爪钩枪。\r\n它能将爪钩射向目的地，再将使用者牵引过去。\r\n此款式经过研究改良，灵活性可谓无与伦比。
+Head001=位高权重者佩戴的王冠。\r\n很重，不适合日常佩戴。
+Head001_3=位高权重者佩戴的王冠。\r\n很重，不适合日常佩戴。
+Head001_4=位高权重者佩戴的王冠。\r\n很重，不适合日常佩戴。
+Head001_5=位高权重者佩戴的王冠。\r\n很重，不适合日常佩戴。
+Head001_6=位高权重者佩戴的王冠。\r\n很重，不适合日常佩戴。
+Head002=罕见的金色王冠。\r\n佩戴后就有变得高贵的感觉。
+Head002_3=罕见的金色王冠。\r\n佩戴后就有变得高贵的感觉。
+Head002_4=罕见的金色王冠。\r\n佩戴后就有变得高贵的感觉。
+Head002_5=罕见的金色王冠。\r\n佩戴后就有变得高贵的感觉。
+Head002_6=罕见的金色王冠。\r\n佩戴后就有变得高贵的感觉。
+Head003=<characterName id=|PinkRabbit|/>耳朵般可爱的发箍。\r\n对保护头部没什麽作用。
+Head003_3=<characterName id=|PinkRabbit|/>耳朵般可爱的发箍。\r\n对保护头部没什麽作用。
+Head003_4=<characterName id=|PinkRabbit|/>耳朵般可爱的发箍。\r\n对保护头部没什麽作用。
+Head003_5=<characterName id=|PinkRabbit|/>耳朵般可爱的发箍。\r\n对保护头部没什麽作用。
+Head003_6=<characterName id=|PinkRabbit|/>耳朵般可爱的发箍。\r\n对保护头部没什麽作用。
+Head004=<characterName id=|FoxMage|/>或<characterName id=|CatMage|/>模样的帽子。\r\n让人有种自己也可以像帕鲁那样使用技能的错觉。
+Head004_3=<characterName id=|FoxMage|/>或<characterName id=|CatMage|/>模样的帽子。\r\n让人有种自己也可以像帕鲁那样使用技能的错觉。
+Head004_4=<characterName id=|FoxMage|/>或<characterName id=|CatMage|/>模样的帽子。\r\n让人有种自己也可以像帕鲁那样使用技能的错觉。
+Head004_5=<characterName id=|FoxMage|/>或<characterName id=|CatMage|/>模样的帽子。\r\n让人有种自己也可以像帕鲁那样使用技能的错觉。
+Head004_6=<characterName id=|FoxMage|/>或<characterName id=|CatMage|/>模样的帽子。\r\n让人有种自己也可以像帕鲁那样使用技能的错觉。
+Head005=轻便柔软，适合日常佩戴的帽子。\r\n十分时尚，\r\n曾经在岛上流行过。
+Head005_3=轻便柔软，适合日常佩戴的帽子。\r\n十分时尚，\r\n曾经在岛上流行过。
+Head005_4=轻便柔软，适合日常佩戴的帽子。\r\n十分时尚，\r\n曾经在岛上流行过。
+Head005_5=轻便柔软，适合日常佩戴的帽子。\r\n十分时尚，\r\n曾经在岛上流行过。
+Head005_6=轻便柔软，适合日常佩戴的帽子。\r\n十分时尚，\r\n曾经在岛上流行过。
+Head006=十分牢固可保护头部的头盔。\r\n据说曾有很多人从<characterName id=|Deer|/>掉下来撞到头\r\n所以该头盔被制造了出来。
+Head006_3=十分牢固可保护头部的头盔。\r\n据说曾有很多人从<characterName id=|Deer|/>掉下来撞到头\r\n所以该头盔被制造了出来。
+Head006_4=十分牢固可保护头部的头盔。\r\n据说曾有很多人从<characterName id=|Deer|/>掉下来撞到头\r\n所以该头盔被制造了出来。
+Head006_5=十分牢固可保护头部的头盔。\r\n据说曾有很多人从<characterName id=|Deer|/>掉下来撞到头\r\n所以该头盔被制造了出来。
+Head006_6=十分牢固可保护头部的头盔。\r\n据说曾有很多人从<characterName id=|Deer|/>掉下来撞到头\r\n所以该头盔被制造了出来。
+Head007=为绅士设计的帽子。\r\n虽然人们认为使用<characterName id=|WhiteMoth|/>素材制作的帽子十分高级，\r\n但市面上有许多<characterName id=|MopBaby|/>素材制成的劣质品。
+Head007_3=为绅士设计的帽子。\r\n虽然人们认为使用<characterName id=|WhiteMoth|/>素材制作的帽子十分高级，\r\n但市面上有许多<characterName id=|MopBaby|/>素材制成的劣质品。
+Head007_4=为绅士设计的帽子。\r\n虽然人们认为使用<characterName id=|WhiteMoth|/>素材制作的帽子十分高级，\r\n但市面上有许多<characterName id=|MopBaby|/>素材制成的劣质品。
+Head007_5=为绅士设计的帽子。\r\n虽然人们认为使用<characterName id=|WhiteMoth|/>素材制作的帽子十分高级，\r\n但市面上有许多<characterName id=|MopBaby|/>素材制成的劣质品。
+Head007_6=为绅士设计的帽子。\r\n虽然人们认为使用<characterName id=|WhiteMoth|/>素材制作的帽子十分高级，\r\n但市面上有许多<characterName id=|MopBaby|/>素材制成的劣质品。
+Head008=深受战士们喜爱的帽子。\r\n过去戴著这种帽子的人，\r\n往往都是滥捕<characterName id=|BlueDragon|/>之辈。
+Head008_3=深受战士们喜爱的帽子。\r\n过去戴著这种帽子的人，\r\n往往都是滥捕<characterName id=|BlueDragon|/>之辈。
+Head008_4=深受战士们喜爱的帽子。\r\n过去戴著这种帽子的人，\r\n往往都是滥捕<characterName id=|BlueDragon|/>之辈。
+Head008_5=深受战士们喜爱的帽子。\r\n过去戴著这种帽子的人，\r\n往往都是滥捕<characterName id=|BlueDragon|/>之辈。
+Head008_6=深受战士们喜爱的帽子。\r\n过去戴著这种帽子的人，\r\n往往都是滥捕<characterName id=|BlueDragon|/>之辈。
+Head009=冒险家们佩戴的帽子。\r\n有抵御强烈日照的防暑效果。
+Head009_3=冒险家们佩戴的帽子。\r\n有抵御强烈日照的防暑效果。
+Head009_4=冒险家们佩戴的帽子。\r\n有抵御强烈日照的防暑效果。
+Head009_5=冒险家们佩戴的帽子。\r\n有抵御强烈日照的防暑效果。
+Head009_6=冒险家们佩戴的帽子。\r\n有抵御强烈日照的防暑效果。
+Head010=戴上后显得聪明的帽子。\r\n也许这座岛上也曾有过学校。
+Head010_3=戴上后显得聪明的帽子。\r\n也许这座岛上也曾有过学校。
+Head010_4=戴上后显得聪明的帽子。\r\n也许这座岛上也曾有过学校。
+Head010_5=戴上后显得聪明的帽子。\r\n也许这座岛上也曾有过学校。
+Head010_6=戴上后显得聪明的帽子。\r\n也许这座岛上也曾有过学校。
+Head011=适合耕种的帽子。\r\n有抵御强烈日照的防暑效果。
+Head011_3=适合耕种的帽子。\r\n有抵御强烈日照的防暑效果。
+Head011_4=适合耕种的帽子。\r\n有抵御强烈日照的防暑效果。
+Head011_5=适合耕种的帽子。\r\n有抵御强烈日照的防暑效果。
+Head011_6=适合耕种的帽子。\r\n有抵御强烈日照的防暑效果。
+Head012=相当坚固的圆帽。\r\n|任那<characterName id=|GrassMammoth|/>践踏万遍也依旧完好如初|\r\n这句广告词使其长年火爆热卖。
+Head012_3=相当坚固的圆帽。\r\n|任那<characterName id=|GrassMammoth|/>践踏万遍也依旧完好如初|\r\n这句广告词使其长年火爆热卖。
+Head012_4=相当坚固的圆帽。\r\n|任那<characterName id=|GrassMammoth|/>践踏万遍也依旧完好如初|\r\n这句广告词使其长年火爆热卖。
+Head012_5=相当坚固的圆帽。\r\n|任那<characterName id=|GrassMammoth|/>践踏万遍也依旧完好如初|\r\n这句广告词使其长年火爆热卖。
+Head012_6=相当坚固的圆帽。\r\n|任那<characterName id=|GrassMammoth|/>践踏万遍也依旧完好如初|\r\n这句广告词使其长年火爆热卖。
+Head013=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n是即使从远处看也很显眼的帽子。
+Head013_3=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n是即使从远处看也很显眼的帽子。
+Head013_4=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n是即使从远处看也很显眼的帽子。
+Head013_5=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n是即使从远处看也很显眼的帽子。
+Head013_6=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n是即使从远处看也很显眼的帽子。
+Head014=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n似乎戴上后就会情不自禁地展露笑容。
+Head014_3=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n似乎戴上后就会情不自禁地展露笑容。
+Head014_4=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n似乎戴上后就会情不自禁地展露笑容。
+Head014_5=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n似乎戴上后就会情不自禁地展露笑容。
+Head014_6=模仿<characterName id=|ColorfulBird|/>制作的帽子。\r\n似乎戴上后就会情不自禁地展露笑容。
+Head015=模仿<characterName id=|PlantSlime|/>制作的帽子。
+Head015_3=模仿<characterName id=|PlantSlime|/>制作的帽子。
+Head015_4=模仿<characterName id=|PlantSlime|/>制作的帽子。
+Head015_5=模仿<characterName id=|PlantSlime|/>制作的帽子。
+Head015_6=模仿<characterName id=|PlantSlime|/>制作的帽子。
+Head016=模仿<characterName id=|CaptainPenguin|/>制作的帽子。
+Head016_3=模仿<characterName id=|CaptainPenguin|/>制作的帽子。
+Head016_4=模仿<characterName id=|CaptainPenguin|/>制作的帽子。
+Head016_5=模仿<characterName id=|CaptainPenguin|/>制作的帽子。
+Head016_6=模仿<characterName id=|CaptainPenguin|/>制作的帽子。
+Head017=模仿<characterName id=|CatMage|/>制作的帽子。
+Head017_3=模仿<characterName id=|CatMage|/>制作的帽子。
+Head017_4=模仿<characterName id=|CatMage|/>制作的帽子。
+Head017_5=模仿<characterName id=|CatMage|/>制作的帽子。
+Head017_6=模仿<characterName id=|CatMage|/>制作的帽子。
+Blueprint_Head001_2=拥有后即可解锁\r\n|<itemName id=|Head001_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head001_3=拥有后即可解锁\r\n|<itemName id=|Head001_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head001_4=拥有后即可解锁\r\n|<itemName id=|Head001_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head001_5=拥有后即可解锁\r\n|<itemName id=|Head001_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head001_6=拥有它后，将解锁“<itemName id=|Head001_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）”的配方。可以在“<mapObjectName id=|WorkBench|/>”上进行制作。
+Blueprint_Head002_2=拥有后即可解锁\r\n|<itemName id=|Head002_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head002_3=拥有后即可解锁\r\n|<itemName id=|Head002_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head002_4=拥有后即可解锁\r\n|<itemName id=|Head002_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head002_5=拥有后即可解锁\r\n|<itemName id=|Head002_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head002_6=拥有它将解锁|<itemName id=|Head002_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可以在|<mapObjectName id=|WorkBench|/>|里制作。
+Blueprint_Head003_2=拥有后即可解锁\r\n|<itemName id=|Head003_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head003_3=拥有后即可解锁\r\n|<itemName id=|Head003_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head003_4=拥有后即可解锁\r\n|<itemName id=|Head003_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head003_5=拥有后即可解锁\r\n|<itemName id=|Head003_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head003_6=拥有它之后，可以解锁〈<itemName id=|Head003_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）」的配方。\r\n可以在〈<mapObjectName id=|WorkBench|/>〉进行手工艺制作。
+Blueprint_Head004_2=拥有后即可解锁\r\n|<itemName id=|Head004_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head004_3=拥有后即可解锁\r\n|<itemName id=|Head004_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head004_4=拥有后即可解锁\r\n|<itemName id=|Head004_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head004_5=拥有后即可解锁\r\n|<itemName id=|Head004_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head004_6=拥有该物品，将会解锁|<itemName id=|Head004_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>中制作。
+Blueprint_Head005_2=拥有后即可解锁\r\n|<itemName id=|Head005_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head005_3=拥有后即可解锁\r\n|<itemName id=|Head005_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head005_4=拥有后即可解锁\r\n|<itemName id=|Head005_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head005_5=拥有后即可解锁\r\n|<itemName id=|Head005_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head005_6=拥有它后，|<itemName id=|Head005_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方将被解锁。\r\n可以在|<mapObjectName id=|WorkBench|/>|中进行制作。
+Blueprint_Head006_2=拥有后即可解锁\r\n|<itemName id=|Head006_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head006_3=拥有后即可解锁\r\n|<itemName id=|Head006_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head006_4=拥有后即可解锁\r\n|<itemName id=|Head006_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head006_5=拥有后即可解锁\r\n|<itemName id=|Head006_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head006_6=拥有它后，|<itemName id=|Head006_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方就被解锁了。\r\n可以在|<mapObjectName id=|WorkBench|/>”进行工艺制作。
+Blueprint_Head007_2=拥有后即可解锁\r\n|<itemName id=|Head007_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head007_3=拥有后即可解锁\r\n|<itemName id=|Head007_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head007_4=拥有后即可解锁\r\n|<itemName id=|Head007_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head007_5=拥有后即可解锁\r\n|<itemName id=|Head007_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head007_6=拥有它后，将会解锁| <itemName id=|Head007_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。 可在|<mapObjectName id=|WorkBench|/> |中进行手工制作。
+Blueprint_Head008_2=拥有后即可解锁\r\n|<itemName id=|Head008_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head008_3=拥有后即可解锁\r\n|<itemName id=|Head008_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head008_4=拥有后即可解锁\r\n|<itemName id=|Head008_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head008_5=拥有后即可解锁\r\n|<itemName id=|Head008_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head008_6=拥有它，就可以解锁“<itemName id=|Head008_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）”的配方。可以在“<mapObjectName id=|WorkBench|/>”中进行制作。
+Blueprint_Head009_2=拥有后即可解锁\r\n|<itemName id=|Head009_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head009_3=拥有后即可解锁\r\n|<itemName id=|Head009_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head009_4=拥有后即可解锁\r\n|<itemName id=|Head009_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head009_5=拥有后即可解锁\r\n|<itemName id=|Head009_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head009_6=拥有后，可以解锁|<itemName id=|Head009_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。可以在|<mapObjectName id=|WorkBench|/>”进行制作。
+Blueprint_Head010_2=拥有后即可解锁\r\n|<itemName id=|Head010_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head010_3=拥有后即可解锁\r\n|<itemName id=|Head010_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head010_4=拥有后即可解锁\r\n|<itemName id=|Head010_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head010_5=拥有后即可解锁\r\n|<itemName id=|Head010_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head010_6=持有它后，解锁了|<itemName id=|Head010_5|/>(<uiCommon id=|RARITY_LEGENDARY|/>)|的配方。在|<mapObjectName id=|WorkBench|/>|中可以制作。
+Blueprint_Head011_2=拥有后即可解锁\r\n|<itemName id=|Head011_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head011_3=拥有后即可解锁\r\n|<itemName id=|Head011_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head011_4=拥有后即可解锁\r\n|<itemName id=|Head011_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head011_5=拥有后即可解锁\r\n|<itemName id=|Head011_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head011_6=拥有后，将解锁|<itemName id=|Head011_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可以在|<mapObjectName id=|WorkBench|/>|进行手工制作。
+Blueprint_Head012_2=拥有后即可解锁\r\n|<itemName id=|Head012_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head012_3=拥有后即可解锁\r\n|<itemName id=|Head012_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head012_4=拥有后即可解锁\r\n|<itemName id=|Head012_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head012_5=拥有后即可解锁\r\n|<itemName id=|Head012_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head012_6=持有它后， |<itemName id=|Head012_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方会被解锁。\r\n可以在|<mapObjectName id=|WorkBench|/>|中进行制作。
+Blueprint_Head013_2=拥有后即可解锁\r\n|<itemName id=|Head013_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head013_3=拥有后即可解锁\r\n|<itemName id=|Head013_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head013_4=拥有后即可解锁\r\n|<itemName id=|Head013_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head013_5=拥有后即可解锁\r\n|<itemName id=|Head013_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head013_6=拥有它后，|<itemName id=|Head013_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方就会被解锁。\r\n您可以在“<mapObjectName id=|WorkBench|/>”上进行制作。
+Blueprint_Head014_2=拥有后即可解锁\r\n|<itemName id=|Head014_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head014_3=拥有后即可解锁\r\n|<itemName id=|Head014_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head014_4=拥有后即可解锁\r\n|<itemName id=|Head014_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head014_5=拥有后即可解锁\r\n|<itemName id=|Head014_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head014_6=持有后，会解锁|<itemName id=|Head014_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可以在“<mapObjectName id=|WorkBench|/>”中进行制作。
+Blueprint_Head015_2=拥有后即可解锁\r\n|<itemName id=|Head015_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head015_3=拥有后即可解锁\r\n|<itemName id=|Head015_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head015_4=拥有后即可解锁\r\n|<itemName id=|Head015_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head015_5=拥有后即可解锁\r\n|<itemName id=|Head015_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head015_6=拥有它之后，“<itemName id=|Head015_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）”的配方将被解锁。\r\n可以在“<mapObjectName id=|WorkBench|/>”进行手工制作。
+Blueprint_Head016_2=拥有后即可解锁\r\n|<itemName id=|Head016_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head016_3=拥有后即可解锁\r\n|<itemName id=|Head016_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head016_4=拥有后即可解锁\r\n|<itemName id=|Head016_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head016_5=拥有后即可解锁\r\n|<itemName id=|Head016_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head016_6=拥有这个之后，<itemName id=|Head016_5|/>\r\n（<uiCommon id=|RARITY_LEGENDARY|/>）的配方将会被解锁。\r\n在<mapObjectName id=|WorkBench|/>中可以制作。
+Blueprint_Head017_2=拥有后即可解锁\r\n|<itemName id=|Head017_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head017_3=拥有后即可解锁\r\n|<itemName id=|Head017_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head017_4=拥有后即可解锁\r\n|<itemName id=|Head017_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head017_5=拥有后即可解锁\r\n|<itemName id=|Head017_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_Head017_6=**Blueprint_Head017_6
+MateItem01=**MateItem01
+TreasureBoxKey01=用于打开上锁宝箱的钥匙。
+TreasureBoxKey02=用于打开上锁宝箱的钥匙。
+TreasureBoxKey03=用于打开上锁宝箱的钥匙。
+Musket=古旧又简朴的枪。\r\n每一发均威力惊人，但装填子弹较花时间。
+BlueprintTest=ITEM_DESC_BlueprintTest
+WeakerBow_3=可进行远程攻击的弓。\r\n因为是东拼西凑而成的，威力较弱。
+WeakerBow_4=可进行远程攻击的弓。\r\n因为是东拼西凑而成的，威力较弱。
+WeakerBow_5=可进行远程攻击的弓。\r\n因为是东拼西凑而成的，威力较弱。
+WeakerBow_6=可进行远程攻击的弓。\r\n因为是东拼西凑而成的，威力较弱。
+BowGun_3=不用使劲即可射出<itemName id=|Arrow|/>。\r\n虽然填装很费时，但可使出强劲一击。
+BowGun_4=不用使劲即可射出<itemName id=|Arrow|/>。\r\n虽然填装很费时，但可使出强劲一击。
+BowGun_5=不用使劲即可射出<itemName id=|Arrow|/>。\r\n虽然填装很费时，但可使出强劲一击。
+BowGun_6=不用使劲即可射出<itemName id=|Arrow|/>。\r\n虽然填装很费时，但可使出强劲一击。
+AssaultRifle_Default2=适用于远距离战斗的<itemName id=|AssaultRifle_Default1|/>。\r\n连射能力优秀，是与强敌对战时的首选。
+AssaultRifle_Default3=适用于远距离战斗的<itemName id=|AssaultRifle_Default1|/>。\r\n连射能力优秀，是与强敌对战时的首选。
+AssaultRifle_Default4=适用于远距离战斗的<itemName id=|AssaultRifle_Default1|/>。\r\n连射能力优秀，是与强敌对战时的首选。
+AssaultRifle_Default5=适用于远距离战斗的<itemName id=|AssaultRifle_Default1|/>。\r\n连射能力优秀，是与强敌对战时的首选。
+PumpActionShotgun_3=增加填装数量，更加强劲的霰弹枪。\r\n拥有屈指可数的近距离DPS能力。
+PumpActionShotgun_4=增加填装数量，更加强劲的霰弹枪。\r\n拥有屈指可数的近距离DPS能力。
+PumpActionShotgun_5=增加填装数量，更加强劲的霰弹枪。\r\n拥有屈指可数的近距离DPS能力。
+PumpActionShotgun_6=增加填装数量，更加强劲的霰弹枪。\r\n拥有屈指可数的近距离DPS能力。
+HandGun_Default_3=子弹容纳量及连射性能经过强化的手枪。\r\n每秒火力比<itemName id=|MakeshiftHandgun|/>更强。
+HandGun_Default_4=子弹容纳量及连射性能经过强化的手枪。\r\n每秒火力比<itemName id=|MakeshiftHandgun|/>更强。
+HandGun_Default_5=子弹容纳量及连射性能经过强化的手枪。\r\n每秒火力比<itemName id=|MakeshiftHandgun|/>更强。
+HandGun_Default_6=子弹容纳量及连射性能经过强化的手枪。\r\n每秒火力比<itemName id=|MakeshiftHandgun|/>更强。
+Launcher_Default_3=<itemName id=|Launcher_Default|/>。\r\n可远距离进行强劲轰炸。
+Launcher_Default_4=<itemName id=|Launcher_Default|/>。\r\n可远距离进行强劲轰炸。
+Launcher_Default_5=<itemName id=|Launcher_Default|/>。\r\n可远距离进行强劲轰炸。
+Launcher_Default_6=<itemName id=|Launcher_Default|/>。\r\n可远距离进行强劲轰炸。
+ClothArmor_3=用<itemName id=|Cloth|/>制成的衣服。\r\n可抵御夜晚的寒冷。
+ClothArmor_4=用<itemName id=|Cloth|/>制成的衣服。\r\n可抵御夜晚的寒冷。
+ClothArmor_5=用<itemName id=|Cloth|/>制成的衣服。\r\n可抵御夜晚的寒冷。
+ClothArmor_6=用<itemName id=|Cloth|/>制成的衣服。\r\n可抵御夜晚的寒冷。
+FurArmor_3=用<itemName id=|Leather|/>制成的盔甲。\r\n保暖性和防御力都得到了提升。
+FurArmor_4=用<itemName id=|Leather|/>制成的盔甲。\r\n保暖性和防御力都得到了提升。
+FurArmor_5=用<itemName id=|Leather|/>制成的盔甲。\r\n保暖性和防御力都得到了提升。
+FurArmor_6=用<itemName id=|Leather|/>制成的盔甲。\r\n保暖性和防御力都得到了提升。
+CopperArmor_3=金属制成的盔甲。\r\n有一定防御力，也有一定重量。
+CopperArmor_4=金属制成的盔甲。\r\n有一定防御力，也有一定重量。
+CopperArmor_5=金属制成的盔甲。\r\n有一定防御力，也有一定重量。
+CopperArmor_6=金属制成的盔甲。\r\n有一定防御力，也有一定重量。
+IronArmor_3=用优质金属制成的盔甲。\r\n有傲人的高防御力，但是很重。
+IronArmor_4=用优质金属制成的盔甲。\r\n有傲人的高防御力，但是很重。
+IronArmor_5=用优质金属制成的盔甲。\r\n有傲人的高防御力，但是很重。
+IronArmor_6=用优质金属制成的盔甲。\r\n有傲人的高防御力，但是很重。
+StealArmor_3=由<itemName id=|StealIngot|/>制成的盔甲。\r\n有着惊人的防御力，但是十分沉重。\r\n其彰显一股英勇之气，是真正属于英雄的装备。
+StealArmor_4=由<itemName id=|StealIngot|/>制成的盔甲。\r\n有着惊人的防御力，但是十分沉重。\r\n其彰显一股英勇之气，是真正属于英雄的装备。
+StealArmor_5=由<itemName id=|StealIngot|/>制成的盔甲。\r\n有着惊人的防御力，但是十分沉重。\r\n其彰显一股英勇之气，是真正属于英雄的装备。
+StealArmor_6=由<itemName id=|StealIngot|/>制成的盔甲。\r\n有着惊人的防御力，但是十分沉重。\r\n其彰显一股英勇之气，是真正属于英雄的装备。
+FurHelmet_3=美丽的羽毛耳饰。\r\n也许是心理作用，感觉可以防御头部的致命伤。
+FurHelmet_4=美丽的羽毛耳饰。\r\n也许是心理作用，感觉可以防御头部的致命伤。
+FurHelmet_5=美丽的羽毛耳饰。\r\n也许是心理作用，感觉可以防御头部的致命伤。
+FurHelmet_6=美丽的羽毛耳饰。\r\n也许是心理作用，感觉可以防御头部的致命伤。
+CopperHelmet_3=以金属制成的头盔。\r\n安全可靠，能守护你的大脑。
+CopperHelmet_4=以金属制成的头盔。\r\n安全可靠，能守护你的大脑。
+CopperHelmet_5=以金属制成的头盔。\r\n安全可靠，能守护你的大脑。
+CopperHelmet_6=以金属制成的头盔。\r\n安全可靠，能守护你的大脑。
+IronHelmet_3=用优质金属制作的头盔。\r\n抛光后耀眼的金属光泽提高了它的价值。
+IronHelmet_4=用优质金属制作的头盔。\r\n抛光后耀眼的金属光泽提高了它的价值。
+IronHelmet_5=用优质金属制作的头盔。\r\n抛光后耀眼的金属光泽提高了它的价值。
+IronHelmet_6=用优质金属制作的头盔。\r\n抛光后耀眼的金属光泽提高了它的价值。
+StealHelmet_3=由<itemName id=|StealIngot|/>制成的头盔。\r\n拥有人人都会羡慕的绝佳品质，是会选择其穿戴者的战士证明。
+StealHelmet_4=由<itemName id=|StealIngot|/>制成的头盔。\r\n拥有人人都会羡慕的绝佳品质，是会选择其穿戴者的战士证明。
+StealHelmet_5=由<itemName id=|StealIngot|/>制成的头盔。\r\n拥有人人都会羡慕的绝佳品质，是会选择其穿戴者的战士证明。
+StealHelmet_6=由<itemName id=|StealIngot|/>制成的头盔。\r\n拥有人人都会羡慕的绝佳品质，是会选择其穿戴者的战士证明。
+Blueprint_WeakerBow_3=拥有后即可解锁\r\n|<itemName id=|WeakerBow|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_WeakerBow_4=拥有后即可解锁\r\n|<itemName id=|WeakerBow|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_WeakerBow_5=拥有后即可解锁\r\n|<itemName id=|WeakerBow|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_WeakerBow_6=拥有后即可解锁\r\n|<itemName id=|WeakerBow|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_BowGun_3=拥有后即可解锁\r\n|<itemName id=|BowGun|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_BowGun_4=拥有后即可解锁\r\n|<itemName id=|BowGun|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_BowGun_5=拥有后即可解锁\r\n|<itemName id=|BowGun|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_BowGun_6=拥有后即可解锁\r\n|<itemName id=|BowGun|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_AssaultRifle_Default2=拥有后即可解锁\r\n|<itemName id=|AssaultRifle_Default1|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_AssaultRifle_Default3=拥有后即可解锁\r\n|<itemName id=|AssaultRifle_Default1|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_AssaultRifle_Default4=拥有后即可解锁\r\n|<itemName id=|AssaultRifle_Default1|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_AssaultRifle_Default5=拥有后即可解锁\r\n|<itemName id=|AssaultRifle_Default1|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_PumpActionShotgun_3=拥有后即可解锁\r\n|<itemName id=|PumpActionShotgun|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_PumpActionShotgun_4=拥有后即可解锁\r\n|<itemName id=|PumpActionShotgun|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_PumpActionShotgun_5=拥有后即可解锁\r\n|<itemName id=|PumpActionShotgun|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_PumpActionShotgun_6=拥有后即可解锁\r\n|<itemName id=|PumpActionShotgun|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_02|/>|上制作。
+Blueprint_HandGun_Default_3=拥有后即可解锁\r\n|<itemName id=|HandGun_Default|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_01|/>|上制作。
+Blueprint_HandGun_Default_4=拥有后即可解锁\r\n|<itemName id=|HandGun_Default|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_01|/>|上制作。
+Blueprint_HandGun_Default_5=拥有后即可解锁\r\n|<itemName id=|HandGun_Default|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_01|/>|上制作。
+Blueprint_HandGun_Default_6=拥有后即可解锁\r\n|<itemName id=|HandGun_Default|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_01|/>|上制作。
+Blueprint_Launcher_Default_3=拥有后即可解锁\r\n|<itemName id=|Launcher_Default|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_03|/>|上制作。
+Blueprint_Launcher_Default_4=拥有后即可解锁\r\n|<itemName id=|Launcher_Default|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_03|/>|上制作。
+Blueprint_Launcher_Default_5=拥有后即可解锁\r\n|<itemName id=|Launcher_Default|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_03|/>|上制作。
+Blueprint_Launcher_Default_6=拥有后即可解锁\r\n|<itemName id=|Launcher_Default|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WeaponFactory_Dirty_03|/>|上制作。
+Blueprint_FurHelmet_3=拥有后即可解锁\r\n|<itemName id=|FurHelmet_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_FurHelmet_4=拥有后即可解锁\r\n|<itemName id=|FurHelmet_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_FurHelmet_5=拥有后即可解锁\r\n|<itemName id=|FurHelmet_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_FurHelmet_6=拥有后即可解锁\r\n|<itemName id=|FurHelmet_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_CopperHelmet_3=拥有后即可解锁\r\n|<itemName id=|CopperHelmet_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperHelmet_4=拥有后即可解锁\r\n|<itemName id=|CopperHelmet_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperHelmet_5=拥有后即可解锁\r\n|<itemName id=|CopperHelmet_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperHelmet_6=拥有后即可解锁\r\n|<itemName id=|CopperHelmet_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_IronHelmet_3=拥有后即可解锁\r\n|<itemName id=|IronHelmet_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronHelmet_4=拥有后即可解锁\r\n|<itemName id=|IronHelmet_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronHelmet_5=拥有后即可解锁\r\n|<itemName id=|IronHelmet_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronHelmet_6=拥有后即可解锁\r\n|<itemName id=|IronHelmet_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_StealHelmet_3=拥有后即可解锁\r\n|<itemName id=|StealHelmet_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealHelmet_4=拥有后即可解锁\r\n|<itemName id=|StealHelmet_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealHelmet_5=拥有后即可解锁\r\n|<itemName id=|StealHelmet_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealHelmet_6=拥有后即可解锁\r\n|<itemName id=|StealHelmet_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_ClothArmor_3=拥有后即可解锁\r\n|<itemName id=|ClothArmor|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmor_4=拥有后即可解锁\r\n|<itemName id=|ClothArmor|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmor_5=拥有后即可解锁\r\n|<itemName id=|ClothArmor|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmor_6=拥有后即可解锁\r\n|<itemName id=|ClothArmor|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_FurArmor_3=拥有后即可解锁\r\n|<itemName id=|FurArmor|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmor_4=拥有后即可解锁\r\n|<itemName id=|FurArmor|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmor_5=拥有后即可解锁\r\n|<itemName id=|FurArmor|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmor_6=拥有后即可解锁\r\n|<itemName id=|FurArmor|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmor_3=拥有后即可解锁\r\n|<itemName id=|CopperArmor|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmor_4=拥有后即可解锁\r\n|<itemName id=|CopperArmor|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmor_5=拥有后即可解锁\r\n|<itemName id=|CopperArmor|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmor_6=拥有后即可解锁\r\n|<itemName id=|CopperArmor|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_IronArmor_3=拥有后即可解锁\r\n|<itemName id=|IronArmor|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmor_4=拥有后即可解锁\r\n|<itemName id=|IronArmor|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmor_5=拥有后即可解锁\r\n|<itemName id=|IronArmor|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmor_6=拥有后即可解锁\r\n|<itemName id=|IronArmor|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_StealArmor_3=拥有后即可解锁\r\n|<itemName id=|StealArmor|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmor_4=拥有后即可解锁\r\n|<itemName id=|StealArmor|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmor_5=拥有后即可解锁\r\n|<itemName id=|StealArmor|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmor_6=拥有后即可解锁\r\n|<itemName id=|StealArmor|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_ClothArmorHeat_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorHeat_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorHeat_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorHeat_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorHeat_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorHeat_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorHeat_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorHeat_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorCold_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorCold_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorCold_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorCold_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorCold_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorCold_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_ClothArmorCold_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_ClothArmorCold_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|WorkBench|/>|上制作。
+Blueprint_FurArmorHeat_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorHeat_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorHeat_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorHeat_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorHeat_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorHeat_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorHeat_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorHeat_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorCold_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorCold_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorCold_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorCold_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorCold_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorCold_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_FurArmorCold_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_FurArmorCold_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorHeat_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorHeat_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorHeat_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorHeat_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorHeat_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorHeat_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorHeat_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorHeat_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorCold_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorCold_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorCold_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorCold_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorCold_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorCold_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_CopperArmorCold_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_CopperArmorCold_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_01|/>|上制作。
+Blueprint_IronArmorHeat_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorHeat_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorHeat_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorHeat_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorHeat_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorHeat_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorHeat_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorHeat_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorCold_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorCold_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorCold_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorCold_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorCold_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorCold_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_IronArmorCold_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_IronArmorCold_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_02|/>|上制作。
+Blueprint_StealArmorHeat_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorHeat_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorHeat_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorHeat_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorHeat_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorHeat_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorHeat_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorHeat_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorCold_3=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorCold_2|/>（<uiCommon id=|RARITY_UNCOMMON|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorCold_4=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorCold_3|/>（<uiCommon id=|RARITY_RARE|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorCold_5=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorCold_4|/>（<uiCommon id=|RARITY_EPIC|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+Blueprint_StealArmorCold_6=拥有后即可解锁\r\n|<itemName id=|Blueprint_StealArmorCold_5|/>（<uiCommon id=|RARITY_LEGENDARY|/>）|的配方。\r\n可在|<mapObjectName id=|Factory_Hard_03|/>|上制作。
+ClothArmorHeat=在炎热地区生产的<itemName id=|ClothArmor|/>。\r\n具备一定的消暑功能。
+ClothArmorHeat_3=在炎热地区生产的<itemName id=|ClothArmor|/>。\r\n具备一定的消暑功能。
+ClothArmorHeat_4=在炎热地区生产的<itemName id=|ClothArmor|/>。\r\n具备一定的消暑功能。
+ClothArmorHeat_5=在炎热地区生产的<itemName id=|ClothArmor|/>。\r\n具备一定的消暑功能。
+ClothArmorHeat_6=在炎热地区生产的<itemName id=|ClothArmor|/>。\r\n具备一定的消暑功能。
+ClothArmorCold=在寒冷地区生产的<itemName id=|ClothArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+ClothArmorCold_3=在寒冷地区生产的<itemName id=|ClothArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+ClothArmorCold_4=在寒冷地区生产的<itemName id=|ClothArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+ClothArmorCold_5=在寒冷地区生产的<itemName id=|ClothArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+ClothArmorCold_6=在寒冷地区生产的<itemName id=|ClothArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+FurArmorHeat=在炎热地区生产的<itemName id=|FurArmor|/>。\r\n具备一定的消暑功能。
+FurArmorHeat_3=在炎热地区生产的<itemName id=|FurArmor|/>。\r\n具备一定的消暑功能。
+FurArmorHeat_4=在炎热地区生产的<itemName id=|FurArmor|/>。\r\n具备一定的消暑功能。
+FurArmorHeat_5=在炎热地区生产的<itemName id=|FurArmor|/>。\r\n具备一定的消暑功能。
+FurArmorHeat_6=在炎热地区生产的<itemName id=|FurArmor|/>。\r\n具备一定的消暑功能。
+FurArmorCold=在寒冷地区生产的<itemName id=|FurArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+FurArmorCold_3=在寒冷地区生产的<itemName id=|FurArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+FurArmorCold_4=在寒冷地区生产的<itemName id=|FurArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+FurArmorCold_5=在寒冷地区生产的<itemName id=|FurArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+FurArmorCold_6=在寒冷地区生产的<itemName id=|FurArmor|/>。\r\n能够抵御使身体冻僵的寒意。
+CopperArmorHeat=经过改良的<itemName id=|CopperArmor|/>。\r\n具备傲人的耐热性能。
+CopperArmorHeat_3=经过改良的<itemName id=|CopperArmor|/>。\r\n具备傲人的耐热性能。
+CopperArmorHeat_4=经过改良的<itemName id=|CopperArmor|/>。\r\n具备傲人的耐热性能。
+CopperArmorHeat_5=经过改良的<itemName id=|CopperArmor|/>。\r\n具备傲人的耐热性能。
+CopperArmorHeat_6=经过改良的<itemName id=|CopperArmor|/>。\r\n具备傲人的耐热性能。
+CopperArmorCold=经过改良的<itemName id=|CopperArmor|/>。\r\n在寒冷地区活动时很有帮助。
+CopperArmorCold_3=经过改良的<itemName id=|CopperArmor|/>。\r\n在寒冷地区活动时很有帮助。
+CopperArmorCold_4=经过改良的<itemName id=|CopperArmor|/>。\r\n在寒冷地区活动时很有帮助。
+CopperArmorCold_5=经过改良的<itemName id=|CopperArmor|/>。\r\n在寒冷地区活动时很有帮助。
+CopperArmorCold_6=经过改良的<itemName id=|CopperArmor|/>。\r\n在寒冷地区活动时很有帮助。
+IronArmorHeat=经过改良的<itemName id=|IronArmor|/>。\r\n具备傲人的耐热性能。
+IronArmorHeat_3=经过改良的<itemName id=|IronArmor|/>。\r\n具备傲人的耐热性能。
+IronArmorHeat_4=经过改良的<itemName id=|IronArmor|/>。\r\n具备傲人的耐热性能。
+IronArmorHeat_5=经过改良的<itemName id=|IronArmor|/>。\r\n具备傲人的耐热性能。
+IronArmorHeat_6=经过改良的<itemName id=|IronArmor|/>。\r\n具备傲人的耐热性能。
+IronArmorCold=经过改良的<itemName id=|IronArmor|/>。\r\n在寒冷地区活动时很有帮助。
+IronArmorCold_3=经过改良的<itemName id=|IronArmor|/>。\r\n在寒冷地区活动时很有帮助。
+IronArmorCold_4=经过改良的<itemName id=|IronArmor|/>。\r\n在寒冷地区活动时很有帮助。
+IronArmorCold_5=经过改良的<itemName id=|IronArmor|/>。\r\n在寒冷地区活动时很有帮助。
+IronArmorCold_6=经过改良的<itemName id=|IronArmor|/>。\r\n在寒冷地区活动时很有帮助。
+StealArmorHeat=经过改良的<itemName id=|StealArmor|/>。\r\n具备傲人的耐热性能。
+StealArmorHeat_3=经过改良的<itemName id=|StealArmor|/>。\r\n具备傲人的耐热性能。
+StealArmorHeat_4=经过改良的<itemName id=|StealArmor|/>。\r\n具备傲人的耐热性能。
+StealArmorHeat_5=经过改良的<itemName id=|StealArmor|/>。\r\n具备傲人的耐热性能。
+StealArmorHeat_6=经过改良的<itemName id=|StealArmor|/>。\r\n具备傲人的耐热性能。
+StealArmorCold=经过改良的<itemName id=|StealArmor|/>。\r\n在寒冷地区活动时很有帮助。
+StealArmorCold_3=经过改良的<itemName id=|StealArmor|/>。\r\n在寒冷地区活动时很有帮助。
+StealArmorCold_4=经过改良的<itemName id=|StealArmor|/>。\r\n在寒冷地区活动时很有帮助。
+StealArmorCold_5=经过改良的<itemName id=|StealArmor|/>。\r\n在寒冷地区活动时很有帮助。
+StealArmorCold_6=经过改良的<itemName id=|StealArmor|/>。\r\n在寒冷地区活动时很有帮助。
+Meat_ChickenPal=<characterName id=|ChickenPal|/>的肉。\r\n爽口且易食用，\r\n很受帕洛斯群岛居民的喜爱。
+Meat_SheepBall=<characterName id=|SheepBall|/>的肉。\r\n有着独特风味的红肉。\r\n稍有骚味，但相当鲜美。
+Meat_Kelpie=<characterName id=|Kelpie|/>的肉。\r\n其特点是爽弹的口感和甜味。\r\n因为是鱼肉，保鲜时间很短。
+Meat_Eagle=<characterName id=|Eagle|/>的肉。\r\n富含营养且充满强烈的风味。
+Meat_Boar=<characterName id=|Boar|/>的肉。\r\n其特点是浓郁的野性风味。\r\n汁水十足，营养价值极高。
+Meat_LazyCatfish=<characterName id=|LazyCatfish|/>的肉。\r\n肥而多汁，浓郁且风味十足。\r\n饱满的独特口感也充满魅力。
+Meat_Deer=<characterName id=|Deer|/>的肉。\r\n虽然清淡低脂，但是风味十足。
+Meat_IceDeer=<characterName id=|IceDeer|/>的肉。\r\n可常保低温的奇妙鹿肉。\r\n非常不容易腐坏。
+Meat_BerryGoat=<characterName id=|BerryGoat|/>的肉。\r\n营养价值高，且相当健康。\r\n肉中的野莓香味会让人胃口倍增。
+Meat_CowPal=<characterName id=|CowPal|/>的肉。\r\n口感厚实且多汁，更有美丽霜降油花。\r\n是帕洛斯群岛居民最爱的肉类。
+Meat_SakuraSaurus=<characterName id=|SakuraSaurus|/>的肉。\r\n蕴藏强大能量的巨大肉块。\r\n富含源自光合作用的大量营养物质。
+Meat_GrassMammoth=<characterName id=|GrassMammoth|/>的肉。\r\n存在感十足，且滋味颇具冲击力。\r\n份量大得惊人，连大胃王都能喂饱。
+BakedMeat_ChickenPal=用炭火慢烤而制的鸡肉串烧。\r\n口感轻盈且味道清爽。
+BakedMeat_SheepBall=用香料将羊肉腌制入味后烤制而成的美食。\r\n可感受到强烈的特色以及极具深度的风味。
+BakedMeat_Kelpie=用炭火烤制而成的新鲜鱼肉，\r\n能带出松软肥嫩的口感。
+BakedMeat_Eagle=饱含展翅高飞时的活力，\r\n强劲力量满溢而出的烧鸟。
+BakedMeat_Boar=用豪迈的直火烤制而成的猪肉。\r\n外皮酥脆，内里多汁。\r\n是非常适合宴会的豪华料理。
+BakedMeat_LazyCatfish=涂上秘制酱汁后烤制而成、\r\n能治愈全身心的美味烤鱼。\r\n非常适合疲惫的帕鲁训练家食用。
+BakedMeat_Deer=经过精心炙烤的鹿肉保有细腻风味，\r\n并散发出浓郁的森林香气。\r\n这般优雅的滋味能让生活更加丰富多彩。
+BakedMeat_IceDeer=冰鹿的肉具有从火中取出后，\r\n温度会急速下降并保持新鲜的特性。\r\n非常适合作为应急食品。
+BakedMeat_BerryGoat=肉本身就含有香草和野莓的香味，\r\n经过烤制后更是口感浓厚。\r\n能为野外用餐增添温暖与满足感。
+BakedMeat_CowPal=仔细煎制而成的大块牛排。\r\n强烈且浓郁的风味能为食用者带来活力。
+BakedMeat_SakuraSaurus=能够品尝到野生的王者风味的大块烤肉。\r\n浓缩的肉汁精华从骨头中溢出，\r\n大口咬下时虽嚼劲十足，但内部却出奇地鲜嫩。
+BakedMeat_GrassMammoth=极具威严感的浓郁风味。\r\n每一口都能勾起深林与冰河的回忆。
+ChickenSaute=用黄油煎炒而制的厚实鸡胸肉料理。\r\n透出一股清爽的柠檬风味。\r\n食用后的一段时间内，工作速度会略微提升。
+GrilledSheepHerbs=使用大量新鲜野莓增添香气，\r\n借此带出羊肉的独特风味。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_DEFENCE|/>+10%
+GenghisKhan=将腌制过的羊肉用炭火精心烤制而成的料理。\r\n食用后的一段时间内，工作速度会略微提升，\r\n且SAN值下降的速度会变得较慢。
+Eaglestew=这道料理以慢火炖煮而成，\r\n带出了浓郁鲜味及野性十足的风味。\r\n食用后的一段时间内，SAN值下降的速度会变得较慢。
+BaconEggs=熏烤的培根风味搭配上鸡蛋的柔和口感，\r\n共同谱出了完美的和谐之曲。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>+10%
+StewedIceDeer=将来自寒冷地带的鹿肉和蔬菜一同熬煮而成的炖菜。\r\n肉质鲜嫩，与细腻的甜味完美交融。\r\n食用后的一段时间内，会比较不容易感到饥饿。
+FriedChicken=极为美味多汁的鸡肉料理。\r\n食用后的一段时间内，工作速度会提升，\r\n且SAN值下降的速度会变得较慢。
+HotDog_3=在面包中夹入厚实的香肠制成的料理。\r\n烤得酥脆的外壳与辛香风味绝妙无比。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_DEFENCE|/>+20%
+DeerLocoMoco=厚实的汉堡排搭配软嫩的半熟荷包蛋，\r\n两者的完美结合将在口中创造出满满幸福。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>+20%
+DeerStew=饱含爱意的炖煮鹿肉，肉质酥软、入口即化。\r\n蔬菜与肉的鲜味互相交融，带出浓厚的口感。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_DEFENCE|/>+20%
+Hamburger_3=将牛肉鲜味与面包甜味融为一体的极品。\r\n食用后的一段时间内，工作速度会提升，\r\n且SAN值下降的速度会变得较慢。
+CheeseBurger_3=这道料理中的芝士让它达到了至高无上的境界。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_RANGE_ATTACK|/>+20%，\r\n且比较不容易感到饥饿。
+FriedKelpie=紧致口感的鱼肉与酥脆的外皮搭配得恰到好处。\r\n食用后的一段时间内，<uiCommon id=|COMMON_STATUS_DEFENCE|/>+10%，\r\n且SAN值下降的速度会变得较慢。
+Chowder=饱含独特风味的奶香汤品。\r\n食用后，会在一段时间内提高工作速度，\r\n且比较不容易感觉饥饿。
+
+

@@ -1,0 +1,725 @@
+# Display 200 rows in Polars output    
+pl.Config.set_tbl_rows(200)
+
+# Function to perform the grouping, counting, and sorting of lengths          
+def group_count_sort(y_cl4, length_threshold=None):
+    lengths = y_cl4.groupby('unique_id').agg(pl.count().alias('length'))
+    if length_threshold:
+        lengths = lengths.filter(pl.col('length') > length_threshold)
+    counts = lengths.groupby('length').agg(pl.count().alias('count')).sort('length')
+    return lengths, counts
+
+# Lengths for all series
+all_lengths, all_counts = group_count_sort(y_cl4)
+print(all_counts)
+
+# Function to filter y_cl4 based on lengths
+def filter_and_sort(y_cl4, lengths):
+    y_cl4_filtered = y_cl4.join(
+        lengths.select(pl.col('unique_id')),
+        on='unique_id',
+        how='semi'  
+    )
+    return y_cl4_filtered.sort('ds')
+
+# Lengths greater than 45
+lengths_over_45, counts_for_over_45 = group_count_sort(y_cl4, 45)
+y_cl4_over_45 = filter_and_sort(y_cl4, lengths_over_45)
+print(counts_for_over_45)
+
+# Lengths greater than 15
+lengths_over_15, counts_for_over_15 = group_count_sort(y_cl4, 15)
+y_cl4_over_15 = filter_and_sort(y_cl4, lengths_over_15)
+print(counts_for_over_15)
+ shape: (153, 2)
+┌────────┬───────┐
+│ length ┆ count │
+│ ---    ┆ ---   │
+│ u32    ┆ u32   │
+╞════════╪═══════╡
+│ 5      ┆ 2     │
+│ 6      ┆ 1     │
+│ 7      ┆ 1     │
+│ 8      ┆ 7     │
+│ 9      ┆ 4     │
+│ 10     ┆ 10    │
+│ 11     ┆ 8     │
+│ 12     ┆ 4     │
+│ 13     ┆ 6     │
+│ 14     ┆ 11    │
+│ 15     ┆ 16    │
+│ 16     ┆ 14    │
+│ 17     ┆ 27    │
+│ 18     ┆ 26    │
+│ 19     ┆ 31    │
+│ 20     ┆ 32    │
+│ 21     ┆ 30    │
+│ 22     ┆ 24    │
+│ 23     ┆ 30    │
+│ 24     ┆ 26    │
+│ 25     ┆ 32    │
+│ 26     ┆ 28    │
+│ 27     ┆ 32    │
+│ 28     ┆ 47    │
+│ 29     ┆ 50    │
+│ 30     ┆ 28    │
+│ 31     ┆ 37    │
+│ 32     ┆ 26    │
+│ 33     ┆ 34    │
+│ 34     ┆ 41    │
+│ 35     ┆ 40    │
+│ 36     ┆ 47    │
+│ 37     ┆ 40    │
+│ 38     ┆ 46    │
+│ 39     ┆ 43    │
+│ 40     ┆ 52    │
+│ 41     ┆ 53    │
+│ 42     ┆ 52    │
+│ 43     ┆ 65    │
+│ 44     ┆ 68    │
+│ 45     ┆ 68    │
+│ 46     ┆ 71    │
+│ 47     ┆ 65    │
+│ 48     ┆ 60    │
+│ 49     ┆ 74    │
+│ 50     ┆ 87    │
+│ 51     ┆ 63    │
+│ 52     ┆ 80    │
+│ 53     ┆ 79    │
+│ 54     ┆ 85    │
+│ 55     ┆ 89    │
+│ 56     ┆ 70    │
+│ 57     ┆ 88    │
+│ 58     ┆ 94    │
+│ 59     ┆ 104   │
+│ 60     ┆ 113   │
+│ 61     ┆ 116   │
+│ 62     ┆ 127   │
+│ 63     ┆ 106   │
+│ 64     ┆ 157   │
+│ 65     ┆ 128   │
+│ 66     ┆ 137   │
+│ 67     ┆ 154   │
+│ 68     ┆ 145   │
+│ 69     ┆ 133   │
+│ 70     ┆ 167   │
+│ 71     ┆ 161   │
+│ 72     ┆ 145   │
+│ 73     ┆ 167   │
+│ 74     ┆ 150   │
+│ 75     ┆ 153   │
+│ 76     ┆ 205   │
+│ 77     ┆ 199   │
+│ 78     ┆ 240   │
+│ 79     ┆ 207   │
+│ 80     ┆ 179   │
+│ 81     ┆ 186   │
+│ 82     ┆ 195   │
+│ 83     ┆ 185   │
+│ 84     ┆ 189   │
+│ 85     ┆ 202   │
+│ 86     ┆ 200   │
+│ 87     ┆ 207   │
+│ 88     ┆ 167   │
+│ 89     ┆ 168   │
+│ 90     ┆ 185   │
+│ 91     ┆ 177   │
+│ 92     ┆ 174   │
+│ 93     ┆ 162   │
+│ 94     ┆ 199   │
+│ 95     ┆ 139   │
+│ 96     ┆ 162   │
+│ 97     ┆ 160   │
+│ 98     ┆ 172   │
+│ 99     ┆ 170   │
+│ 100    ┆ 194   │
+│ 101    ┆ 178   │
+│ 102    ┆ 151   │
+│ 103    ┆ 180   │
+│ 104    ┆ 160   │
+│ 105    ┆ 153   │
+│ 106    ┆ 167   │
+│ 107    ┆ 176   │
+│ 108    ┆ 202   │
+│ 109    ┆ 190   │
+│ 110    ┆ 157   │
+│ 111    ┆ 166   │
+│ 112    ┆ 221   │
+│ 113    ┆ 190   │
+│ 114    ┆ 169   │
+│ 115    ┆ 179   │
+│ 116    ┆ 139   │
+│ 117    ┆ 146   │
+│ 118    ┆ 174   │
+│ 119    ┆ 136   │
+│ 120    ┆ 183   │
+│ 121    ┆ 172   │
+│ 122    ┆ 155   │
+│ 123    ┆ 169   │
+│ 124    ┆ 140   │
+│ 125    ┆ 157   │
+│ 126    ┆ 150   │
+│ 127    ┆ 159   │
+│ 128    ┆ 157   │
+│ 129    ┆ 163   │
+│ 130    ┆ 151   │
+│ 131    ┆ 167   │
+│ 132    ┆ 169   │
+│ 133    ┆ 149   │
+│ 134    ┆ 167   │
+│ 135    ┆ 172   │
+│ 136    ┆ 180   │
+│ 137    ┆ 167   │
+│ 138    ┆ 162   │
+│ 139    ┆ 141   │
+│ 140    ┆ 167   │
+│ 141    ┆ 166   │
+│ 142    ┆ 149   │
+│ 143    ┆ 149   │
+│ 144    ┆ 150   │
+│ 145    ┆ 146   │
+│ 146    ┆ 156   │
+│ 147    ┆ 183   │
+│ 148    ┆ 149   │
+│ 149    ┆ 162   │
+│ 150    ┆ 157   │
+│ 151    ┆ 161   │
+│ 152    ┆ 229   │
+│ 153    ┆ 165   │
+│ 154    ┆ 215   │
+│ 155    ┆ 226   │
+│ 156    ┆ 303   │
+│ 157    ┆ 639   │
+└────────┴───────┘
+shape: (112, 2)
+┌────────┬───────┐
+│ length ┆ count │
+│ ---    ┆ ---   │
+│ u32    ┆ u32   │
+╞════════╪═══════╡
+│ 46     ┆ 71    │
+│ 47     ┆ 65    │
+│ 48     ┆ 60    │
+│ 49     ┆ 74    │
+│ 50     ┆ 87    │
+│ 51     ┆ 63    │
+│ 52     ┆ 80    │
+│ 53     ┆ 79    │
+│ 54     ┆ 85    │
+│ 55     ┆ 89    │
+│ 56     ┆ 70    │
+│ 57     ┆ 88    │
+│ 58     ┆ 94    │
+│ 59     ┆ 104   │
+│ 60     ┆ 113   │
+│ 61     ┆ 116   │
+│ 62     ┆ 127   │
+│ 63     ┆ 106   │
+│ 64     ┆ 157   │
+│ 65     ┆ 128   │
+│ 66     ┆ 137   │
+│ 67     ┆ 154   │
+│ 68     ┆ 145   │
+│ 69     ┆ 133   │
+│ 70     ┆ 167   │
+│ 71     ┆ 161   │
+│ 72     ┆ 145   │
+│ 73     ┆ 167   │
+│ 74     ┆ 150   │
+│ 75     ┆ 153   │
+│ 76     ┆ 205   │
+│ 77     ┆ 199   │
+│ 78     ┆ 240   │
+│ 79     ┆ 207   │
+│ 80     ┆ 179   │
+│ 81     ┆ 186   │
+│ 82     ┆ 195   │
+│ 83     ┆ 185   │
+│ 84     ┆ 189   │
+│ 85     ┆ 202   │
+│ 86     ┆ 200   │
+│ 87     ┆ 207   │
+│ 88     ┆ 167   │
+│ 89     ┆ 168   │
+│ 90     ┆ 185   │
+│ 91     ┆ 177   │
+│ 92     ┆ 174   │
+│ 93     ┆ 162   │
+│ 94     ┆ 199   │
+│ 95     ┆ 139   │
+│ 96     ┆ 162   │
+│ 97     ┆ 160   │
+│ 98     ┆ 172   │
+│ 99     ┆ 170   │
+│ 100    ┆ 194   │
+│ 101    ┆ 178   │
+│ 102    ┆ 151   │
+│ 103    ┆ 180   │
+│ 104    ┆ 160   │
+│ 105    ┆ 153   │
+│ 106    ┆ 167   │
+│ 107    ┆ 176   │
+│ 108    ┆ 202   │
+│ 109    ┆ 190   │
+│ 110    ┆ 157   │
+│ 111    ┆ 166   │
+│ 112    ┆ 221   │
+│ 113    ┆ 190   │
+│ 114    ┆ 169   │
+│ 115    ┆ 179   │
+│ 116    ┆ 139   │
+│ 117    ┆ 146   │
+│ 118    ┆ 174   │
+│ 119    ┆ 136   │
+│ 120    ┆ 183   │
+│ 121    ┆ 172   │
+│ 122    ┆ 155   │
+│ 123    ┆ 169   │
+│ 124    ┆ 140   │
+│ 125    ┆ 157   │
+│ 126    ┆ 150   │
+│ 127    ┆ 159   │
+│ 128    ┆ 157   │
+│ 129    ┆ 163   │
+│ 130    ┆ 151   │
+│ 131    ┆ 167   │
+│ 132    ┆ 169   │
+│ 133    ┆ 149   │
+│ 134    ┆ 167   │
+│ 135    ┆ 172   │
+│ 136    ┆ 180   │
+│ 137    ┆ 167   │
+│ 138    ┆ 162   │
+│ 139    ┆ 141   │
+│ 140    ┆ 167   │
+│ 141    ┆ 166   │
+│ 142    ┆ 149   │
+│ 143    ┆ 149   │
+│ 144    ┆ 150   │
+│ 145    ┆ 146   │
+│ 146    ┆ 156   │
+│ 147    ┆ 183   │
+│ 148    ┆ 149   │
+│ 149    ┆ 162   │
+│ 150    ┆ 157   │
+│ 151    ┆ 161   │
+│ 152    ┆ 229   │
+│ 153    ┆ 165   │
+│ 154    ┆ 215   │
+│ 155    ┆ 226   │
+│ 156    ┆ 303   │
+│ 157    ┆ 639   │
+└────────┴───────┘
+shape: (142, 2)
+┌────────┬───────┐
+│ length ┆ count │
+│ ---    ┆ ---   │
+│ u32    ┆ u32   │
+╞════════╪═══════╡
+│ 16     ┆ 14    │
+│ 17     ┆ 27    │
+│ 18     ┆ 26    │
+│ 19     ┆ 31    │
+│ 20     ┆ 32    │
+│ 21     ┆ 30    │
+│ 22     ┆ 24    │
+│ 23     ┆ 30    │
+│ 24     ┆ 26    │
+│ 25     ┆ 32    │
+│ 26     ┆ 28    │
+│ 27     ┆ 32    │
+│ 28     ┆ 47    │
+│ 29     ┆ 50    │
+│ 30     ┆ 28    │
+│ 31     ┆ 37    │
+│ 32     ┆ 26    │
+│ 33     ┆ 34    │
+│ 34     ┆ 41    │
+│ 35     ┆ 40    │
+│ 36     ┆ 47    │
+│ 37     ┆ 40    │
+│ 38     ┆ 46    │
+│ 39     ┆ 43    │
+│ 40     ┆ 52    │
+│ 41     ┆ 53    │
+│ 42     ┆ 52    │
+│ 43     ┆ 65    │
+│ 44     ┆ 68    │
+│ 45     ┆ 68    │
+│ 46     ┆ 71    │
+│ 47     ┆ 65    │
+│ 48     ┆ 60    │
+│ 49     ┆ 74    │
+│ 50     ┆ 87    │
+│ 51     ┆ 63    │
+│ 52     ┆ 80    │
+│ 53     ┆ 79    │
+│ 54     ┆ 85    │
+│ 55     ┆ 89    │
+│ 56     ┆ 70    │
+│ 57     ┆ 88    │
+│ 58     ┆ 94    │
+│ 59     ┆ 104   │
+│ 60     ┆ 113   │
+│ 61     ┆ 116   │
+│ 62     ┆ 127   │
+│ 63     ┆ 106   │
+│ 64     ┆ 157   │
+│ 65     ┆ 128   │
+│ 66     ┆ 137   │
+│ 67     ┆ 154   │
+│ 68     ┆ 145   │
+│ 69     ┆ 133   │
+│ 70     ┆ 167   │
+│ 71     ┆ 161   │
+│ 72     ┆ 145   │
+│ 73     ┆ 167   │
+│ 74     ┆ 150   │
+│ 75     ┆ 153   │
+│ 76     ┆ 205   │
+│ 77     ┆ 199   │
+│ 78     ┆ 240   │
+│ 79     ┆ 207   │
+│ 80     ┆ 179   │
+│ 81     ┆ 186   │
+│ 82     ┆ 195   │
+│ 83     ┆ 185   │
+│ 84     ┆ 189   │
+│ 85     ┆ 202   │
+│ 86     ┆ 200   │
+│ 87     ┆ 207   │
+│ 88     ┆ 167   │
+│ 89     ┆ 168   │
+│ 90     ┆ 185   │
+│ 91     ┆ 177   │
+│ 92     ┆ 174   │
+│ 93     ┆ 162   │
+│ 94     ┆ 199   │
+│ 95     ┆ 139   │
+│ 96     ┆ 162   │
+│ 97     ┆ 160   │
+│ 98     ┆ 172   │
+│ 99     ┆ 170   │
+│ 100    ┆ 194   │
+│ 101    ┆ 178   │
+│ 102    ┆ 151   │
+│ 103    ┆ 180   │
+│ 104    ┆ 160   │
+│ 105    ┆ 153   │
+│ 106    ┆ 167   │
+│ 107    ┆ 176   │
+│ 108    ┆ 202   │
+│ 109    ┆ 190   │
+│ 110    ┆ 157   │
+│ 111    ┆ 166   │
+│ 112    ┆ 221   │
+│ 113    ┆ 190   │
+│ 114    ┆ 169   │
+│ 115    ┆ 179   │
+│ 116    ┆ 139   │
+│ 117    ┆ 146   │
+│ 118    ┆ 174   │
+│ 119    ┆ 136   │
+│ 120    ┆ 183   │
+│ 121    ┆ 172   │
+│ 122    ┆ 155   │
+│ 123    ┆ 169   │
+│ 124    ┆ 140   │
+│ 125    ┆ 157   │
+│ 126    ┆ 150   │
+│ 127    ┆ 159   │
+│ 128    ┆ 157   │
+│ 129    ┆ 163   │
+│ 130    ┆ 151   │
+│ 131    ┆ 167   │
+│ 132    ┆ 169   │
+│ 133    ┆ 149   │
+│ 134    ┆ 167   │
+│ 135    ┆ 172   │
+│ 136    ┆ 180   │
+│ 137    ┆ 167   │
+│ 138    ┆ 162   │
+│ 139    ┆ 141   │
+│ 140    ┆ 167   │
+│ 141    ┆ 166   │
+│ 142    ┆ 149   │
+│ 143    ┆ 149   │
+│ 144    ┆ 150   │
+│ 145    ┆ 146   │
+│ 146    ┆ 156   │
+│ 147    ┆ 183   │
+│ 148    ┆ 149   │
+│ 149    ┆ 162   │
+│ 150    ┆ 157   │
+│ 151    ┆ 161   │
+│ 152    ┆ 229   │
+│ 153    ┆ 165   │
+│ 154    ┆ 215   │
+│ 155    ┆ 226   │
+│ 156    ┆ 303   │
+│ 157    ┆ 639   │ from statsforecast import StatsForecast
+from statsforecast.models import AutoARIMA, AutoETS, DynamicOptimizedTheta
+from statsforecast.utils import ConformalIntervals
+import numpy as np
+import polars as pl
+
+# Polars option to display all rows
+pl.Config.set_tbl_rows(None)
+
+# Initialize the models
+models = [
+    AutoARIMA(season_length=52),
+    AutoETS(damped=True, season_length=52),
+    DynamicOptimizedTheta(season_length=52)
+]
+
+# Initialize the StatsForecast model
+sf = StatsForecast(models=models, freq='1w', n_jobs=-1)
+
+# Perform cross-validation with a step size of 1 to mimic an expanding window
+crossvalidation_df = sf.cross_validation(df=y_cl4_over_45, h=5, step_size=1, n_windows=10, sort_df=True)
+
+# Calculate the ensemble mean
+ensemble = crossvalidation_df[['AutoARIMA', 'AutoETS', 'DynamicOptimizedTheta']].mean(axis=1)
+
+# Create a Series for the ensemble mean
+ensemble_series = pl.Series('Ensemble', ensemble)
+
+# Add the ensemble mean as a new column to the DataFrame
+crossvalidation_df = crossvalidation_df.with_columns(ensemble_series)
+
+def wmape(y_true, y_pred):
+    return np.abs(y_true - y_pred).sum() / np.abs(y_true).sum()
+
+# Calculate the WMAPE for the ensemble model
+wmape_value = wmape(crossvalidation_df['y'], crossvalidation_df['Ensemble'])
+print('Average WMAPE for Ensemble: ', round(wmape_value, 4))
+
+# Calculate the errors for the ensemble model
+errors = crossvalidation_df['y'] - crossvalidation_df['Ensemble']
+
+# For an individual forecast
+individual_accuracy = 1 - (abs(crossvalidation_df['y'] - crossvalidation_df['Ensemble']) / crossvalidation_df['y'])
+individual_bias = (crossvalidation_df['Ensemble'] / crossvalidation_df['y']) - 1
+
+# Add these calculations as new columns to DataFrame
+crossvalidation_df = crossvalidation_df.with_columns([
+    individual_accuracy.alias("individual_accuracy"),
+    individual_bias.alias("individual_bias")
+])
+
+# Print the individual accuracy and bias for each week
+for row in crossvalidation_df.to_dicts():
+    id = row['unique_id']
+    date = row['ds'] 
+    accuracy = row['individual_accuracy']
+    bias = row['individual_bias']
+    print(f"{id}, {date}, Individual Accuracy: {accuracy:.4f}, Individual Bias: {bias:.4f}")
+
+# For groups of forecasts
+group_accuracy = 1 - (errors.abs().sum() / crossvalidation_df['y'].sum())
+group_bias = (crossvalidation_df['Ensemble'].sum() / crossvalidation_df['y'].sum()) - 1
+
+# Print the average group accuracy and group bias over all folds for the ensemble model
+print('Average Group Accuracy: ', round(group_accuracy, 4))
+print('Average Group Bias: ', round(group_bias, 4))
+
+
+# Fit the models on the entire dataset
+sf.fit(y_cl4_over_15)
+
+# Instantiate the ConformalIntervals class
+prediction_intervals = ConformalIntervals()
+
+# Generate 24 months forecasts
+forecasts_df = sf.forecast(h=52*2, prediction_intervals=prediction_intervals, level=[95], id_col='unique_id', sort_df=True)
+
+# Apply the non-negative constraint to the forecasts of individual models
+forecasts_df = forecasts_df.with_columns([
+    pl.when(pl.col('AutoARIMA') < 0).then(0).otherwise(pl.col('AutoARIMA')).alias('AutoARIMA'),
+    pl.when(pl.col('AutoETS') < 0).then(0).otherwise(pl.col('AutoETS')).alias('AutoETS'),
+    pl.when(pl.col('DynamicOptimizedTheta') < 0).then(0).otherwise(pl.col('DynamicOptimizedTheta')).alias('DynamicOptimizedTheta'),
+
+    pl.when(pl.col('AutoARIMA-lo-95') < 0).then(0).otherwise(pl.col('AutoARIMA-lo-95')).alias('AutoARIMA-lo-95'),
+    pl.when(pl.col('AutoETS-lo-95') < 0).then(0).otherwise(pl.col('AutoETS-lo-95')).alias('AutoETS-lo-95'),
+    pl.when(pl.col('DynamicOptimizedTheta-lo-95') < 0).then(0).otherwise(pl.col('DynamicOptimizedTheta-lo-95')).alias('DynamicOptimizedTheta-lo-95')
+])
+
+# Calculate the ensemble forecast
+ensemble_forecast = forecasts_df[['AutoARIMA', 'AutoETS', 'DynamicOptimizedTheta']].mean(axis=1)
+
+# Calculate the lower and upper prediction intervals for the ensemble forecast
+ensemble_lo_95 = forecasts_df[['AutoARIMA-lo-95', 'AutoETS-lo-95', 'DynamicOptimizedTheta-lo-95']].mean(axis=1)
+ensemble_hi_95 = forecasts_df[['AutoARIMA-hi-95', 'AutoETS-hi-95', 'DynamicOptimizedTheta-hi-95']].mean(axis=1)
+
+# Create Series for the ensemble forecast and its prediction intervals
+ensemble_forecast_series = pl.Series('EnsembleForecast', ensemble_forecast)
+ensemble_lo_95_series = pl.Series('Ensemble-lo-95', ensemble_lo_95)
+ensemble_hi_95_series = pl.Series('Ensemble-hi-95', ensemble_hi_95)
+
+# Add the ensemble forecast and its prediction intervals as new columns to the DataFrame
+forecasts_df = forecasts_df.with_columns([ensemble_forecast_series, ensemble_lo_95_series, ensemble_hi_95_series])
+
+# Round the ensemble forecast and prediction intervals and convert to integer
+forecasts_df = forecasts_df.with_columns([
+    pl.col("EnsembleForecast").round().cast(pl.Int32),
+    pl.col("Ensemble-lo-95").round().cast(pl.Int32),
+    pl.col("Ensemble-hi-95").round().cast(pl.Int32)
+])
+
+# Split the unique_id concat into the original columns
+def split_unique_id(unique_id):
+    parts = unique_id.split('_')
+    return parts if len(parts) >= 4 else (parts + [None] * (4 - len(parts)))
+
+forecasts_df = (
+    forecasts_df
+    .with_columns([
+        pl.col('unique_id').apply(lambda uid: split_unique_id(uid)[0]).alias('MaterialID'),
+        pl.col('unique_id').apply(lambda uid: split_unique_id(uid)[1]).alias('SalesOrg'),
+        pl.col('unique_id').apply(lambda uid: split_unique_id(uid)[2]).alias('DistrChan'),
+        pl.col('unique_id').apply(lambda uid: split_unique_id(uid)[3]).alias('CL4'),
+    ])
+    .drop('unique_id')
+)
+
+# Rename ‘ds’ to ‘WeekDate’
+forecasts_df = forecasts_df.rename({'ds': 'WeekDate'})
+
+# Reorder the columns
+forecasts_df = forecasts_df.select([
+    "MaterialID",
+    "SalesOrg",
+    "DistrChan", 
+    "CL4",
+    "WeekDate",
+    "EnsembleForecast", 
+    "Ensemble-lo-95", 
+    "Ensemble-hi-95",
+    "AutoARIMA", 
+    "AutoARIMA-lo-95", 
+    "AutoARIMA-hi-95", 
+    "AutoETS", 
+    "AutoETS-lo-95", 
+    "AutoETS-hi-95", 
+    "DynamicOptimizedTheta", 
+    "DynamicOptimizedTheta-lo-95", 
+    "DynamicOptimizedTheta-hi-95"
+]) 
+
+# Create an empty list
+forecasts_list = []
+
+# Append each row to the list
+for row in forecasts_df.to_dicts():
+    forecasts_list.append(row)
+
+# Print the list
+for forecast in forecasts_list:
+    print(forecast) RemoteTraceback                           Traceback (most recent call last)
+RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/tungnguyen/anaconda3/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/tungnguyen/anaconda3/lib/python3.10/site-packages/statsforecast/core.py", line 322, in cross_validation
+    raise error
+  File "/Users/tungnguyen/anaconda3/lib/python3.10/site-packages/statsforecast/core.py", line 319, in cross_validation
+    res_i = model.forecast(**forecast_kwargs)
+  File "/Users/tungnguyen/anaconda3/lib/python3.10/site-packages/statsforecast/models.py", line 1292, in forecast
+    mod = auto_theta(
+  File "/Users/tungnguyen/anaconda3/lib/python3.10/site-packages/statsforecast/theta.py", line 633, in auto_theta
+    y_decompose = seasonal_decompose(y, model=decomposition_type, period=m).seasonal
+  File "/Users/tungnguyen/anaconda3/lib/python3.10/site-packages/statsmodels/tsa/seasonal.py", line 171, in seasonal_decompose
+    raise ValueError(
+ValueError: x must have 2 complete cycles requires 104 observations. x only has 82 observation(s)
+"""
+
+The above exception was the direct cause of the following exception:
+
+ValueError                                Traceback (most recent call last)
+Cell In[22], line 21
+     18 sf = StatsForecast(models=models, freq='1w', n_jobs=-1)
+     20 # Perform cross-validation with a step size of 1 to mimic an expanding window
+---> 21 crossvalidation_df = sf.cross_validation(df=y_cl4_over_45, h=5, step_size=1, n_windows=10, sort_df=True)
+     23 # Calculate the ensemble mean
+     24 ensemble = crossvalidation_df[['AutoARIMA', 'AutoETS', 'DynamicOptimizedTheta']].mean(axis=1)
+
+File ~/anaconda3/lib/python3.10/site-packages/statsforecast/core.py:1616, in StatsForecast.cross_validation(self, h, df, n_windows, step_size, test_size, input_size, level, fitted, refit, sort_df, prediction_intervals, id_col, time_col, target_col)
+   1598 def cross_validation(
+   1599     self,
+   1600     h: int,
+   (...)
+   1613     target_col: str = "y",
+   1614 ):
+   1615     if self._is_native(df=df):
+-> 1616         return super().cross_validation(
+   1617             h=h,
+   1618             df=df,
+   1619             n_windows=n_windows,
+   1620             step_size=step_size,
+   1621             test_size=test_size,
+   1622             input_size=input_size,
+   1623             level=level,
+   1624             fitted=fitted,
+   1625             refit=refit,
+   1626             sort_df=sort_df,
+   1627             prediction_intervals=prediction_intervals,
+   1628             id_col=id_col,
+   1629             time_col=time_col,
+   1630             target_col=target_col,
+   1631         )
+   1632     assert df is not None
+   1633     engine = make_execution_engine(infer_by=[df])
+
+File ~/anaconda3/lib/python3.10/site-packages/statsforecast/core.py:1026, in _StatsForecast.cross_validation(self, h, df, n_windows, step_size, test_size, input_size, level, fitted, refit, sort_df, prediction_intervals, id_col, time_col, target_col)
+   1012     res_fcsts = self.ga.cross_validation(
+   1013         models=self.models,
+   1014         h=h,
+   (...)
+   1023         target_col=target_col,
+   1024     )
+   1025 else:
+-> 1026     res_fcsts = self._cross_validation_parallel(
+   1027         h=h,
+   1028         test_size=test_size,
+   1029         step_size=step_size,
+   1030         input_size=input_size,
+   1031         fitted=fitted,
+   1032         level=level,
+   1033         refit=refit,
+   1034         target_col=target_col,
+   1035     )
+   1036 if fitted:
+   1037     self.cv_fitted_values_ = res_fcsts["fitted"]
+
+File ~/anaconda3/lib/python3.10/site-packages/statsforecast/core.py:1248, in _StatsForecast._cross_validation_parallel(self, h, test_size, step_size, input_size, fitted, level, refit, target_col)
+   1232     future = executor.apply_async(
+   1233         ga.cross_validation,
+   1234         (
+   (...)
+   1245         ),
+   1246     )
+   1247     futures.append(future)
+-> 1248 out = [f.get() for f in futures]
+   1249 fcsts = [d["forecasts"] for d in out]
+   1250 fcsts = np.vstack(fcsts)
+
+File ~/anaconda3/lib/python3.10/site-packages/statsforecast/core.py:1248, in <listcomp>(.0)
+   1232     future = executor.apply_async(
+   1233         ga.cross_validation,
+   1234         (
+   (...)
+   1245         ),
+   1246     )
+   1247     futures.append(future)
+-> 1248 out = [f.get() for f in futures]
+   1249 fcsts = [d["forecasts"] for d in out]
+   1250 fcsts = np.vstack(fcsts)
+
+File ~/anaconda3/lib/python3.10/multiprocessing/pool.py:774, in ApplyResult.get(self, timeout)
+    772     return self._value
+    773 else:
+--> 774     raise self._value
+
+ValueError: x must have 2 complete cycles requires 104 observations. x only has 82 observation(s)

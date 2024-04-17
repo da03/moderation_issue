@@ -1,0 +1,783 @@
+liste moi les points faibles et les points forts de ce rapport de stage:
+
+Rapport d’Apprentissage
+Développement WEB d’une base technique
+Anthony DUPORT
+Apprenti en 2ème année DUT
+Nathalie BROSSIER
+Tutrice Universitaire
+Bruno ROYER
+Luis CARVALHIDO
+Maîtres d’Apprentissages
+Châlette-sur-Loing
+Année 2019 - 2020
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+2
+Remerciements
+Tout d’abord, je remercie HUTHINSON de m’avoir accepté au sein de leur
+entreprise pendant un an en tant qu’apprenti Web Développeur.
+Ensuite, je souhaite remercier Monsieur Bruno ROYER, co-maître d’apprentissage
+ainsi que référent technique, pour son aide, ses conseils et son suivi durant mon année
+d’apprentissage.
+Je tiens aussi à remercier mon référent informatique et co-maître d’apprentissage,
+Monsieur Luis CARVALHIDO, pour son aide et ses nombreux conseils durant le projet
+et mon année d’apprentissage.
+Je remercie aussi Monsieur Michael ABID, apprenti Web Développeur, pour ses
+conseils et son aide sur le projet W4 que l’on a partagé.
+Je remercie également Madame Nathalie BROSSIER, ma tutrice universitaire, pour
+son suivi durant cette année d’apprentissage.
+De plus, je remercie l’ensemble de l’équipe pédagogique de l’IUT d’Orléans pour
+les connaissances et le savoir qu’ils m’ont transmis durant mes deux années de formation.
+Enfin, je remercie le personnel du département Eau d’HUTHINSON pour leur
+collaboration et leur gentillesse durant mon année.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+3
+Table des matières
+I. INTRODUCTION :.................................................................................................................5
+II. L’ENTREPRISE : HUTCHINSON..............................................................................................6
+1. PRESENTATION ......................................................................................................................... 6
+2. DATES CLES ............................................................................................................................. 6
+3. LOCALISATION .......................................................................................................................... 7
+4. EXPERTISES & MARCHES ............................................................................................................ 8
+5. DEPARTEMENT EAU................................................................................................................... 9
+III. PRESENTATION DU SUJET DE TRAVAIL.......................................................................... 10
+1. INTRODUCTION....................................................................................................................... 10
+2. DESCRIPTION DES PRODUITS...................................................................................................... 11
+a) La base Composants...................................................................................................... 11
+b) La base Matière............................................................................................................. 12
+3. FONCTIONNEMENT AVANT W4.................................................................................................. 13
+a) Fichier base Composants............................................................................................... 13
+b) Fichier base Matière...................................................................................................... 14
+4. EXPRESSION MINIMALE DU BESOIN ............................................................................................. 15
+5. FONCTIONNEMENT DU SITE....................................................................................................... 15
+IV. ENVIRONNEMENT DE DEVELOPPEMENT....................................................................... 16
+1. ENVIRONNEMENT DE TRAVAIL.................................................................................................... 16
+2. ENVIRONNEMENT TECHNIQUE................................................................................................... 16
+a) Langages de programmation........................................................................................ 16
+b) Logiciels utilisés............................................................................................................. 17
+c) Outils de communication............................................................................................... 19
+V. ANALYSE DU PROJET PARTIE COMPOSANTS...................................................................... 19
+1. OBJECTIFS DE LA BASE .............................................................................................................. 19
+2. ANALYSE DU BESOIN ................................................................................................................ 20
+3. PRINCIPAUX UTILISATEURS ........................................................................................................ 20
+a) Pôle produit................................................................................................................... 21
+b) Pôle marketing .............................................................................................................. 21
+c) Pôle projet ..................................................................................................................... 21
+d) Pôle liaison .................................................................................................................... 21
+4. DROITS ................................................................................................................................. 22
+5. CONTRAINTES......................................................................................................................... 23
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+4
+6. GRANDES PHASES DU PROJET..................................................................................................... 24
+7. PLANNING ............................................................................................................................. 25
+VI. DEVELOPPEMENT ......................................................................................................... 26
+1. INTRODUCTION....................................................................................................................... 26
+2. GENERAL : MODIFICATION DE LA BARRE DE NAVIGATION ................................................................ 26
+3. BASE COMPOSANTS................................................................................................................. 27
+a) Catalogue ...................................................................................................................... 27
+b) Modélisation de la base de données de la base Composants ....................................... 28
+c) Filtres du catalogue de la base Composants ................................................................. 30
+d) Catalogue de la base Composants ................................................................................ 31
+e) Page détails de la base Composants ............................................................................. 32
+f) Page de modification..................................................................................................... 33
+g) Page d’ajout .................................................................................................................. 34
+h) Page des statistiques..................................................................................................... 34
+4. BASE MATIERE ....................................................................................................................... 35
+a) Catalogue ...................................................................................................................... 35
+b) Modélisation de la base de données de la base Matière .............................................. 35
+c) Filtres du catalogue de la base Matière ........................................................................ 36
+d) Vue Technique............................................................................................................... 36
+e) Vue mélange – site de mélange .................................................................................... 37
+f) Modification des données mélange – site de mélange ................................................. 37
+g) Insertion d’un mélange.................................................................................................. 38
+VII. DIFFICULTES ET PROBLEMES RENCONTRES................................................................... 39
+1. VERSION PHP........................................................................................................................ 39
+2. JAVASCRIPT ........................................................................................................................... 39
+3. PANNE INFORMATIQUE ............................................................................................................ 39
+VIII. BILAN............................................................................................................................ 40
+IX. ANNEXES ...................................................................................................................... 41
+1. ANNEXE N°1 : EXTRAIT DE LA CHARTE GRAPHIQUE ....................................................................... 41
+2. ANNEXE N°2 : PLANNING BASE COMPOSANTS .............................................................................. 42
+3. ANNEXE N°3 : SCHEMA DE LA BASE DE DONNEES COMPOSANTS....................................................... 43
+4. ANNEXE N°4 : SCHEMA DE LA BASE DE DONNEES MATIERE.............................................................. 44
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+5
+I. Introduction :
+Durant mon DUT Informatique de 2 ans à l’Université d’Orléans, j’ai choisi de
+faire ma seconde année en apprentissage dans l’entreprise HUTCHINSON à Châlette-
+sur-Loing, plus précisément dans le département Eau partie Automobile. Mon alternance
+s’est déroulée du 2 septembre 2019 au 28 août 2020. Le rythme d’alternance était de 4
+semaines à l’école, 4 semaines en entreprise puis totalement en entreprise à partir de juin.
+Durant cette année d’apprentissage, j’ai pu découvrir le monde de l’entreprise
+ainsi que différents corps de métier que je ne connaissais pas. De plus, j’ai pu mettre mes
+compétences acquises lors de mes années de DUT au service d’un projet concret que je
+détaillerai dans ce rapport.
+L’objectif de cet apprentissage était de continuer le développement d’un projet
+déjà existant, c’est-à-dire un site web regroupant des bases de données avec différents
+produits. L’objectif de celui-ci, nommé W4 pour Water World Wide Web Database, est
+de répertorier les produits du département pour que les données soient disponibles par les
+collaborateurs des autres pays, mises à jour en temps réel et accessible à tout moment.
+Dans ce rapport, je détaillerai tout d’abord l’entreprise HUTCHINSON, puis je
+présenterai le sujet de mon apprentissage ainsi que mon environnement de travail et le
+travail que j’ai effectué durant cette année. Enfin, je conclurai ce rapport par le bilan de
+cette année en apprentissage et ce qu’elle m’a apporté.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+6
+II. L’entreprise : HUTCHINSON
+1. Présentation
+Hutchinson est une entreprise qui fabrique des produits issus de la transformation
+du caoutchouc avec notamment des pneus de vélo ou encore des durites pour les voitures.
+Depuis plus de 160 ans, Hutchinson accompagne ses clients dans le monde entier grâce à
+son rayonnement international et son inventivité sur toutes les étapes du processus de
+production. Son slogan est « We make it possible ». En 2019, l’entreprise a fait
+4.314 Milliards d’Euros de chiffre d’affaires.
+2. Dates Clés
+En 1853, Hiram HUTCHINSON, un investisseur américain, créé une usine de
+caoutchouc à Châlette-sur-Loing dans une ancienne papeterie royal. Cette première usine
+conçoit des bottes en caoutchouc.
+En 1860, Hutchinson s’exporte à l’étranger en créant notamment des usines en
+Allemagne, en Espagne et en Italie.
+En 1900, l’entreprise se diversifie avec notamment la création de pneus de voiture
+et de vélo ainsi que des produits pour les airs comme des toiles pour les dirigeables.
+En 1974, Hutchinson est racheté par Total et devient donc une filiale du pétrolier.
+En 2013, toutes les entités Hutchinson sont rassemblées sous une marque
+commerciale unique avec notamment un nouveau logo.
+1853 1860 1900 1974 2013
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+7
+3. Localisation
+Hutchinson compte plus de 40 000 employés dans 25 pays avec notamment environ
+26 000 employés en Europe dont 1 000 sur le site de Châlette-sur-Loing.
+Activités Hutchinson
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+8
+4. Expertises & Marchés
+Grâce à ses 6 expertises illustrées ci-dessous, Hutchinson participe à la mobilité du
+futur. La valeur ajoutée de leurs solutions se déploie depuis la conception de matériaux
+sur-mesure jusqu’à l’intégration de solutions connectées.
+Etanchéité de Structure Etanchéité de Précision Management des Fluides
+Matériaux et Structures Systèmes Antivibratoires Systèmes de Transmission
+L’entreprise Hutchinson conjugue ses 6 expertises pour créer des synergies
+qu’elle met au service des clients et du consommateur final. Ces expertises sont au service
+de ses 6 marchés :
+Automobile & Poids Lourd Aerospace Défense
+Ferroviaire Energie Industrie
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+9
+5. Département Eau
+Le département Eau fait partie de l’activité FMS (Fluid Management System). Les
+produits de cette activité servent à transporter les fluides (air, liquide de refroidissement,
+carburant, huile) du véhicule d’un organe à un autre.
+Voici l’organisation de l’activité FMS :
+RSO: Rubber System Operation
+MSO: Metal System Operation PSO: Plastic System Operation
+Le département FMS RSO Water est amené à concevoir et commercialiser des
+produits pour l’industrie automobile et est consulté par différents client pour divers
+produits. Les produits principalement conçus par ce service sont les durites et les moyens
+de connexion et d’assemblage associés.
+Voici un exemple d’un tuyau de refroidissement Peugeot :
+Clapet
+anti-retour Modulo
+Insert 3 voies
+Quick Connector
+FMS
+MSO RSO
+R&D
+Water
+R&D
+Air
+PSO
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+10
+III. Présentation du sujet de travail
+1. Introduction
+Durant cette année d’apprentissage, j’ai travaillé sur le projet W4 (Water World
+Wide Web Database) qui regroupe 5 bases de données cataloguant différents produits
+regroupés par pôle. Ce projet a été démarré en 2018 par deux stagiaires et continué
+l’année suivante par une apprentie et un stagiaire, tous de l’IUT d’Orléans.
+Voici les 5 pôles de W4 :
+Standart Coupling
+Quick Connectors Materials
+Components
+J’ai donc travaillé sur la base « Materials » (Matière) et la base « Components »
+(Composants), Composants étant ma mission principale. Les bases « Coupling » et
+« Standart » ont été développées en premier par les personnes citées ci-dessus. La base
+QC a été développée en amont par Luis CARVALHIDO qui nous a aidés durant ce projet.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+11
+2. Description des produits
+a) La base Composants
+La base Composants regroupe les produits du management des fluides, c’est-à-dire
+les pièces permettant la gestion du flux à travers les différents circuits. Cette base est
+découpée en 3 catégories de produit :
+ Les inserts : ils permettent de diriger le flux dans un circuit ;
+ Les composants fonctionnels : Ce sont des inserts auxquels l’on ajoute une
+fonction. Par exemple, un clapet anti-retour permet de faire circuler le fluide
+que dans un sens ;
+ Les autres composants : Ce sont les composants qui se rajoutent aux inserts.
+Par exemple, une vis de purge qui viendra se visser ou encore un joint.
+Exemple de produits :
+Insert Composant Fonctionnel Autre Composant
+Insert composé de 5 voies Valve anti-retour Vis de purge
+Tous ces produits entrent dans le pôle du management thermique des fluides.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+12
+b) La base Matière
+La base Matière regroupe les mélanges fait avec du caoutchouc qui servent à
+fabriquer les couches d’un tuyau. En effet, il est composé généralement de 3 couches :
+ Le fourreau : il permet de faire passer le liquide et de résister aux produits
+chimiques ;
+ Le tricot : il permet de résister à la pression et de limiter le gonflement et le
+fluage du caoutchouc. On peut le comparer au grillage métallique qui
+renforce les dalles en béton.
+ Le recouvrement : il protège les autres couches et résiste aux agressions
+venant de l’extérieur.
+Voici le schéma d’un standard expliquant les 3 couches :
+Ces 3 couches constituent la structure du tuyau, qui est appelé standard avant la
+vulcanisation (le fait de chauffer avec de la vapeur le produit pour lui donner une forme
+précise selon la demande du client). Cette base regroupera donc les différents mélanges
+constitués de caoutchouc permettant de fabriquer le fourreau et le recouvrement d’un
+standard.
+Recouvrement
+Fourreau
+Tricot
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+13
+3. Fonctionnement avant W4
+Avant le projet W4, l’ensemble des produits étaient stockés dans plusieurs fichiers
+Excel, qui était difficile de mettre à jour étant donné que la transmission de celui-ci se
+faisait par mail.
+a) Fichier base Composants
+Voici une vue du fichier de la base Composants : (Les données sont floutées pour
+des raisons de confidentialité)
+Une ligne correspond à un composant et une colonne correspond à une information
+(code, information technique, document, …). Ainsi, pour chaque modification, il fallait
+renvoyer le document à tous les utilisateurs pour qu’ils aient la version la plus à jour
+possible. Or, on peut déceler ici un problème de mise à jour si l’on n’envoie pas le fichier
+systématiquement que l’on le modifie. On peut voir aussi un problème aussi de doublons
+dû au copier-coller à l’intérieur du fichier. Par conséquent, deux utilisateurs pouvaient se
+retrouver avec 2 fichiers différents.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+14
+b) Fichier base Matière
+Le fichier de la base matière est complexe. Une première page (ci-dessous) indique
+les caractéristiques techniques des mélanges : une ligne par mélange et une colonne par
+caractéristique comme le statut ou la densité. Les données sont floutées pour des raisons
+de confidentialité.
+Ensuite, il y a un onglet par mélange. Dans cet onglet, on retrouve les informations
+sur les sites de mélange mais aussi sur les clients qui sont homologués pour le couple
+mélange – site de mélange. En voici un exemple :
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+15
+4. Expression minimale du besoin
+Il y a quelques années, une application Web a été développée pour répertorier les
+produits FMS QC (Quick Connectors). De ce fait, la division Eau a souhaité utiliser le
+même processus pour ses différents produits. C’est ainsi que le projet W4 a été créé par
+2 stagiaires en 2018.
+Les principaux souhaits étaient donc d’avoir :
+ Des bases indépendantes regroupant chacune un catalogue avec des filtres
+permettant de rechercher un ou plusieurs produits ;
+ Des documents, avec notamment des fiches techniques ou des plans,
+disponibles et accessibles facilement ;
+ Des données qui sont mises à jour en temps réel pour savoir l’état des produits
+ainsi que leur statut ;
+ Un site disponible pour tous les collaborateurs dans le monde entier.
+5. Fonctionnement du site
+Le site web du projet W4 est hébergé sur un serveur interne chez HUTCHINSON
+et est disponible par les collaborateurs du monde entier. Pour cela, il faut disposer d’un
+compte sur le site, puis demander les droits aux référents de chaque base car elles sont
+indépendantes les unes des autres.
+Voici la page d’accueil du site W4 :
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+16
+Sur cette page, l’utilisateur peut choisir sur quelle base il veut se rendre pour ainsi
+accéder au catalogue si les droits en lecture lui ont été octroyés. Ensuite, il va pouvoir
+rechercher le produit qu’il souhaite grâce à une liste de filtres.
+IV. Environnement de développement
+1. Environnement de travail
+Afin de réaliser au mieux ma mission, un bureau dans un « open-space » a été mis
+à ma disposition dans le bâtiment 901, où se trouve les futurs utilisateurs ainsi que les
+personnes qui développent les produits que contiendra W4. De plus, un ordinateur
+portable m’a été fourni afin de pouvoir me déplacer plus facilement pour poser des
+questions aux utilisateurs ou encore montrer et échanger à propos des interfaces.
+À mon arrivée, j’ai pu effectuer un plan de formation au sein du service FMS RSO
+Water afin de découvrir les métiers de chacun. Ainsi, cela m’a permis de mieux
+comprendre le travail des collègues avec qui je partage le service pour avoir une meilleure
+compréhension du sujet et des produits développés par le service FMS RSO Water.
+2. Environnement Technique
+a) Langages de programmation
+Afin de réaliser cette application Web, les principaux langages de programmation
+utilisés sont :
+ Le HTML (HyperText Markup Language) est le langage permettant de
+structurer via des balises le contenu de page web ;
+ Le CSS (Cascading Style Sheets) vient s’additionner au HTML. Cet outil
+rassemble toutes les fonctionnalités pour décrire la présentation d’un
+document HTML. Il décrit la façon de disposer dans la page les éléments
+mais aussi tout ce qui est relatif à la couleur ou la taille ;
+ Le JS (JavaScript) permet de rendre une page dynamique via des animations
+et/ou la modification des éléments cités ci-dessus.
+En compléments de ces langages, le Framework Bootstrap a été utilisé afin de
+simplifier le design de l’application Web mais aussi jQuery pour la partie JavaScript
+et enfin amCharts pour ce qui est de la création de graphique.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+17
+Les langages décrits ci-dessus sont les langages dits « coté client », qui sont
+interprétés par le navigateur web. Mais pour que les données soient dynamiques, il faut
+aussi des langages dits « coté serveur ». Le serveur va pouvoir consulter une base de
+données et renvoyer des données au format HTML. Voici donc les 2 langages utilisés :
+ Le PHP (Hypertext Preprocessor) permet donc de créer des sites web
+dynamique mais aussi de se connecter à une base de données pour récupérer
+et afficher les données ;
+ MySQL (My Structured Query Language) est système de gestion de base
+de données relationnelles. Il permet de créer et d’administrer des bases de
+données.
+Tous les langages présentés sont « open-source » et sont mis à jour régulièrement
+par une large communauté d’utilisateurs et sont donc gratuit.
+b) Logiciels utilisés
+Pour pouvoir faire tourner un serveur Web sur mon ordinateur portable et pour ne
+pas travailler sur celui de production directement, il a été installé le logiciel XAMP.
+XAMP (X Apache MariaDB Perl PHP) est un ensemble de logiciels permettant de mettre
+en place un serveur Web rapidement avec notamment MySQL et le compilateur PHP.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+18
+On peut voir sur cette interface qu’il est facile de gérer le serveur Apache ainsi que
+MySQL et de les démarrer ou les arrêter.
+De plus, pour pouvoir coder facilement, l’EDI (Environnement de Développement
+Intégré) NetBeans est utilisé. Il prend en charge différents langages de programmation
+notamment ceux utilisés dans le projet.
+Pour ce qui est de la gestion des bases de données MySQL, phpMyAdmin, qui est
+une interface graphique, permet de gérer rapidement et facilement les données du projet
+mais aussi de tester les requêtes.
+Enfin, pour pouvoir être à jour sur toutes les parties du projet, l’outil de versionnage
+GIT est utilisé via l’interface GitHub Desktop. Cela permet facilement de stocker le projet
+et de pouvoir partager les avancées avec les autres membres de celui-ci.
+Comme pour les langages, les logiciels cités sont « open-source » et donc gratuit.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+19
+c) Outils de communication
+Pour communiquer, les outils Office 365 ont été mis à ma disposition avec une
+adresse mail professionnelle. Aussi, Teams a été un très bon outil car il était facile
+d’échanger avec les collègues à distance mais aussi de partager son écran lors de
+démonstration ou de présentation.
+V. Analyse du projet partie Composants
+1. Objectifs de la base
+L’objectif principal de cette base est de référencer tous les produits ainsi que leurs
+spécificités techniques à travers un catalogue. Ce catalogue sera filtrable par une liste de
+filtres pour pouvoir rechercher précisément le produit que l’on souhaite. La plateforme
+devra aussi permettre d’ajouter et d’éditer un produit pour que le catalogue soit
+constamment à jour. Un utilisateur pourra aussi imprimer la fiche technique d’un produit
+et consulter les documents relatifs à celui-ci.
+La plateforme sera disponible dans le monde entier pour les utilisateurs qui sont à
+l’étranger. Ainsi, ils auront accès aux informations des différentes bases de données et les
+données seront mises à jour en temps réel.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+20
+2. Analyse du besoin
+Voici le diagramme du besoin :
+Le but de la base est donc de faciliter la recherche et l’utilisation des données
+internes mais aussi de pouvoir être disponible n’importe où et n’importe quand pour les
+collaborateurs.
+3. Principaux utilisateurs
+Voici le diagramme des utilisateurs :
+À qui le produit rend-il service ?
+Utilisateurs
+Hutchinson
+Sur quoi agit-il ?
+Organisation du
+flux d’informations
+Plateforme
+intranet
+Dans quel but existe-t-il ?
+Faciliter la recherche et l’utilisation des données internes
+Utilisateurs
+Pôle Produit
+Pôle Projet
+Pôle
+Marketing
+Pôle Liaison
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+21
+a) Pôle produit
+Le pôle produit s’occupe de répondre aux RFQ (Request For Quotation, Demande
+de Devis) des différents clients et donc il doit connaître l’ensemble des produits qui
+peuvent être proposés. C’est pour cela qu’il faut que les produits soient à jour.
+b) Pôle marketing
+Le pôle marketing doit avoir une vision globale sur l’ensemble des produits qui sont
+développés par le service. Ainsi, il pourra savoir si les produits des concurrents sont
+meilleurs que ceux développés par le service (Benchmarking) et par conséquent pouvoir
+gagner les RFQ avec des produits performants.
+c) Pôle projet
+Ce pôle devra connaître les produits déjà développés afin de pouvoir en créer
+d’autre mais aussi innover et créer de nouveaux produits au regard de ceux déjà existant.
+d) Pôle liaison
+Le pôle liaison devra connaître les produits et plus particulièrement leurs
+spécificités techniques afin de créer des liaisons avec le tuyau en caoutchouc.
+Exemple de liaison (Coupling)
+Artifice de
+maintien
+Tuyau
+Embout
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+22
+4. Droits
+Voici le tableau répertoriant les droits des utilisateurs :
+Outil
+d’administration
+L’utilisateur pourra utiliser les outils d’administration
+de la base
+Statistiques L’utilisateur pourra voir les statistiques relatives à la base
+Voir Catalogue L’utilisateur pourra regarder et filtrer le catalogue
+Voir détails
+L’utilisateur pourra regarder les données relatives à un
+produit
+Modifier les détails L’utilisateur pourra modifier les données d’un produit
+Créer un produit L’utilisateur pourra créer un nouveau produit
+Voir les documents
+L’utilisateur pourra voir et télécharger un document
+détaillant un produit
+Modifier les
+documents
+L’utilisateur pourra ajouter ou supprimer un document
+d’un produit
+Ainsi, chaque utilisateur aura une liste de droits défini par l’administrateur de la
+base. De plus, les droits seront mis en fonction de l’utilisateur et de l’utilisation qu’il aura.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+23
+5. Contraintes
+Pour réaliser cette base, des contraintes ont été mises en place pour tout le projet et
+donc toutes les bases :
+ La langue utilisée devra être l’anglais : En effet, le projet W4 sera déployé
+dans le monde entier et il doit être compréhensible pour tous. C’est pour cela
+que l’anglais a été choisi comme langue par défaut ;
+ Un système de droits : Pour restreindre l’accès à des utilisateurs spécifiques
+mais aussi à certaines pages du site, un système de droit pour chaque base a
+été mis en place ;
+ Respect de la charte graphique HUTCHINSON : L’entreprise dispose d’une
+charte graphique bien spécifique avec notamment des logos et des couleurs
+qu’il faudra respecter lors du développement de la base. Une partie de
+celle-ci est disponible dans les annexes en page 41 ;
+ Homogénéisation des bases : Toutes les bases du projet W4 doivent être
+identiques au niveau des interfaces afin que l’utilisateur n’ait pas de difficultés
+en passant d’une base à l’autre.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+24
+6. Grandes phases du projet
+Voici un diagramme représentant les grandes phases du projet :
+En effet, la première étape était de rédiger un cahier des charges en répondant aux
+besoins du projet, que ce soit pour la base Composants ou la base Matière.
+Ensuite, il a fallu faire des maquettes pour mettre en forme le fichier Excel au format
+d’une page web mais aussi valider les interfaces auprès des futurs utilisateurs.
+Après les maquettes, la conception d’une base fonctionnelle a été faite pour valider
+l’utilisation des interfaces lors de réunion d’avance.
+Enfin, la partie documentation est importante. Elle permet d’avoir un suivi du projet
+montrant comment il fonctionne pour simplifier l’éventuelle reprise par d’autres
+personnes. De plus, un manuel d’utilisateur est écrit pour faciliter l’utilisation de la base
+mais aussi pour pouvoir former les administrateurs et les utilisateurs et ainsi tirer
+pleinement profit de cet outil.
+Cahier des
+charges
+Maquettes
+Base
+Fonctionelle
+Documentation
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+25
+7. Planning
+Voici le macro-planning avec les principales phases du projet :
+Le planning entier et détaillé se trouve dans les annexes en page 42.
+Tout d’abord, l’analyse est importante car elle permet de bien cerner le projet et
+ainsi de créer un cahier des charges. Ensuite, la conception relève de tout ce qui est
+création de la base de données mais aussi des premières maquettes à valider. Le
+développement permet de créer une base fonctionnelle et ainsi de faire tester à un nombre
+d’utilisateurs restreint le futur produit. Enfin, une phase de débogage et d’amélioration
+sera faite après le retour des utilisateurs qui auront testé la base. Aussi, il ne faut pas
+négliger la partie formation pour montrer aux administrateurs comment ajouter,
+supprimer ou modifier un produit.
+Afin de gérer au mieux ce projet, j’ai été amené à diriger des réunions d’avancement
+avec les différents pôles d’utilisateurs du projet (responsable des chefs produits,
+responsable des produits du management thermique, …). Ainsi, cela a permis de valider
+les fonctionnalités réalisées mais aussi de se questionner sur la future utilisation de la base
+et l’ajout de fonctionnalités comme un lien vers d’autres bases par exemple.
+Analyse Conception Developement Débogage
+et formation
+Novembre Décembre Février Juin Août
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+26
+VI. Développement
+1. Introduction
+Lors de mon arrivée sur le projet W4 en octobre 2019, Michael m’a montré le
+fonctionnement général du site et des bases pour que je comprenne le fonctionnement.
+Ainsi, j’ai pu voir le code et comment les choses étaient faites pour pouvoir développer
+plus facilement.
+2. Général : Modification de la barre de navigation
+Lorsque l’on est sur une base de W4, une barre de navigation est présente. Elle
+permet de pouvoir basculer d’une base à un autre mais aussi d’accéder aux onglets propres
+d’une base. Voici une capture d’écran de celle-ci :
+Lorsque l’on passe la souris sur l’icône un sous menu apparaît différent
+pour chaque base :
+Base Standart Base Liaison Base Matière
+Voici donc un aperçu lorsque l’on est sur la base Composants et que l’on passe la
+souris sur l’icône :
+J’ai donc fait un ajustement sur cette fonctionnalité car il y avait un
+dysfonctionnement lorsque l’on passait la souris à côté de l’icône, le menu ne se déroulait
+pas. J’ai utilisé du CSS pour faire cela.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+27
+3. Base Composants
+a) Catalogue
+Voici l’affichage général du catalogue :
+Cette page est composée de 2 parties :
+ Une liste de filtres : Elle permet de pouvoir affiner la recherche d’un
+composant simplement en sélectionnant les caractéristiques du composant que
+l’on souhaite ;
+ Une liste de composants : C’est ici que seront affichés les résultats de la
+recherche avec une prévisualisation des informations.
+Liste de filtres Liste de composants
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+28
+b) Modélisation de la base de données de la base Composants
+Cette partie du projet, la base Composant, avait été commencée par Michael en mai
+2019. Une ébauche d’analyse et de base de données avait été faite. Voici la modélisation
+de la base de données faite par Michael :
+Pour m’approprier de la meilleure façon le sujet mais aussi car l’analyse et le
+schéma avaient été fait 5 mois avant, j’ai décidé de repartir à zéro. J’ai donc refait
+une modélisation de la base de données à partir du fichier Excel. La voici :
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+29
+Je suis donc allé voir Luis pour en discuter. C’est alors que nous avons fait un autre
+schéma de la base de données à partir du même fichier Excel :
+Ce schéma est à retrouver dans les annexes en page 43. En comparant ces deux
+schémas, on peut voir que le dernier est meilleur que celui que j’avais fait seul. En effet,
+Luis, par son expérience et son habitude, m’a fait remarquer que ma modélisation n’était
+pas adaptée : si l’on veut rajouter des informations comme par exemple un code ou une
+caractéristique technique. Cela se fait facilement via la nouvelle base de données ce qui
+aurait été plus compliqué sur mon modèle. Cela m’a fait donc changer ma façon de penser
+afin de pouvoir, par la suite, anticiper des éventuels changements plus facilement.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+30
+c) Filtres du catalogue de la base Composants
+Comme vu dans l’analyse de cette base, une fonctionnalité permettant de filtrer les
+produits doit être disponible pour la base. Lors de la sélection d’un filtre, la liste de filtres
+doit se remettre à jour. Voici donc la liste des filtres :
+Par exemple, lorsqu’un utilisateur va venir
+sélectionner un client, tous les autres filtres vont se
+mettre à jour suivant les produits liés au client.
+Ainsi, il est facile de faire une recherche et de
+trouver le produit associé.
+Si lorsque l’utilisateur qui a recherché un produit
+selon ses critères n’en a pas trouvé, il pourra en discuter
+avec le responsable de la base. Ils pourront trouver une
+solution en voyant quels produits s’en rapprochent le
+plus ou encore en créant un nouveau produit si
+nécessaire.
+Pour effectuer cette mise à jour lors de la sélection,
+j’ai repris ce qui avait été fait pour les autres bases. J’ai
+donc utilisé du AJAX (JavaScript et XML asynchrones).
+Cette méthode permet de recharger une partie d’une page
+HTML sans avoir à réactualiser toute la page. Ainsi, la
+mise à jour sera rapide et visuellement satisfaisant (la
+page ne se recharge pas).
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+31
+d) Catalogue de la base Composants
+Lors de la recherche via les filtres, une liste de composants en adéquation avec sa
+recherche va s’afficher. Elle permet d’avoir une première vue sur le produit avec quelques
+informations pour savoir si le produit cherché est le bon. Lorsque l’utilisateur va venir
+cliquer sur le produit, une nouvelle page va s’afficher avec le détail complet de celui-ci.
+Elle sera détaillée dans la suite. Voici une capture d’écran de la vue du catalogue :
+Pour mieux voir l’image d’un produit, il a été demandé d’ajouter un « zoom » lors
+du passage de la souris sur l’image d’un composant. Cela permet de ne pas avoir à aller
+sur la page suivante pour mieux voir l’image. J’ai donc réalisé cette fonctionnalité grâce
+à l’attribut CSS « scale » qui permet de grossir ou de rétrécir un élément HTML.
+À droite on retrouve la capture d’écran normal sans zoom et à gauche celle où il
+y a le zoom.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+32
+e) Page détails de la base Composants
+Cette page est donc la page où l’on vient retrouver les détails d’un composant ainsi
+que les documents qui lui sont associés. Il est demandé d’avoir les mêmes interfaces sur
+les pages de W4.
+Voici donc un exemple pour la base Liaison :
+J’ai donc repris le format ainsi que les couleurs car les bases de W4 doivent être
+homogènes. Voici le résultat pour la base Composants :
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+33
+Sur la partie gauche de la page, on peut retrouver les documents relatifs au
+composant. Il suffit de cliquer sur le document pour le télécharger si l’utilisateur en a le
+droit.
+Sur la partie de droite, on retrouve les caractéristiques techniques mais aussi des
+informations générales sur le produit. Aussi, dans le dernier tableau, on retrouve les
+composants qui sont présents sur le produit comme par exemple un bouchon de purge.
+On peut retrouver l’historique des modifications en cliquant sur cette icône :
+Une fenêtre apparaît avec les informations des modifications. Voici un exemple :
+f) Page de modification
+Cette page permet de mettre à jour facilement un composant en venant modifier
+directement les informations. On peut aussi changer l’image ou encore rajouter des
+documents.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+34
+g) Page d’ajout
+L’interface pour ajouter un composant est identique à la page de modification.
+Voici la capture d’écran pour cette page :
+L’utilisateur vient renseigner les informations dont il dispose. Il peut aussi ajouter
+des documents et une photo du produit.
+h) Page des statistiques
+Des statistiques ont été mises en place dans toutes les bases de W4 pour ainsi savoir
+le nombre de personnes qui consultent les pages ou encore le nombre de produits par
+statuts. Pour créer et afficher les graphiques, la bibliothèque amCharts est utilisée. Il suffit
+de lui fournir des données via JavaScript et les informations sont affichées suivant le
+modèle choisit sur le site d’amCharts.
+Voici un exemple :
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+35
+4. Base Matière
+a) Catalogue
+Voici l’affichage général du catalogue :
+Cette page est composée d’une liste de filtres et d’une liste de mélanges, comme
+sur les autres bases de W4.
+b) Modélisation de la base de données de la base Matière
+Cette partie du projet, la base Matière, était nouvelle donc aucune ébauche de la
+base de données n’avait été faite. J’ai donc fait le schéma suivant :
+Ce schéma est à retrouver dans les annexes en page 44.
+Liste de filtres
+Liste des mélanges
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+36
+c) Filtres du catalogue de la base Matière
+Voici la liste des filtres :
+➔ Nom du mélange ;
+➔ Site de mélange ;
+➔ Client ;
+➔ Spécification du client ;
+➔ Classe de température maximal ;
+➔ Résistance à la traction ;
+➔ Allongement à la rupture ;
+➔ Résistivité volumique.
+Ces filtres sont gérés de la même façon que pour la base Composants.
+d) Vue Technique
+Cette page permet d’avoir les caractéristiques techniques d’un mélange mais aussi
+d’avoir les informations d’un client par rapport à un site de mélange. On peut ensuite
+cliquer sur le site de mélange pour avoir le détail des clients et des spécifications.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+37
+e) Vue mélange – site de mélange
+Sur cette vue, on retrouve les informations relatives au couple mélange – site de
+mélange. Voici une capture d’écran comme exemple :
+En première partie sont indiqués les informations du site de mélange avec
+notamment le DDM (Dossier de Définition du Mélange) qui est le document avec toutes
+les informations sur le couple mélange – site de mélange. Ensuite, on retrouve un tableau
+contenant les différents clients avec leur spécification associé. Puis pour chaque couple
+client – spécification, différents documents sont disponibles en fonction du statut du
+mélange.
+f) Modification des données mélange – site de mélange
+Voici l’interface pour modifier les données :
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+38
+Lors de l’ajout d’un nouveau client, il faut d’abord le sélectionner. Une fois
+celui-ci sélectionné, la liste des spécifications se met à jour en fonction du client pour
+faciliter la recherche de la spécification voulue. Une requête est faite en JavaScript pour
+connaître les spécifications et elles sont ensuite ajoutées au menu déroulant.
+g) Insertion d’un mélange
+L’ajout d’un mélange se fait en deux parties : il faut d’abord renseigner les données
+techniques et ensuite remplir la partie du site de référence du mélange.
+Voici l’interface pour les données techniques :
+Ici, l’interface pour le site de référence du mélange :
+L’ajout d’un client s’effectue comme pour l’édition : la liste des spécifications se
+met à jour en fonction du client sélectionné.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+39
+VII. Difficultés et problèmes rencontrés
+1. Version PHP
+Il y a une différence de version PHP entre mon ordinateur et le serveur de
+production. En effet, sur ma machine c’est la version 7.3.9 alors que sur le serveur c’est
+la version 5. Il a donc fallu à faire attention aux fonctions utilisées pour qu’elles soient
+compatibles avec le serveur de production.
+2. JavaScript
+À mon arrivée sur le projet, je ne connaissais pas techniquement le langage
+JavaScript, nous ne l’avions pas encore vu en cours à L’IUT. J’ai donc recherché de la
+documentation sur Internet et j’ai demandé des conseils à Luis et Michael afin de me
+former à ce langage.
+3. Panne Informatique
+Au début de l’année 2020, une panne informatique a touché le réseau informatique
+d’Hutchinson. Cela a eu pour conséquence de ne plus pouvoir accéder au serveur de
+production pour consulter le site ou faire des mises à jour mais aussi au serveur local où
+étaient sauvegardés les fichiers. De plus, avec Michael, nous n’avions plus accès à GIT
+donc nous faisions nos modifications en local sans pouvoir mettre à jour les avancées de
+chacun.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+40
+VIII. Bilan
+Pour conclure sur cette année d’apprentissage, elle a été enrichissante sur plusieurs
+points que je vais détailler ci-après.
+Tout d’abord, j’ai pu découvrir le monde de l’entreprise et ainsi avoir une
+expérience de travail avec différentes personnes sur un même projet. J’ai donc travaillé
+avec différents corps de métier que j’ai pu comprendre grâce au plan de formation quand
+je suis arrivé. J’ai été aussi amené à travailler en équipe avec Michael ou encore les
+utilisateurs.
+De plus, j’ai participé au développement d’un projet concret qui servira à différents
+utilisateurs et partout dans le monde. J’ai donc pu acquérir des compétences de conception
+et d’analyse, grâce à Luis CARVALHIDO et son expérience, car il fallait penser aux
+éventuelles améliorations qui seront faites notamment pour la base de données.
+Ensuite, j’ai pu continuer à développer mes compétences humaines en gestion de
+projet notamment mais aussi techniques que j’ai acquises durant ma formation à l’IUT.
+J’ai aussi appris à améliorer ma communication avec mes collègues.
+Enfin, je pourrai continuer à travailler sur le projet W4 ainsi que sur d’autres dans
+la suite de mes études, en tant qu’Apprenti Ingénieur des Systèmes d’Information à
+l’Université de Technologie de Belfort Montbéliard (UTBM) pour une durée de 3 ans.
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+41
+IX. Annexes
+1. Annexe n°1 : Extrait de la Charte Graphique
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+42
+2. Annexe n°2 : Planning base Composants
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+43
+3. Annexe n°3 : Schéma de la base de données Composants
+WATER WORLD WIDE WEB DATABASE
+ANTHONY DUPORT – RAPPORT D’APPRENTISSAGE – 2019-2020
+44
+4. Annexe n°4 : Schéma de la base de données Matière
+

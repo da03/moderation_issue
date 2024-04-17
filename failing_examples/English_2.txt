@@ -1,0 +1,1032 @@
+I want to study this pdf file in a 30 minutes. I know almost nothing about its concept and I want you to:
+1. create an index from all the contents it provides 2. Give me a comprehensive, but casual description about what it contains in a way that I understand the main points of this pdf file, (If it could make a sense you may gimme an example in which contains a scenario related to the main point of this pdf)
+
+
+Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 1
+Queuing networks
+Michela Meo
+Telecommunication Networks GroupMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 2
+What is a queuing network?
+• A queuing network is a system composed of a set of
+queues, or stations
+• Customers visit the queues according to some
+(probabilistic) rules
+– typically, after receiving service from a queue, they move to another
+queue with some probability
+• Queuing networks are very useful to represent systems in
+which customers undergo several processing tasks
+– pieces in a production systems undergo some processing at different
+working stations
+– vehicles move from some places (with crossing and queuing) to
+others
+– jobs move among units in a processor
+– …Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 3
+Queuing networks in networking
+• Complex systems like the Internet can be represented by
+queuing networks
+– If a router can be represented as a queue, a set of routers can be
+represented by a queuing network
+ϰ/ϰ/201ϲ
+3
+“THE INTERNET IS A MESH OF ROUTERS”
+core
+roXWer
+acceVV
+roXWer enWerpriVe
+roXWerMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 4
+Queuing networks in networking
+• Even inside a router, there are several queues, and the
+router itself can be represented by a queuing network
+AND INSIDE A ROUTER
+OXWpXW 1
+VZiWchiQg fabUic
+InpXW 1
+InpXW N OXWpXW N
+Sin
+Sin
+SoXW
+SoXW
+inpXW qXeXeV oXWpXW qXeXeVMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 5
+Markovian queuing systems
+• When
+– service times are all exponentially distributed
+– inter-arrival times from outside the network are
+exponentially distributed
+it is possible to model the queuing network through
+a MC
+• Let the system have N queues
+• The MC state is s=(n1, n2, …, nN) with ni number of
+customers at queue iMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 6
+Markovian queuing systems
+• Let
+– gi be the arrival rate from outside to queue i
+– µi be the service rate at queue i
+– mi be the number of servers at queue i
+– pij be the probability that once the service at
+queue i is over, the customer moves at queue j
+– pi0 be the probability that once the service at
+queue i is over, the customer leaves the networkMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 7
+Transition rates
+• The transition rates from state
+s=(n1, n2, …, nN) can be derived
+• From s=(n1, …ni, …, nN) to
+– d=(n1, …ni+1 …, nN) with rate gi
+arrival from outside to queue i
+– d=(n1, …ni-1 …, nN) with rate pi0µimin(ni,mi)
+departure from queue i and from the network
+– d=(n1, …ni-1, … nj+1 …, nN) with rate pijµimin(ni,mi)
+departure from queue i to go to queue jMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 8
+Example: Tandem of queues
+l µ1 µ2
+• The MC state is s=(n1,n2) with ni number of
+customers at queue i
+• The MC is ergodic (and the queues are stable) if
+– The first queue is ergodic, actual load l1<µ1
+– The second queue is ergodic, actual load l2<µ2
+– Since l1=l2=l
+λ < min(µ
+1,µ2)
+l1 l2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 9
+Example: Tandem of queues
+l µ1 µ2
+0,0 0,1 0,2
+µ1
+1,0 1,1 1,2…
+l l
+µ2
+l
+2,0 2,1 2,2
+…
+µ2
+µ1
+µ1 µ1
+l l l
+µ2
+µ2 µ2
+µ2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 10
+Example: Tandem of queues
+l µ1 µ2
+i,j i,j+1
+i+1,j
+l
+i,j-1
+µ1
+l
+i-1,j i-1,j+1
+i+1,j-1
+µ1
+µ2 µ2
+s = (i, j)
+generic stateMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 11
+Example: Tandem of queues
+i,j i,j+1
+i+1,j
+l
+i,j-1
+µ1
+l
+i-1,j i-1,j+1
+i+1,j-1
+µ1
+µ2 µ2
+• Flow balance equations
+π
+i,j
+(λ + µ
+1
++ µ
+2
+) = πi −1,jλ + πi +1,j−1µ1 + πi,j+1µ2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 12
+Product form
+• Some queuing networks have a product form
+solution:
+– the steady-state distribution of the network is given by the
+product of the marginal steady-state distributions of the
+queues considered in isolation
+• This can be proved by showing that the product
+form solution satisfies the flow balance equations of
+the MC
+– Note: Remind that for a MC, the solution is uniqueMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 13
+Product form of tandem of queues
+l µ1 µ2
+l1 µ1 l2 µ2
+• Product form with l1=l2=l:
+π
+( i
+1)
+= 1 − λ
+µ
+1
+⎛⎜⎜⎝
+⎞⎟⎟⎠
+λ µ
+1
+⎛⎜⎜⎝
+⎞⎟⎟⎠
+i
+= (1 − ρ
+1
+)ρ
+i 1
+π
+j
+(2)
+= 1 − λ
+µ
+2
+⎛⎜⎜⎝
+⎞⎟⎟⎠
+λ µ
+2
+⎛⎜⎜⎝
+⎞⎟⎟⎠
+j
+= (1 − ρ
+2
+)ρ
+j 2
+π
+i,j
+= π
+( i
+1)
+π
+j
+(2)
+= (1 − ρ
+1
+)ρ
+i 1
+(1 − ρ
+2
+)ρ
+j 2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 14
+• Substitute in the flow balance equations the product of
+the steady-state solutions in isolation:
+π
+i,j
+(λ + µ
+1
++ µ
+2
+) = πi −1,jλ + πi +1,j−1µ1 + πi,j+1µ2
+(1 − ρ
+1
+)ρ
+i 1
+(1 − ρ
+2
+)ρ
+j 2
+(λ + µ
+1
++ µ
+2
+) = (1 − ρ
+1
+)ρ
+i 1
+−1(1 − ρ
+2
+)ρ
+j 2
+λ +
++(1 − ρ
+1
+)ρ
+i 1
++1(1 − ρ
+2
+)ρ
+j 2
+−1
+µ
+1
++
++(1 − ρ
+1
+)ρ
+i 1
+(1 − ρ
+2
+)ρ
+j 2
++1
+µ
+2
+ρ
+i 1
+ρ
+j 2
+(λ + µ
+1
++ µ
+2
+) = ρ
+i 1
+−1
+ρ
+j 2
+λ + ρ
+i 1
++1
+ρ
+j 2
+−1
+µ
+1
++ ρ
+i 1
+ρ
+j 2
++1
+µ
+2
+Product form of tandem of queuesMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 15
+ρ
+i 1
+ρ
+j 2
+(λ + µ
+1
++ µ
+2
+) = ρ
+i 1
+ρ
+j 2
+λ ρ
+1
++ ρ
+i 1
+ρ
+j 2
+µ
+1
+ρ
+1
+ρ
+2
++ ρ
+i 1
+ρ
+j 2
+µ
+2
+ρ
+2
+λ + µ
+1
++ µ
+2
+= µ
+1
++ µ
+2
++ λ
+ρ
+i 1
+ρ
+j 2
+(λ + µ
+1
++ µ
+2
+) = ρ
+i 1
+−1
+ρ
+j 2
+λ + ρ
+i 1
++1
+ρ
+j 2
+−1
+µ
+1
++ ρ
+i 1
+ρ
+j 2
++1
+µ
+2
+• Similarly, we can show that the product form solution satisfies
+the flow balance equations for the states with i and/or j equal to 0
+(borders of the MC)
+• The product-form solution satisfies all the flow balance equations
+the product-form solution is THE (unique) solution of the MC
+Product form of tandem of queuesMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 16
+1. Burke’s Theorem:
+The departure process out of a (ergodic) M/M/m queue is
+Poisson with rate equal to the queue arrival rate
+– It can be proved by studying the inter-departure time that is
+exponential with rate µ when the queue is non empty and the
+sum of exponentials with rate l and µ when the queue is
+empty
+– The combination of these two cases leads to a Poisson
+process with rate l
+• A consequence of Burke’s theorem is that in the tandem of two
+queues, both queues are M/M/1 queues
+Some properties of queues and processesMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 17
+2. The superposition of two Poisson processes with
+rate l1 and l2 is a Poisson process with rate l1+l2
+3. A Poisson process with rate l that splits into two
+processes according to a Bernoulli choice with
+probability P, leads to two Poisson processes with
+rate Pl and (1-P)l, respectively
+Some properties of queues and processesMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 18
+Acyclic networks
+• Given the above properties, in acyclic networks the
+arrival processes to the queues are Poisson
+processes, and, hence, the queues are all M/M/m
+queues
+• Product-form applies by properly computing the
+arrival rates to the queuesMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 19
+Arrival rate computation
+• Build a system of equations in which
+– for a network with N queues, there are N equations
+– each flow through a queue is an unknown: e.g., flow li is
+the actual flow of customers crossing queue i
+– the flows entering and exiting a queue are the same: e.g.,
+li represents both the average number of customers
+entering and exiting queue i
+– each equation expresses the flow through a queue as the
+sum of all the flows entering the queue, which include:
+• fractions of flows exiting from other queues
+• arrivals from the outsideMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 20
+Acyclic networks: an example
+g1
+g3
+µ1 p12 µ2 µ4
+µ3
+p13
+• Consider the following acyclic network
+• Compute the arrival rates
+1 2
+4
+3Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 21
+Arrival rate computation
+g1
+g3
+µ1 p12 µ2 µ4
+µ3
+p13
+λ
+1
+= γ
+1
+λ
+2
+= p12λ1
+λ
+3
+= γ
+3
++ p13λ1
+λ
+4
+= λ
+2
+⎧⎪⎪⎨⎪⎪⎩
+l1 l2 l4
+l3
+λ
+1
+= γ
+1
+λ
+2
+= p12γ1
+λ
+3
+= γ
+3
++ p13γ1
+λ
+4
+= p12γ1
+⎧⎪⎪⎨⎪⎪⎩Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 22
+Arrival rate computation
+g1
+g3
+µ1 p12 µ2 µ4
+µ3
+p13
+l1 l2 l4
+Ergodic if l3
+γ
+1
+< µ
+1
+p 12γ 1 < µ 2
+γ
+3
++ p13γ1 < µ 3
+p 12γ 1 < µ 4
+⎧⎪⎪⎨⎪⎪⎩
+λ
+1
+< µ
+1
+λ
+2
+< µ
+2
+λ
+3
+< µ
+3
+λ
+4
+< µ
+4
+⎧⎪⎪⎨⎪⎪⎩Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 23
+Steady-state distribution
+π
+n1,n2,n3,n4
+= (1 − ρ
+j
+)ρ
+j
+nj
+j=1
+4∏
+Under the ergodicity condition, the steady-state
+distribution is:
+ρ
+1
+= λ
+1
+/ µ
+1
+= γ
+1
+/ µ
+1
+ρ
+2
+= λ
+2
+/ µ
+2
+= p12γ1 / µ2
+ρ
+3
+= λ
+3
+/ µ
+3
+= (γ
+3
++ p13γ1) / µ3
+ρ
+4
+= λ
+4
+/ µ
+4
+= p12γ1 / µ4
+⎧⎪⎪⎨⎪⎪⎩
+withMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 24
+Networks with cycles
+• Networks with cycles but with Markovian arrivals and service
+times can be modeled through MCs
+• They accept the product-form solution
+l
+µ
+P
+• Each costumer receives service from the queue a no. of times
+that is equal to
+E[S] = iPi −1 (1 − P)
+i =1
+∞∑
+=
+1
+1 − PMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 25
+Networks with cycles
+• The actual load to the queue can be derived as previously by
+considering the contributions from cycles in the following way:
+l
+µ
+P
+λ
+1
+= λ + P λ
+1
+λ
+1
+=
+λ
+(1 − P )
+l1
+• Each customer receives an
+average number of services
+equal to 1/(1-P)
+• The actual load is amplified by a
+factor 1/(1-P)
+l1
+l
+λ
+1
+= λE[S
+1
+]Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 26
+Networks with cycles
+l
+µ1
+P µ2
+• Actual load to queue 1 is amplified by a factor E[S1]=1/(1-P)
+• Ergodicity condition:
+λ
+1
+< µ
+1
+and λ
+2
+< µ
+2
+λ
+1 − P
+< µ
+1
+and λ < µ
+2
+λ
+1
+= λ + P λ
+1
+λ
+2
+= (1 − P )λ
+1
+⎧⎪⎨⎪⎩
+λ
+1
+= λ / (1 − P )
+λ
+2
+= λ
+⎧⎪⎨⎪⎩
+λ < min(µ
+1
+(1 − P),µ
+2
+)
+the flow through queue 2
+is equal to the flow
+through the network, l
+1 2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 27
+MC
+l
+µ1
+P µ2
+0,0 0,1 0,2
+(1-P)µ1
+1,0 1,1 1,2…
+l l
+µ2
+l
+2,0 2,1 2,2
+…
+µ2
+l l l
+µ2
+µ2 µ2
+µ2
+(1-P)µ1
+(1-P)µ1 (1-P)µ1Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 28
+MC
+i,j i,j+1
+i+1,j
+l
+i,j-1
+l (1-P)µ1
+i-1,j i-1,j+1
+i+1,j-1
+µ2 µ2
+l
+µ1
+P µ2
+(1-P)µ1Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 29
+Product form
+i,j i,j+1
+i+1,j
+l
+i,j-1
+l (1-P)µ1
+i-1,j i-1,j+1
+i+1,j-1
+µ2 µ2
+(1-P)µ1
+Flow balance equations
+π
+i,j
+(λ + (1 − P)µ
+1
++ µ
+2
+) = πi −1,jλ + πi +1,j−1(1 − P)µ1 + πi,j+1µ2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 30
+• Verify the product form by substituting in the flow
+balance equations the product of the steady-state
+solutions in isolation:
+letting ρ1 = λ / ((1 − P)µ1) and ρ2 = λ / µ2
+ρ
+i 1
+ρ
+j 2
+(λ + (1 − P)µ
+1
++ µ
+2
+) = ρ
+i 1
+−1
+ρ
+j 2
+λ + ρ
+i 1
++1
+ρ
+j 2
+−1(1 − P)µ
+1
++ ρ
+i 1
+ρ
+j 2
++1
+µ
+2
+Product form
+π
+i,j
+(λ + (1 − P)µ
+1
++ µ
+2
+) = πi −1,jλ + πi +1,j−1(1 − P)µ1 + πi,j+1µ2
+(1 − ρ
+1
+)ρ
+i 1
+(1 − ρ
+2
+)ρ
+j 2
+(λ + (1 − P)µ
+1
++ µ
+2
+) = (1 − ρ
+1
+)ρ
+i 1
+−1(1 − ρ
+2
+)ρ
+j 2
+λ +
+(1 − ρ
+1
+)ρ
+i 1
++1(1 − ρ
+2
+)ρ
+j 2
+−1(1 − P)µ
+1
++ (1 − ρ
+1
+)ρ
+i 1
+(1 − ρ
+2
+)ρ
+j 2
++1
+µ
+2Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 31
+ρ
+i 1
+ρ
+j 2
+(λ + (1 − P)µ
+1
++ µ
+2
+) = ρ
+i 1
+ρ
+j 2
+λ ρ
+1
++ ρ
+i 1
+ρ
+j 2
+(1 − P)µ
+1
+ρ
+1
+ρ
+2
++ ρ
+i 1
+ρ
+j 2
+µ
+2
+ρ
+2
+λ + (1 − P)µ
+1
++ µ
+2
+=
+λ λ
+µ
+1
+(1 − P) + µ
+1
+(1 − P)
+µ
+2
+µ
+1
+1
+1 − P
++ λ
+λ + (1 − P)µ
+1
++ µ
+2
+= (1 − P)µ
+1
++ µ
+2
++ λ
+Product form
+ρ
+i 1
+ρ
+j 2
+(λ + (1 − P)µ
+1
++ µ
+2
+) = ρ
+i 1
+−1
+ρ
+j 2
+λ + ρ
+i 1
++1
+ρ
+j 2
+−1(1 − P)µ
+1
++ ρ
+i 1
+ρ
+j 2
++1
+µ
+2
+Verified! the cyclic network admits the product form solutionMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 32
+Jackson’s queuing networks
+• For queuing networks with cycles (customers that may return
+to visit the same queue more than once), the arrival processes
+at the queues are not Poisson
+• Still, the product form solution holds if
+– Service times are exponentially distributed
+– Queues have no losses (finite queuing lines)
+– Choices about the queues to visit are independent customer by
+customer and independent on the state of the queues
+• Validity of product form solution can be proved by verifying that
+it satisfies the flow balance equations of the MC modeling the
+network
+• The performance indicators can be derived also from the
+solution of the queues in isolationMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 33
+Jackson’s queuing networks
+• Let gi be the arrival rate at queue i from the outside (Poisson
+process)
+• Let pij be the probability that a customer moves from queue i to
+queue j, once service at queue i is over
+• The actual arrival rates at the queues can be computed from
+λ
+i
+= γi + pki
+k=1
+N∑
+λ
+k
+i=1,2,!N
+• Let queue i have mi servers, each with service rate µi
+• The network is ergodic if each queue i is ergodic under traffic
+load li, that is
+λ
+i
+< m
+i
+µ
+i
+∀
+iMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 34
+Jackson’s queuing networks
+• The performance indicators can be derived from the solutions
+in isolation
+E[N
+i
+] = jπ
+j
+(i )
+j=1
+∞∑
+and E[T
+i
+] =
+E[N
+i
+]
+λ
+i
+=
+jπ
+j
+(i )
+j=1
+∞∑
+λ
+i
+• Under the ergodicity condition, the steady-state solution is the
+product of the marginal solutions computed for the queues in
+isolation
+π
+n1,n2,…nN
+= π ( j)
+nj
+j=1
+N∏Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 35
+Example
+g1=g
+g3=g
+µ1 1/2
+µ2
+µ3
+1/2
+2/3
+p20
+λ
+1
+= γ
+1
++2 / 3λ
+2
+λ
+2
+= 1 / 2λ
+1
+λ
+3
+= γ
+3
++ 1 / 2λ
+1
+⎧⎪⎪⎨⎪⎪⎩
+λ
+1
+= γ +2 / 3λ
+2
+λ
+2
+= 1 / 2λ
+1
+λ
+3
+= γ + 1 / 2λ
+1
+⎧⎪⎪⎨⎪⎪⎩
+λ
+1
+= 3γ / 2
+λ
+2
+= 3γ / 4
+λ
+3
+= 7γ / 4
+⎧⎪⎪⎨⎪⎪⎩Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 36
+Example
+λ
+i
+< µ
+i
+∀
+i
+λ
+1
+= 3γ / 2
+λ
+2
+= 3γ / 4
+λ
+3
+= 7γ / 4
+⎧⎪⎪⎨⎪⎪⎩
+• Ergodicity condition:
+3γ /2 < µ
+1
+3γ / 4 < µ
+2
+7γ / 4 < µ
+3
+⎧⎪⎪⎨⎪⎪⎩
+γ < min(2µ
+1
+/3,4µ
+2
+/3,4µ
+3
+/ 7)Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 37
+Example
+• Product-form solution:
+π
+n1,n2,n3
+= (1 − ρ
+j
+)ρ
+j
+(nj)
+j=1
+3∏
+with ρ
+j
+=
+λ
+j µ
+jMichela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 38
+Other cases
+• There are other cases of queuing networks
+that admit product form solutions
+– with classes of customers taking different routes
+– with customers never leaving the network; the
+number of customers in the network is finite and
+constant (closed queuing networks)
+– with single-server queues and Processor
+Sharing serving discipline
+– …Michela Meo – TNG group - Politecnico di Torino Management and Content Delivery… - 39
+Bottleneck queue
+• In a queuing network, the queue with the largest
+load is called bottleneck queue
+– The value of load is the largest
+• The bottleneck queue is
+– The one which has the largest influence on the
+performance (e.g., the one with the largest delay)
+– The one which is “closer” to instability,
+𝜌! =
+𝜆!
+𝑚!𝜇!

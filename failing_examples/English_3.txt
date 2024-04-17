@@ -1,0 +1,513 @@
+import os,re
+import numpy as np
+import random
+import math
+import matplotlib
+import matplotlib.pyplot as plt
+matplotlib.rcParams["toolbar"] = "None"             # 隐藏工具栏 
+matplotlib.rcParams['font.sans-serif'] = ['SimHei'] # 中文显示
+matplotlib.rcParams['axes.unicode_minus'] = False   # 负号显示
+matplotlib.rcParams['lines.linewidth'] = 0.9        # 线条宽度
+linewidth_bak = matplotlib.rcParams['lines.linewidth']
+
+# 定义next_num函数
+def get_next_num(mySetting,current_num,current_action):
+    next_num = current_num+mySetting.actions[current_action]*mySetting.unit
+    return next_num
+
+def get_valid_actions(mySetting,current_num):
+    # 取当前状态下的合法动作集合
+    valid_actions = [a for a in mySetting.actions if 
+                     (a*mySetting.unit+current_num) <= mySetting.max_storages]
+    return valid_actions
+
+class Settings:
+    def __init__(self):
+        self.epsilon = 0.1 # 贪婪度 greedy
+        self.alpha = 0.5   # 学习率
+        self.gamma = 0.9   # 奖励递减值
+        self.beta = 0.9    
+        # 学习率初始化为0.7，当训练2万次，每迭代千次便将学习率降低为𝛼∗𝛽，𝛽=0.9
+    
+        self.trainGate = 20000 # 训练门槛，即需要经过多少步训练后才能达到一定的性能水平或完成训练
+        self.StepMinus = 1000  # 每次训练时步长的减少量
+
+        self.onwaydays = 1 # 提前期为1天，从下单到收到货的时间
+        self.liftime = 3   # 生命周期为3天
+        self.overduecost = 1.7 # 过期成本为1.7元，
+        self.shortagecost = 0.4 # 缺货成本为0.4元
+        self.holdcost = 0.1 # 持有成本为0.1元
+        self.profit = 0.6 # 单位利润=售价2.1-订购成本1.5
+
+        self.max_storages = 100
+        self.init_min_val = 0
+        self.order_point = 14
+        self.order_volume = 43
+        self.expect = 60
+        self.variance = 5
+        self.train_data_n = 1000
+        self.unit = 5
+
+        # 定义Q表
+        self.actions = list(range(21)) # action包含从0到20的21个数字
+        a = self.max_storages+1 # a表示状态数（即最大存储数+1）
+        b = len(self.actions)  # b表示动作数（即0-20）
+        self.Q_table = np.zeros((a,b)) # 创建一个a行b列的全零矩阵作为Q-table的初始值
+        self.Q_table[:,:] = self.init_min_val
+        
+def getEpsilon(self):
+    return self.epsilon
+
+def getAlpha(self,num):
+    return self.alpha
+
+def getGamma(self):
+    return self.gamma
+
+def getRewards(self,overdue_num,short_num,sale_num,store_num):
+    all_cost = self.max_storages*self.overduecost
+    now_cost = self.overduecost*overdue_num + self.shortagecost*short_num + self.holdcost*store_num
+    rewards = all_cost-now_cost
+    return rewards
+
+def get_loss_rate(self,overdue_num,short_num):
+    all_cost = self.max_storages*self.overduecost
+    now_cost = self.overduecost*overdue_num + self.shortagecost*short_num
+    loss_rate = now_cost/all_cost
+    return loss_rate
+    
+def get_store_cost(self,overdue_num,short_num,current_num):
+    now_cost = self.overduecost * overdue_num + self.shortagecost * short_num
+    now_cost += current_num*self.holdcost # 将当前库存成本加上当前库存量的持有库存
+    return now_cost*1000  # 将成本转换为千元
+
+class Product:
+    def __init__(self,lifetime,onwaydays):  # 初始化
+        self.lifetime = lifetime
+        self.onwaydays = onwaydays
+    
+    def updateLifeTime(self,days): 
+        self.lifetime -= days
+        self.onwaydays -= days  # lifetime和 onwaydays分别减去传入的days
+
+    def isOnTheWay(self):  # 判断是否在运输途中
+        if self.onwaydays > 0:
+            return True
+        else:
+            return False
+    
+    def isInStoreHouse(self): # 判断是否在库存中
+        if self.lifetime > 0 and self.onwaydays <= 0:
+            return True
+        else:
+            return False
+
+    def isOverDue(self):   # 判断是否已经过期
+        if self.lifetime <= 0:
+            return True
+        else:
+            return False
+        
+    # 统计商品列表中 isInStoreHouse()方法返回值为True的商品数量
+    def getInStoreHouseNum(ProductList):
+        num1 = len(ProductList)
+        num2 = 0
+        for i in range(num1):
+            if ProductList[i].isInStoreHouse():
+                num2 = num2 + 1
+        return num2
+    
+    def getOnTheWayNum(ProductList):
+        num1 = len(ProductList)
+        num2 = 0
+        for i in range(num1):
+            if ProductList[i].isOnTheWay():
+                num2 = num2 + 1
+        return num2
+
+    def getOverDueNum(ProductList):
+        num1 = len(ProductList)
+        num2 = 0
+        for i in range(num1):
+            if ProductList[i].isOverDue():
+                num2 = num2 + 1
+        return num2
+    
+# 从原始的ProductList列表中删除过期产品
+def deleteOverDueProduct(ProductList):
+    tmplist = ProductList[:]
+    for product in tmplist:
+        if product.isOverDue():
+            ProductList.remove(product)
+
+def AddProductOrder(ProductList,lifetime,onwaydays,num):
+    for i in range(num):
+        product = Product(lifetime,onwaydays)
+        ProductList.append(product)
+
+def updateProductLife(ProductList):
+    num1 = len(ProductList)
+    num2 = 0
+    for i in range(num1):
+        ProductList[i].updateLifeTime(1)
+# 对ProductList列表中的每个产品调用updateLifeTime(1)方法，使产品的寿命增加1天
+
+# 去除掉ProductList中前面num个寿命较低的商品
+def CheckOutProduct(ProductList,num):
+# 按照每个元素的lifetime属性升序排序ProductList列表，lifetime属性较长的产品会被排到列表前面
+    ProductList.sort(key=lambda x:x.lifetime)
+# 从ProductList中保留前num个产品之后的剩余部分  
+    ProductList = ProductList[num:]
+    return ProductList
+
+def Train_func(qfile,train_data,max_circle=10000):
+    mySetting = Settings() 
+    maxDays = max_circle
+# 创建一个空列表ProductList，用于存储产品对象
+    ProductList = []
+
+# 在给定的最大天数maxDays范围内反复遍历训练数据集中的每一天
+    step = len(train_data)
+    preAction = 0
+    preNum = 0
+    for i in range(maxDays):
+# 机器学习，补货
+        j = i%step # 将变量i除以step的余数赋值给变量j,将i限定在0到step-1之间，循环遍历train_data
+        buy_num = int(train_data[j]) 
+        # int将字符串型数据转换为整数型数据
+        # 从训练数据集中获取第j天的购买数buy_num
+
+# 清理过期货物
+    overdue_n = getOverDueNum(ProductList)
+    deleteOverDueProduct(ProductList)
+
+# 当前状态
+    current_num = getInStoreHouseNum(ProductList)
+    if buy_num > current_num:
+            short_n = buy_num - current_num
+    else:
+        short_n = 0
+        
+# 当天卖出的货物出库，即将前buy_num - short_n个产品从列表中删除
+        ProductList = CheckOutProduct(ProductList, buy_num - short_n)
+# 重新获取当前状态，准备补货
+        current_num = getInStoreHouseNum(ProductList)
+
+# 根据贝尔曼方程，更新 Q table 中当前状态-动作对应的 Q value
+    alpha = mySetting.getAlpha(i)
+    gamma = mySetting.getGamma()
+    rewards = mySetting.getRewards(overdue_n,short_n,buy_num - short_n,preNum)
+    pre_q_v = mySetting.Q_table[preNum, preAction]
+    mySetting.Q_table[preNum, preAction] += alpha * (rewards + gamma * max(mySetting.Q_table[current_num]) - pre_q_v)
+
+# 随机或贪婪地选择当前动作
+    if (np.random.uniform() < mySetting.getEpsilon()) or ((mySetting.Q_table[current_num, :] == mySetting.init_min_val).all()): 
+        tmp_a = get_valid_actions(mySetting, current_num)  
+        s = random.randint(0,len(tmp_a)-1)
+        current_action = mySetting.actions.index(tmp_a[s]) # 探索
+    else:
+        valid_actions = [a for a in mySetting.actions if (a * mySetting.unit + current_num) <= mySetting.max_storages]
+        current_action = mySetting.Q_table[current_num, :len(valid_actions)].argmax() # 利用
+    
+    preNum = current_num
+    preAction = current_action
+
+# 补充货物
+    add_num = mySetting.actions[current_action] * mySetting.unit
+    AddProductOrder(ProductList,mySetting.liftime,mySetting.onwaydays,add_num)
+
+# 刷新货物生存时间
+    updateProductLife(ProductList)
+
+    fh = open(qfile,"w")
+    aa = mySetting.Q_table.shape
+    # 遍历Q_table数组中的每个元素，将其转化为字符串形式
+    for i in range(aa[0]):
+        tmp1 = mySetting.Q_table[i].tolist()
+    # 按照逗号进行连接，并在其末尾添加一个换行符
+        tmp2 = [str(a) for a in tmp1]
+        cntStr = ",".join(tmp2)+"\n"
+        fh.write(cntStr)
+        fh.close()
+        
+    def Exe_func1(qfile,outfile,logfile,test_data,init_num):
+        mySetting = Settings()
+        ProductList = []
+        mySetting.Q_table = Read_Q_Data(qfile)
+    
+    AddProductOrder(ProductList, mySetting.liftime,mySetting.onwaydays, init_num)
+    updateProductLife(ProductList)
+    updateProductLife(ProductList)
+    updateProductLife(ProductList)
+    
+    lgf = open(logfile,"w")
+    # 向文件中写入第一行标题，包括需求日期、需求量等信息
+    lgf.write("日期,需求,存量,过期量,缺货,订货动作,库存变动\n")
+    
+    fh = open(outfile,"w")
+    step = len(test_data)
+    for i in range(step):
+        buy_num = int(test_data[i]) # 从测试集中获取第i天的购买数buy_num
+        
+# 清理过期货物
+    overdue_n = getOverDueNum(ProductList)
+    deleteOverDueProduct(ProductList)
+
+# 当前状态
+    current_num = getInStoreHouseNum(ProductList)
+    storage_num = current_num
+    if buy_num > current_num:
+            short_n = buy_num - current_num
+    else:
+        short_n = 0
+        
+# 当天卖出的货物出库，即将前buy_num - short_n个产品从列表中删除
+        ProductList = CheckOutProduct(ProductList, buy_num - short_n)
+# 重新获取当前状态，准备补货
+        current_num = getInStoreHouseNum(ProductList)
+    
+    valid_actions = [a for a in mySetting.actions if (a * mySetting.unit + current_num) <= mySetting.max_storages]
+    current_action = mySetting.Q_table[current_num, :len(valid_actions)].argmax() # 利用
+# 补充货物
+    add_num = mySetting.actions[current_action] * mySetting.unit
+    AddProductOrder(ProductList,mySetting.liftime,mySetting.onwaydays,add_num)
+
+# 刷新货物生存时间
+    updateProductLife(ProductList)
+    
+    store_cost = mySetting.get_store_cost(overdue_n,short_n,current_num+add_num)
+    cntStr = "{0},{1:.2f}\n".format(i, store_cost)
+    fh.write(cntStr)
+    
+    loginfo =[str(i),str(buy_num),str(storage_num),str(overdue_n),str(short_n),str(add_num),str(current_num+add_num-storage_num)]
+    cntStr = ",".join(loginfo) + "\n"
+    lgf.write(cntStr)
+    
+    fh.close()
+    lgf.close()
+    
+    def Exe_func2(qfile,outfile,logfile,test_data,init_num):
+        mySetting = Settings()
+        ProductList = []
+        mySetting.Q_table = Read_Q_Data(qfile)
+    
+    AddProductOrder(ProductList, mySetting.liftime,mySetting.onwaydays, init_num)
+    updateProductLife(ProductList)
+    updateProductLife(ProductList)
+    updateProductLife(ProductList)
+    
+    lgf = open(logfile,"w")
+    # 向文件中写入第一行标题，包括需求日期、需求量等信息
+    lgf.write("日期,需求,存量,过期量,缺货,订货动作,库存变动\n")
+    
+    fh = open(outfile,"w")
+    step = len(test_data)
+    for i in range(step):
+        buy_num = int(test_data[i]) # 从测试集中获取第i天的购买数buy_num
+        
+# 清理过期货物
+    overdue_n = getOverDueNum(ProductList)
+    deleteOverDueProduct(ProductList)
+
+# 当前状态
+    current_num = getInStoreHouseNum(ProductList)
+    storage_num = current_num
+    if buy_num > current_num:
+            short_n = buy_num - current_num
+    else:
+        short_n = 0
+        
+# 当天卖出的货物出库，即将前buy_num - short_n个产品从列表中删除
+        ProductList = CheckOutProduct(ProductList, buy_num - short_n)
+# 重新获取当前状态，准备补货
+        current_num = getInStoreHouseNum(ProductList)
+    
+    add_num = 0
+    if current_num<mySetting.order_point:
+        add_num = mySetting.order_volume
+        
+    AddProductOrder(ProductList, mySetting.liftime, mySetting.onwaydays, add_num)
+    updateProductLife(ProductList)
+    
+    store_cost = mySetting.get_store_cost(overdue_n, short_n,current_num+add_num)
+    cntStr = "{0},{1:.2f}\n".format(i, store_cost)
+    fh.write(cntStr)
+    
+    loginfo = [str(i),str(buy_num),str(storage_num),str(overdue_n),str(short_n),str(add_num),str(current_num+add_num-storage_num)]
+    cntStr = ",".join(loginfo) + "\n"
+    lgf.write(cntStr)
+    
+    fh.close()
+    lgf.close()
+    
+    # 读取文件所有的行
+    def ReadTxtName(filename, dot=',', encoding="gbk"):
+        lines = []
+        if os.path.exists(filename): # 判断filename文件是否存在
+            pass
+        else:
+            return []
+        
+    with open(filename, 'r', encoding=encoding) as file_to_read:
+        tmpall = file_to_read.readlines()
+        for line in tmpall:
+            tmpstr = line.strip('\n').strip() # 去掉每行字符串开头和结尾的空白字符（包括空格、制表符、换行符等）
+            if tmpstr.startswith('#'): # 判断tmpstr字符串是否以#开头
+                continue # 如果是注释行，则继续跳过后面的代码，进行下一轮循环
+                
+                if len(tmpstr) >0:
+                    line = tmpstr.split(dot) # 将tmpstr字符串按照指定的分隔符dot进行分割
+                    lines.append(line)
+    return lines
+    
+    # list为二维列表，row为行，col为列
+    def GetColumnFromList(list, startrow=0, endrow=None, col=0):
+        data = []
+        if endrow is None or endrow > len(list):
+            endrow = len(list)
+        
+        for i in range(startrow, endrow): # 遍历列表的行数
+            data.append(list[i][col]) # 将每行的第“col”列的数据添加到“data”列表
+            
+        return data
+    
+    # 判断传入的参数是否为数值类型，如果是就返回 True，否则不返回结果
+    def is_number(num):
+        if isinstance(num, str):
+            pass
+        else:
+            return True
+
+    # 正则表达式，用于匹配数值类型的字符串形式
+    pattern = re.compile(r'^[-+]?[-0-9]\d*\.\d*|[-+]?\.?[0-9]\d*$')
+    result = pattern.match(num)
+    
+    if result:
+        return True
+    else:
+        return False
+    
+    # 将字符串列表转化为浮点数列表
+    def StrListToFloat(list):
+        data = []
+        for x in list:
+            if x != '': # 当前元素不为空字符串
+                data.append(float(x)) # 转化为浮点数类型
+            else:
+                data.append(0)
+        return data
+
+    # 将二维字符串列表转化为浮点数列表
+    def StrList2ToFloat(list):
+        rslt = []
+        for row in list:
+            data = []
+            for x in row:
+                if x != '':
+                    if is_number(x):
+                        data.append(float(x))
+                    else:
+                        data.append(x)
+                # 如果当前元素为空字符串，则将其填补为默认值 0，并添加到 “data” 列表中
+                else:
+                    data.append(0) 
+            rslt.append(data)
+        return rslt
+
+    # 绘制出折线图
+    def DrawLine(logfile1,logfile2):
+        fig = plt.figure(figsize=(10, 5), dpi=80)
+        mng = plt.get_current_fig_manager()
+        left, width = 0.05, 0.90
+        # 主轴（ax1）的位置和大小，背景颜色
+        ax1 = fig.add_axes([left, 0.05, width, 0.90], gid='mygroup') 
+        ax1.set_facecolor("White")
+        
+        # 获取logfile1中的第1列，并取绝对值
+        lines1 = ReadTxtName(logfile1, ",")
+        day_col1 = GetColumnFromList(lines1, col=0)
+        day_col1 = day_col1[:]
+        day_col1 = StrListToFloat(day_col1)
+        day_col1 = [abs(aa) for aa in day_col1]
+        
+        # 获取logfile1中的第2列，并取绝对值
+        loss_col1 = GetColumnFromList(lines1, col=1)
+        loss_col1 = loss_col1[:]
+        loss_col1 = StrListToFloat(loss_col1)
+        loss_col1 = [abs(aa) for aa in loss_col1]
+        
+        ax1.plot(day_col1, loss_col1, color = 'green', linestyle='-')
+        
+        # 获取logfile2中的第1列，并取绝对值
+        lines2 = ReadTxtName(logfile2, ",")
+        day_col2 = GetColumnFromList(lines2, col=0)
+        day_col2 = day_col2[:]
+        day_col2 = StrListToFloat(day_col2)
+        day_col2 = [abs(aa) for aa in day_col2]
+        
+        # 获取logfile2中的第2列，并取绝对值
+        loss_col2 = GetColumnFromList(lines2, col=1)
+        loss_col2 = loss_col2[:]
+        loss_col2 = StrListToFloat(loss_col2)
+        loss_col2 = [abs(aa) for aa in loss_col2]
+        
+        ax1.plot(day_col2, loss_col2, color = 'r', linestyle='-')
+        
+        ylabels = [0,10000,20000,30000,40000,50000,60000,70000,80000] # 设置y轴刻度标签
+        ax1.set_yticklabels(labels=ylabels,family= 'SimHei',fontsize= 12)
+        ax1.tick_params(which='major',axis='both',length=8,labelsize=12)
+        ax1.legend(labels=('Q-Learning 成本', "固定订货成本"), loc='upper right',fontsize=14)
+        plt.show()
+        matplotlib.rcParams['lines.linewidth'] = linewidth_bak # 恢复matplotlib默认设置
+        
+    # 生成训练数据并保存到文件
+    def Create_Train_Data(datafile):
+        mysetting = Settings()
+        mu = mysetting.expect
+        sigma = mysetting.variance
+        num = mysetting.train_data_n
+        np.random.seed(1234)
+        Train_Data = np.random.normal(mu, sigma, num)
+        # 生成符合正态分布的随机数（μ为期望，σ为方差，数量为num）
+        
+        f1 = open(datafile,"w")
+        for i in range(len(Train_Data)):
+            cnt = int(Train_Data[i]+0.5)
+            
+            if i<len(Train_Data)-1:
+                f1.write(str(cnt)+",")
+            else:
+                f1.write(str(cnt))
+        f1.close()
+    
+    # 读取训练数据并返回其中的一行数据
+    def Read_Train_Data(datafile):
+        data = ReadTxtName(datafile)
+        return data[0]
+    
+    # 读取Q值文件并返回二维列表
+    def Read_Q_Data(datafile):
+        data = ReadTxtName(datafile)
+        data1 = StrList2ToFloat(data)
+        rslt = np.array(data1)
+        return rslt
+    
+    if __name__ == "__main__":
+        datafile = "Train_Data35.csv"
+        Create_Train_Data(datafile)
+
+        train_data = Read_Train_Data(datafile)
+
+        qfile = "qfile35.csv"
+        Train_func(qfile,train_data,200000)
+
+        rsltfile1 = "rslt35.csv"
+        logfile1 = "logfile35.csv"
+        
+        Exe_func1(qfile,rsltfile1,logfile1,train_data,100)
+        
+        rsltfile2 = "rslt35_1.csv"
+        logfile2 = "logfile35_1.csv"
+        Exe_func2(qfile,rsltfile2,logfile2,train_data,100)
+        DrawLine(rsltfile1,rsltfile2)
+为什么没有显示出图和数据，麻烦重新排版，使之能正确显示，注意单双引号用英文格式，麻烦不要断开了，完整编码

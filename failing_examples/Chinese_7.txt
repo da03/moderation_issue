@@ -1,0 +1,452 @@
+易魔声用户协议
+欢迎您使用易魔声产品及服务！本协议由易魔声提供者网易有道信息技术（北京）有限公司
+及其关联公司（以下简称“有道”，“我们”）与您（若使用者为自然人）或您所代表的实体（若
+使用者为法人）订立，约束您对易魔声相关服务（以下简称“本服务”或“易魔声服务”）的使
+用。
+使用本服务即表示您通过电子方式确认本协议内容，同意本协议约束。如果您或您的监护人
+不同意本协议的任何内容，您应该立即停止使用易魔声服务。如您未经监护人同意使用本服
+务，则您及您的监护人应依法承担因此导致的一切后果。
+我们特别提醒您在使用本服务之前认真阅读（未满 18 周岁的未成年人应在法定监护人陪同
+下阅读）、充分理解本协议的全部条款，尤其是信息保护、免责声明、法律管辖和适用等加
+粗显示的条款。如您不同意本协议的任何条款，将导致我们无法为您提供完整的产品和服务，
+您可以选择停止使用本服务。如您自主选择同意本协议，或您的注册、登录、使用等行为将
+视为您对本协议的接受，并视为您接受并遵守本协议各项条款。
+如对本协议内容有任何疑问、意见或建议，您可通过发送邮件至【sunyq@rd.netease.com，
+wanghx04@rd.netease.com】与我们联系。 第 1 条 定义
+1.1 用户：指使用易魔声服务的所有自然人。本协议中可称为“用户”或“您”。为避免疑义，易
+魔声生态合作伙伴使用本服务的，也属于本协议下的“用户”，需遵守本协议约定。
+1.2 易魔声：指有道依托语音合成的技术推出的生成类人工智能语音合成产品。
+1.3 输入：指用户为使用本服务在对话框进行的文本输入。
+1.4 输出：指本服务根据用户输入而相应输出同样内容的音频内容。 第 2 条 服务介绍
+2.1 易魔声依托语音合成技术，提供人工智能语音合成服务。用户需在对话框输入文本信息，
+易魔声会基于用户输入输出相同的音频作为响应。
+2.2 本服务具体功能将随着用户反馈、技术升级，或相关监管政策的变化不断迭代更新。
+2.3 您在使用本服务某一特定功能时，针对该特定功能可能会另有单独的协议、相关业务规
+则等（“具体协议”），您在使用该项特定功能前请阅读并同意相关的具体协议。本协议与具
+体协议的内容存在冲突的，以具体协议的规定为准。
+2.4 您在使用本服务中由第三方（比如通过插件、链接等）提供的产品或服务时，请遵守第
+三方公布的用户协议、使用规则、隐私政策等法律文件，在法律法规允许的范围内，我们无
+法对第三方产品及任何内容负责。
+第 3 条 账号登录
+3.1 本服务发布在第三方网站 Github 社区，为访问本服务，您需要登录第三方网站
+https://github.com，获取并下载本服务在本地进行使用。您在登陆第三方网站时，请遵守第
+三方公布的用户协议、使用规则、隐私政策等法律文件，在法律法规允许的范围内，我们无
+法对第三方产品及任何内容负责。
+3.2 本服务主要面向成人。如果您未满 18 周岁，请在法定监护人陪同下阅读本协议，并在
+征得法定监护人的同意后使用本服务。有道充分理解保护未成年人的重要性，并会根据法律
+法规的要求及行业主流实践采取相应的保护措施。与此同时，请监护人合理引导和约束未成
+年人用户对本服务的使用，共同营造良好网络环境，帮助未成年人养成良好上网习惯，避免
+过度依赖或者沉迷本服务。 第 4 条 服务使用规范
+4.1 基于您对本服务的使用，有道许可您一项个人的、基于法定或约定事由可撤销的、不可
+转让的、非独占的和非商业的使用本服务进行内容输入并获得内容输出的权利。本协议未明
+示授权的其他一切权利仍由有道保留，您在行使该些权利前须另行获得有道的书面许可，同
+时有道如未行使前述任何权利，并不构成对该权利的放弃。如果您对外发布或传播本服务生
+成的输出，您应当：（1）主动核查输出内容的真实性、准确性，避免传播虚假信息；（2）
+以显著方式标明该输出内容系由人工智能生成，以向公众提示内容合成的情况；（3）避免
+发布和传播任何违反本协议使用规范的输出内容。
+4.2 用户在使用有道提供的上述服务时，应遵守本协议，遵守自愿、平等、公平及诚实信用
+原则，不利用本服务侵犯他人合法权益及谋取不正当利益，不扰乱互联网平台正常秩序。
+4.3 为履行法定合规要求，有道有权采取技术手段或人工手段对用户使用本服务的行为及信
+息进行审查，包括但不限于对输入和输出进行审查、建立风险过滤机制、建立违法内容特征
+库等。对于违规用户，有道有权按照本协议第八条的规定进行处置。
+4.4 有道提示您，作为本服务的使用者，您在使用上述服务时应积极承担信息安全义务。您
+承诺不对本服务采取以下行为：
+4.4.1 通过输入，诱导生成违反相关法律法规的输出，包括但不限于：
+(1)反对宪法所确定的基本原则。
+(2)危害国家安全，泄露国家秘密，颠覆国家政权，推翻社会主义制度，破坏国家统一。
+(3)损害国家荣誉和利益。
+(4)煽动民族仇恨、民族歧视，破坏民族团结。
+(5)侮辱、滥用英烈形象，否定英烈事迹，美化粉饰侵略战争行为的。
+(6)破坏国家宗教政策，宣扬邪教和封建迷信。
+(7)散布谣言、虚假有害信息，扰乱社会秩序，破坏社会稳定。
+(8)宣扬淫秽、色情、赌博、暴力、凶杀、恐怖主义、极端主义或者教唆犯罪。
+(9)煽动非法集会、结社、游行、示威、聚众扰乱社会秩序。
+(10)诽谤他人，泄露他人隐私，侵害他人名誉权、肖像权、隐私权、知识产权和其他合法权
+益。
+(11)破坏国际关系以及国际和平稳定。
+(12)含有法律、行政法规禁止的其他内容的信息。
+4.4.2 通过输入，诱导生成不友善对话的输出，包括但不限于：
+(1)人身攻击及辱骂他人。
+(2)针对以下群体发表诅咒、歧视、漠视生命尊严等性质的言论，群体包括：不同特定国籍、
+地域、性别、性别认同、性倾向、种族、民族、健康状况、职业、年龄、信仰、残障群体等。
+(3)对他人进行诅咒、恐吓或威胁。
+(4)对其他用户创作的内容直接进行贬低性的评论。
+(5)对其他用户使用粗俗用语，并产生了冒犯。
+(6)针对以下群体发表偏见性质的言论，群体包括：特定国籍、地域、性别、性别认同、性
+倾向、种族、民族、健康状况、职业、年龄、信仰、残障群体等。
+4.4.3 通过输入，恶意对抗本服务的过滤机制，包括但不限于：
+(1)输入难以辨识涵义影响阅读体验的字符、数字等无意义乱码。
+(2)恶意对抗行为，包括但不限于使用变体、谐音等方式规避服务检测来输入违反上述 4.4.1
+和 4.4.2 的言论。
+4.4.4 干扰本服务正常运行以及损害有道合法权益，包括但不限于：
+(1)利用本服务从事窃取商业秘密、窃取个人信息等违法犯罪活动。
+(2)对本服务进行反向编译、反向工程或者以其他任何途径获得与本服务算法相关的任何信
+息。
+(3)利用本服务开发与本服务存在竞争关系其他产品和服务（除非该限制违法相关法律规范）。
+(4)以任何方式（包括但不限于通过任何机器人、蜘蛛、其他自动设置、设置镜像）来抓取、
+复制本服务及其所包含的任何内容。
+(5)未经有道同意或未有合法正当依据，擅自去除、篡改本服务涉及的人工智能生成标识或
+语音合成内容显著标识。
+(6)将有关干扰、破坏或限制任何计算机软件、硬件或通讯设备功能的软件病毒或其他计算
+机代码、档案和程序之资料，加以上载、发布、发送电子邮件或以其他方式传送。
+(7)非法入侵本服务服务器、篡改本服务之相关代码或其他损害本服务的行为。
+(8)企图规避有道平台的安全设置或网络系统，包括获取用户不应获取的数据，登录未经明
+确授权的服务器或账号，或采用运行端口扫描等方式窥探其他网络的安全措施。
+(9)以导致有道的计算机系统或设施承受不合理负载的方式获取输出，或进行可能导致此类
+情况出现的行为。
+(10)未经有道授权，非法转售或对外提供易魔声服务。
+4.4.5 其他违反法律法规规定、侵犯他人以及有道合法权益的行为，例如实施垄断或不正当
+竞争行为等。 第 5 条 知识产权和其他权利
+5.1 有道为本服务的开发、运营主体，并对本服务的开发和运营等过程中产生的所有数据、
+信息、输出等享有法律法规允许范围内的全部权利，但相关权利人依照法律规定应享有权利
+的除外。
+5.2 有道在本服务中提供的内容（包括但不限于软件、技术、程序、代码、用户界面、网页、
+文字、图片、图像、音频、视频、图表、版面设计、商标、电子文档等）的知识产权（包括
+但不限于著作权、商标权、专利权和其他知识产权）属于有道所有，但相关权利人依照法律
+规定应享有权利的除外。
+5.3 您理解并承诺，您在使用本服务时的输入不侵犯任何人的知识产权、肖像权、名誉权、
+荣誉权、姓名权、隐私权、个人信息权益等合法权益，不涉及任何国家秘密、商业秘密、重
+要数据或其他可能会对国家安全或者公共利益造成不利影响的数据，否则由此产生的侵权风
+险和责任由您承担。有道由此遭受的全部直接和间接损失（包括但不限于经济、商誉、维权
+支出、律师费等损失）也同样由您承担。
+5.4 您知悉、理解并同意，如果您按照法律规定对您的输入（包括您使用本服务过程中自行
+上传、发布的全部内容）和/或输出享有权利的（包括但不限于知识产权、肖像权等），您
+使用本服务均不会造成前述合法权利的转移或减损，除非我们与您另有约定。与此同时，您
+理解并同意有道将在法律允许的范围内为实现本服务目的对您上传、发布的内容进行存储及
+使用（包括但不限于复制、分发、传送、公开展示、编辑等）。 第 6 条 个人信息保护
+6.1 有道非常重视对用户个人信息的保护，本服务不需要您额外注册登录，本地下载后即可
+使用。易魔声所使用的训练数据均为开源数据以及有道内部训练数据，未经您的同意，有道
+不会获取您的任何个人信息以及使用数据。 第 7 条 服务费用
+7.1 有道免费向您提供本服务。若您需要额外进行商业合作，可与有道进行联系，联系方式：
+联系电话：010-8255-8901
+商务合作：AIcloud_Business@corp.youdao.com
+7.2 对于暂不收费的功能，有道有权根据实际情况对暂不收费的服务内容、服务期限及服务
+标准等进行单方变更，用户对此理解并接受前述的变更。
+7.3 前述修改、变更或开始收费前，有道将在相应服务页面进行通知或公告。如用户拒绝付
+费，那么用户将不能继续使用本服务。 第 8 条 违约责任和处罚措施
+8.1 因用户违反相关法律法规或本协议约定导致的任何后果，均由用户独立承担责任、赔偿
+损失，与有道无关。若因用户使用本服务的行为给有道或与有道公司合作的其他单位面临任
+何投诉、举报、质询、索赔、诉讼，或者使有道公司或者与有道公司合作的其他单位因此遭
+受任何名誉、声誉或者财产上的损失，您应积极地采取一切可能采取的措施，以保证有道公
+司及与有道公司合作的其他单位免受上述索赔、诉讼的影响。同时您对有道公司及与有道公
+司合作的其他单位因此遭受的直接及间接经济损失负有全部的损害赔偿责任。
+8.2 如果用户以任何手段干扰本服务的运行或干扰其他用户对本服务的使用的，有道有权要
+求其赔偿损失（包括但不限于经济、商誉、维权支出、律师费等损失）。
+8.3 如果用户有上述违反“第 4 条 服务使用规范”行为的，有道有权采取警示、限制功能、暂
+停或终止提供服务、删除违法违规信息、锁定账号等有道认为合理的处理措施，并保存有关
+记录。对处理结果存在疑议的，用户可根据 9.2 条之规定向我们进行申诉，我们将及时受理
+并进行处理和反馈。 第 9 条 通知和送达
+9.1 您在使用本服务过程中有任何意见或建议，可通过电子邮箱提出，我们将向您及时做出
+反馈。您应保证您的联系方式畅通，以接收来自我们发出的电话或信息，我们不对您未收到
+通知而引起的任何损失承担责任。
+9.2 如您在使用本产品的过程中对本用户服务协议有任何疑问或建议，请通过以下联系方式
+与我们联系:
+电子邮箱: 【sunyq@rd.netease.com，wanghx04@rd.netease.com】
+9.3 为保障我们高效处理您的问题并及时向您反馈，需要您提交身份证明、有效联系方式和
+书面请求及相关证据，我们会在验证您的身份后处理您的请求。一般情况下，我们将在三十
+天内回复。 第 10 条 免责声明
+10.1 有道致力于提供安全、稳定、持续的服务，保障用户正常使用，但有道仅以“现状”、“当
+前功能”的状态提供本服务。有道不承担除法律有明确规定外的其他责任，如：不保证本服
+务在操作上不会中断或没有错误，不保证在现有技术水平下有能力纠正本服务的所有缺陷，
+亦不保证本服务能满足用户的所有要求。有道将在现有技术的基础上尽最大努力提供相应的
+安全措施以保障本服务的安全和正常运行。
+10.2 由于可能存在的计算机病毒、网络通讯故障、系统维护等方面的因素以及可能发生的
+不可抗力事件或意外事件，有道在此明确声明对本服务不作明示或暗示的保证，包括对本服
+务的可适用性、没有错误或疏漏、持续性、准确性、可靠性、适用于某一特定用途或满足用
+户的需求、使用效果等。
+10.3 人工智能和机器学习是快速发展的研究领域，有道也在不断努力改进本服务，使其更
+加准确、可靠、安全、可信。但限于技术特性，有道在尽到合理努力的前提下，仍无法完全
+保证您通过本服务获得的输出的合法性、真实性、准确性以及完整性。您应对本服务中的输
+出自行加以判断，并承担因使用内容引起的所有风险。我们提示您，除法律有明确规定外，
+有道无法也不会对前述风险而导致的任何损失或损害承担责任。
+10.4 本服务下的输出不代表专业意见，不能代替如法律、医疗、金融等专业领域从业人员
+向您解答对应疑问。相关观点也仅限于算法所触达有限数据呈现的供您参考的结果，并不代
+表有道立场。由于机器学习特性，就相同的输入可能产生不同的输出结果，请您注意甄别。
+您根据输出的内容所作出的任何判断或者据此作出的后续相关操作行为，以及由此带来的后
+果和责任均由您自行承担，请科学理性认识和依法使用本服务。
+10.5 您理解并同意，在使用本服务的过程中可能会遇到以下情况使服务发生中断。有道将
+及时配合相关部门积极解决。但由此给您造成的损失，有道将予以免责：
+(1) 不可抗力事件，包括但不限于自然灾害、政府行为、法律的颁布或调整、罢工（任何一
+方内部劳资纠纷除外）、动乱等不能预见、不能避免并不能克服的客观情况；
+(2) 基础运营商原因，包括但不限于电信部门技术调整、电信/电力线路被他人破坏、电信/
+电力运营商对电信网络/电力资源进行安装、改造、维护；
+(3) 网络安全事故，如计算机病毒、木马或其他恶意程序、黑客攻击的破坏；
+(4) 您通过本条款或相关服务所适用的协议所约定之外的方式使用本服务；
+(5) 您操作不当或您的计算机软件、系统、硬件、通信线路或其他第三方资源出现故障；
+(6) 其他不可归因于有道的过错、或有道无法控制或合理预见的情形。
+10.6 您理解并同意，本服务是按照现有技术和条件所能达到的现状提供的，有道无法保证
+本服务毫无瑕疵。有道会尽最大商业努力确保本服务的连贯性和安全性，同时请您理解并同
+意，有道不就任何由第三方产品所引起的问题负责，也不就下述事项进行任何明示或暗示的
+保证：
+(1) 本服务是连续不中断、即时、安全或不存在错误的；
+(2) 您对本服务的使用能充分满足您的要求和使用目的；
+(3) 有道将会或有能力修正本服务的所有缺陷或错误；
+(4) 本服务将与您的内容或有道未提供的任何其他硬件、软件、系统、服务或数据兼容；
+(5) 本服务不会受到恶意程序、黑客攻击的破坏；及
+(6) 其他有道无法控制或合理预见的情形。
+10.7 除另有书面约定外，有道不对您任何间接的、偶然的、特殊的或惩罚性的损害和损失
+（如利润、机会、第三方费用、商誉或损害等）承担责任，无论基于合同、保证、侵权或任
+何其他责任理论，不论是否知道或应当知道上述损失或损害的可能性。 第 11 条 法律管辖和适用
+11.1 本协议的订立、执行和解释及争议的解决均应适用中华人民共和国大陆地区法律。
+11.2 本协议的签订、履行或解释发生争议，双方应努力友好协商解决。如协商不成，任何
+一方均有权向北京市海淀区有管辖权的法院起诉。
+11.3 本服务仅限于在中国大陆地区使用，如您擅自在中国大陆以外（特别是欧盟）地区使
+用，有道不承担因此而产生的任何责任。 第 12 条 本协议的更新与终止
+12.1 您对本协议的接受包括接受我们对本协议任何条款随时所做的任何修改。我们有权随
+时修改本协议，更新后的协议将通过官方网站、Github 公布等适当的方式进行公布。一旦
+公布即代替原协议条款，请您自行在官方网站、Github 查阅最新版协议条款。如您不接受
+修改后的协议，请您立即停止使用本服务。您继续使用本服务将被视为您已接受了修改后的
+协议。
+网易有道信息技术（北京）有限公司
+更新日期：2023 年 11 月 8 日
+生效日期：2023 年 11 月 8 日
+EmotiVoice User Agreement
+Welcome to utilize EmotiVoice products and services! This Agreement is entered into by
+NetEase Youdao Information Technology (Beijing) Co., LTD., the provider of EmotiVoice, and its affiliates (hereinafter referred to as "Youdao", "We") and yourself (if you are an
+individual user) or the entity you represent (if you are a corporate user). It governs your
+utilization of EmotiVoice related Services (hereinafter referred to as the "Service" or "EmotiVoice Service"). By utilizing the Service, you hereby acknowledge and electronically affirm the
+contents of this Agreement, thereby consenting to be bound by its terms. In the
+event that you or your legal guardian do not agree with any aspect of this Agreement, it is
+imperative that you immediately cease using the EmotiVoice Service. Should you choose
+to use the Service without obtaining consent from your legal guardian, both you and your
+guardian shall bear all ensuing consequences in accordance with applicable laws. We particularly emphasize the importance of thoroughly reading this Agreement before
+utilizing the Service (minors under 18 years old should have their legal guardians
+accompany them during reading). It is crucial to fully comprehend all provisions within this
+Agreement, especially those pertaining to information protection, disclaimers, legal
+jurisdiction, and bold clauses' application. If there are any terms within this Agreement
+that you disagree with, please note that such disagreement may result in our inability to
+provide complete products and services. You have the option to discontinue using the
+Service if desired. By voluntarily choosing to accept this Agreement or engaging in
+registration, login procedures or other related actions on our platform will be
+deemed as acceptance of these terms and compliance with their provisions.
+If there are any inquiries, comments or suggestions regarding this Agreement, please feel
+free to contact us via email at [sunyq@rd.netease.com,wanghx04@rd.netease.com]. Article 1 Definition
+1.1 User: refers to all natural persons who use EmotiVoice services. This Agreement may
+be referred to as "User" or "You". For avoidance of doubt, the use of the Service by
+EmotiVoice eco-partners is also a "user" under this Agreement and shall comply with the
+provisions of this Agreement. 1.2EmotiVoice: refers to a generative artificial intelligence speech synthesis product
+launched by Youdao relying on speech synthesis technology. 1.3 Input: refers to the text input by the user in the dialog box to use the Service. 1.4 Output: refers to the audio content that the Service outputs the same content
+according to user input.
+Article 2 Service introduction
+2.1EmotiVoice provides artificial intelligence voice synthesis services based on speech
+synthesis technology. Users need to input text messages in the dialog box, and
+EmotiVoice will respond based on the user's input and output of the same audio. 2.2 The specific functions of the Service will be continuously updated with user feedback,
+technological upgrades, or changes in relevant regulatory policies. 2.3 When you use a specific function of the Service, there may be a separate agreement, related business rules, etc. (" Specific Agreement ") for the specific function, and you
+should read and agree to the relevant specific agreement before using the specific
+function. In case of any conflict between this Agreement and the specific Agreement, the
+provisions of the specific agreement shall prevail. 2.4 When you use the products or services provided by third parties in the Service (such
+as plug-ins, links, etc.), please comply with the user agreement, use rules, privacy policy
+and other legal documents published by the third party. To the extent permitted by laws
+and regulations, we cannot be responsible for the products and any content of the third
+party. Article 3 Account login
+3.1 The Service is published on the third-party website Github community. In order to
+access the Service, you need to log in to the third-party website https://github.com to
+obtain and download the Service for local use. When you log in to the third party website, please comply with the user agreement, rules of use, privacy policy and other legal
+documents published by the third party, to the extent permitted by laws and regulations, we cannot be responsible for the third party products and any content. 3.2 The service is primarily aimed at adults. If you are under the age of 18, please read
+this Agreement with your legal guardian and use the Service with the consent of your legal
+guardian. Youdao fully understands the importance of protecting minors, and will take
+appropriate protection measures according to the requirements of laws and regulations
+and the mainstream practice of the industry. At the same time, the guardian is requested
+to reasonably guide and restrict the use of the Service by minor users, jointly create a
+good network environment, help minors develop good Internet habits, and avoid
+excessive dependence on or addiction to the Service. Article 4 Service usage Specifications
+4.1 Based on your use of the Service, Youdao grants you a personal, revocable, non-transferable, non-exclusive and non-commercial right to use the Service for
+content input and content output based on statutory or agreed reasons. All other
+rights not expressly authorized by this Agreement are still reserved by Youdao, and
+you must obtain written permission from Youdao before exercising such rights, and Youdao's failure to exercise any of the above rights shall not constitute a
+waiver of such rights. If you publish or disseminate the output generated by the
+Service, you shall: (1) proactively check the authenticity and accuracy of the output
+content to avoid spreading false information; (2) indicate in a conspicuous manner
+that the output is generated by artificial intelligence to inform the public of the
+composition of the content; (3) Refrain from Posting and disseminating any output
+that violates the terms of use of this Agreement. 4.2 When using the above services provided by Youdao, users shall abide by this
+Agreement, abide by the principles of voluntoriness, equality, fairness and good faith, and
+shall not use the Service to infringe upon the legitimate rights and interests of others and
+seek improper interests, and shall not disturb the normal order of the Internet platform. 4.3 In order to fulfill statutory compliance requirements, Youdao has the right to
+take technical or manual means to review users' behaviors and information using
+the Service, including but not limited to reviewing inputs and outputs, establishing
+risk filtering mechanisms, and establishing illegal content signature databases. For
+users who violate the rules, Youdao has the right to deal with them in accordance
+with Article 8 of this Agreement. 4.4 Youdao reminds you that as a user of the Service, you should actively
+undertake information security obligations when using the above services. You
+undertake not to:
+4.4.1 Through the input, induce the generation of output in violation of relevant laws and
+regulations, including but not limited to:
+(1) Opposition to the fundamental principles established in the Constitution. (2) Endangering national security, leaking state secrets, subverting state power, overthrowing the socialist system, and undermining national unity. (3) Damage to national honor and interests. (4) inciting ethnic hatred, ethnic discrimination and undermining national unity. (5) Insulting and abusing the image of heroes, denying the deeds of heroes, and
+beautifying and whitewashing acts of aggressive war. (6) Undermining national religious policies and promoting cults and feudal superstitions. (7) Spreading rumors, false and harmful information, disrupting social order and
+undermining social stability. (8) promoting obscenity, pornography, gambling, violence, murder, terrorism, extremism
+or abetting crime.
+(9) inciting illegal assembly, association, procession, demonstration, gathering crowds to
+disturb social order. (10) Defamation of others, disclosure of others' privacy, infringement of others' right of
+reputation, portrait, privacy, intellectual property and other legitimate rights and interests. (11) Undermining international relations and international peace and stability. (12) Information that contains other contents prohibited by laws and administrative
+regulations. 4.4.2 Through the input, induce the production of unfriendly dialogue output, including but
+not limited to:
+(1) Personal attacks and abuse of others. (2) Curse, discrimination, disregard for the dignity of life and other nature of speech
+against the following groups, including: different nationalities, regions, gender, gender
+identity, sexual orientation, race, ethnicity, health status, occupation, age, faith, disability
+groups, etc. (3) cursing, intimidating or threatening others. (4) Directly making disparaging comments about content created by other users. (5) Use vulgar language to other users and cause offence. (6) Speech of a prejudiced nature targeting the following groups, including: specific
+nationality, region, gender, gender identity, sexual orientation, race, ethnicity, health
+status, occupation, age, creed, disability group, etc. 4.4.3 Malicious attempts to counter the filtering mechanism of the Service through input,
+including but not limited to:
+(1) Input characters, numbers and other meaningless garbled characters whose
+meanings are difficult to identify and affect the reading experience. (2) Malicious antagonism, including but not limited to the use of variants, homophonies, etc. to circumvent service detection to input speech that violates 4.4.1 and 4.4.2 above. 4.4.4 Interference with the normal operation of the Service and damage to Youdao's
+legitimate rights and interests, including but not limited to:
+(1) Use the Service to engage in illegal and criminal activities such as stealing trade
+secrets and stealing personal information. (2) Reverse compile, reverse engineer or otherwise obtain any information related to the
+algorithms of the Service.
+(3) Use the Service to develop other products and services that compete with the Service
+(unless such restriction violates the relevant laws and regulations). (4) By any means (including but not limited to any robot, spider, other automatic setup, setup mirror) to crawl, copy the Service and any content contained in it. (5) Without Youdao's consent or legal and legitimate basis, arbitrarily remove or tamper
+with the artificial intelligence generated logo or the significant logo of the speech synthesis
+content involved in the Service. (6) Upload, publish, E-mail or otherwise transmit information about software viruses or
+other computer code, files and programs that interfere with, destroy or limit the
+functionality of any computer software, hardware or communications equipment. (7) Illegal intrusion of the service server, tampering with the relevant code of the Service
+or other acts that damage the Service. (8) Attempts to circumvent the security Settings or network systems of Youdao Platform,
+including obtaining data that users should not obtain, logging in to servers or accounts
+without explicit authorization, or prying into other network security measures by running
+port scanning. (9) To obtain output in a manner that causes an appropriate computer system or facility to
+be subjected to an unreasonable load, or to conduct conduct that may cause such a
+situation to occur. (10) Illegally resell or provide EmotiVoice services without Youdao's authorization. 4.4.5 Other acts that violate laws and regulations, infringe on others and lawful rights and
+interests, such as monopoly or unfair competition. Article 5 Intellectual property and other rights
+5.1 Youdao is the subject of the development and operation of the Service, and all data,
+information and output generated in the process of the development and operation of the
+Service enjoy all rights permitted by laws and regulations, except for the rights that the
+relevant right holders should enjoy in accordance with the law. 5.2 The intellectual property rights (including but not limited to Copyrights, trademarks, patents and other intellectual property rights) of the content provided by Youdao in the
+Service (including but not limited to software, technology, programs, codes, user
+interfaces, web pages, text, pictures, images, audio, video, graphics, layout, trademarks, electronic documents, etc.) are owned by Youdao. However, the relevant right holder shall
+enjoy the rights in accordance with the law except. 5.3 You understand and promise that your input when using the Service will not
+infringe anyone's intellectual property rights, portrait rights, reputation rights,
+honor rights, name rights, privacy rights, personal information rights and other
+legitimate rights and interests, and will not involve any state secrets, trade secrets,
+important data or other data that may adversely affect national security or public
+interests. Otherwise, the infringement risks and liabilities arising therefrom shall be
+borne by you. All direct and indirect losses suffered by Youdao (including but not
+limited to losses of economy, goodwill, rights protection expenses, attorney fees, etc.) shall also be borne by you. 5.4 You acknowledge, understand and agree that if you have rights (including but
+not limited to intellectual property rights, image rights, etc.) to your input (including
+all content uploaded and posted by you in the course of using the Service) and/or
+output in accordance with legal provisions, your use of the Service will not cause
+any transfer or impairment of such legal rights, unless we agree otherwise with you. At the same time, you understand and agree that Youdao will store and use
+(including but not limited to copying, distribution, transmission, public display, editing, etc.) the content you upload and publish for the purpose of this Service
+within the scope permitted by law. Article 6 Protection of Personal information
+6.1 Youdao attaches great importance to the protection of users' personal information. This service does not require you to register and log in. You can use it after downloading it
+locally. The training data used by EmotiVoice are all open source data and internal
+training data of Youdao. Without your consent, Youdao will not obtain any of your
+personal information and usage data. Article 7 Service fees
+7.1 Youdao provides this service to you free of charge. If you need additional business
+cooperation, you can contact Youdao, contact information:
+Contact number: 010-8255-8901
+Business cooperation: AIcloud_Business@corp.youdao.com
+7.2 For the functions that are not charged for the time being, Youdao has the right
+to unilaterally change the service content, service term and service standard that
+are not charged for the time being according to the actual situation. The User
+understands and accepts the aforementioned changes. 7.3 Before the aforesaid modification, change or charging, Youdao will notify or announce
+on the corresponding service page. If the user refuses to pay, then the user will not be
+able to continue to use the Service. Article 8 Liability and punitive measures for breach of contract
+8.1 Any consequences caused by the user's violation of relevant laws and
+regulations or the provisions of this Agreement shall be borne by the user
+independently and compensated for the loss, which has nothing to do with Youdao.
+If Youdao Company or other units cooperating with Youdao Company face any
+complaint, report, inquiry, claim or lawsuit due to the user's behavior of using the
+Service, or cause Youdao Company or other units cooperating with Youdao
+Company to suffer any loss of reputation, reputation or property, you shall actively
+take all possible measures. To ensure that Youdao Company and other units
+cooperating with Youdao Company are not affected by the above claims and
+lawsuits. At the same time, you are responsible for all the direct and indirect
+economic losses suffered by Youdao Company and other units cooperating with
+Youdao Company. 8.2 If the user interferes with the operation of the Service or other users' use of the
+Service by any means, Youdao has the right to claim compensation (including but
+not limited to economic, goodwill, rights protection expenses, attorney fees and
+other losses). 8.3 If the user violates the above "Article 4 Service Usage Regulations", Youdao has
+the right to take such measures as warning, restriction of functions, suspension or
+termination of service provision, deletion of illegal information, locking account
+and other measures deemed reasonable by Youdao, and keep relevant records. If
+there is any doubt about the processing result, the user can appeal to us according
+to the provisions of Article 9.2, and we will accept and deal with and give feedback
+in time. Article 9 Notification and service
+9.1 If you have any comments or suggestions in the process of using the Service, you can
+put forward by email, we will give you timely feedback. You should ensure that your
+contact information is open to receive calls or messages from us, and we will not be liable
+for any losses caused by your failure to receive notification. 9.2 If you have any questions or suggestions about this User Service Agreement during
+the use of this product, please contact us through the following contact information:
+Email: 【sunyq@rd.netease.com, wanghx04@rd.netease.com】
+9.3 In order to ensure that we can handle your problem efficiently and give you feedback
+in a timely manner, you need to submit proof of identity, valid contact information, written
+request and relevant evidence. We will process your request after verifying your identity. Under normal circumstances, we will reply within 30 days. Article 10 Disclaimer
+10.1 Youdao is committed to providing safe, stable and continuous services to
+ensure the normal use of users, but Youdao only provides the Service in the
+"status" or "Current function" state. Youdao does not assume any other
+responsibilities except those expressly provided by law, such as: does not
+guarantee that the Service will not be interrupted or error-free in operation, does
+not guarantee that it has the ability to correct all defects of the Service under the
+current level of technology, and does not guarantee that the Service can meet all
+requirements of users. On the basis of existing technology, Youdao will do its best
+to provide appropriate security measures to ensure the safety and normal
+operation of the service. 10.2 Due to possible computer viruses, network communication failures, system
+maintenance and other factors as well as possible force majeure events or
+accidents, Youdao hereby expressly declares that the Service does not make
+express or implied warranties. Including the suitability of the Service, the absence
+of errors or omissions, continuity, accuracy, reliability, suitability for a particular
+purpose or to meet the needs of users, use effect, etc. 10.3 Artificial Intelligence and machine learning are rapidly developing research
+areas, and Youdao is also constantly working to improve the Service to make it
+more accurate, reliable, secure and trusted. However, due to the technical
+characteristics, Youdao cannot fully guarantee the legality, authenticity, accuracy
+and completeness of the output you obtain through the Service under the premise
+of making reasonable efforts. You shall exercise your own judgment on the output
+of the Service and bear all risks arising from your use of the Content. We remind
+you that, except as expressly provided by law, Youdao cannot and will not be liable
+for any loss or damage resulting from such risks. 10.4 The output of this Service does not represent professional advice, and cannot
+take the place of legal, medical, financial and other professional practitioners to
+answer your questions. The relevant views are also limited to the results presented
+by the limited data reached by the algorithm for your reference, and do not
+represent the position of Youdao. Due to the characteristics of machine learning, the same input may produce different output results, please pay attention to
+discrimination. Any judgment you make based on the output content or the
+subsequent relevant operations made accordingly, as well as the consequences
+and responsibilities arising therefrom, please scientifically and rationally
+understand and use the Service according to law. 10.5 You understand and agree that in the process of using the Service, the following
+circumstances may cause the service to be interrupted. Youdao will promptly cooperate
+with relevant departments to actively solve the problem. However, Youdao will be exempt
+from liability for the loss caused to you:
+(1) Force majeure events, including but not limited to natural disasters, government acts, promulgation or adjustment of laws, strikes (except internal labor disputes of either party),
+unrest and other unforeseeable, unavoidable and insurmountable objective
+circumstances;
+(2) The reasons of the basic operator, including but not limited to the technical adjustment
+of the telecommunications sector, the destruction of telecommunications/power lines by
+others, the installation, transformation and maintenance of telecommunications
+networks/power resources by telecommunications/power operators;
+(3) Network security incidents, such as computer viruses, Trojan horses or other malicious
+programs, hacker attacks;
+(4) You use the Service in a manner other than that provided for in these Terms or in the
+agreement applicable to the relevant service;
+(5) improper operation by you or failure of your computer software, systems, hardware, communication lines or other third-party resources;
+(6) Other faults not attributable to Youdao, or circumstances beyond Youdao's control or
+reasonable foresight. 10.6 You understand and agree that the Service is provided in accordance with the
+current technology and conditions, and Youdao cannot guarantee that the Service is
+flawless. Youdao will make its best commercial efforts to ensure the continuity and
+security of the Service. At the same time, please understand and agree that Youdao is not
+responsible for any problems caused by third-party products, and does not make any
+express or implied warranties regarding the following:
+(1) The Service is continuous, uninterrupted, immediate, secure or error-free;
+(2) Your use of the Service can fully meet your requirements and purposes of use;
+(3) Youdao will or has the ability to correct all defects or errors in the Service;
+(4) The Service will be compatible with your content or any other hardware, software, systems, services or data not provided by Youdao;
+(5) The service will not be damaged by malicious programs and hacker attacks; and
+(6) Other circumstances beyond control or reasonably foreseeable. 10.7 Unless otherwise agreed in writing, Youda shall not be liable to you for any indirect,
+incidental, special or punitive damages and losses (such as profits, opportunities,
+third-party costs, goodwill or damages), whether based on contract, warranty, tort or any
+other theory of liability, and whether or not you knew or should have known of the
+possibility of such losses or damages. Article 11 Jurisdiction and application of law
+11.1 The conclusion, execution and interpretation of this Agreement and the settlement of
+disputes shall be governed by the laws of the mainland of the People's Republic of China. 11.2 In case of any dispute arising from the execution, performance or
+interpretation of this Agreement, both parties shall try to settle it through friendly
+negotiation. If no agreement can be reached through negotiation, either party shall
+have the right to bring a suit to the court with jurisdiction in Haidian District, Beijing. 11.3 This service is limited to use in mainland China. If you use it outside mainland
+China (especially the European Union) without authorization, Youdao does not
+assume any liability arising therefrom. Article 12 Renewal and termination of this Agreement
+12.1 Your acceptance of this Agreement includes acceptance of any changes we may
+make to any provision of this Agreement from time to time. We have the right to modify
+this Agreement at any time, and the updated agreement will be published through the
+official website, Github and other appropriate ways. Once published, it will replace the
+original agreement terms, please check the latest version of the agreement terms
+on the official website and Github. If you do not accept the revised Agreement, please stop using the Service immediately. Your continued use of the Service will
+be deemed to have accepted the revised Agreement. NetEase Youdao Information Technology (Beijing) Co. LTD
+Last updated: November 8, 2023
+Effective date: November 8, 2023  阅读文本回答我的问题。我的第一个问题是: 易魔声产品可以商用吗？
